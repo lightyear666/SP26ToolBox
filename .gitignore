@@ -1,6 +1,7 @@
 # 默认忽略全部研究产物，只放行可公开的源码与配套文件。
 /*
 !/.gitignore
+!/LICENSE
 !/README.md
 !/requirements.txt
 !/SP26Toolbox.spec

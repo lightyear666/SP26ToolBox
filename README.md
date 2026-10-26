@@ -54,3 +54,7 @@ python -m PyInstaller SP26Toolbox.spec --noconfirm
 - 修改游戏内存、替换 DLL 存在存档损坏、崩溃、账号受限等风险，由使用者自行承担。
 - 本工具不提供任何明示或暗示的担保。
 - 本工具不联网、不上传数据；只在本机通过 `127.0.0.1:49700` 与代理 DLL 通信。
+
+## 许可证
+
+源码采用 [SP26 Toolbox Non-Commercial License](LICENSE)：允许学习、修改与非商业分发，禁止商业使用、联机作弊与绕过反作弊。游戏本体、商标与原始 DLL 不在许可范围内。
