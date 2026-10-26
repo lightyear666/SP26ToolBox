@@ -1,0 +1,8980 @@
+.text
+.globl GetHSteamPipe
+.p2align 4
+GetHSteamPipe:
+	jmp *p_GetHSteamPipe(%rip)
+.globl GetHSteamUser
+.p2align 4
+GetHSteamUser:
+	jmp *p_GetHSteamUser(%rip)
+.globl SteamAPI_GetHSteamPipe
+.p2align 4
+SteamAPI_GetHSteamPipe:
+	jmp *p_SteamAPI_GetHSteamPipe(%rip)
+.globl SteamAPI_GetHSteamUser
+.p2align 4
+SteamAPI_GetHSteamUser:
+	jmp *p_SteamAPI_GetHSteamUser(%rip)
+.globl SteamAPI_GetSteamInstallPath
+.p2align 4
+SteamAPI_GetSteamInstallPath:
+	jmp *p_SteamAPI_GetSteamInstallPath(%rip)
+.globl SteamAPI_ISteamAppList_GetAppBuildId
+.p2align 4
+SteamAPI_ISteamAppList_GetAppBuildId:
+	jmp *p_SteamAPI_ISteamAppList_GetAppBuildId(%rip)
+.globl SteamAPI_ISteamAppList_GetAppInstallDir
+.p2align 4
+SteamAPI_ISteamAppList_GetAppInstallDir:
+	jmp *p_SteamAPI_ISteamAppList_GetAppInstallDir(%rip)
+.globl SteamAPI_ISteamAppList_GetAppName
+.p2align 4
+SteamAPI_ISteamAppList_GetAppName:
+	jmp *p_SteamAPI_ISteamAppList_GetAppName(%rip)
+.globl SteamAPI_ISteamAppList_GetInstalledApps
+.p2align 4
+SteamAPI_ISteamAppList_GetInstalledApps:
+	jmp *p_SteamAPI_ISteamAppList_GetInstalledApps(%rip)
+.globl SteamAPI_ISteamAppList_GetNumInstalledApps
+.p2align 4
+SteamAPI_ISteamAppList_GetNumInstalledApps:
+	jmp *p_SteamAPI_ISteamAppList_GetNumInstalledApps(%rip)
+.globl SteamAPI_ISteamApps_BGetDLCDataByIndex
+.p2align 4
+SteamAPI_ISteamApps_BGetDLCDataByIndex:
+	jmp *p_SteamAPI_ISteamApps_BGetDLCDataByIndex(%rip)
+.globl SteamAPI_ISteamApps_BIsAppInstalled
+.p2align 4
+SteamAPI_ISteamApps_BIsAppInstalled:
+	jmp *p_SteamAPI_ISteamApps_BIsAppInstalled(%rip)
+.globl SteamAPI_ISteamApps_BIsCybercafe
+.p2align 4
+SteamAPI_ISteamApps_BIsCybercafe:
+	jmp *p_SteamAPI_ISteamApps_BIsCybercafe(%rip)
+.globl SteamAPI_ISteamApps_BIsDlcInstalled
+.p2align 4
+SteamAPI_ISteamApps_BIsDlcInstalled:
+	jmp *p_SteamAPI_ISteamApps_BIsDlcInstalled(%rip)
+.globl SteamAPI_ISteamApps_BIsLowViolence
+.p2align 4
+SteamAPI_ISteamApps_BIsLowViolence:
+	jmp *p_SteamAPI_ISteamApps_BIsLowViolence(%rip)
+.globl SteamAPI_ISteamApps_BIsSubscribed
+.p2align 4
+SteamAPI_ISteamApps_BIsSubscribed:
+	jmp *p_SteamAPI_ISteamApps_BIsSubscribed(%rip)
+.globl SteamAPI_ISteamApps_BIsSubscribedApp
+.p2align 4
+SteamAPI_ISteamApps_BIsSubscribedApp:
+	jmp *p_SteamAPI_ISteamApps_BIsSubscribedApp(%rip)
+.globl SteamAPI_ISteamApps_BIsSubscribedFromFamilySharing
+.p2align 4
+SteamAPI_ISteamApps_BIsSubscribedFromFamilySharing:
+	jmp *p_SteamAPI_ISteamApps_BIsSubscribedFromFamilySharing(%rip)
+.globl SteamAPI_ISteamApps_BIsSubscribedFromFreeWeekend
+.p2align 4
+SteamAPI_ISteamApps_BIsSubscribedFromFreeWeekend:
+	jmp *p_SteamAPI_ISteamApps_BIsSubscribedFromFreeWeekend(%rip)
+.globl SteamAPI_ISteamApps_BIsTimedTrial
+.p2align 4
+SteamAPI_ISteamApps_BIsTimedTrial:
+	jmp *p_SteamAPI_ISteamApps_BIsTimedTrial(%rip)
+.globl SteamAPI_ISteamApps_BIsVACBanned
+.p2align 4
+SteamAPI_ISteamApps_BIsVACBanned:
+	jmp *p_SteamAPI_ISteamApps_BIsVACBanned(%rip)
+.globl SteamAPI_ISteamApps_GetAppBuildId
+.p2align 4
+SteamAPI_ISteamApps_GetAppBuildId:
+	jmp *p_SteamAPI_ISteamApps_GetAppBuildId(%rip)
+.globl SteamAPI_ISteamApps_GetAppInstallDir
+.p2align 4
+SteamAPI_ISteamApps_GetAppInstallDir:
+	jmp *p_SteamAPI_ISteamApps_GetAppInstallDir(%rip)
+.globl SteamAPI_ISteamApps_GetAppOwner
+.p2align 4
+SteamAPI_ISteamApps_GetAppOwner:
+	jmp *p_SteamAPI_ISteamApps_GetAppOwner(%rip)
+.globl SteamAPI_ISteamApps_GetAvailableGameLanguages
+.p2align 4
+SteamAPI_ISteamApps_GetAvailableGameLanguages:
+	jmp *p_SteamAPI_ISteamApps_GetAvailableGameLanguages(%rip)
+.globl SteamAPI_ISteamApps_GetBetaInfo
+.p2align 4
+SteamAPI_ISteamApps_GetBetaInfo:
+	jmp *p_SteamAPI_ISteamApps_GetBetaInfo(%rip)
+.globl SteamAPI_ISteamApps_GetCurrentBetaName
+.p2align 4
+SteamAPI_ISteamApps_GetCurrentBetaName:
+	jmp *p_SteamAPI_ISteamApps_GetCurrentBetaName(%rip)
+.globl SteamAPI_ISteamApps_GetCurrentGameLanguage
+.p2align 4
+SteamAPI_ISteamApps_GetCurrentGameLanguage:
+	jmp *p_SteamAPI_ISteamApps_GetCurrentGameLanguage(%rip)
+.globl SteamAPI_ISteamApps_GetDLCCount
+.p2align 4
+SteamAPI_ISteamApps_GetDLCCount:
+	jmp *p_SteamAPI_ISteamApps_GetDLCCount(%rip)
+.globl SteamAPI_ISteamApps_GetDlcDownloadProgress
+.p2align 4
+SteamAPI_ISteamApps_GetDlcDownloadProgress:
+	jmp *p_SteamAPI_ISteamApps_GetDlcDownloadProgress(%rip)
+.globl SteamAPI_ISteamApps_GetEarliestPurchaseUnixTime
+.p2align 4
+SteamAPI_ISteamApps_GetEarliestPurchaseUnixTime:
+	jmp *p_SteamAPI_ISteamApps_GetEarliestPurchaseUnixTime(%rip)
+.globl SteamAPI_ISteamApps_GetFileDetails
+.p2align 4
+SteamAPI_ISteamApps_GetFileDetails:
+	jmp *p_SteamAPI_ISteamApps_GetFileDetails(%rip)
+.globl SteamAPI_ISteamApps_GetInstalledDepots
+.p2align 4
+SteamAPI_ISteamApps_GetInstalledDepots:
+	jmp *p_SteamAPI_ISteamApps_GetInstalledDepots(%rip)
+.globl SteamAPI_ISteamApps_GetLaunchCommandLine
+.p2align 4
+SteamAPI_ISteamApps_GetLaunchCommandLine:
+	jmp *p_SteamAPI_ISteamApps_GetLaunchCommandLine(%rip)
+.globl SteamAPI_ISteamApps_GetLaunchQueryParam
+.p2align 4
+SteamAPI_ISteamApps_GetLaunchQueryParam:
+	jmp *p_SteamAPI_ISteamApps_GetLaunchQueryParam(%rip)
+.globl SteamAPI_ISteamApps_GetNumBetas
+.p2align 4
+SteamAPI_ISteamApps_GetNumBetas:
+	jmp *p_SteamAPI_ISteamApps_GetNumBetas(%rip)
+.globl SteamAPI_ISteamApps_InstallDLC
+.p2align 4
+SteamAPI_ISteamApps_InstallDLC:
+	jmp *p_SteamAPI_ISteamApps_InstallDLC(%rip)
+.globl SteamAPI_ISteamApps_MarkContentCorrupt
+.p2align 4
+SteamAPI_ISteamApps_MarkContentCorrupt:
+	jmp *p_SteamAPI_ISteamApps_MarkContentCorrupt(%rip)
+.globl SteamAPI_ISteamApps_RequestAllProofOfPurchaseKeys
+.p2align 4
+SteamAPI_ISteamApps_RequestAllProofOfPurchaseKeys:
+	jmp *p_SteamAPI_ISteamApps_RequestAllProofOfPurchaseKeys(%rip)
+.globl SteamAPI_ISteamApps_RequestAppProofOfPurchaseKey
+.p2align 4
+SteamAPI_ISteamApps_RequestAppProofOfPurchaseKey:
+	jmp *p_SteamAPI_ISteamApps_RequestAppProofOfPurchaseKey(%rip)
+.globl SteamAPI_ISteamApps_SetActiveBeta
+.p2align 4
+SteamAPI_ISteamApps_SetActiveBeta:
+	jmp *p_SteamAPI_ISteamApps_SetActiveBeta(%rip)
+.globl SteamAPI_ISteamApps_SetDlcContext
+.p2align 4
+SteamAPI_ISteamApps_SetDlcContext:
+	jmp *p_SteamAPI_ISteamApps_SetDlcContext(%rip)
+.globl SteamAPI_ISteamApps_SetGamePerformanceSetting
+.p2align 4
+SteamAPI_ISteamApps_SetGamePerformanceSetting:
+	jmp *p_SteamAPI_ISteamApps_SetGamePerformanceSetting(%rip)
+.globl SteamAPI_ISteamApps_SetGameRenderResolution
+.p2align 4
+SteamAPI_ISteamApps_SetGameRenderResolution:
+	jmp *p_SteamAPI_ISteamApps_SetGameRenderResolution(%rip)
+.globl SteamAPI_ISteamApps_UninstallDLC
+.p2align 4
+SteamAPI_ISteamApps_UninstallDLC:
+	jmp *p_SteamAPI_ISteamApps_UninstallDLC(%rip)
+.globl SteamAPI_ISteamClient_BReleaseSteamPipe
+.p2align 4
+SteamAPI_ISteamClient_BReleaseSteamPipe:
+	jmp *p_SteamAPI_ISteamClient_BReleaseSteamPipe(%rip)
+.globl SteamAPI_ISteamClient_BShutdownIfAllPipesClosed
+.p2align 4
+SteamAPI_ISteamClient_BShutdownIfAllPipesClosed:
+	jmp *p_SteamAPI_ISteamClient_BShutdownIfAllPipesClosed(%rip)
+.globl SteamAPI_ISteamClient_ConnectToGlobalUser
+.p2align 4
+SteamAPI_ISteamClient_ConnectToGlobalUser:
+	jmp *p_SteamAPI_ISteamClient_ConnectToGlobalUser(%rip)
+.globl SteamAPI_ISteamClient_CreateLocalUser
+.p2align 4
+SteamAPI_ISteamClient_CreateLocalUser:
+	jmp *p_SteamAPI_ISteamClient_CreateLocalUser(%rip)
+.globl SteamAPI_ISteamClient_CreateSteamPipe
+.p2align 4
+SteamAPI_ISteamClient_CreateSteamPipe:
+	jmp *p_SteamAPI_ISteamClient_CreateSteamPipe(%rip)
+.globl SteamAPI_ISteamClient_GetIPCCallCount
+.p2align 4
+SteamAPI_ISteamClient_GetIPCCallCount:
+	jmp *p_SteamAPI_ISteamClient_GetIPCCallCount(%rip)
+.globl SteamAPI_ISteamClient_GetISteamAppList
+.p2align 4
+SteamAPI_ISteamClient_GetISteamAppList:
+	jmp *p_SteamAPI_ISteamClient_GetISteamAppList(%rip)
+.globl SteamAPI_ISteamClient_GetISteamApps
+.p2align 4
+SteamAPI_ISteamClient_GetISteamApps:
+	jmp *p_SteamAPI_ISteamClient_GetISteamApps(%rip)
+.globl SteamAPI_ISteamClient_GetISteamController
+.p2align 4
+SteamAPI_ISteamClient_GetISteamController:
+	jmp *p_SteamAPI_ISteamClient_GetISteamController(%rip)
+.globl SteamAPI_ISteamClient_GetISteamFriends
+.p2align 4
+SteamAPI_ISteamClient_GetISteamFriends:
+	jmp *p_SteamAPI_ISteamClient_GetISteamFriends(%rip)
+.globl SteamAPI_ISteamClient_GetISteamGameSearch
+.p2align 4
+SteamAPI_ISteamClient_GetISteamGameSearch:
+	jmp *p_SteamAPI_ISteamClient_GetISteamGameSearch(%rip)
+.globl SteamAPI_ISteamClient_GetISteamGameServer
+.p2align 4
+SteamAPI_ISteamClient_GetISteamGameServer:
+	jmp *p_SteamAPI_ISteamClient_GetISteamGameServer(%rip)
+.globl SteamAPI_ISteamClient_GetISteamGameServerStats
+.p2align 4
+SteamAPI_ISteamClient_GetISteamGameServerStats:
+	jmp *p_SteamAPI_ISteamClient_GetISteamGameServerStats(%rip)
+.globl SteamAPI_ISteamClient_GetISteamGenericInterface
+.p2align 4
+SteamAPI_ISteamClient_GetISteamGenericInterface:
+	jmp *p_SteamAPI_ISteamClient_GetISteamGenericInterface(%rip)
+.globl SteamAPI_ISteamClient_GetISteamHTMLSurface
+.p2align 4
+SteamAPI_ISteamClient_GetISteamHTMLSurface:
+	jmp *p_SteamAPI_ISteamClient_GetISteamHTMLSurface(%rip)
+.globl SteamAPI_ISteamClient_GetISteamHTTP
+.p2align 4
+SteamAPI_ISteamClient_GetISteamHTTP:
+	jmp *p_SteamAPI_ISteamClient_GetISteamHTTP(%rip)
+.globl SteamAPI_ISteamClient_GetISteamInput
+.p2align 4
+SteamAPI_ISteamClient_GetISteamInput:
+	jmp *p_SteamAPI_ISteamClient_GetISteamInput(%rip)
+.globl SteamAPI_ISteamClient_GetISteamInventory
+.p2align 4
+SteamAPI_ISteamClient_GetISteamInventory:
+	jmp *p_SteamAPI_ISteamClient_GetISteamInventory(%rip)
+.globl SteamAPI_ISteamClient_GetISteamMatchmaking
+.p2align 4
+SteamAPI_ISteamClient_GetISteamMatchmaking:
+	jmp *p_SteamAPI_ISteamClient_GetISteamMatchmaking(%rip)
+.globl SteamAPI_ISteamClient_GetISteamMatchmakingServers
+.p2align 4
+SteamAPI_ISteamClient_GetISteamMatchmakingServers:
+	jmp *p_SteamAPI_ISteamClient_GetISteamMatchmakingServers(%rip)
+.globl SteamAPI_ISteamClient_GetISteamMusic
+.p2align 4
+SteamAPI_ISteamClient_GetISteamMusic:
+	jmp *p_SteamAPI_ISteamClient_GetISteamMusic(%rip)
+.globl SteamAPI_ISteamClient_GetISteamMusicRemote
+.p2align 4
+SteamAPI_ISteamClient_GetISteamMusicRemote:
+	jmp *p_SteamAPI_ISteamClient_GetISteamMusicRemote(%rip)
+.globl SteamAPI_ISteamClient_GetISteamNetworking
+.p2align 4
+SteamAPI_ISteamClient_GetISteamNetworking:
+	jmp *p_SteamAPI_ISteamClient_GetISteamNetworking(%rip)
+.globl SteamAPI_ISteamClient_GetISteamParentalSettings
+.p2align 4
+SteamAPI_ISteamClient_GetISteamParentalSettings:
+	jmp *p_SteamAPI_ISteamClient_GetISteamParentalSettings(%rip)
+.globl SteamAPI_ISteamClient_GetISteamParties
+.p2align 4
+SteamAPI_ISteamClient_GetISteamParties:
+	jmp *p_SteamAPI_ISteamClient_GetISteamParties(%rip)
+.globl SteamAPI_ISteamClient_GetISteamRemotePlay
+.p2align 4
+SteamAPI_ISteamClient_GetISteamRemotePlay:
+	jmp *p_SteamAPI_ISteamClient_GetISteamRemotePlay(%rip)
+.globl SteamAPI_ISteamClient_GetISteamRemoteStorage
+.p2align 4
+SteamAPI_ISteamClient_GetISteamRemoteStorage:
+	jmp *p_SteamAPI_ISteamClient_GetISteamRemoteStorage(%rip)
+.globl SteamAPI_ISteamClient_GetISteamScreenshots
+.p2align 4
+SteamAPI_ISteamClient_GetISteamScreenshots:
+	jmp *p_SteamAPI_ISteamClient_GetISteamScreenshots(%rip)
+.globl SteamAPI_ISteamClient_GetISteamUGC
+.p2align 4
+SteamAPI_ISteamClient_GetISteamUGC:
+	jmp *p_SteamAPI_ISteamClient_GetISteamUGC(%rip)
+.globl SteamAPI_ISteamClient_GetISteamUnifiedMessages
+.p2align 4
+SteamAPI_ISteamClient_GetISteamUnifiedMessages:
+	jmp *p_SteamAPI_ISteamClient_GetISteamUnifiedMessages(%rip)
+.globl SteamAPI_ISteamClient_GetISteamUser
+.p2align 4
+SteamAPI_ISteamClient_GetISteamUser:
+	jmp *p_SteamAPI_ISteamClient_GetISteamUser(%rip)
+.globl SteamAPI_ISteamClient_GetISteamUserStats
+.p2align 4
+SteamAPI_ISteamClient_GetISteamUserStats:
+	jmp *p_SteamAPI_ISteamClient_GetISteamUserStats(%rip)
+.globl SteamAPI_ISteamClient_GetISteamUtils
+.p2align 4
+SteamAPI_ISteamClient_GetISteamUtils:
+	jmp *p_SteamAPI_ISteamClient_GetISteamUtils(%rip)
+.globl SteamAPI_ISteamClient_GetISteamVideo
+.p2align 4
+SteamAPI_ISteamClient_GetISteamVideo:
+	jmp *p_SteamAPI_ISteamClient_GetISteamVideo(%rip)
+.globl SteamAPI_ISteamClient_ReleaseUser
+.p2align 4
+SteamAPI_ISteamClient_ReleaseUser:
+	jmp *p_SteamAPI_ISteamClient_ReleaseUser(%rip)
+.globl SteamAPI_ISteamClient_SetLocalIPBinding
+.p2align 4
+SteamAPI_ISteamClient_SetLocalIPBinding:
+	jmp *p_SteamAPI_ISteamClient_SetLocalIPBinding(%rip)
+.globl SteamAPI_ISteamClient_SetWarningMessageHook
+.p2align 4
+SteamAPI_ISteamClient_SetWarningMessageHook:
+	jmp *p_SteamAPI_ISteamClient_SetWarningMessageHook(%rip)
+.globl SteamAPI_ISteamController_ActivateActionSet
+.p2align 4
+SteamAPI_ISteamController_ActivateActionSet:
+	jmp *p_SteamAPI_ISteamController_ActivateActionSet(%rip)
+.globl SteamAPI_ISteamController_ActivateActionSetLayer
+.p2align 4
+SteamAPI_ISteamController_ActivateActionSetLayer:
+	jmp *p_SteamAPI_ISteamController_ActivateActionSetLayer(%rip)
+.globl SteamAPI_ISteamController_DeactivateActionSetLayer
+.p2align 4
+SteamAPI_ISteamController_DeactivateActionSetLayer:
+	jmp *p_SteamAPI_ISteamController_DeactivateActionSetLayer(%rip)
+.globl SteamAPI_ISteamController_DeactivateAllActionSetLayers
+.p2align 4
+SteamAPI_ISteamController_DeactivateAllActionSetLayers:
+	jmp *p_SteamAPI_ISteamController_DeactivateAllActionSetLayers(%rip)
+.globl SteamAPI_ISteamController_GetActionOriginFromXboxOrigin
+.p2align 4
+SteamAPI_ISteamController_GetActionOriginFromXboxOrigin:
+	jmp *p_SteamAPI_ISteamController_GetActionOriginFromXboxOrigin(%rip)
+.globl SteamAPI_ISteamController_GetActionSetHandle
+.p2align 4
+SteamAPI_ISteamController_GetActionSetHandle:
+	jmp *p_SteamAPI_ISteamController_GetActionSetHandle(%rip)
+.globl SteamAPI_ISteamController_GetActiveActionSetLayers
+.p2align 4
+SteamAPI_ISteamController_GetActiveActionSetLayers:
+	jmp *p_SteamAPI_ISteamController_GetActiveActionSetLayers(%rip)
+.globl SteamAPI_ISteamController_GetAnalogActionData
+.p2align 4
+SteamAPI_ISteamController_GetAnalogActionData:
+	jmp *p_SteamAPI_ISteamController_GetAnalogActionData(%rip)
+.globl SteamAPI_ISteamController_GetAnalogActionHandle
+.p2align 4
+SteamAPI_ISteamController_GetAnalogActionHandle:
+	jmp *p_SteamAPI_ISteamController_GetAnalogActionHandle(%rip)
+.globl SteamAPI_ISteamController_GetAnalogActionOrigins
+.p2align 4
+SteamAPI_ISteamController_GetAnalogActionOrigins:
+	jmp *p_SteamAPI_ISteamController_GetAnalogActionOrigins(%rip)
+.globl SteamAPI_ISteamController_GetConnectedControllers
+.p2align 4
+SteamAPI_ISteamController_GetConnectedControllers:
+	jmp *p_SteamAPI_ISteamController_GetConnectedControllers(%rip)
+.globl SteamAPI_ISteamController_GetControllerBindingRevision
+.p2align 4
+SteamAPI_ISteamController_GetControllerBindingRevision:
+	jmp *p_SteamAPI_ISteamController_GetControllerBindingRevision(%rip)
+.globl SteamAPI_ISteamController_GetControllerForGamepadIndex
+.p2align 4
+SteamAPI_ISteamController_GetControllerForGamepadIndex:
+	jmp *p_SteamAPI_ISteamController_GetControllerForGamepadIndex(%rip)
+.globl SteamAPI_ISteamController_GetCurrentActionSet
+.p2align 4
+SteamAPI_ISteamController_GetCurrentActionSet:
+	jmp *p_SteamAPI_ISteamController_GetCurrentActionSet(%rip)
+.globl SteamAPI_ISteamController_GetDigitalActionData
+.p2align 4
+SteamAPI_ISteamController_GetDigitalActionData:
+	jmp *p_SteamAPI_ISteamController_GetDigitalActionData(%rip)
+.globl SteamAPI_ISteamController_GetDigitalActionHandle
+.p2align 4
+SteamAPI_ISteamController_GetDigitalActionHandle:
+	jmp *p_SteamAPI_ISteamController_GetDigitalActionHandle(%rip)
+.globl SteamAPI_ISteamController_GetDigitalActionOrigins
+.p2align 4
+SteamAPI_ISteamController_GetDigitalActionOrigins:
+	jmp *p_SteamAPI_ISteamController_GetDigitalActionOrigins(%rip)
+.globl SteamAPI_ISteamController_GetGamepadIndexForController
+.p2align 4
+SteamAPI_ISteamController_GetGamepadIndexForController:
+	jmp *p_SteamAPI_ISteamController_GetGamepadIndexForController(%rip)
+.globl SteamAPI_ISteamController_GetGlyphForActionOrigin
+.p2align 4
+SteamAPI_ISteamController_GetGlyphForActionOrigin:
+	jmp *p_SteamAPI_ISteamController_GetGlyphForActionOrigin(%rip)
+.globl SteamAPI_ISteamController_GetGlyphForXboxOrigin
+.p2align 4
+SteamAPI_ISteamController_GetGlyphForXboxOrigin:
+	jmp *p_SteamAPI_ISteamController_GetGlyphForXboxOrigin(%rip)
+.globl SteamAPI_ISteamController_GetInputTypeForHandle
+.p2align 4
+SteamAPI_ISteamController_GetInputTypeForHandle:
+	jmp *p_SteamAPI_ISteamController_GetInputTypeForHandle(%rip)
+.globl SteamAPI_ISteamController_GetMotionData
+.p2align 4
+SteamAPI_ISteamController_GetMotionData:
+	jmp *p_SteamAPI_ISteamController_GetMotionData(%rip)
+.globl SteamAPI_ISteamController_GetStringForActionOrigin
+.p2align 4
+SteamAPI_ISteamController_GetStringForActionOrigin:
+	jmp *p_SteamAPI_ISteamController_GetStringForActionOrigin(%rip)
+.globl SteamAPI_ISteamController_GetStringForXboxOrigin
+.p2align 4
+SteamAPI_ISteamController_GetStringForXboxOrigin:
+	jmp *p_SteamAPI_ISteamController_GetStringForXboxOrigin(%rip)
+.globl SteamAPI_ISteamController_Init
+.p2align 4
+SteamAPI_ISteamController_Init:
+	jmp *p_SteamAPI_ISteamController_Init(%rip)
+.globl SteamAPI_ISteamController_RunFrame
+.p2align 4
+SteamAPI_ISteamController_RunFrame:
+	jmp *p_SteamAPI_ISteamController_RunFrame(%rip)
+.globl SteamAPI_ISteamController_SetLEDColor
+.p2align 4
+SteamAPI_ISteamController_SetLEDColor:
+	jmp *p_SteamAPI_ISteamController_SetLEDColor(%rip)
+.globl SteamAPI_ISteamController_ShowBindingPanel
+.p2align 4
+SteamAPI_ISteamController_ShowBindingPanel:
+	jmp *p_SteamAPI_ISteamController_ShowBindingPanel(%rip)
+.globl SteamAPI_ISteamController_Shutdown
+.p2align 4
+SteamAPI_ISteamController_Shutdown:
+	jmp *p_SteamAPI_ISteamController_Shutdown(%rip)
+.globl SteamAPI_ISteamController_StopAnalogActionMomentum
+.p2align 4
+SteamAPI_ISteamController_StopAnalogActionMomentum:
+	jmp *p_SteamAPI_ISteamController_StopAnalogActionMomentum(%rip)
+.globl SteamAPI_ISteamController_TranslateActionOrigin
+.p2align 4
+SteamAPI_ISteamController_TranslateActionOrigin:
+	jmp *p_SteamAPI_ISteamController_TranslateActionOrigin(%rip)
+.globl SteamAPI_ISteamController_TriggerHapticPulse
+.p2align 4
+SteamAPI_ISteamController_TriggerHapticPulse:
+	jmp *p_SteamAPI_ISteamController_TriggerHapticPulse(%rip)
+.globl SteamAPI_ISteamController_TriggerRepeatedHapticPulse
+.p2align 4
+SteamAPI_ISteamController_TriggerRepeatedHapticPulse:
+	jmp *p_SteamAPI_ISteamController_TriggerRepeatedHapticPulse(%rip)
+.globl SteamAPI_ISteamController_TriggerVibration
+.p2align 4
+SteamAPI_ISteamController_TriggerVibration:
+	jmp *p_SteamAPI_ISteamController_TriggerVibration(%rip)
+.globl SteamAPI_ISteamFriends_ActivateGameOverlay
+.p2align 4
+SteamAPI_ISteamFriends_ActivateGameOverlay:
+	jmp *p_SteamAPI_ISteamFriends_ActivateGameOverlay(%rip)
+.globl SteamAPI_ISteamFriends_ActivateGameOverlayInviteDialog
+.p2align 4
+SteamAPI_ISteamFriends_ActivateGameOverlayInviteDialog:
+	jmp *p_SteamAPI_ISteamFriends_ActivateGameOverlayInviteDialog(%rip)
+.globl SteamAPI_ISteamFriends_ActivateGameOverlayInviteDialogConnectString
+.p2align 4
+SteamAPI_ISteamFriends_ActivateGameOverlayInviteDialogConnectString:
+	jmp *p_SteamAPI_ISteamFriends_ActivateGameOverlayInviteDialogConnectString(%rip)
+.globl SteamAPI_ISteamFriends_ActivateGameOverlayRemotePlayTogetherInviteDialog
+.p2align 4
+SteamAPI_ISteamFriends_ActivateGameOverlayRemotePlayTogetherInviteDialog:
+	jmp *p_SteamAPI_ISteamFriends_ActivateGameOverlayRemotePlayTogetherInviteDialog(%rip)
+.globl SteamAPI_ISteamFriends_ActivateGameOverlayToStore
+.p2align 4
+SteamAPI_ISteamFriends_ActivateGameOverlayToStore:
+	jmp *p_SteamAPI_ISteamFriends_ActivateGameOverlayToStore(%rip)
+.globl SteamAPI_ISteamFriends_ActivateGameOverlayToUser
+.p2align 4
+SteamAPI_ISteamFriends_ActivateGameOverlayToUser:
+	jmp *p_SteamAPI_ISteamFriends_ActivateGameOverlayToUser(%rip)
+.globl SteamAPI_ISteamFriends_ActivateGameOverlayToWebPage
+.p2align 4
+SteamAPI_ISteamFriends_ActivateGameOverlayToWebPage:
+	jmp *p_SteamAPI_ISteamFriends_ActivateGameOverlayToWebPage(%rip)
+.globl SteamAPI_ISteamFriends_BHasEquippedProfileItem
+.p2align 4
+SteamAPI_ISteamFriends_BHasEquippedProfileItem:
+	jmp *p_SteamAPI_ISteamFriends_BHasEquippedProfileItem(%rip)
+.globl SteamAPI_ISteamFriends_ClearRichPresence
+.p2align 4
+SteamAPI_ISteamFriends_ClearRichPresence:
+	jmp *p_SteamAPI_ISteamFriends_ClearRichPresence(%rip)
+.globl SteamAPI_ISteamFriends_CloseClanChatWindowInSteam
+.p2align 4
+SteamAPI_ISteamFriends_CloseClanChatWindowInSteam:
+	jmp *p_SteamAPI_ISteamFriends_CloseClanChatWindowInSteam(%rip)
+.globl SteamAPI_ISteamFriends_DownloadClanActivityCounts
+.p2align 4
+SteamAPI_ISteamFriends_DownloadClanActivityCounts:
+	jmp *p_SteamAPI_ISteamFriends_DownloadClanActivityCounts(%rip)
+.globl SteamAPI_ISteamFriends_EnumerateFollowingList
+.p2align 4
+SteamAPI_ISteamFriends_EnumerateFollowingList:
+	jmp *p_SteamAPI_ISteamFriends_EnumerateFollowingList(%rip)
+.globl SteamAPI_ISteamFriends_GetChatMemberByIndex
+.p2align 4
+SteamAPI_ISteamFriends_GetChatMemberByIndex:
+	jmp *p_SteamAPI_ISteamFriends_GetChatMemberByIndex(%rip)
+.globl SteamAPI_ISteamFriends_GetClanActivityCounts
+.p2align 4
+SteamAPI_ISteamFriends_GetClanActivityCounts:
+	jmp *p_SteamAPI_ISteamFriends_GetClanActivityCounts(%rip)
+.globl SteamAPI_ISteamFriends_GetClanByIndex
+.p2align 4
+SteamAPI_ISteamFriends_GetClanByIndex:
+	jmp *p_SteamAPI_ISteamFriends_GetClanByIndex(%rip)
+.globl SteamAPI_ISteamFriends_GetClanChatMemberCount
+.p2align 4
+SteamAPI_ISteamFriends_GetClanChatMemberCount:
+	jmp *p_SteamAPI_ISteamFriends_GetClanChatMemberCount(%rip)
+.globl SteamAPI_ISteamFriends_GetClanChatMessage
+.p2align 4
+SteamAPI_ISteamFriends_GetClanChatMessage:
+	jmp *p_SteamAPI_ISteamFriends_GetClanChatMessage(%rip)
+.globl SteamAPI_ISteamFriends_GetClanCount
+.p2align 4
+SteamAPI_ISteamFriends_GetClanCount:
+	jmp *p_SteamAPI_ISteamFriends_GetClanCount(%rip)
+.globl SteamAPI_ISteamFriends_GetClanName
+.p2align 4
+SteamAPI_ISteamFriends_GetClanName:
+	jmp *p_SteamAPI_ISteamFriends_GetClanName(%rip)
+.globl SteamAPI_ISteamFriends_GetClanOfficerByIndex
+.p2align 4
+SteamAPI_ISteamFriends_GetClanOfficerByIndex:
+	jmp *p_SteamAPI_ISteamFriends_GetClanOfficerByIndex(%rip)
+.globl SteamAPI_ISteamFriends_GetClanOfficerCount
+.p2align 4
+SteamAPI_ISteamFriends_GetClanOfficerCount:
+	jmp *p_SteamAPI_ISteamFriends_GetClanOfficerCount(%rip)
+.globl SteamAPI_ISteamFriends_GetClanOwner
+.p2align 4
+SteamAPI_ISteamFriends_GetClanOwner:
+	jmp *p_SteamAPI_ISteamFriends_GetClanOwner(%rip)
+.globl SteamAPI_ISteamFriends_GetClanTag
+.p2align 4
+SteamAPI_ISteamFriends_GetClanTag:
+	jmp *p_SteamAPI_ISteamFriends_GetClanTag(%rip)
+.globl SteamAPI_ISteamFriends_GetCoplayFriend
+.p2align 4
+SteamAPI_ISteamFriends_GetCoplayFriend:
+	jmp *p_SteamAPI_ISteamFriends_GetCoplayFriend(%rip)
+.globl SteamAPI_ISteamFriends_GetCoplayFriendCount
+.p2align 4
+SteamAPI_ISteamFriends_GetCoplayFriendCount:
+	jmp *p_SteamAPI_ISteamFriends_GetCoplayFriendCount(%rip)
+.globl SteamAPI_ISteamFriends_GetFollowerCount
+.p2align 4
+SteamAPI_ISteamFriends_GetFollowerCount:
+	jmp *p_SteamAPI_ISteamFriends_GetFollowerCount(%rip)
+.globl SteamAPI_ISteamFriends_GetFriendByIndex
+.p2align 4
+SteamAPI_ISteamFriends_GetFriendByIndex:
+	jmp *p_SteamAPI_ISteamFriends_GetFriendByIndex(%rip)
+.globl SteamAPI_ISteamFriends_GetFriendCoplayGame
+.p2align 4
+SteamAPI_ISteamFriends_GetFriendCoplayGame:
+	jmp *p_SteamAPI_ISteamFriends_GetFriendCoplayGame(%rip)
+.globl SteamAPI_ISteamFriends_GetFriendCoplayTime
+.p2align 4
+SteamAPI_ISteamFriends_GetFriendCoplayTime:
+	jmp *p_SteamAPI_ISteamFriends_GetFriendCoplayTime(%rip)
+.globl SteamAPI_ISteamFriends_GetFriendCount
+.p2align 4
+SteamAPI_ISteamFriends_GetFriendCount:
+	jmp *p_SteamAPI_ISteamFriends_GetFriendCount(%rip)
+.globl SteamAPI_ISteamFriends_GetFriendCountFromSource
+.p2align 4
+SteamAPI_ISteamFriends_GetFriendCountFromSource:
+	jmp *p_SteamAPI_ISteamFriends_GetFriendCountFromSource(%rip)
+.globl SteamAPI_ISteamFriends_GetFriendFromSourceByIndex
+.p2align 4
+SteamAPI_ISteamFriends_GetFriendFromSourceByIndex:
+	jmp *p_SteamAPI_ISteamFriends_GetFriendFromSourceByIndex(%rip)
+.globl SteamAPI_ISteamFriends_GetFriendGamePlayed
+.p2align 4
+SteamAPI_ISteamFriends_GetFriendGamePlayed:
+	jmp *p_SteamAPI_ISteamFriends_GetFriendGamePlayed(%rip)
+.globl SteamAPI_ISteamFriends_GetFriendMessage
+.p2align 4
+SteamAPI_ISteamFriends_GetFriendMessage:
+	jmp *p_SteamAPI_ISteamFriends_GetFriendMessage(%rip)
+.globl SteamAPI_ISteamFriends_GetFriendPersonaName
+.p2align 4
+SteamAPI_ISteamFriends_GetFriendPersonaName:
+	jmp *p_SteamAPI_ISteamFriends_GetFriendPersonaName(%rip)
+.globl SteamAPI_ISteamFriends_GetFriendPersonaNameHistory
+.p2align 4
+SteamAPI_ISteamFriends_GetFriendPersonaNameHistory:
+	jmp *p_SteamAPI_ISteamFriends_GetFriendPersonaNameHistory(%rip)
+.globl SteamAPI_ISteamFriends_GetFriendPersonaState
+.p2align 4
+SteamAPI_ISteamFriends_GetFriendPersonaState:
+	jmp *p_SteamAPI_ISteamFriends_GetFriendPersonaState(%rip)
+.globl SteamAPI_ISteamFriends_GetFriendRelationship
+.p2align 4
+SteamAPI_ISteamFriends_GetFriendRelationship:
+	jmp *p_SteamAPI_ISteamFriends_GetFriendRelationship(%rip)
+.globl SteamAPI_ISteamFriends_GetFriendRichPresence
+.p2align 4
+SteamAPI_ISteamFriends_GetFriendRichPresence:
+	jmp *p_SteamAPI_ISteamFriends_GetFriendRichPresence(%rip)
+.globl SteamAPI_ISteamFriends_GetFriendRichPresenceKeyByIndex
+.p2align 4
+SteamAPI_ISteamFriends_GetFriendRichPresenceKeyByIndex:
+	jmp *p_SteamAPI_ISteamFriends_GetFriendRichPresenceKeyByIndex(%rip)
+.globl SteamAPI_ISteamFriends_GetFriendRichPresenceKeyCount
+.p2align 4
+SteamAPI_ISteamFriends_GetFriendRichPresenceKeyCount:
+	jmp *p_SteamAPI_ISteamFriends_GetFriendRichPresenceKeyCount(%rip)
+.globl SteamAPI_ISteamFriends_GetFriendSteamLevel
+.p2align 4
+SteamAPI_ISteamFriends_GetFriendSteamLevel:
+	jmp *p_SteamAPI_ISteamFriends_GetFriendSteamLevel(%rip)
+.globl SteamAPI_ISteamFriends_GetFriendsGroupCount
+.p2align 4
+SteamAPI_ISteamFriends_GetFriendsGroupCount:
+	jmp *p_SteamAPI_ISteamFriends_GetFriendsGroupCount(%rip)
+.globl SteamAPI_ISteamFriends_GetFriendsGroupIDByIndex
+.p2align 4
+SteamAPI_ISteamFriends_GetFriendsGroupIDByIndex:
+	jmp *p_SteamAPI_ISteamFriends_GetFriendsGroupIDByIndex(%rip)
+.globl SteamAPI_ISteamFriends_GetFriendsGroupMembersCount
+.p2align 4
+SteamAPI_ISteamFriends_GetFriendsGroupMembersCount:
+	jmp *p_SteamAPI_ISteamFriends_GetFriendsGroupMembersCount(%rip)
+.globl SteamAPI_ISteamFriends_GetFriendsGroupMembersList
+.p2align 4
+SteamAPI_ISteamFriends_GetFriendsGroupMembersList:
+	jmp *p_SteamAPI_ISteamFriends_GetFriendsGroupMembersList(%rip)
+.globl SteamAPI_ISteamFriends_GetFriendsGroupName
+.p2align 4
+SteamAPI_ISteamFriends_GetFriendsGroupName:
+	jmp *p_SteamAPI_ISteamFriends_GetFriendsGroupName(%rip)
+.globl SteamAPI_ISteamFriends_GetLargeFriendAvatar
+.p2align 4
+SteamAPI_ISteamFriends_GetLargeFriendAvatar:
+	jmp *p_SteamAPI_ISteamFriends_GetLargeFriendAvatar(%rip)
+.globl SteamAPI_ISteamFriends_GetMediumFriendAvatar
+.p2align 4
+SteamAPI_ISteamFriends_GetMediumFriendAvatar:
+	jmp *p_SteamAPI_ISteamFriends_GetMediumFriendAvatar(%rip)
+.globl SteamAPI_ISteamFriends_GetNumChatsWithUnreadPriorityMessages
+.p2align 4
+SteamAPI_ISteamFriends_GetNumChatsWithUnreadPriorityMessages:
+	jmp *p_SteamAPI_ISteamFriends_GetNumChatsWithUnreadPriorityMessages(%rip)
+.globl SteamAPI_ISteamFriends_GetPersonaName
+.p2align 4
+SteamAPI_ISteamFriends_GetPersonaName:
+	jmp *p_SteamAPI_ISteamFriends_GetPersonaName(%rip)
+.globl SteamAPI_ISteamFriends_GetPersonaState
+.p2align 4
+SteamAPI_ISteamFriends_GetPersonaState:
+	jmp *p_SteamAPI_ISteamFriends_GetPersonaState(%rip)
+.globl SteamAPI_ISteamFriends_GetPlayerNickname
+.p2align 4
+SteamAPI_ISteamFriends_GetPlayerNickname:
+	jmp *p_SteamAPI_ISteamFriends_GetPlayerNickname(%rip)
+.globl SteamAPI_ISteamFriends_GetProfileItemPropertyString
+.p2align 4
+SteamAPI_ISteamFriends_GetProfileItemPropertyString:
+	jmp *p_SteamAPI_ISteamFriends_GetProfileItemPropertyString(%rip)
+.globl SteamAPI_ISteamFriends_GetProfileItemPropertyUint
+.p2align 4
+SteamAPI_ISteamFriends_GetProfileItemPropertyUint:
+	jmp *p_SteamAPI_ISteamFriends_GetProfileItemPropertyUint(%rip)
+.globl SteamAPI_ISteamFriends_GetSmallFriendAvatar
+.p2align 4
+SteamAPI_ISteamFriends_GetSmallFriendAvatar:
+	jmp *p_SteamAPI_ISteamFriends_GetSmallFriendAvatar(%rip)
+.globl SteamAPI_ISteamFriends_GetUserRestrictions
+.p2align 4
+SteamAPI_ISteamFriends_GetUserRestrictions:
+	jmp *p_SteamAPI_ISteamFriends_GetUserRestrictions(%rip)
+.globl SteamAPI_ISteamFriends_HasFriend
+.p2align 4
+SteamAPI_ISteamFriends_HasFriend:
+	jmp *p_SteamAPI_ISteamFriends_HasFriend(%rip)
+.globl SteamAPI_ISteamFriends_InviteUserToGame
+.p2align 4
+SteamAPI_ISteamFriends_InviteUserToGame:
+	jmp *p_SteamAPI_ISteamFriends_InviteUserToGame(%rip)
+.globl SteamAPI_ISteamFriends_IsClanChatAdmin
+.p2align 4
+SteamAPI_ISteamFriends_IsClanChatAdmin:
+	jmp *p_SteamAPI_ISteamFriends_IsClanChatAdmin(%rip)
+.globl SteamAPI_ISteamFriends_IsClanChatWindowOpenInSteam
+.p2align 4
+SteamAPI_ISteamFriends_IsClanChatWindowOpenInSteam:
+	jmp *p_SteamAPI_ISteamFriends_IsClanChatWindowOpenInSteam(%rip)
+.globl SteamAPI_ISteamFriends_IsClanOfficialGameGroup
+.p2align 4
+SteamAPI_ISteamFriends_IsClanOfficialGameGroup:
+	jmp *p_SteamAPI_ISteamFriends_IsClanOfficialGameGroup(%rip)
+.globl SteamAPI_ISteamFriends_IsClanPublic
+.p2align 4
+SteamAPI_ISteamFriends_IsClanPublic:
+	jmp *p_SteamAPI_ISteamFriends_IsClanPublic(%rip)
+.globl SteamAPI_ISteamFriends_IsFollowing
+.p2align 4
+SteamAPI_ISteamFriends_IsFollowing:
+	jmp *p_SteamAPI_ISteamFriends_IsFollowing(%rip)
+.globl SteamAPI_ISteamFriends_IsUserInSource
+.p2align 4
+SteamAPI_ISteamFriends_IsUserInSource:
+	jmp *p_SteamAPI_ISteamFriends_IsUserInSource(%rip)
+.globl SteamAPI_ISteamFriends_JoinClanChatRoom
+.p2align 4
+SteamAPI_ISteamFriends_JoinClanChatRoom:
+	jmp *p_SteamAPI_ISteamFriends_JoinClanChatRoom(%rip)
+.globl SteamAPI_ISteamFriends_LeaveClanChatRoom
+.p2align 4
+SteamAPI_ISteamFriends_LeaveClanChatRoom:
+	jmp *p_SteamAPI_ISteamFriends_LeaveClanChatRoom(%rip)
+.globl SteamAPI_ISteamFriends_OpenClanChatWindowInSteam
+.p2align 4
+SteamAPI_ISteamFriends_OpenClanChatWindowInSteam:
+	jmp *p_SteamAPI_ISteamFriends_OpenClanChatWindowInSteam(%rip)
+.globl SteamAPI_ISteamFriends_RegisterProtocolInOverlayBrowser
+.p2align 4
+SteamAPI_ISteamFriends_RegisterProtocolInOverlayBrowser:
+	jmp *p_SteamAPI_ISteamFriends_RegisterProtocolInOverlayBrowser(%rip)
+.globl SteamAPI_ISteamFriends_ReplyToFriendMessage
+.p2align 4
+SteamAPI_ISteamFriends_ReplyToFriendMessage:
+	jmp *p_SteamAPI_ISteamFriends_ReplyToFriendMessage(%rip)
+.globl SteamAPI_ISteamFriends_RequestClanOfficerList
+.p2align 4
+SteamAPI_ISteamFriends_RequestClanOfficerList:
+	jmp *p_SteamAPI_ISteamFriends_RequestClanOfficerList(%rip)
+.globl SteamAPI_ISteamFriends_RequestEquippedProfileItems
+.p2align 4
+SteamAPI_ISteamFriends_RequestEquippedProfileItems:
+	jmp *p_SteamAPI_ISteamFriends_RequestEquippedProfileItems(%rip)
+.globl SteamAPI_ISteamFriends_RequestFriendRichPresence
+.p2align 4
+SteamAPI_ISteamFriends_RequestFriendRichPresence:
+	jmp *p_SteamAPI_ISteamFriends_RequestFriendRichPresence(%rip)
+.globl SteamAPI_ISteamFriends_RequestUserInformation
+.p2align 4
+SteamAPI_ISteamFriends_RequestUserInformation:
+	jmp *p_SteamAPI_ISteamFriends_RequestUserInformation(%rip)
+.globl SteamAPI_ISteamFriends_SendClanChatMessage
+.p2align 4
+SteamAPI_ISteamFriends_SendClanChatMessage:
+	jmp *p_SteamAPI_ISteamFriends_SendClanChatMessage(%rip)
+.globl SteamAPI_ISteamFriends_SetInGameVoiceSpeaking
+.p2align 4
+SteamAPI_ISteamFriends_SetInGameVoiceSpeaking:
+	jmp *p_SteamAPI_ISteamFriends_SetInGameVoiceSpeaking(%rip)
+.globl SteamAPI_ISteamFriends_SetListenForFriendsMessages
+.p2align 4
+SteamAPI_ISteamFriends_SetListenForFriendsMessages:
+	jmp *p_SteamAPI_ISteamFriends_SetListenForFriendsMessages(%rip)
+.globl SteamAPI_ISteamFriends_SetPersonaName
+.p2align 4
+SteamAPI_ISteamFriends_SetPersonaName:
+	jmp *p_SteamAPI_ISteamFriends_SetPersonaName(%rip)
+.globl SteamAPI_ISteamFriends_SetPlayedWith
+.p2align 4
+SteamAPI_ISteamFriends_SetPlayedWith:
+	jmp *p_SteamAPI_ISteamFriends_SetPlayedWith(%rip)
+.globl SteamAPI_ISteamFriends_SetRichPresence
+.p2align 4
+SteamAPI_ISteamFriends_SetRichPresence:
+	jmp *p_SteamAPI_ISteamFriends_SetRichPresence(%rip)
+.globl SteamAPI_ISteamGameSearch_AcceptGame
+.p2align 4
+SteamAPI_ISteamGameSearch_AcceptGame:
+	jmp *p_SteamAPI_ISteamGameSearch_AcceptGame(%rip)
+.globl SteamAPI_ISteamGameSearch_AddGameSearchParams
+.p2align 4
+SteamAPI_ISteamGameSearch_AddGameSearchParams:
+	jmp *p_SteamAPI_ISteamGameSearch_AddGameSearchParams(%rip)
+.globl SteamAPI_ISteamGameSearch_CancelRequestPlayersForGame
+.p2align 4
+SteamAPI_ISteamGameSearch_CancelRequestPlayersForGame:
+	jmp *p_SteamAPI_ISteamGameSearch_CancelRequestPlayersForGame(%rip)
+.globl SteamAPI_ISteamGameSearch_DeclineGame
+.p2align 4
+SteamAPI_ISteamGameSearch_DeclineGame:
+	jmp *p_SteamAPI_ISteamGameSearch_DeclineGame(%rip)
+.globl SteamAPI_ISteamGameSearch_EndGame
+.p2align 4
+SteamAPI_ISteamGameSearch_EndGame:
+	jmp *p_SteamAPI_ISteamGameSearch_EndGame(%rip)
+.globl SteamAPI_ISteamGameSearch_EndGameSearch
+.p2align 4
+SteamAPI_ISteamGameSearch_EndGameSearch:
+	jmp *p_SteamAPI_ISteamGameSearch_EndGameSearch(%rip)
+.globl SteamAPI_ISteamGameSearch_HostConfirmGameStart
+.p2align 4
+SteamAPI_ISteamGameSearch_HostConfirmGameStart:
+	jmp *p_SteamAPI_ISteamGameSearch_HostConfirmGameStart(%rip)
+.globl SteamAPI_ISteamGameSearch_RequestPlayersForGame
+.p2align 4
+SteamAPI_ISteamGameSearch_RequestPlayersForGame:
+	jmp *p_SteamAPI_ISteamGameSearch_RequestPlayersForGame(%rip)
+.globl SteamAPI_ISteamGameSearch_RetrieveConnectionDetails
+.p2align 4
+SteamAPI_ISteamGameSearch_RetrieveConnectionDetails:
+	jmp *p_SteamAPI_ISteamGameSearch_RetrieveConnectionDetails(%rip)
+.globl SteamAPI_ISteamGameSearch_SearchForGameSolo
+.p2align 4
+SteamAPI_ISteamGameSearch_SearchForGameSolo:
+	jmp *p_SteamAPI_ISteamGameSearch_SearchForGameSolo(%rip)
+.globl SteamAPI_ISteamGameSearch_SearchForGameWithLobby
+.p2align 4
+SteamAPI_ISteamGameSearch_SearchForGameWithLobby:
+	jmp *p_SteamAPI_ISteamGameSearch_SearchForGameWithLobby(%rip)
+.globl SteamAPI_ISteamGameSearch_SetConnectionDetails
+.p2align 4
+SteamAPI_ISteamGameSearch_SetConnectionDetails:
+	jmp *p_SteamAPI_ISteamGameSearch_SetConnectionDetails(%rip)
+.globl SteamAPI_ISteamGameSearch_SetGameHostParams
+.p2align 4
+SteamAPI_ISteamGameSearch_SetGameHostParams:
+	jmp *p_SteamAPI_ISteamGameSearch_SetGameHostParams(%rip)
+.globl SteamAPI_ISteamGameSearch_SubmitPlayerResult
+.p2align 4
+SteamAPI_ISteamGameSearch_SubmitPlayerResult:
+	jmp *p_SteamAPI_ISteamGameSearch_SubmitPlayerResult(%rip)
+.globl SteamAPI_ISteamGameServerStats_ClearUserAchievement
+.p2align 4
+SteamAPI_ISteamGameServerStats_ClearUserAchievement:
+	jmp *p_SteamAPI_ISteamGameServerStats_ClearUserAchievement(%rip)
+.globl SteamAPI_ISteamGameServerStats_GetUserAchievement
+.p2align 4
+SteamAPI_ISteamGameServerStats_GetUserAchievement:
+	jmp *p_SteamAPI_ISteamGameServerStats_GetUserAchievement(%rip)
+.globl SteamAPI_ISteamGameServerStats_GetUserStat
+.p2align 4
+SteamAPI_ISteamGameServerStats_GetUserStat:
+	jmp *p_SteamAPI_ISteamGameServerStats_GetUserStat(%rip)
+.globl SteamAPI_ISteamGameServerStats_GetUserStat0
+.p2align 4
+SteamAPI_ISteamGameServerStats_GetUserStat0:
+	jmp *p_SteamAPI_ISteamGameServerStats_GetUserStat0(%rip)
+.globl SteamAPI_ISteamGameServerStats_GetUserStatFloat
+.p2align 4
+SteamAPI_ISteamGameServerStats_GetUserStatFloat:
+	jmp *p_SteamAPI_ISteamGameServerStats_GetUserStatFloat(%rip)
+.globl SteamAPI_ISteamGameServerStats_GetUserStatInt32
+.p2align 4
+SteamAPI_ISteamGameServerStats_GetUserStatInt32:
+	jmp *p_SteamAPI_ISteamGameServerStats_GetUserStatInt32(%rip)
+.globl SteamAPI_ISteamGameServerStats_RequestUserStats
+.p2align 4
+SteamAPI_ISteamGameServerStats_RequestUserStats:
+	jmp *p_SteamAPI_ISteamGameServerStats_RequestUserStats(%rip)
+.globl SteamAPI_ISteamGameServerStats_SetUserAchievement
+.p2align 4
+SteamAPI_ISteamGameServerStats_SetUserAchievement:
+	jmp *p_SteamAPI_ISteamGameServerStats_SetUserAchievement(%rip)
+.globl SteamAPI_ISteamGameServerStats_SetUserStat
+.p2align 4
+SteamAPI_ISteamGameServerStats_SetUserStat:
+	jmp *p_SteamAPI_ISteamGameServerStats_SetUserStat(%rip)
+.globl SteamAPI_ISteamGameServerStats_SetUserStat0
+.p2align 4
+SteamAPI_ISteamGameServerStats_SetUserStat0:
+	jmp *p_SteamAPI_ISteamGameServerStats_SetUserStat0(%rip)
+.globl SteamAPI_ISteamGameServerStats_SetUserStatFloat
+.p2align 4
+SteamAPI_ISteamGameServerStats_SetUserStatFloat:
+	jmp *p_SteamAPI_ISteamGameServerStats_SetUserStatFloat(%rip)
+.globl SteamAPI_ISteamGameServerStats_SetUserStatInt32
+.p2align 4
+SteamAPI_ISteamGameServerStats_SetUserStatInt32:
+	jmp *p_SteamAPI_ISteamGameServerStats_SetUserStatInt32(%rip)
+.globl SteamAPI_ISteamGameServerStats_StoreUserStats
+.p2align 4
+SteamAPI_ISteamGameServerStats_StoreUserStats:
+	jmp *p_SteamAPI_ISteamGameServerStats_StoreUserStats(%rip)
+.globl SteamAPI_ISteamGameServerStats_UpdateUserAvgRateStat
+.p2align 4
+SteamAPI_ISteamGameServerStats_UpdateUserAvgRateStat:
+	jmp *p_SteamAPI_ISteamGameServerStats_UpdateUserAvgRateStat(%rip)
+.globl SteamAPI_ISteamGameServer_AssociateWithClan
+.p2align 4
+SteamAPI_ISteamGameServer_AssociateWithClan:
+	jmp *p_SteamAPI_ISteamGameServer_AssociateWithClan(%rip)
+.globl SteamAPI_ISteamGameServer_BLoggedOn
+.p2align 4
+SteamAPI_ISteamGameServer_BLoggedOn:
+	jmp *p_SteamAPI_ISteamGameServer_BLoggedOn(%rip)
+.globl SteamAPI_ISteamGameServer_BSecure
+.p2align 4
+SteamAPI_ISteamGameServer_BSecure:
+	jmp *p_SteamAPI_ISteamGameServer_BSecure(%rip)
+.globl SteamAPI_ISteamGameServer_BUpdateUserData
+.p2align 4
+SteamAPI_ISteamGameServer_BUpdateUserData:
+	jmp *p_SteamAPI_ISteamGameServer_BUpdateUserData(%rip)
+.globl SteamAPI_ISteamGameServer_BeginAuthSession
+.p2align 4
+SteamAPI_ISteamGameServer_BeginAuthSession:
+	jmp *p_SteamAPI_ISteamGameServer_BeginAuthSession(%rip)
+.globl SteamAPI_ISteamGameServer_CancelAuthTicket
+.p2align 4
+SteamAPI_ISteamGameServer_CancelAuthTicket:
+	jmp *p_SteamAPI_ISteamGameServer_CancelAuthTicket(%rip)
+.globl SteamAPI_ISteamGameServer_ClearAllKeyValues
+.p2align 4
+SteamAPI_ISteamGameServer_ClearAllKeyValues:
+	jmp *p_SteamAPI_ISteamGameServer_ClearAllKeyValues(%rip)
+.globl SteamAPI_ISteamGameServer_ComputeNewPlayerCompatibility
+.p2align 4
+SteamAPI_ISteamGameServer_ComputeNewPlayerCompatibility:
+	jmp *p_SteamAPI_ISteamGameServer_ComputeNewPlayerCompatibility(%rip)
+.globl SteamAPI_ISteamGameServer_CreateUnauthenticatedUserConnection
+.p2align 4
+SteamAPI_ISteamGameServer_CreateUnauthenticatedUserConnection:
+	jmp *p_SteamAPI_ISteamGameServer_CreateUnauthenticatedUserConnection(%rip)
+.globl SteamAPI_ISteamGameServer_EnableHeartbeats
+.p2align 4
+SteamAPI_ISteamGameServer_EnableHeartbeats:
+	jmp *p_SteamAPI_ISteamGameServer_EnableHeartbeats(%rip)
+.globl SteamAPI_ISteamGameServer_EndAuthSession
+.p2align 4
+SteamAPI_ISteamGameServer_EndAuthSession:
+	jmp *p_SteamAPI_ISteamGameServer_EndAuthSession(%rip)
+.globl SteamAPI_ISteamGameServer_ForceHeartbeat
+.p2align 4
+SteamAPI_ISteamGameServer_ForceHeartbeat:
+	jmp *p_SteamAPI_ISteamGameServer_ForceHeartbeat(%rip)
+.globl SteamAPI_ISteamGameServer_GetAuthSessionTicket
+.p2align 4
+SteamAPI_ISteamGameServer_GetAuthSessionTicket:
+	jmp *p_SteamAPI_ISteamGameServer_GetAuthSessionTicket(%rip)
+.globl SteamAPI_ISteamGameServer_GetGameplayStats
+.p2align 4
+SteamAPI_ISteamGameServer_GetGameplayStats:
+	jmp *p_SteamAPI_ISteamGameServer_GetGameplayStats(%rip)
+.globl SteamAPI_ISteamGameServer_GetNextOutgoingPacket
+.p2align 4
+SteamAPI_ISteamGameServer_GetNextOutgoingPacket:
+	jmp *p_SteamAPI_ISteamGameServer_GetNextOutgoingPacket(%rip)
+.globl SteamAPI_ISteamGameServer_GetPublicIP
+.p2align 4
+SteamAPI_ISteamGameServer_GetPublicIP:
+	jmp *p_SteamAPI_ISteamGameServer_GetPublicIP(%rip)
+.globl SteamAPI_ISteamGameServer_GetServerReputation
+.p2align 4
+SteamAPI_ISteamGameServer_GetServerReputation:
+	jmp *p_SteamAPI_ISteamGameServer_GetServerReputation(%rip)
+.globl SteamAPI_ISteamGameServer_GetSteamID
+.p2align 4
+SteamAPI_ISteamGameServer_GetSteamID:
+	jmp *p_SteamAPI_ISteamGameServer_GetSteamID(%rip)
+.globl SteamAPI_ISteamGameServer_HandleIncomingPacket
+.p2align 4
+SteamAPI_ISteamGameServer_HandleIncomingPacket:
+	jmp *p_SteamAPI_ISteamGameServer_HandleIncomingPacket(%rip)
+.globl SteamAPI_ISteamGameServer_InitGameServer
+.p2align 4
+SteamAPI_ISteamGameServer_InitGameServer:
+	jmp *p_SteamAPI_ISteamGameServer_InitGameServer(%rip)
+.globl SteamAPI_ISteamGameServer_LogOff
+.p2align 4
+SteamAPI_ISteamGameServer_LogOff:
+	jmp *p_SteamAPI_ISteamGameServer_LogOff(%rip)
+.globl SteamAPI_ISteamGameServer_LogOn
+.p2align 4
+SteamAPI_ISteamGameServer_LogOn:
+	jmp *p_SteamAPI_ISteamGameServer_LogOn(%rip)
+.globl SteamAPI_ISteamGameServer_LogOnAnonymous
+.p2align 4
+SteamAPI_ISteamGameServer_LogOnAnonymous:
+	jmp *p_SteamAPI_ISteamGameServer_LogOnAnonymous(%rip)
+.globl SteamAPI_ISteamGameServer_RequestUserGroupStatus
+.p2align 4
+SteamAPI_ISteamGameServer_RequestUserGroupStatus:
+	jmp *p_SteamAPI_ISteamGameServer_RequestUserGroupStatus(%rip)
+.globl SteamAPI_ISteamGameServer_SendUserConnectAndAuthenticate
+.p2align 4
+SteamAPI_ISteamGameServer_SendUserConnectAndAuthenticate:
+	jmp *p_SteamAPI_ISteamGameServer_SendUserConnectAndAuthenticate(%rip)
+.globl SteamAPI_ISteamGameServer_SendUserConnectAndAuthenticate_DEPRECATED
+.p2align 4
+SteamAPI_ISteamGameServer_SendUserConnectAndAuthenticate_DEPRECATED:
+	jmp *p_SteamAPI_ISteamGameServer_SendUserConnectAndAuthenticate_DEPRECATED(%rip)
+.globl SteamAPI_ISteamGameServer_SendUserDisconnect
+.p2align 4
+SteamAPI_ISteamGameServer_SendUserDisconnect:
+	jmp *p_SteamAPI_ISteamGameServer_SendUserDisconnect(%rip)
+.globl SteamAPI_ISteamGameServer_SendUserDisconnect_DEPRECATED
+.p2align 4
+SteamAPI_ISteamGameServer_SendUserDisconnect_DEPRECATED:
+	jmp *p_SteamAPI_ISteamGameServer_SendUserDisconnect_DEPRECATED(%rip)
+.globl SteamAPI_ISteamGameServer_SetAdvertiseServerActive
+.p2align 4
+SteamAPI_ISteamGameServer_SetAdvertiseServerActive:
+	jmp *p_SteamAPI_ISteamGameServer_SetAdvertiseServerActive(%rip)
+.globl SteamAPI_ISteamGameServer_SetBotPlayerCount
+.p2align 4
+SteamAPI_ISteamGameServer_SetBotPlayerCount:
+	jmp *p_SteamAPI_ISteamGameServer_SetBotPlayerCount(%rip)
+.globl SteamAPI_ISteamGameServer_SetDedicatedServer
+.p2align 4
+SteamAPI_ISteamGameServer_SetDedicatedServer:
+	jmp *p_SteamAPI_ISteamGameServer_SetDedicatedServer(%rip)
+.globl SteamAPI_ISteamGameServer_SetGameData
+.p2align 4
+SteamAPI_ISteamGameServer_SetGameData:
+	jmp *p_SteamAPI_ISteamGameServer_SetGameData(%rip)
+.globl SteamAPI_ISteamGameServer_SetGameDescription
+.p2align 4
+SteamAPI_ISteamGameServer_SetGameDescription:
+	jmp *p_SteamAPI_ISteamGameServer_SetGameDescription(%rip)
+.globl SteamAPI_ISteamGameServer_SetGameTags
+.p2align 4
+SteamAPI_ISteamGameServer_SetGameTags:
+	jmp *p_SteamAPI_ISteamGameServer_SetGameTags(%rip)
+.globl SteamAPI_ISteamGameServer_SetHeartbeatInterval
+.p2align 4
+SteamAPI_ISteamGameServer_SetHeartbeatInterval:
+	jmp *p_SteamAPI_ISteamGameServer_SetHeartbeatInterval(%rip)
+.globl SteamAPI_ISteamGameServer_SetKeyValue
+.p2align 4
+SteamAPI_ISteamGameServer_SetKeyValue:
+	jmp *p_SteamAPI_ISteamGameServer_SetKeyValue(%rip)
+.globl SteamAPI_ISteamGameServer_SetMapName
+.p2align 4
+SteamAPI_ISteamGameServer_SetMapName:
+	jmp *p_SteamAPI_ISteamGameServer_SetMapName(%rip)
+.globl SteamAPI_ISteamGameServer_SetMaxPlayerCount
+.p2align 4
+SteamAPI_ISteamGameServer_SetMaxPlayerCount:
+	jmp *p_SteamAPI_ISteamGameServer_SetMaxPlayerCount(%rip)
+.globl SteamAPI_ISteamGameServer_SetModDir
+.p2align 4
+SteamAPI_ISteamGameServer_SetModDir:
+	jmp *p_SteamAPI_ISteamGameServer_SetModDir(%rip)
+.globl SteamAPI_ISteamGameServer_SetPasswordProtected
+.p2align 4
+SteamAPI_ISteamGameServer_SetPasswordProtected:
+	jmp *p_SteamAPI_ISteamGameServer_SetPasswordProtected(%rip)
+.globl SteamAPI_ISteamGameServer_SetProduct
+.p2align 4
+SteamAPI_ISteamGameServer_SetProduct:
+	jmp *p_SteamAPI_ISteamGameServer_SetProduct(%rip)
+.globl SteamAPI_ISteamGameServer_SetRegion
+.p2align 4
+SteamAPI_ISteamGameServer_SetRegion:
+	jmp *p_SteamAPI_ISteamGameServer_SetRegion(%rip)
+.globl SteamAPI_ISteamGameServer_SetServerName
+.p2align 4
+SteamAPI_ISteamGameServer_SetServerName:
+	jmp *p_SteamAPI_ISteamGameServer_SetServerName(%rip)
+.globl SteamAPI_ISteamGameServer_SetSpectatorPort
+.p2align 4
+SteamAPI_ISteamGameServer_SetSpectatorPort:
+	jmp *p_SteamAPI_ISteamGameServer_SetSpectatorPort(%rip)
+.globl SteamAPI_ISteamGameServer_SetSpectatorServerName
+.p2align 4
+SteamAPI_ISteamGameServer_SetSpectatorServerName:
+	jmp *p_SteamAPI_ISteamGameServer_SetSpectatorServerName(%rip)
+.globl SteamAPI_ISteamGameServer_UserHasLicenseForApp
+.p2align 4
+SteamAPI_ISteamGameServer_UserHasLicenseForApp:
+	jmp *p_SteamAPI_ISteamGameServer_UserHasLicenseForApp(%rip)
+.globl SteamAPI_ISteamGameServer_WasRestartRequested
+.p2align 4
+SteamAPI_ISteamGameServer_WasRestartRequested:
+	jmp *p_SteamAPI_ISteamGameServer_WasRestartRequested(%rip)
+.globl SteamAPI_ISteamHTMLSurface_AddHeader
+.p2align 4
+SteamAPI_ISteamHTMLSurface_AddHeader:
+	jmp *p_SteamAPI_ISteamHTMLSurface_AddHeader(%rip)
+.globl SteamAPI_ISteamHTMLSurface_AllowStartRequest
+.p2align 4
+SteamAPI_ISteamHTMLSurface_AllowStartRequest:
+	jmp *p_SteamAPI_ISteamHTMLSurface_AllowStartRequest(%rip)
+.globl SteamAPI_ISteamHTMLSurface_CopyToClipboard
+.p2align 4
+SteamAPI_ISteamHTMLSurface_CopyToClipboard:
+	jmp *p_SteamAPI_ISteamHTMLSurface_CopyToClipboard(%rip)
+.globl SteamAPI_ISteamHTMLSurface_CreateBrowser
+.p2align 4
+SteamAPI_ISteamHTMLSurface_CreateBrowser:
+	jmp *p_SteamAPI_ISteamHTMLSurface_CreateBrowser(%rip)
+.globl SteamAPI_ISteamHTMLSurface_DestructISteamHTMLSurface
+.p2align 4
+SteamAPI_ISteamHTMLSurface_DestructISteamHTMLSurface:
+	jmp *p_SteamAPI_ISteamHTMLSurface_DestructISteamHTMLSurface(%rip)
+.globl SteamAPI_ISteamHTMLSurface_ExecuteJavascript
+.p2align 4
+SteamAPI_ISteamHTMLSurface_ExecuteJavascript:
+	jmp *p_SteamAPI_ISteamHTMLSurface_ExecuteJavascript(%rip)
+.globl SteamAPI_ISteamHTMLSurface_FileLoadDialogResponse
+.p2align 4
+SteamAPI_ISteamHTMLSurface_FileLoadDialogResponse:
+	jmp *p_SteamAPI_ISteamHTMLSurface_FileLoadDialogResponse(%rip)
+.globl SteamAPI_ISteamHTMLSurface_Find
+.p2align 4
+SteamAPI_ISteamHTMLSurface_Find:
+	jmp *p_SteamAPI_ISteamHTMLSurface_Find(%rip)
+.globl SteamAPI_ISteamHTMLSurface_GetLinkAtPosition
+.p2align 4
+SteamAPI_ISteamHTMLSurface_GetLinkAtPosition:
+	jmp *p_SteamAPI_ISteamHTMLSurface_GetLinkAtPosition(%rip)
+.globl SteamAPI_ISteamHTMLSurface_GoBack
+.p2align 4
+SteamAPI_ISteamHTMLSurface_GoBack:
+	jmp *p_SteamAPI_ISteamHTMLSurface_GoBack(%rip)
+.globl SteamAPI_ISteamHTMLSurface_GoForward
+.p2align 4
+SteamAPI_ISteamHTMLSurface_GoForward:
+	jmp *p_SteamAPI_ISteamHTMLSurface_GoForward(%rip)
+.globl SteamAPI_ISteamHTMLSurface_Init
+.p2align 4
+SteamAPI_ISteamHTMLSurface_Init:
+	jmp *p_SteamAPI_ISteamHTMLSurface_Init(%rip)
+.globl SteamAPI_ISteamHTMLSurface_JSDialogResponse
+.p2align 4
+SteamAPI_ISteamHTMLSurface_JSDialogResponse:
+	jmp *p_SteamAPI_ISteamHTMLSurface_JSDialogResponse(%rip)
+.globl SteamAPI_ISteamHTMLSurface_KeyChar
+.p2align 4
+SteamAPI_ISteamHTMLSurface_KeyChar:
+	jmp *p_SteamAPI_ISteamHTMLSurface_KeyChar(%rip)
+.globl SteamAPI_ISteamHTMLSurface_KeyDown
+.p2align 4
+SteamAPI_ISteamHTMLSurface_KeyDown:
+	jmp *p_SteamAPI_ISteamHTMLSurface_KeyDown(%rip)
+.globl SteamAPI_ISteamHTMLSurface_KeyUp
+.p2align 4
+SteamAPI_ISteamHTMLSurface_KeyUp:
+	jmp *p_SteamAPI_ISteamHTMLSurface_KeyUp(%rip)
+.globl SteamAPI_ISteamHTMLSurface_LoadURL
+.p2align 4
+SteamAPI_ISteamHTMLSurface_LoadURL:
+	jmp *p_SteamAPI_ISteamHTMLSurface_LoadURL(%rip)
+.globl SteamAPI_ISteamHTMLSurface_MouseDoubleClick
+.p2align 4
+SteamAPI_ISteamHTMLSurface_MouseDoubleClick:
+	jmp *p_SteamAPI_ISteamHTMLSurface_MouseDoubleClick(%rip)
+.globl SteamAPI_ISteamHTMLSurface_MouseDown
+.p2align 4
+SteamAPI_ISteamHTMLSurface_MouseDown:
+	jmp *p_SteamAPI_ISteamHTMLSurface_MouseDown(%rip)
+.globl SteamAPI_ISteamHTMLSurface_MouseMove
+.p2align 4
+SteamAPI_ISteamHTMLSurface_MouseMove:
+	jmp *p_SteamAPI_ISteamHTMLSurface_MouseMove(%rip)
+.globl SteamAPI_ISteamHTMLSurface_MouseUp
+.p2align 4
+SteamAPI_ISteamHTMLSurface_MouseUp:
+	jmp *p_SteamAPI_ISteamHTMLSurface_MouseUp(%rip)
+.globl SteamAPI_ISteamHTMLSurface_MouseWheel
+.p2align 4
+SteamAPI_ISteamHTMLSurface_MouseWheel:
+	jmp *p_SteamAPI_ISteamHTMLSurface_MouseWheel(%rip)
+.globl SteamAPI_ISteamHTMLSurface_OpenDeveloperTools
+.p2align 4
+SteamAPI_ISteamHTMLSurface_OpenDeveloperTools:
+	jmp *p_SteamAPI_ISteamHTMLSurface_OpenDeveloperTools(%rip)
+.globl SteamAPI_ISteamHTMLSurface_PasteFromClipboard
+.p2align 4
+SteamAPI_ISteamHTMLSurface_PasteFromClipboard:
+	jmp *p_SteamAPI_ISteamHTMLSurface_PasteFromClipboard(%rip)
+.globl SteamAPI_ISteamHTMLSurface_Reload
+.p2align 4
+SteamAPI_ISteamHTMLSurface_Reload:
+	jmp *p_SteamAPI_ISteamHTMLSurface_Reload(%rip)
+.globl SteamAPI_ISteamHTMLSurface_RemoveBrowser
+.p2align 4
+SteamAPI_ISteamHTMLSurface_RemoveBrowser:
+	jmp *p_SteamAPI_ISteamHTMLSurface_RemoveBrowser(%rip)
+.globl SteamAPI_ISteamHTMLSurface_SetBackgroundMode
+.p2align 4
+SteamAPI_ISteamHTMLSurface_SetBackgroundMode:
+	jmp *p_SteamAPI_ISteamHTMLSurface_SetBackgroundMode(%rip)
+.globl SteamAPI_ISteamHTMLSurface_SetCookie
+.p2align 4
+SteamAPI_ISteamHTMLSurface_SetCookie:
+	jmp *p_SteamAPI_ISteamHTMLSurface_SetCookie(%rip)
+.globl SteamAPI_ISteamHTMLSurface_SetDPIScalingFactor
+.p2align 4
+SteamAPI_ISteamHTMLSurface_SetDPIScalingFactor:
+	jmp *p_SteamAPI_ISteamHTMLSurface_SetDPIScalingFactor(%rip)
+.globl SteamAPI_ISteamHTMLSurface_SetHorizontalScroll
+.p2align 4
+SteamAPI_ISteamHTMLSurface_SetHorizontalScroll:
+	jmp *p_SteamAPI_ISteamHTMLSurface_SetHorizontalScroll(%rip)
+.globl SteamAPI_ISteamHTMLSurface_SetKeyFocus
+.p2align 4
+SteamAPI_ISteamHTMLSurface_SetKeyFocus:
+	jmp *p_SteamAPI_ISteamHTMLSurface_SetKeyFocus(%rip)
+.globl SteamAPI_ISteamHTMLSurface_SetPageScaleFactor
+.p2align 4
+SteamAPI_ISteamHTMLSurface_SetPageScaleFactor:
+	jmp *p_SteamAPI_ISteamHTMLSurface_SetPageScaleFactor(%rip)
+.globl SteamAPI_ISteamHTMLSurface_SetSize
+.p2align 4
+SteamAPI_ISteamHTMLSurface_SetSize:
+	jmp *p_SteamAPI_ISteamHTMLSurface_SetSize(%rip)
+.globl SteamAPI_ISteamHTMLSurface_SetVerticalScroll
+.p2align 4
+SteamAPI_ISteamHTMLSurface_SetVerticalScroll:
+	jmp *p_SteamAPI_ISteamHTMLSurface_SetVerticalScroll(%rip)
+.globl SteamAPI_ISteamHTMLSurface_Shutdown
+.p2align 4
+SteamAPI_ISteamHTMLSurface_Shutdown:
+	jmp *p_SteamAPI_ISteamHTMLSurface_Shutdown(%rip)
+.globl SteamAPI_ISteamHTMLSurface_StopFind
+.p2align 4
+SteamAPI_ISteamHTMLSurface_StopFind:
+	jmp *p_SteamAPI_ISteamHTMLSurface_StopFind(%rip)
+.globl SteamAPI_ISteamHTMLSurface_StopLoad
+.p2align 4
+SteamAPI_ISteamHTMLSurface_StopLoad:
+	jmp *p_SteamAPI_ISteamHTMLSurface_StopLoad(%rip)
+.globl SteamAPI_ISteamHTMLSurface_ViewSource
+.p2align 4
+SteamAPI_ISteamHTMLSurface_ViewSource:
+	jmp *p_SteamAPI_ISteamHTMLSurface_ViewSource(%rip)
+.globl SteamAPI_ISteamHTTP_CreateCookieContainer
+.p2align 4
+SteamAPI_ISteamHTTP_CreateCookieContainer:
+	jmp *p_SteamAPI_ISteamHTTP_CreateCookieContainer(%rip)
+.globl SteamAPI_ISteamHTTP_CreateHTTPRequest
+.p2align 4
+SteamAPI_ISteamHTTP_CreateHTTPRequest:
+	jmp *p_SteamAPI_ISteamHTTP_CreateHTTPRequest(%rip)
+.globl SteamAPI_ISteamHTTP_DeferHTTPRequest
+.p2align 4
+SteamAPI_ISteamHTTP_DeferHTTPRequest:
+	jmp *p_SteamAPI_ISteamHTTP_DeferHTTPRequest(%rip)
+.globl SteamAPI_ISteamHTTP_GetHTTPDownloadProgressPct
+.p2align 4
+SteamAPI_ISteamHTTP_GetHTTPDownloadProgressPct:
+	jmp *p_SteamAPI_ISteamHTTP_GetHTTPDownloadProgressPct(%rip)
+.globl SteamAPI_ISteamHTTP_GetHTTPRequestWasTimedOut
+.p2align 4
+SteamAPI_ISteamHTTP_GetHTTPRequestWasTimedOut:
+	jmp *p_SteamAPI_ISteamHTTP_GetHTTPRequestWasTimedOut(%rip)
+.globl SteamAPI_ISteamHTTP_GetHTTPResponseBodyData
+.p2align 4
+SteamAPI_ISteamHTTP_GetHTTPResponseBodyData:
+	jmp *p_SteamAPI_ISteamHTTP_GetHTTPResponseBodyData(%rip)
+.globl SteamAPI_ISteamHTTP_GetHTTPResponseBodySize
+.p2align 4
+SteamAPI_ISteamHTTP_GetHTTPResponseBodySize:
+	jmp *p_SteamAPI_ISteamHTTP_GetHTTPResponseBodySize(%rip)
+.globl SteamAPI_ISteamHTTP_GetHTTPResponseHeaderSize
+.p2align 4
+SteamAPI_ISteamHTTP_GetHTTPResponseHeaderSize:
+	jmp *p_SteamAPI_ISteamHTTP_GetHTTPResponseHeaderSize(%rip)
+.globl SteamAPI_ISteamHTTP_GetHTTPResponseHeaderValue
+.p2align 4
+SteamAPI_ISteamHTTP_GetHTTPResponseHeaderValue:
+	jmp *p_SteamAPI_ISteamHTTP_GetHTTPResponseHeaderValue(%rip)
+.globl SteamAPI_ISteamHTTP_GetHTTPStreamingResponseBodyData
+.p2align 4
+SteamAPI_ISteamHTTP_GetHTTPStreamingResponseBodyData:
+	jmp *p_SteamAPI_ISteamHTTP_GetHTTPStreamingResponseBodyData(%rip)
+.globl SteamAPI_ISteamHTTP_PrioritizeHTTPRequest
+.p2align 4
+SteamAPI_ISteamHTTP_PrioritizeHTTPRequest:
+	jmp *p_SteamAPI_ISteamHTTP_PrioritizeHTTPRequest(%rip)
+.globl SteamAPI_ISteamHTTP_ReleaseCookieContainer
+.p2align 4
+SteamAPI_ISteamHTTP_ReleaseCookieContainer:
+	jmp *p_SteamAPI_ISteamHTTP_ReleaseCookieContainer(%rip)
+.globl SteamAPI_ISteamHTTP_ReleaseHTTPRequest
+.p2align 4
+SteamAPI_ISteamHTTP_ReleaseHTTPRequest:
+	jmp *p_SteamAPI_ISteamHTTP_ReleaseHTTPRequest(%rip)
+.globl SteamAPI_ISteamHTTP_SendHTTPRequest
+.p2align 4
+SteamAPI_ISteamHTTP_SendHTTPRequest:
+	jmp *p_SteamAPI_ISteamHTTP_SendHTTPRequest(%rip)
+.globl SteamAPI_ISteamHTTP_SendHTTPRequestAndStreamResponse
+.p2align 4
+SteamAPI_ISteamHTTP_SendHTTPRequestAndStreamResponse:
+	jmp *p_SteamAPI_ISteamHTTP_SendHTTPRequestAndStreamResponse(%rip)
+.globl SteamAPI_ISteamHTTP_SetCookie
+.p2align 4
+SteamAPI_ISteamHTTP_SetCookie:
+	jmp *p_SteamAPI_ISteamHTTP_SetCookie(%rip)
+.globl SteamAPI_ISteamHTTP_SetHTTPRequestAbsoluteTimeoutMS
+.p2align 4
+SteamAPI_ISteamHTTP_SetHTTPRequestAbsoluteTimeoutMS:
+	jmp *p_SteamAPI_ISteamHTTP_SetHTTPRequestAbsoluteTimeoutMS(%rip)
+.globl SteamAPI_ISteamHTTP_SetHTTPRequestContextValue
+.p2align 4
+SteamAPI_ISteamHTTP_SetHTTPRequestContextValue:
+	jmp *p_SteamAPI_ISteamHTTP_SetHTTPRequestContextValue(%rip)
+.globl SteamAPI_ISteamHTTP_SetHTTPRequestCookieContainer
+.p2align 4
+SteamAPI_ISteamHTTP_SetHTTPRequestCookieContainer:
+	jmp *p_SteamAPI_ISteamHTTP_SetHTTPRequestCookieContainer(%rip)
+.globl SteamAPI_ISteamHTTP_SetHTTPRequestGetOrPostParameter
+.p2align 4
+SteamAPI_ISteamHTTP_SetHTTPRequestGetOrPostParameter:
+	jmp *p_SteamAPI_ISteamHTTP_SetHTTPRequestGetOrPostParameter(%rip)
+.globl SteamAPI_ISteamHTTP_SetHTTPRequestHeaderValue
+.p2align 4
+SteamAPI_ISteamHTTP_SetHTTPRequestHeaderValue:
+	jmp *p_SteamAPI_ISteamHTTP_SetHTTPRequestHeaderValue(%rip)
+.globl SteamAPI_ISteamHTTP_SetHTTPRequestNetworkActivityTimeout
+.p2align 4
+SteamAPI_ISteamHTTP_SetHTTPRequestNetworkActivityTimeout:
+	jmp *p_SteamAPI_ISteamHTTP_SetHTTPRequestNetworkActivityTimeout(%rip)
+.globl SteamAPI_ISteamHTTP_SetHTTPRequestRawPostBody
+.p2align 4
+SteamAPI_ISteamHTTP_SetHTTPRequestRawPostBody:
+	jmp *p_SteamAPI_ISteamHTTP_SetHTTPRequestRawPostBody(%rip)
+.globl SteamAPI_ISteamHTTP_SetHTTPRequestRequiresVerifiedCertificate
+.p2align 4
+SteamAPI_ISteamHTTP_SetHTTPRequestRequiresVerifiedCertificate:
+	jmp *p_SteamAPI_ISteamHTTP_SetHTTPRequestRequiresVerifiedCertificate(%rip)
+.globl SteamAPI_ISteamHTTP_SetHTTPRequestUserAgentInfo
+.p2align 4
+SteamAPI_ISteamHTTP_SetHTTPRequestUserAgentInfo:
+	jmp *p_SteamAPI_ISteamHTTP_SetHTTPRequestUserAgentInfo(%rip)
+.globl SteamAPI_ISteamInput_ActivateActionSet
+.p2align 4
+SteamAPI_ISteamInput_ActivateActionSet:
+	jmp *p_SteamAPI_ISteamInput_ActivateActionSet(%rip)
+.globl SteamAPI_ISteamInput_ActivateActionSetLayer
+.p2align 4
+SteamAPI_ISteamInput_ActivateActionSetLayer:
+	jmp *p_SteamAPI_ISteamInput_ActivateActionSetLayer(%rip)
+.globl SteamAPI_ISteamInput_BNewDataAvailable
+.p2align 4
+SteamAPI_ISteamInput_BNewDataAvailable:
+	jmp *p_SteamAPI_ISteamInput_BNewDataAvailable(%rip)
+.globl SteamAPI_ISteamInput_BWaitForData
+.p2align 4
+SteamAPI_ISteamInput_BWaitForData:
+	jmp *p_SteamAPI_ISteamInput_BWaitForData(%rip)
+.globl SteamAPI_ISteamInput_DeactivateActionSetLayer
+.p2align 4
+SteamAPI_ISteamInput_DeactivateActionSetLayer:
+	jmp *p_SteamAPI_ISteamInput_DeactivateActionSetLayer(%rip)
+.globl SteamAPI_ISteamInput_DeactivateAllActionSetLayers
+.p2align 4
+SteamAPI_ISteamInput_DeactivateAllActionSetLayers:
+	jmp *p_SteamAPI_ISteamInput_DeactivateAllActionSetLayers(%rip)
+.globl SteamAPI_ISteamInput_EnableActionEventCallbacks
+.p2align 4
+SteamAPI_ISteamInput_EnableActionEventCallbacks:
+	jmp *p_SteamAPI_ISteamInput_EnableActionEventCallbacks(%rip)
+.globl SteamAPI_ISteamInput_EnableDeviceCallbacks
+.p2align 4
+SteamAPI_ISteamInput_EnableDeviceCallbacks:
+	jmp *p_SteamAPI_ISteamInput_EnableDeviceCallbacks(%rip)
+.globl SteamAPI_ISteamInput_GetActionOriginFromXboxOrigin
+.p2align 4
+SteamAPI_ISteamInput_GetActionOriginFromXboxOrigin:
+	jmp *p_SteamAPI_ISteamInput_GetActionOriginFromXboxOrigin(%rip)
+.globl SteamAPI_ISteamInput_GetActionSetHandle
+.p2align 4
+SteamAPI_ISteamInput_GetActionSetHandle:
+	jmp *p_SteamAPI_ISteamInput_GetActionSetHandle(%rip)
+.globl SteamAPI_ISteamInput_GetActiveActionSetLayers
+.p2align 4
+SteamAPI_ISteamInput_GetActiveActionSetLayers:
+	jmp *p_SteamAPI_ISteamInput_GetActiveActionSetLayers(%rip)
+.globl SteamAPI_ISteamInput_GetAnalogActionData
+.p2align 4
+SteamAPI_ISteamInput_GetAnalogActionData:
+	jmp *p_SteamAPI_ISteamInput_GetAnalogActionData(%rip)
+.globl SteamAPI_ISteamInput_GetAnalogActionHandle
+.p2align 4
+SteamAPI_ISteamInput_GetAnalogActionHandle:
+	jmp *p_SteamAPI_ISteamInput_GetAnalogActionHandle(%rip)
+.globl SteamAPI_ISteamInput_GetAnalogActionOrigins
+.p2align 4
+SteamAPI_ISteamInput_GetAnalogActionOrigins:
+	jmp *p_SteamAPI_ISteamInput_GetAnalogActionOrigins(%rip)
+.globl SteamAPI_ISteamInput_GetConnectedControllers
+.p2align 4
+SteamAPI_ISteamInput_GetConnectedControllers:
+	jmp *p_SteamAPI_ISteamInput_GetConnectedControllers(%rip)
+.globl SteamAPI_ISteamInput_GetControllerForGamepadIndex
+.p2align 4
+SteamAPI_ISteamInput_GetControllerForGamepadIndex:
+	jmp *p_SteamAPI_ISteamInput_GetControllerForGamepadIndex(%rip)
+.globl SteamAPI_ISteamInput_GetCurrentActionSet
+.p2align 4
+SteamAPI_ISteamInput_GetCurrentActionSet:
+	jmp *p_SteamAPI_ISteamInput_GetCurrentActionSet(%rip)
+.globl SteamAPI_ISteamInput_GetDeviceBindingRevision
+.p2align 4
+SteamAPI_ISteamInput_GetDeviceBindingRevision:
+	jmp *p_SteamAPI_ISteamInput_GetDeviceBindingRevision(%rip)
+.globl SteamAPI_ISteamInput_GetDigitalActionData
+.p2align 4
+SteamAPI_ISteamInput_GetDigitalActionData:
+	jmp *p_SteamAPI_ISteamInput_GetDigitalActionData(%rip)
+.globl SteamAPI_ISteamInput_GetDigitalActionHandle
+.p2align 4
+SteamAPI_ISteamInput_GetDigitalActionHandle:
+	jmp *p_SteamAPI_ISteamInput_GetDigitalActionHandle(%rip)
+.globl SteamAPI_ISteamInput_GetDigitalActionOrigins
+.p2align 4
+SteamAPI_ISteamInput_GetDigitalActionOrigins:
+	jmp *p_SteamAPI_ISteamInput_GetDigitalActionOrigins(%rip)
+.globl SteamAPI_ISteamInput_GetGamepadIndexForController
+.p2align 4
+SteamAPI_ISteamInput_GetGamepadIndexForController:
+	jmp *p_SteamAPI_ISteamInput_GetGamepadIndexForController(%rip)
+.globl SteamAPI_ISteamInput_GetGlyphForActionOrigin
+.p2align 4
+SteamAPI_ISteamInput_GetGlyphForActionOrigin:
+	jmp *p_SteamAPI_ISteamInput_GetGlyphForActionOrigin(%rip)
+.globl SteamAPI_ISteamInput_GetGlyphForActionOrigin_Legacy
+.p2align 4
+SteamAPI_ISteamInput_GetGlyphForActionOrigin_Legacy:
+	jmp *p_SteamAPI_ISteamInput_GetGlyphForActionOrigin_Legacy(%rip)
+.globl SteamAPI_ISteamInput_GetGlyphForXboxOrigin
+.p2align 4
+SteamAPI_ISteamInput_GetGlyphForXboxOrigin:
+	jmp *p_SteamAPI_ISteamInput_GetGlyphForXboxOrigin(%rip)
+.globl SteamAPI_ISteamInput_GetGlyphPNGForActionOrigin
+.p2align 4
+SteamAPI_ISteamInput_GetGlyphPNGForActionOrigin:
+	jmp *p_SteamAPI_ISteamInput_GetGlyphPNGForActionOrigin(%rip)
+.globl SteamAPI_ISteamInput_GetGlyphSVGForActionOrigin
+.p2align 4
+SteamAPI_ISteamInput_GetGlyphSVGForActionOrigin:
+	jmp *p_SteamAPI_ISteamInput_GetGlyphSVGForActionOrigin(%rip)
+.globl SteamAPI_ISteamInput_GetInputTypeForHandle
+.p2align 4
+SteamAPI_ISteamInput_GetInputTypeForHandle:
+	jmp *p_SteamAPI_ISteamInput_GetInputTypeForHandle(%rip)
+.globl SteamAPI_ISteamInput_GetMotionData
+.p2align 4
+SteamAPI_ISteamInput_GetMotionData:
+	jmp *p_SteamAPI_ISteamInput_GetMotionData(%rip)
+.globl SteamAPI_ISteamInput_GetRemotePlaySessionID
+.p2align 4
+SteamAPI_ISteamInput_GetRemotePlaySessionID:
+	jmp *p_SteamAPI_ISteamInput_GetRemotePlaySessionID(%rip)
+.globl SteamAPI_ISteamInput_GetSessionInputConfigurationSettings
+.p2align 4
+SteamAPI_ISteamInput_GetSessionInputConfigurationSettings:
+	jmp *p_SteamAPI_ISteamInput_GetSessionInputConfigurationSettings(%rip)
+.globl SteamAPI_ISteamInput_GetStringForActionOrigin
+.p2align 4
+SteamAPI_ISteamInput_GetStringForActionOrigin:
+	jmp *p_SteamAPI_ISteamInput_GetStringForActionOrigin(%rip)
+.globl SteamAPI_ISteamInput_GetStringForAnalogActionName
+.p2align 4
+SteamAPI_ISteamInput_GetStringForAnalogActionName:
+	jmp *p_SteamAPI_ISteamInput_GetStringForAnalogActionName(%rip)
+.globl SteamAPI_ISteamInput_GetStringForDigitalActionName
+.p2align 4
+SteamAPI_ISteamInput_GetStringForDigitalActionName:
+	jmp *p_SteamAPI_ISteamInput_GetStringForDigitalActionName(%rip)
+.globl SteamAPI_ISteamInput_GetStringForXboxOrigin
+.p2align 4
+SteamAPI_ISteamInput_GetStringForXboxOrigin:
+	jmp *p_SteamAPI_ISteamInput_GetStringForXboxOrigin(%rip)
+.globl SteamAPI_ISteamInput_Init
+.p2align 4
+SteamAPI_ISteamInput_Init:
+	jmp *p_SteamAPI_ISteamInput_Init(%rip)
+.globl SteamAPI_ISteamInput_Legacy_TriggerHapticPulse
+.p2align 4
+SteamAPI_ISteamInput_Legacy_TriggerHapticPulse:
+	jmp *p_SteamAPI_ISteamInput_Legacy_TriggerHapticPulse(%rip)
+.globl SteamAPI_ISteamInput_Legacy_TriggerRepeatedHapticPulse
+.p2align 4
+SteamAPI_ISteamInput_Legacy_TriggerRepeatedHapticPulse:
+	jmp *p_SteamAPI_ISteamInput_Legacy_TriggerRepeatedHapticPulse(%rip)
+.globl SteamAPI_ISteamInput_RunFrame
+.p2align 4
+SteamAPI_ISteamInput_RunFrame:
+	jmp *p_SteamAPI_ISteamInput_RunFrame(%rip)
+.globl SteamAPI_ISteamInput_SetDualSenseTriggerEffect
+.p2align 4
+SteamAPI_ISteamInput_SetDualSenseTriggerEffect:
+	jmp *p_SteamAPI_ISteamInput_SetDualSenseTriggerEffect(%rip)
+.globl SteamAPI_ISteamInput_SetInputActionManifestFilePath
+.p2align 4
+SteamAPI_ISteamInput_SetInputActionManifestFilePath:
+	jmp *p_SteamAPI_ISteamInput_SetInputActionManifestFilePath(%rip)
+.globl SteamAPI_ISteamInput_SetLEDColor
+.p2align 4
+SteamAPI_ISteamInput_SetLEDColor:
+	jmp *p_SteamAPI_ISteamInput_SetLEDColor(%rip)
+.globl SteamAPI_ISteamInput_ShowBindingPanel
+.p2align 4
+SteamAPI_ISteamInput_ShowBindingPanel:
+	jmp *p_SteamAPI_ISteamInput_ShowBindingPanel(%rip)
+.globl SteamAPI_ISteamInput_Shutdown
+.p2align 4
+SteamAPI_ISteamInput_Shutdown:
+	jmp *p_SteamAPI_ISteamInput_Shutdown(%rip)
+.globl SteamAPI_ISteamInput_StopAnalogActionMomentum
+.p2align 4
+SteamAPI_ISteamInput_StopAnalogActionMomentum:
+	jmp *p_SteamAPI_ISteamInput_StopAnalogActionMomentum(%rip)
+.globl SteamAPI_ISteamInput_TranslateActionOrigin
+.p2align 4
+SteamAPI_ISteamInput_TranslateActionOrigin:
+	jmp *p_SteamAPI_ISteamInput_TranslateActionOrigin(%rip)
+.globl SteamAPI_ISteamInput_TriggerHapticPulse
+.p2align 4
+SteamAPI_ISteamInput_TriggerHapticPulse:
+	jmp *p_SteamAPI_ISteamInput_TriggerHapticPulse(%rip)
+.globl SteamAPI_ISteamInput_TriggerRepeatedHapticPulse
+.p2align 4
+SteamAPI_ISteamInput_TriggerRepeatedHapticPulse:
+	jmp *p_SteamAPI_ISteamInput_TriggerRepeatedHapticPulse(%rip)
+.globl SteamAPI_ISteamInput_TriggerSimpleHapticEvent
+.p2align 4
+SteamAPI_ISteamInput_TriggerSimpleHapticEvent:
+	jmp *p_SteamAPI_ISteamInput_TriggerSimpleHapticEvent(%rip)
+.globl SteamAPI_ISteamInput_TriggerVibration
+.p2align 4
+SteamAPI_ISteamInput_TriggerVibration:
+	jmp *p_SteamAPI_ISteamInput_TriggerVibration(%rip)
+.globl SteamAPI_ISteamInput_TriggerVibrationExtended
+.p2align 4
+SteamAPI_ISteamInput_TriggerVibrationExtended:
+	jmp *p_SteamAPI_ISteamInput_TriggerVibrationExtended(%rip)
+.globl SteamAPI_ISteamInventory_AddPromoItem
+.p2align 4
+SteamAPI_ISteamInventory_AddPromoItem:
+	jmp *p_SteamAPI_ISteamInventory_AddPromoItem(%rip)
+.globl SteamAPI_ISteamInventory_AddPromoItems
+.p2align 4
+SteamAPI_ISteamInventory_AddPromoItems:
+	jmp *p_SteamAPI_ISteamInventory_AddPromoItems(%rip)
+.globl SteamAPI_ISteamInventory_CheckResultSteamID
+.p2align 4
+SteamAPI_ISteamInventory_CheckResultSteamID:
+	jmp *p_SteamAPI_ISteamInventory_CheckResultSteamID(%rip)
+.globl SteamAPI_ISteamInventory_ConsumeItem
+.p2align 4
+SteamAPI_ISteamInventory_ConsumeItem:
+	jmp *p_SteamAPI_ISteamInventory_ConsumeItem(%rip)
+.globl SteamAPI_ISteamInventory_DeserializeResult
+.p2align 4
+SteamAPI_ISteamInventory_DeserializeResult:
+	jmp *p_SteamAPI_ISteamInventory_DeserializeResult(%rip)
+.globl SteamAPI_ISteamInventory_DestroyResult
+.p2align 4
+SteamAPI_ISteamInventory_DestroyResult:
+	jmp *p_SteamAPI_ISteamInventory_DestroyResult(%rip)
+.globl SteamAPI_ISteamInventory_ExchangeItems
+.p2align 4
+SteamAPI_ISteamInventory_ExchangeItems:
+	jmp *p_SteamAPI_ISteamInventory_ExchangeItems(%rip)
+.globl SteamAPI_ISteamInventory_GenerateItems
+.p2align 4
+SteamAPI_ISteamInventory_GenerateItems:
+	jmp *p_SteamAPI_ISteamInventory_GenerateItems(%rip)
+.globl SteamAPI_ISteamInventory_GetAllItems
+.p2align 4
+SteamAPI_ISteamInventory_GetAllItems:
+	jmp *p_SteamAPI_ISteamInventory_GetAllItems(%rip)
+.globl SteamAPI_ISteamInventory_GetEligiblePromoItemDefinitionIDs
+.p2align 4
+SteamAPI_ISteamInventory_GetEligiblePromoItemDefinitionIDs:
+	jmp *p_SteamAPI_ISteamInventory_GetEligiblePromoItemDefinitionIDs(%rip)
+.globl SteamAPI_ISteamInventory_GetItemDefinitionIDs
+.p2align 4
+SteamAPI_ISteamInventory_GetItemDefinitionIDs:
+	jmp *p_SteamAPI_ISteamInventory_GetItemDefinitionIDs(%rip)
+.globl SteamAPI_ISteamInventory_GetItemDefinitionProperty
+.p2align 4
+SteamAPI_ISteamInventory_GetItemDefinitionProperty:
+	jmp *p_SteamAPI_ISteamInventory_GetItemDefinitionProperty(%rip)
+.globl SteamAPI_ISteamInventory_GetItemPrice
+.p2align 4
+SteamAPI_ISteamInventory_GetItemPrice:
+	jmp *p_SteamAPI_ISteamInventory_GetItemPrice(%rip)
+.globl SteamAPI_ISteamInventory_GetItemsByID
+.p2align 4
+SteamAPI_ISteamInventory_GetItemsByID:
+	jmp *p_SteamAPI_ISteamInventory_GetItemsByID(%rip)
+.globl SteamAPI_ISteamInventory_GetItemsWithPrices
+.p2align 4
+SteamAPI_ISteamInventory_GetItemsWithPrices:
+	jmp *p_SteamAPI_ISteamInventory_GetItemsWithPrices(%rip)
+.globl SteamAPI_ISteamInventory_GetNumItemsWithPrices
+.p2align 4
+SteamAPI_ISteamInventory_GetNumItemsWithPrices:
+	jmp *p_SteamAPI_ISteamInventory_GetNumItemsWithPrices(%rip)
+.globl SteamAPI_ISteamInventory_GetResultItemProperty
+.p2align 4
+SteamAPI_ISteamInventory_GetResultItemProperty:
+	jmp *p_SteamAPI_ISteamInventory_GetResultItemProperty(%rip)
+.globl SteamAPI_ISteamInventory_GetResultItems
+.p2align 4
+SteamAPI_ISteamInventory_GetResultItems:
+	jmp *p_SteamAPI_ISteamInventory_GetResultItems(%rip)
+.globl SteamAPI_ISteamInventory_GetResultStatus
+.p2align 4
+SteamAPI_ISteamInventory_GetResultStatus:
+	jmp *p_SteamAPI_ISteamInventory_GetResultStatus(%rip)
+.globl SteamAPI_ISteamInventory_GetResultTimestamp
+.p2align 4
+SteamAPI_ISteamInventory_GetResultTimestamp:
+	jmp *p_SteamAPI_ISteamInventory_GetResultTimestamp(%rip)
+.globl SteamAPI_ISteamInventory_GrantPromoItems
+.p2align 4
+SteamAPI_ISteamInventory_GrantPromoItems:
+	jmp *p_SteamAPI_ISteamInventory_GrantPromoItems(%rip)
+.globl SteamAPI_ISteamInventory_InspectItem
+.p2align 4
+SteamAPI_ISteamInventory_InspectItem:
+	jmp *p_SteamAPI_ISteamInventory_InspectItem(%rip)
+.globl SteamAPI_ISteamInventory_LoadItemDefinitions
+.p2align 4
+SteamAPI_ISteamInventory_LoadItemDefinitions:
+	jmp *p_SteamAPI_ISteamInventory_LoadItemDefinitions(%rip)
+.globl SteamAPI_ISteamInventory_RemoveProperty
+.p2align 4
+SteamAPI_ISteamInventory_RemoveProperty:
+	jmp *p_SteamAPI_ISteamInventory_RemoveProperty(%rip)
+.globl SteamAPI_ISteamInventory_RequestEligiblePromoItemDefinitionsIDs
+.p2align 4
+SteamAPI_ISteamInventory_RequestEligiblePromoItemDefinitionsIDs:
+	jmp *p_SteamAPI_ISteamInventory_RequestEligiblePromoItemDefinitionsIDs(%rip)
+.globl SteamAPI_ISteamInventory_RequestPrices
+.p2align 4
+SteamAPI_ISteamInventory_RequestPrices:
+	jmp *p_SteamAPI_ISteamInventory_RequestPrices(%rip)
+.globl SteamAPI_ISteamInventory_SendItemDropHeartbeat
+.p2align 4
+SteamAPI_ISteamInventory_SendItemDropHeartbeat:
+	jmp *p_SteamAPI_ISteamInventory_SendItemDropHeartbeat(%rip)
+.globl SteamAPI_ISteamInventory_SerializeResult
+.p2align 4
+SteamAPI_ISteamInventory_SerializeResult:
+	jmp *p_SteamAPI_ISteamInventory_SerializeResult(%rip)
+.globl SteamAPI_ISteamInventory_SetProperty
+.p2align 4
+SteamAPI_ISteamInventory_SetProperty:
+	jmp *p_SteamAPI_ISteamInventory_SetProperty(%rip)
+.globl SteamAPI_ISteamInventory_SetProperty0
+.p2align 4
+SteamAPI_ISteamInventory_SetProperty0:
+	jmp *p_SteamAPI_ISteamInventory_SetProperty0(%rip)
+.globl SteamAPI_ISteamInventory_SetProperty1
+.p2align 4
+SteamAPI_ISteamInventory_SetProperty1:
+	jmp *p_SteamAPI_ISteamInventory_SetProperty1(%rip)
+.globl SteamAPI_ISteamInventory_SetProperty2
+.p2align 4
+SteamAPI_ISteamInventory_SetProperty2:
+	jmp *p_SteamAPI_ISteamInventory_SetProperty2(%rip)
+.globl SteamAPI_ISteamInventory_SetPropertyBool
+.p2align 4
+SteamAPI_ISteamInventory_SetPropertyBool:
+	jmp *p_SteamAPI_ISteamInventory_SetPropertyBool(%rip)
+.globl SteamAPI_ISteamInventory_SetPropertyFloat
+.p2align 4
+SteamAPI_ISteamInventory_SetPropertyFloat:
+	jmp *p_SteamAPI_ISteamInventory_SetPropertyFloat(%rip)
+.globl SteamAPI_ISteamInventory_SetPropertyInt64
+.p2align 4
+SteamAPI_ISteamInventory_SetPropertyInt64:
+	jmp *p_SteamAPI_ISteamInventory_SetPropertyInt64(%rip)
+.globl SteamAPI_ISteamInventory_SetPropertyString
+.p2align 4
+SteamAPI_ISteamInventory_SetPropertyString:
+	jmp *p_SteamAPI_ISteamInventory_SetPropertyString(%rip)
+.globl SteamAPI_ISteamInventory_StartPurchase
+.p2align 4
+SteamAPI_ISteamInventory_StartPurchase:
+	jmp *p_SteamAPI_ISteamInventory_StartPurchase(%rip)
+.globl SteamAPI_ISteamInventory_StartUpdateProperties
+.p2align 4
+SteamAPI_ISteamInventory_StartUpdateProperties:
+	jmp *p_SteamAPI_ISteamInventory_StartUpdateProperties(%rip)
+.globl SteamAPI_ISteamInventory_SubmitUpdateProperties
+.p2align 4
+SteamAPI_ISteamInventory_SubmitUpdateProperties:
+	jmp *p_SteamAPI_ISteamInventory_SubmitUpdateProperties(%rip)
+.globl SteamAPI_ISteamInventory_TradeItems
+.p2align 4
+SteamAPI_ISteamInventory_TradeItems:
+	jmp *p_SteamAPI_ISteamInventory_TradeItems(%rip)
+.globl SteamAPI_ISteamInventory_TransferItemQuantity
+.p2align 4
+SteamAPI_ISteamInventory_TransferItemQuantity:
+	jmp *p_SteamAPI_ISteamInventory_TransferItemQuantity(%rip)
+.globl SteamAPI_ISteamInventory_TriggerItemDrop
+.p2align 4
+SteamAPI_ISteamInventory_TriggerItemDrop:
+	jmp *p_SteamAPI_ISteamInventory_TriggerItemDrop(%rip)
+.globl SteamAPI_ISteamMatchmakingPingResponse_ServerFailedToRespond
+.p2align 4
+SteamAPI_ISteamMatchmakingPingResponse_ServerFailedToRespond:
+	jmp *p_SteamAPI_ISteamMatchmakingPingResponse_ServerFailedToRespond(%rip)
+.globl SteamAPI_ISteamMatchmakingPingResponse_ServerResponded
+.p2align 4
+SteamAPI_ISteamMatchmakingPingResponse_ServerResponded:
+	jmp *p_SteamAPI_ISteamMatchmakingPingResponse_ServerResponded(%rip)
+.globl SteamAPI_ISteamMatchmakingPlayersResponse_AddPlayerToList
+.p2align 4
+SteamAPI_ISteamMatchmakingPlayersResponse_AddPlayerToList:
+	jmp *p_SteamAPI_ISteamMatchmakingPlayersResponse_AddPlayerToList(%rip)
+.globl SteamAPI_ISteamMatchmakingPlayersResponse_PlayersFailedToRespond
+.p2align 4
+SteamAPI_ISteamMatchmakingPlayersResponse_PlayersFailedToRespond:
+	jmp *p_SteamAPI_ISteamMatchmakingPlayersResponse_PlayersFailedToRespond(%rip)
+.globl SteamAPI_ISteamMatchmakingPlayersResponse_PlayersRefreshComplete
+.p2align 4
+SteamAPI_ISteamMatchmakingPlayersResponse_PlayersRefreshComplete:
+	jmp *p_SteamAPI_ISteamMatchmakingPlayersResponse_PlayersRefreshComplete(%rip)
+.globl SteamAPI_ISteamMatchmakingRulesResponse_RulesFailedToRespond
+.p2align 4
+SteamAPI_ISteamMatchmakingRulesResponse_RulesFailedToRespond:
+	jmp *p_SteamAPI_ISteamMatchmakingRulesResponse_RulesFailedToRespond(%rip)
+.globl SteamAPI_ISteamMatchmakingRulesResponse_RulesRefreshComplete
+.p2align 4
+SteamAPI_ISteamMatchmakingRulesResponse_RulesRefreshComplete:
+	jmp *p_SteamAPI_ISteamMatchmakingRulesResponse_RulesRefreshComplete(%rip)
+.globl SteamAPI_ISteamMatchmakingRulesResponse_RulesResponded
+.p2align 4
+SteamAPI_ISteamMatchmakingRulesResponse_RulesResponded:
+	jmp *p_SteamAPI_ISteamMatchmakingRulesResponse_RulesResponded(%rip)
+.globl SteamAPI_ISteamMatchmakingServerFriendsResponse_AddFriendToList
+.p2align 4
+SteamAPI_ISteamMatchmakingServerFriendsResponse_AddFriendToList:
+	jmp *p_SteamAPI_ISteamMatchmakingServerFriendsResponse_AddFriendToList(%rip)
+.globl SteamAPI_ISteamMatchmakingServerFriendsResponse_FriendsFailedToRespond
+.p2align 4
+SteamAPI_ISteamMatchmakingServerFriendsResponse_FriendsFailedToRespond:
+	jmp *p_SteamAPI_ISteamMatchmakingServerFriendsResponse_FriendsFailedToRespond(%rip)
+.globl SteamAPI_ISteamMatchmakingServerFriendsResponse_FriendsRefreshComplete
+.p2align 4
+SteamAPI_ISteamMatchmakingServerFriendsResponse_FriendsRefreshComplete:
+	jmp *p_SteamAPI_ISteamMatchmakingServerFriendsResponse_FriendsRefreshComplete(%rip)
+.globl SteamAPI_ISteamMatchmakingServerListResponse_RefreshComplete
+.p2align 4
+SteamAPI_ISteamMatchmakingServerListResponse_RefreshComplete:
+	jmp *p_SteamAPI_ISteamMatchmakingServerListResponse_RefreshComplete(%rip)
+.globl SteamAPI_ISteamMatchmakingServerListResponse_ServerFailedToRespond
+.p2align 4
+SteamAPI_ISteamMatchmakingServerListResponse_ServerFailedToRespond:
+	jmp *p_SteamAPI_ISteamMatchmakingServerListResponse_ServerFailedToRespond(%rip)
+.globl SteamAPI_ISteamMatchmakingServerListResponse_ServerResponded
+.p2align 4
+SteamAPI_ISteamMatchmakingServerListResponse_ServerResponded:
+	jmp *p_SteamAPI_ISteamMatchmakingServerListResponse_ServerResponded(%rip)
+.globl SteamAPI_ISteamMatchmakingServers_CancelQuery
+.p2align 4
+SteamAPI_ISteamMatchmakingServers_CancelQuery:
+	jmp *p_SteamAPI_ISteamMatchmakingServers_CancelQuery(%rip)
+.globl SteamAPI_ISteamMatchmakingServers_CancelServerQuery
+.p2align 4
+SteamAPI_ISteamMatchmakingServers_CancelServerQuery:
+	jmp *p_SteamAPI_ISteamMatchmakingServers_CancelServerQuery(%rip)
+.globl SteamAPI_ISteamMatchmakingServers_GetServerCount
+.p2align 4
+SteamAPI_ISteamMatchmakingServers_GetServerCount:
+	jmp *p_SteamAPI_ISteamMatchmakingServers_GetServerCount(%rip)
+.globl SteamAPI_ISteamMatchmakingServers_GetServerDetails
+.p2align 4
+SteamAPI_ISteamMatchmakingServers_GetServerDetails:
+	jmp *p_SteamAPI_ISteamMatchmakingServers_GetServerDetails(%rip)
+.globl SteamAPI_ISteamMatchmakingServers_IsRefreshing
+.p2align 4
+SteamAPI_ISteamMatchmakingServers_IsRefreshing:
+	jmp *p_SteamAPI_ISteamMatchmakingServers_IsRefreshing(%rip)
+.globl SteamAPI_ISteamMatchmakingServers_PingServer
+.p2align 4
+SteamAPI_ISteamMatchmakingServers_PingServer:
+	jmp *p_SteamAPI_ISteamMatchmakingServers_PingServer(%rip)
+.globl SteamAPI_ISteamMatchmakingServers_PlayerDetails
+.p2align 4
+SteamAPI_ISteamMatchmakingServers_PlayerDetails:
+	jmp *p_SteamAPI_ISteamMatchmakingServers_PlayerDetails(%rip)
+.globl SteamAPI_ISteamMatchmakingServers_RefreshQuery
+.p2align 4
+SteamAPI_ISteamMatchmakingServers_RefreshQuery:
+	jmp *p_SteamAPI_ISteamMatchmakingServers_RefreshQuery(%rip)
+.globl SteamAPI_ISteamMatchmakingServers_RefreshServer
+.p2align 4
+SteamAPI_ISteamMatchmakingServers_RefreshServer:
+	jmp *p_SteamAPI_ISteamMatchmakingServers_RefreshServer(%rip)
+.globl SteamAPI_ISteamMatchmakingServers_ReleaseRequest
+.p2align 4
+SteamAPI_ISteamMatchmakingServers_ReleaseRequest:
+	jmp *p_SteamAPI_ISteamMatchmakingServers_ReleaseRequest(%rip)
+.globl SteamAPI_ISteamMatchmakingServers_RequestFavoritesServerList
+.p2align 4
+SteamAPI_ISteamMatchmakingServers_RequestFavoritesServerList:
+	jmp *p_SteamAPI_ISteamMatchmakingServers_RequestFavoritesServerList(%rip)
+.globl SteamAPI_ISteamMatchmakingServers_RequestFriendsServerList
+.p2align 4
+SteamAPI_ISteamMatchmakingServers_RequestFriendsServerList:
+	jmp *p_SteamAPI_ISteamMatchmakingServers_RequestFriendsServerList(%rip)
+.globl SteamAPI_ISteamMatchmakingServers_RequestHistoryServerList
+.p2align 4
+SteamAPI_ISteamMatchmakingServers_RequestHistoryServerList:
+	jmp *p_SteamAPI_ISteamMatchmakingServers_RequestHistoryServerList(%rip)
+.globl SteamAPI_ISteamMatchmakingServers_RequestInternetServerList
+.p2align 4
+SteamAPI_ISteamMatchmakingServers_RequestInternetServerList:
+	jmp *p_SteamAPI_ISteamMatchmakingServers_RequestInternetServerList(%rip)
+.globl SteamAPI_ISteamMatchmakingServers_RequestLANServerList
+.p2align 4
+SteamAPI_ISteamMatchmakingServers_RequestLANServerList:
+	jmp *p_SteamAPI_ISteamMatchmakingServers_RequestLANServerList(%rip)
+.globl SteamAPI_ISteamMatchmakingServers_RequestSpectatorServerList
+.p2align 4
+SteamAPI_ISteamMatchmakingServers_RequestSpectatorServerList:
+	jmp *p_SteamAPI_ISteamMatchmakingServers_RequestSpectatorServerList(%rip)
+.globl SteamAPI_ISteamMatchmakingServers_ServerFriends
+.p2align 4
+SteamAPI_ISteamMatchmakingServers_ServerFriends:
+	jmp *p_SteamAPI_ISteamMatchmakingServers_ServerFriends(%rip)
+.globl SteamAPI_ISteamMatchmakingServers_ServerRules
+.p2align 4
+SteamAPI_ISteamMatchmakingServers_ServerRules:
+	jmp *p_SteamAPI_ISteamMatchmakingServers_ServerRules(%rip)
+.globl SteamAPI_ISteamMatchmaking_AddFavoriteGame
+.p2align 4
+SteamAPI_ISteamMatchmaking_AddFavoriteGame:
+	jmp *p_SteamAPI_ISteamMatchmaking_AddFavoriteGame(%rip)
+.globl SteamAPI_ISteamMatchmaking_AddRequestLobbyListCompatibleMembersFilter
+.p2align 4
+SteamAPI_ISteamMatchmaking_AddRequestLobbyListCompatibleMembersFilter:
+	jmp *p_SteamAPI_ISteamMatchmaking_AddRequestLobbyListCompatibleMembersFilter(%rip)
+.globl SteamAPI_ISteamMatchmaking_AddRequestLobbyListDistanceFilter
+.p2align 4
+SteamAPI_ISteamMatchmaking_AddRequestLobbyListDistanceFilter:
+	jmp *p_SteamAPI_ISteamMatchmaking_AddRequestLobbyListDistanceFilter(%rip)
+.globl SteamAPI_ISteamMatchmaking_AddRequestLobbyListFilterSlotsAvailable
+.p2align 4
+SteamAPI_ISteamMatchmaking_AddRequestLobbyListFilterSlotsAvailable:
+	jmp *p_SteamAPI_ISteamMatchmaking_AddRequestLobbyListFilterSlotsAvailable(%rip)
+.globl SteamAPI_ISteamMatchmaking_AddRequestLobbyListNearValueFilter
+.p2align 4
+SteamAPI_ISteamMatchmaking_AddRequestLobbyListNearValueFilter:
+	jmp *p_SteamAPI_ISteamMatchmaking_AddRequestLobbyListNearValueFilter(%rip)
+.globl SteamAPI_ISteamMatchmaking_AddRequestLobbyListNumericalFilter
+.p2align 4
+SteamAPI_ISteamMatchmaking_AddRequestLobbyListNumericalFilter:
+	jmp *p_SteamAPI_ISteamMatchmaking_AddRequestLobbyListNumericalFilter(%rip)
+.globl SteamAPI_ISteamMatchmaking_AddRequestLobbyListResultCountFilter
+.p2align 4
+SteamAPI_ISteamMatchmaking_AddRequestLobbyListResultCountFilter:
+	jmp *p_SteamAPI_ISteamMatchmaking_AddRequestLobbyListResultCountFilter(%rip)
+.globl SteamAPI_ISteamMatchmaking_AddRequestLobbyListStringFilter
+.p2align 4
+SteamAPI_ISteamMatchmaking_AddRequestLobbyListStringFilter:
+	jmp *p_SteamAPI_ISteamMatchmaking_AddRequestLobbyListStringFilter(%rip)
+.globl SteamAPI_ISteamMatchmaking_CreateLobby
+.p2align 4
+SteamAPI_ISteamMatchmaking_CreateLobby:
+	jmp *p_SteamAPI_ISteamMatchmaking_CreateLobby(%rip)
+.globl SteamAPI_ISteamMatchmaking_DeleteLobbyData
+.p2align 4
+SteamAPI_ISteamMatchmaking_DeleteLobbyData:
+	jmp *p_SteamAPI_ISteamMatchmaking_DeleteLobbyData(%rip)
+.globl SteamAPI_ISteamMatchmaking_GetFavoriteGame
+.p2align 4
+SteamAPI_ISteamMatchmaking_GetFavoriteGame:
+	jmp *p_SteamAPI_ISteamMatchmaking_GetFavoriteGame(%rip)
+.globl SteamAPI_ISteamMatchmaking_GetFavoriteGameCount
+.p2align 4
+SteamAPI_ISteamMatchmaking_GetFavoriteGameCount:
+	jmp *p_SteamAPI_ISteamMatchmaking_GetFavoriteGameCount(%rip)
+.globl SteamAPI_ISteamMatchmaking_GetLobbyByIndex
+.p2align 4
+SteamAPI_ISteamMatchmaking_GetLobbyByIndex:
+	jmp *p_SteamAPI_ISteamMatchmaking_GetLobbyByIndex(%rip)
+.globl SteamAPI_ISteamMatchmaking_GetLobbyChatEntry
+.p2align 4
+SteamAPI_ISteamMatchmaking_GetLobbyChatEntry:
+	jmp *p_SteamAPI_ISteamMatchmaking_GetLobbyChatEntry(%rip)
+.globl SteamAPI_ISteamMatchmaking_GetLobbyData
+.p2align 4
+SteamAPI_ISteamMatchmaking_GetLobbyData:
+	jmp *p_SteamAPI_ISteamMatchmaking_GetLobbyData(%rip)
+.globl SteamAPI_ISteamMatchmaking_GetLobbyDataByIndex
+.p2align 4
+SteamAPI_ISteamMatchmaking_GetLobbyDataByIndex:
+	jmp *p_SteamAPI_ISteamMatchmaking_GetLobbyDataByIndex(%rip)
+.globl SteamAPI_ISteamMatchmaking_GetLobbyDataCount
+.p2align 4
+SteamAPI_ISteamMatchmaking_GetLobbyDataCount:
+	jmp *p_SteamAPI_ISteamMatchmaking_GetLobbyDataCount(%rip)
+.globl SteamAPI_ISteamMatchmaking_GetLobbyGameServer
+.p2align 4
+SteamAPI_ISteamMatchmaking_GetLobbyGameServer:
+	jmp *p_SteamAPI_ISteamMatchmaking_GetLobbyGameServer(%rip)
+.globl SteamAPI_ISteamMatchmaking_GetLobbyMemberByIndex
+.p2align 4
+SteamAPI_ISteamMatchmaking_GetLobbyMemberByIndex:
+	jmp *p_SteamAPI_ISteamMatchmaking_GetLobbyMemberByIndex(%rip)
+.globl SteamAPI_ISteamMatchmaking_GetLobbyMemberData
+.p2align 4
+SteamAPI_ISteamMatchmaking_GetLobbyMemberData:
+	jmp *p_SteamAPI_ISteamMatchmaking_GetLobbyMemberData(%rip)
+.globl SteamAPI_ISteamMatchmaking_GetLobbyMemberLimit
+.p2align 4
+SteamAPI_ISteamMatchmaking_GetLobbyMemberLimit:
+	jmp *p_SteamAPI_ISteamMatchmaking_GetLobbyMemberLimit(%rip)
+.globl SteamAPI_ISteamMatchmaking_GetLobbyOwner
+.p2align 4
+SteamAPI_ISteamMatchmaking_GetLobbyOwner:
+	jmp *p_SteamAPI_ISteamMatchmaking_GetLobbyOwner(%rip)
+.globl SteamAPI_ISteamMatchmaking_GetNumLobbyMembers
+.p2align 4
+SteamAPI_ISteamMatchmaking_GetNumLobbyMembers:
+	jmp *p_SteamAPI_ISteamMatchmaking_GetNumLobbyMembers(%rip)
+.globl SteamAPI_ISteamMatchmaking_InviteUserToLobby
+.p2align 4
+SteamAPI_ISteamMatchmaking_InviteUserToLobby:
+	jmp *p_SteamAPI_ISteamMatchmaking_InviteUserToLobby(%rip)
+.globl SteamAPI_ISteamMatchmaking_JoinLobby
+.p2align 4
+SteamAPI_ISteamMatchmaking_JoinLobby:
+	jmp *p_SteamAPI_ISteamMatchmaking_JoinLobby(%rip)
+.globl SteamAPI_ISteamMatchmaking_LeaveLobby
+.p2align 4
+SteamAPI_ISteamMatchmaking_LeaveLobby:
+	jmp *p_SteamAPI_ISteamMatchmaking_LeaveLobby(%rip)
+.globl SteamAPI_ISteamMatchmaking_RemoveFavoriteGame
+.p2align 4
+SteamAPI_ISteamMatchmaking_RemoveFavoriteGame:
+	jmp *p_SteamAPI_ISteamMatchmaking_RemoveFavoriteGame(%rip)
+.globl SteamAPI_ISteamMatchmaking_RequestLobbyData
+.p2align 4
+SteamAPI_ISteamMatchmaking_RequestLobbyData:
+	jmp *p_SteamAPI_ISteamMatchmaking_RequestLobbyData(%rip)
+.globl SteamAPI_ISteamMatchmaking_RequestLobbyList
+.p2align 4
+SteamAPI_ISteamMatchmaking_RequestLobbyList:
+	jmp *p_SteamAPI_ISteamMatchmaking_RequestLobbyList(%rip)
+.globl SteamAPI_ISteamMatchmaking_SendLobbyChatMsg
+.p2align 4
+SteamAPI_ISteamMatchmaking_SendLobbyChatMsg:
+	jmp *p_SteamAPI_ISteamMatchmaking_SendLobbyChatMsg(%rip)
+.globl SteamAPI_ISteamMatchmaking_SetLinkedLobby
+.p2align 4
+SteamAPI_ISteamMatchmaking_SetLinkedLobby:
+	jmp *p_SteamAPI_ISteamMatchmaking_SetLinkedLobby(%rip)
+.globl SteamAPI_ISteamMatchmaking_SetLobbyData
+.p2align 4
+SteamAPI_ISteamMatchmaking_SetLobbyData:
+	jmp *p_SteamAPI_ISteamMatchmaking_SetLobbyData(%rip)
+.globl SteamAPI_ISteamMatchmaking_SetLobbyGameServer
+.p2align 4
+SteamAPI_ISteamMatchmaking_SetLobbyGameServer:
+	jmp *p_SteamAPI_ISteamMatchmaking_SetLobbyGameServer(%rip)
+.globl SteamAPI_ISteamMatchmaking_SetLobbyJoinable
+.p2align 4
+SteamAPI_ISteamMatchmaking_SetLobbyJoinable:
+	jmp *p_SteamAPI_ISteamMatchmaking_SetLobbyJoinable(%rip)
+.globl SteamAPI_ISteamMatchmaking_SetLobbyMemberData
+.p2align 4
+SteamAPI_ISteamMatchmaking_SetLobbyMemberData:
+	jmp *p_SteamAPI_ISteamMatchmaking_SetLobbyMemberData(%rip)
+.globl SteamAPI_ISteamMatchmaking_SetLobbyMemberLimit
+.p2align 4
+SteamAPI_ISteamMatchmaking_SetLobbyMemberLimit:
+	jmp *p_SteamAPI_ISteamMatchmaking_SetLobbyMemberLimit(%rip)
+.globl SteamAPI_ISteamMatchmaking_SetLobbyOwner
+.p2align 4
+SteamAPI_ISteamMatchmaking_SetLobbyOwner:
+	jmp *p_SteamAPI_ISteamMatchmaking_SetLobbyOwner(%rip)
+.globl SteamAPI_ISteamMatchmaking_SetLobbyType
+.p2align 4
+SteamAPI_ISteamMatchmaking_SetLobbyType:
+	jmp *p_SteamAPI_ISteamMatchmaking_SetLobbyType(%rip)
+.globl SteamAPI_ISteamMusicRemote_BActivationSuccess
+.p2align 4
+SteamAPI_ISteamMusicRemote_BActivationSuccess:
+	jmp *p_SteamAPI_ISteamMusicRemote_BActivationSuccess(%rip)
+.globl SteamAPI_ISteamMusicRemote_BIsCurrentMusicRemote
+.p2align 4
+SteamAPI_ISteamMusicRemote_BIsCurrentMusicRemote:
+	jmp *p_SteamAPI_ISteamMusicRemote_BIsCurrentMusicRemote(%rip)
+.globl SteamAPI_ISteamMusicRemote_CurrentEntryDidChange
+.p2align 4
+SteamAPI_ISteamMusicRemote_CurrentEntryDidChange:
+	jmp *p_SteamAPI_ISteamMusicRemote_CurrentEntryDidChange(%rip)
+.globl SteamAPI_ISteamMusicRemote_CurrentEntryIsAvailable
+.p2align 4
+SteamAPI_ISteamMusicRemote_CurrentEntryIsAvailable:
+	jmp *p_SteamAPI_ISteamMusicRemote_CurrentEntryIsAvailable(%rip)
+.globl SteamAPI_ISteamMusicRemote_CurrentEntryWillChange
+.p2align 4
+SteamAPI_ISteamMusicRemote_CurrentEntryWillChange:
+	jmp *p_SteamAPI_ISteamMusicRemote_CurrentEntryWillChange(%rip)
+.globl SteamAPI_ISteamMusicRemote_DeregisterSteamMusicRemote
+.p2align 4
+SteamAPI_ISteamMusicRemote_DeregisterSteamMusicRemote:
+	jmp *p_SteamAPI_ISteamMusicRemote_DeregisterSteamMusicRemote(%rip)
+.globl SteamAPI_ISteamMusicRemote_EnableLooped
+.p2align 4
+SteamAPI_ISteamMusicRemote_EnableLooped:
+	jmp *p_SteamAPI_ISteamMusicRemote_EnableLooped(%rip)
+.globl SteamAPI_ISteamMusicRemote_EnablePlayNext
+.p2align 4
+SteamAPI_ISteamMusicRemote_EnablePlayNext:
+	jmp *p_SteamAPI_ISteamMusicRemote_EnablePlayNext(%rip)
+.globl SteamAPI_ISteamMusicRemote_EnablePlayPrevious
+.p2align 4
+SteamAPI_ISteamMusicRemote_EnablePlayPrevious:
+	jmp *p_SteamAPI_ISteamMusicRemote_EnablePlayPrevious(%rip)
+.globl SteamAPI_ISteamMusicRemote_EnablePlaylists
+.p2align 4
+SteamAPI_ISteamMusicRemote_EnablePlaylists:
+	jmp *p_SteamAPI_ISteamMusicRemote_EnablePlaylists(%rip)
+.globl SteamAPI_ISteamMusicRemote_EnableQueue
+.p2align 4
+SteamAPI_ISteamMusicRemote_EnableQueue:
+	jmp *p_SteamAPI_ISteamMusicRemote_EnableQueue(%rip)
+.globl SteamAPI_ISteamMusicRemote_EnableShuffled
+.p2align 4
+SteamAPI_ISteamMusicRemote_EnableShuffled:
+	jmp *p_SteamAPI_ISteamMusicRemote_EnableShuffled(%rip)
+.globl SteamAPI_ISteamMusicRemote_PlaylistDidChange
+.p2align 4
+SteamAPI_ISteamMusicRemote_PlaylistDidChange:
+	jmp *p_SteamAPI_ISteamMusicRemote_PlaylistDidChange(%rip)
+.globl SteamAPI_ISteamMusicRemote_PlaylistWillChange
+.p2align 4
+SteamAPI_ISteamMusicRemote_PlaylistWillChange:
+	jmp *p_SteamAPI_ISteamMusicRemote_PlaylistWillChange(%rip)
+.globl SteamAPI_ISteamMusicRemote_QueueDidChange
+.p2align 4
+SteamAPI_ISteamMusicRemote_QueueDidChange:
+	jmp *p_SteamAPI_ISteamMusicRemote_QueueDidChange(%rip)
+.globl SteamAPI_ISteamMusicRemote_QueueWillChange
+.p2align 4
+SteamAPI_ISteamMusicRemote_QueueWillChange:
+	jmp *p_SteamAPI_ISteamMusicRemote_QueueWillChange(%rip)
+.globl SteamAPI_ISteamMusicRemote_RegisterSteamMusicRemote
+.p2align 4
+SteamAPI_ISteamMusicRemote_RegisterSteamMusicRemote:
+	jmp *p_SteamAPI_ISteamMusicRemote_RegisterSteamMusicRemote(%rip)
+.globl SteamAPI_ISteamMusicRemote_ResetPlaylistEntries
+.p2align 4
+SteamAPI_ISteamMusicRemote_ResetPlaylistEntries:
+	jmp *p_SteamAPI_ISteamMusicRemote_ResetPlaylistEntries(%rip)
+.globl SteamAPI_ISteamMusicRemote_ResetQueueEntries
+.p2align 4
+SteamAPI_ISteamMusicRemote_ResetQueueEntries:
+	jmp *p_SteamAPI_ISteamMusicRemote_ResetQueueEntries(%rip)
+.globl SteamAPI_ISteamMusicRemote_SetCurrentPlaylistEntry
+.p2align 4
+SteamAPI_ISteamMusicRemote_SetCurrentPlaylistEntry:
+	jmp *p_SteamAPI_ISteamMusicRemote_SetCurrentPlaylistEntry(%rip)
+.globl SteamAPI_ISteamMusicRemote_SetCurrentQueueEntry
+.p2align 4
+SteamAPI_ISteamMusicRemote_SetCurrentQueueEntry:
+	jmp *p_SteamAPI_ISteamMusicRemote_SetCurrentQueueEntry(%rip)
+.globl SteamAPI_ISteamMusicRemote_SetDisplayName
+.p2align 4
+SteamAPI_ISteamMusicRemote_SetDisplayName:
+	jmp *p_SteamAPI_ISteamMusicRemote_SetDisplayName(%rip)
+.globl SteamAPI_ISteamMusicRemote_SetPNGIcon_64x64
+.p2align 4
+SteamAPI_ISteamMusicRemote_SetPNGIcon_64x64:
+	jmp *p_SteamAPI_ISteamMusicRemote_SetPNGIcon_64x64(%rip)
+.globl SteamAPI_ISteamMusicRemote_SetPlaylistEntry
+.p2align 4
+SteamAPI_ISteamMusicRemote_SetPlaylistEntry:
+	jmp *p_SteamAPI_ISteamMusicRemote_SetPlaylistEntry(%rip)
+.globl SteamAPI_ISteamMusicRemote_SetQueueEntry
+.p2align 4
+SteamAPI_ISteamMusicRemote_SetQueueEntry:
+	jmp *p_SteamAPI_ISteamMusicRemote_SetQueueEntry(%rip)
+.globl SteamAPI_ISteamMusicRemote_UpdateCurrentEntryCoverArt
+.p2align 4
+SteamAPI_ISteamMusicRemote_UpdateCurrentEntryCoverArt:
+	jmp *p_SteamAPI_ISteamMusicRemote_UpdateCurrentEntryCoverArt(%rip)
+.globl SteamAPI_ISteamMusicRemote_UpdateCurrentEntryElapsedSeconds
+.p2align 4
+SteamAPI_ISteamMusicRemote_UpdateCurrentEntryElapsedSeconds:
+	jmp *p_SteamAPI_ISteamMusicRemote_UpdateCurrentEntryElapsedSeconds(%rip)
+.globl SteamAPI_ISteamMusicRemote_UpdateCurrentEntryText
+.p2align 4
+SteamAPI_ISteamMusicRemote_UpdateCurrentEntryText:
+	jmp *p_SteamAPI_ISteamMusicRemote_UpdateCurrentEntryText(%rip)
+.globl SteamAPI_ISteamMusicRemote_UpdateLooped
+.p2align 4
+SteamAPI_ISteamMusicRemote_UpdateLooped:
+	jmp *p_SteamAPI_ISteamMusicRemote_UpdateLooped(%rip)
+.globl SteamAPI_ISteamMusicRemote_UpdatePlaybackStatus
+.p2align 4
+SteamAPI_ISteamMusicRemote_UpdatePlaybackStatus:
+	jmp *p_SteamAPI_ISteamMusicRemote_UpdatePlaybackStatus(%rip)
+.globl SteamAPI_ISteamMusicRemote_UpdateShuffled
+.p2align 4
+SteamAPI_ISteamMusicRemote_UpdateShuffled:
+	jmp *p_SteamAPI_ISteamMusicRemote_UpdateShuffled(%rip)
+.globl SteamAPI_ISteamMusicRemote_UpdateVolume
+.p2align 4
+SteamAPI_ISteamMusicRemote_UpdateVolume:
+	jmp *p_SteamAPI_ISteamMusicRemote_UpdateVolume(%rip)
+.globl SteamAPI_ISteamMusic_BIsEnabled
+.p2align 4
+SteamAPI_ISteamMusic_BIsEnabled:
+	jmp *p_SteamAPI_ISteamMusic_BIsEnabled(%rip)
+.globl SteamAPI_ISteamMusic_BIsPlaying
+.p2align 4
+SteamAPI_ISteamMusic_BIsPlaying:
+	jmp *p_SteamAPI_ISteamMusic_BIsPlaying(%rip)
+.globl SteamAPI_ISteamMusic_GetPlaybackStatus
+.p2align 4
+SteamAPI_ISteamMusic_GetPlaybackStatus:
+	jmp *p_SteamAPI_ISteamMusic_GetPlaybackStatus(%rip)
+.globl SteamAPI_ISteamMusic_GetVolume
+.p2align 4
+SteamAPI_ISteamMusic_GetVolume:
+	jmp *p_SteamAPI_ISteamMusic_GetVolume(%rip)
+.globl SteamAPI_ISteamMusic_Pause
+.p2align 4
+SteamAPI_ISteamMusic_Pause:
+	jmp *p_SteamAPI_ISteamMusic_Pause(%rip)
+.globl SteamAPI_ISteamMusic_Play
+.p2align 4
+SteamAPI_ISteamMusic_Play:
+	jmp *p_SteamAPI_ISteamMusic_Play(%rip)
+.globl SteamAPI_ISteamMusic_PlayNext
+.p2align 4
+SteamAPI_ISteamMusic_PlayNext:
+	jmp *p_SteamAPI_ISteamMusic_PlayNext(%rip)
+.globl SteamAPI_ISteamMusic_PlayPrevious
+.p2align 4
+SteamAPI_ISteamMusic_PlayPrevious:
+	jmp *p_SteamAPI_ISteamMusic_PlayPrevious(%rip)
+.globl SteamAPI_ISteamMusic_SetVolume
+.p2align 4
+SteamAPI_ISteamMusic_SetVolume:
+	jmp *p_SteamAPI_ISteamMusic_SetVolume(%rip)
+.globl SteamAPI_ISteamNetworkingConnectionCustomSignaling_Release
+.p2align 4
+SteamAPI_ISteamNetworkingConnectionCustomSignaling_Release:
+	jmp *p_SteamAPI_ISteamNetworkingConnectionCustomSignaling_Release(%rip)
+.globl SteamAPI_ISteamNetworkingConnectionCustomSignaling_SendSignal
+.p2align 4
+SteamAPI_ISteamNetworkingConnectionCustomSignaling_SendSignal:
+	jmp *p_SteamAPI_ISteamNetworkingConnectionCustomSignaling_SendSignal(%rip)
+.globl SteamAPI_ISteamNetworkingCustomSignalingRecvContext_OnConnectRequest
+.p2align 4
+SteamAPI_ISteamNetworkingCustomSignalingRecvContext_OnConnectRequest:
+	jmp *p_SteamAPI_ISteamNetworkingCustomSignalingRecvContext_OnConnectRequest(%rip)
+.globl SteamAPI_ISteamNetworkingCustomSignalingRecvContext_SendRejectionSignal
+.p2align 4
+SteamAPI_ISteamNetworkingCustomSignalingRecvContext_SendRejectionSignal:
+	jmp *p_SteamAPI_ISteamNetworkingCustomSignalingRecvContext_SendRejectionSignal(%rip)
+.globl SteamAPI_ISteamNetworkingFakeUDPPort_DestroyFakeUDPPort
+.p2align 4
+SteamAPI_ISteamNetworkingFakeUDPPort_DestroyFakeUDPPort:
+	jmp *p_SteamAPI_ISteamNetworkingFakeUDPPort_DestroyFakeUDPPort(%rip)
+.globl SteamAPI_ISteamNetworkingFakeUDPPort_ReceiveMessages
+.p2align 4
+SteamAPI_ISteamNetworkingFakeUDPPort_ReceiveMessages:
+	jmp *p_SteamAPI_ISteamNetworkingFakeUDPPort_ReceiveMessages(%rip)
+.globl SteamAPI_ISteamNetworkingFakeUDPPort_ScheduleCleanup
+.p2align 4
+SteamAPI_ISteamNetworkingFakeUDPPort_ScheduleCleanup:
+	jmp *p_SteamAPI_ISteamNetworkingFakeUDPPort_ScheduleCleanup(%rip)
+.globl SteamAPI_ISteamNetworkingFakeUDPPort_SendMessageToFakeIP
+.p2align 4
+SteamAPI_ISteamNetworkingFakeUDPPort_SendMessageToFakeIP:
+	jmp *p_SteamAPI_ISteamNetworkingFakeUDPPort_SendMessageToFakeIP(%rip)
+.globl SteamAPI_ISteamNetworkingMessages_AcceptSessionWithUser
+.p2align 4
+SteamAPI_ISteamNetworkingMessages_AcceptSessionWithUser:
+	jmp *p_SteamAPI_ISteamNetworkingMessages_AcceptSessionWithUser(%rip)
+.globl SteamAPI_ISteamNetworkingMessages_CloseChannelWithUser
+.p2align 4
+SteamAPI_ISteamNetworkingMessages_CloseChannelWithUser:
+	jmp *p_SteamAPI_ISteamNetworkingMessages_CloseChannelWithUser(%rip)
+.globl SteamAPI_ISteamNetworkingMessages_CloseSessionWithUser
+.p2align 4
+SteamAPI_ISteamNetworkingMessages_CloseSessionWithUser:
+	jmp *p_SteamAPI_ISteamNetworkingMessages_CloseSessionWithUser(%rip)
+.globl SteamAPI_ISteamNetworkingMessages_GetSessionConnectionInfo
+.p2align 4
+SteamAPI_ISteamNetworkingMessages_GetSessionConnectionInfo:
+	jmp *p_SteamAPI_ISteamNetworkingMessages_GetSessionConnectionInfo(%rip)
+.globl SteamAPI_ISteamNetworkingMessages_ReceiveMessagesOnChannel
+.p2align 4
+SteamAPI_ISteamNetworkingMessages_ReceiveMessagesOnChannel:
+	jmp *p_SteamAPI_ISteamNetworkingMessages_ReceiveMessagesOnChannel(%rip)
+.globl SteamAPI_ISteamNetworkingMessages_SendMessageToUser
+.p2align 4
+SteamAPI_ISteamNetworkingMessages_SendMessageToUser:
+	jmp *p_SteamAPI_ISteamNetworkingMessages_SendMessageToUser(%rip)
+.globl SteamAPI_ISteamNetworkingSockets_AcceptConnection
+.p2align 4
+SteamAPI_ISteamNetworkingSockets_AcceptConnection:
+	jmp *p_SteamAPI_ISteamNetworkingSockets_AcceptConnection(%rip)
+.globl SteamAPI_ISteamNetworkingSockets_BeginAsyncRequestFakeIP
+.p2align 4
+SteamAPI_ISteamNetworkingSockets_BeginAsyncRequestFakeIP:
+	jmp *p_SteamAPI_ISteamNetworkingSockets_BeginAsyncRequestFakeIP(%rip)
+.globl SteamAPI_ISteamNetworkingSockets_CloseConnection
+.p2align 4
+SteamAPI_ISteamNetworkingSockets_CloseConnection:
+	jmp *p_SteamAPI_ISteamNetworkingSockets_CloseConnection(%rip)
+.globl SteamAPI_ISteamNetworkingSockets_CloseListenSocket
+.p2align 4
+SteamAPI_ISteamNetworkingSockets_CloseListenSocket:
+	jmp *p_SteamAPI_ISteamNetworkingSockets_CloseListenSocket(%rip)
+.globl SteamAPI_ISteamNetworkingSockets_ConfigureConnectionLanes
+.p2align 4
+SteamAPI_ISteamNetworkingSockets_ConfigureConnectionLanes:
+	jmp *p_SteamAPI_ISteamNetworkingSockets_ConfigureConnectionLanes(%rip)
+.globl SteamAPI_ISteamNetworkingSockets_ConnectByIPAddress
+.p2align 4
+SteamAPI_ISteamNetworkingSockets_ConnectByIPAddress:
+	jmp *p_SteamAPI_ISteamNetworkingSockets_ConnectByIPAddress(%rip)
+.globl SteamAPI_ISteamNetworkingSockets_ConnectP2P
+.p2align 4
+SteamAPI_ISteamNetworkingSockets_ConnectP2P:
+	jmp *p_SteamAPI_ISteamNetworkingSockets_ConnectP2P(%rip)
+.globl SteamAPI_ISteamNetworkingSockets_ConnectP2PCustomSignaling
+.p2align 4
+SteamAPI_ISteamNetworkingSockets_ConnectP2PCustomSignaling:
+	jmp *p_SteamAPI_ISteamNetworkingSockets_ConnectP2PCustomSignaling(%rip)
+.globl SteamAPI_ISteamNetworkingSockets_ConnectToHostedDedicatedServer
+.p2align 4
+SteamAPI_ISteamNetworkingSockets_ConnectToHostedDedicatedServer:
+	jmp *p_SteamAPI_ISteamNetworkingSockets_ConnectToHostedDedicatedServer(%rip)
+.globl SteamAPI_ISteamNetworkingSockets_CreateFakeUDPPort
+.p2align 4
+SteamAPI_ISteamNetworkingSockets_CreateFakeUDPPort:
+	jmp *p_SteamAPI_ISteamNetworkingSockets_CreateFakeUDPPort(%rip)
+.globl SteamAPI_ISteamNetworkingSockets_CreateHostedDedicatedServerListenSocket
+.p2align 4
+SteamAPI_ISteamNetworkingSockets_CreateHostedDedicatedServerListenSocket:
+	jmp *p_SteamAPI_ISteamNetworkingSockets_CreateHostedDedicatedServerListenSocket(%rip)
+.globl SteamAPI_ISteamNetworkingSockets_CreateListenSocketIP
+.p2align 4
+SteamAPI_ISteamNetworkingSockets_CreateListenSocketIP:
+	jmp *p_SteamAPI_ISteamNetworkingSockets_CreateListenSocketIP(%rip)
+.globl SteamAPI_ISteamNetworkingSockets_CreateListenSocketP2P
+.p2align 4
+SteamAPI_ISteamNetworkingSockets_CreateListenSocketP2P:
+	jmp *p_SteamAPI_ISteamNetworkingSockets_CreateListenSocketP2P(%rip)
+.globl SteamAPI_ISteamNetworkingSockets_CreateListenSocketP2PFakeIP
+.p2align 4
+SteamAPI_ISteamNetworkingSockets_CreateListenSocketP2PFakeIP:
+	jmp *p_SteamAPI_ISteamNetworkingSockets_CreateListenSocketP2PFakeIP(%rip)
+.globl SteamAPI_ISteamNetworkingSockets_CreatePollGroup
+.p2align 4
+SteamAPI_ISteamNetworkingSockets_CreatePollGroup:
+	jmp *p_SteamAPI_ISteamNetworkingSockets_CreatePollGroup(%rip)
+.globl SteamAPI_ISteamNetworkingSockets_CreateSocketPair
+.p2align 4
+SteamAPI_ISteamNetworkingSockets_CreateSocketPair:
+	jmp *p_SteamAPI_ISteamNetworkingSockets_CreateSocketPair(%rip)
+.globl SteamAPI_ISteamNetworkingSockets_DestroyPollGroup
+.p2align 4
+SteamAPI_ISteamNetworkingSockets_DestroyPollGroup:
+	jmp *p_SteamAPI_ISteamNetworkingSockets_DestroyPollGroup(%rip)
+.globl SteamAPI_ISteamNetworkingSockets_FindRelayAuthTicketForServer
+.p2align 4
+SteamAPI_ISteamNetworkingSockets_FindRelayAuthTicketForServer:
+	jmp *p_SteamAPI_ISteamNetworkingSockets_FindRelayAuthTicketForServer(%rip)
+.globl SteamAPI_ISteamNetworkingSockets_FlushMessagesOnConnection
+.p2align 4
+SteamAPI_ISteamNetworkingSockets_FlushMessagesOnConnection:
+	jmp *p_SteamAPI_ISteamNetworkingSockets_FlushMessagesOnConnection(%rip)
+.globl SteamAPI_ISteamNetworkingSockets_GetAuthenticationStatus
+.p2align 4
+SteamAPI_ISteamNetworkingSockets_GetAuthenticationStatus:
+	jmp *p_SteamAPI_ISteamNetworkingSockets_GetAuthenticationStatus(%rip)
+.globl SteamAPI_ISteamNetworkingSockets_GetCertificateRequest
+.p2align 4
+SteamAPI_ISteamNetworkingSockets_GetCertificateRequest:
+	jmp *p_SteamAPI_ISteamNetworkingSockets_GetCertificateRequest(%rip)
+.globl SteamAPI_ISteamNetworkingSockets_GetConnectionInfo
+.p2align 4
+SteamAPI_ISteamNetworkingSockets_GetConnectionInfo:
+	jmp *p_SteamAPI_ISteamNetworkingSockets_GetConnectionInfo(%rip)
+.globl SteamAPI_ISteamNetworkingSockets_GetConnectionName
+.p2align 4
+SteamAPI_ISteamNetworkingSockets_GetConnectionName:
+	jmp *p_SteamAPI_ISteamNetworkingSockets_GetConnectionName(%rip)
+.globl SteamAPI_ISteamNetworkingSockets_GetConnectionRealTimeStatus
+.p2align 4
+SteamAPI_ISteamNetworkingSockets_GetConnectionRealTimeStatus:
+	jmp *p_SteamAPI_ISteamNetworkingSockets_GetConnectionRealTimeStatus(%rip)
+.globl SteamAPI_ISteamNetworkingSockets_GetConnectionUserData
+.p2align 4
+SteamAPI_ISteamNetworkingSockets_GetConnectionUserData:
+	jmp *p_SteamAPI_ISteamNetworkingSockets_GetConnectionUserData(%rip)
+.globl SteamAPI_ISteamNetworkingSockets_GetDetailedConnectionStatus
+.p2align 4
+SteamAPI_ISteamNetworkingSockets_GetDetailedConnectionStatus:
+	jmp *p_SteamAPI_ISteamNetworkingSockets_GetDetailedConnectionStatus(%rip)
+.globl SteamAPI_ISteamNetworkingSockets_GetFakeIP
+.p2align 4
+SteamAPI_ISteamNetworkingSockets_GetFakeIP:
+	jmp *p_SteamAPI_ISteamNetworkingSockets_GetFakeIP(%rip)
+.globl SteamAPI_ISteamNetworkingSockets_GetGameCoordinatorServerLogin
+.p2align 4
+SteamAPI_ISteamNetworkingSockets_GetGameCoordinatorServerLogin:
+	jmp *p_SteamAPI_ISteamNetworkingSockets_GetGameCoordinatorServerLogin(%rip)
+.globl SteamAPI_ISteamNetworkingSockets_GetHostedDedicatedServerAddress
+.p2align 4
+SteamAPI_ISteamNetworkingSockets_GetHostedDedicatedServerAddress:
+	jmp *p_SteamAPI_ISteamNetworkingSockets_GetHostedDedicatedServerAddress(%rip)
+.globl SteamAPI_ISteamNetworkingSockets_GetHostedDedicatedServerPOPID
+.p2align 4
+SteamAPI_ISteamNetworkingSockets_GetHostedDedicatedServerPOPID:
+	jmp *p_SteamAPI_ISteamNetworkingSockets_GetHostedDedicatedServerPOPID(%rip)
+.globl SteamAPI_ISteamNetworkingSockets_GetHostedDedicatedServerPort
+.p2align 4
+SteamAPI_ISteamNetworkingSockets_GetHostedDedicatedServerPort:
+	jmp *p_SteamAPI_ISteamNetworkingSockets_GetHostedDedicatedServerPort(%rip)
+.globl SteamAPI_ISteamNetworkingSockets_GetIdentity
+.p2align 4
+SteamAPI_ISteamNetworkingSockets_GetIdentity:
+	jmp *p_SteamAPI_ISteamNetworkingSockets_GetIdentity(%rip)
+.globl SteamAPI_ISteamNetworkingSockets_GetListenSocketAddress
+.p2align 4
+SteamAPI_ISteamNetworkingSockets_GetListenSocketAddress:
+	jmp *p_SteamAPI_ISteamNetworkingSockets_GetListenSocketAddress(%rip)
+.globl SteamAPI_ISteamNetworkingSockets_GetQuickConnectionStatus
+.p2align 4
+SteamAPI_ISteamNetworkingSockets_GetQuickConnectionStatus:
+	jmp *p_SteamAPI_ISteamNetworkingSockets_GetQuickConnectionStatus(%rip)
+.globl SteamAPI_ISteamNetworkingSockets_GetRemoteFakeIPForConnection
+.p2align 4
+SteamAPI_ISteamNetworkingSockets_GetRemoteFakeIPForConnection:
+	jmp *p_SteamAPI_ISteamNetworkingSockets_GetRemoteFakeIPForConnection(%rip)
+.globl SteamAPI_ISteamNetworkingSockets_InitAuthentication
+.p2align 4
+SteamAPI_ISteamNetworkingSockets_InitAuthentication:
+	jmp *p_SteamAPI_ISteamNetworkingSockets_InitAuthentication(%rip)
+.globl SteamAPI_ISteamNetworkingSockets_ReceiveMessagesOnConnection
+.p2align 4
+SteamAPI_ISteamNetworkingSockets_ReceiveMessagesOnConnection:
+	jmp *p_SteamAPI_ISteamNetworkingSockets_ReceiveMessagesOnConnection(%rip)
+.globl SteamAPI_ISteamNetworkingSockets_ReceiveMessagesOnPollGroup
+.p2align 4
+SteamAPI_ISteamNetworkingSockets_ReceiveMessagesOnPollGroup:
+	jmp *p_SteamAPI_ISteamNetworkingSockets_ReceiveMessagesOnPollGroup(%rip)
+.globl SteamAPI_ISteamNetworkingSockets_ReceivedP2PCustomSignal
+.p2align 4
+SteamAPI_ISteamNetworkingSockets_ReceivedP2PCustomSignal:
+	jmp *p_SteamAPI_ISteamNetworkingSockets_ReceivedP2PCustomSignal(%rip)
+.globl SteamAPI_ISteamNetworkingSockets_ReceivedRelayAuthTicket
+.p2align 4
+SteamAPI_ISteamNetworkingSockets_ReceivedRelayAuthTicket:
+	jmp *p_SteamAPI_ISteamNetworkingSockets_ReceivedRelayAuthTicket(%rip)
+.globl SteamAPI_ISteamNetworkingSockets_ResetIdentity
+.p2align 4
+SteamAPI_ISteamNetworkingSockets_ResetIdentity:
+	jmp *p_SteamAPI_ISteamNetworkingSockets_ResetIdentity(%rip)
+.globl SteamAPI_ISteamNetworkingSockets_RunCallbacks
+.p2align 4
+SteamAPI_ISteamNetworkingSockets_RunCallbacks:
+	jmp *p_SteamAPI_ISteamNetworkingSockets_RunCallbacks(%rip)
+.globl SteamAPI_ISteamNetworkingSockets_SendMessageToConnection
+.p2align 4
+SteamAPI_ISteamNetworkingSockets_SendMessageToConnection:
+	jmp *p_SteamAPI_ISteamNetworkingSockets_SendMessageToConnection(%rip)
+.globl SteamAPI_ISteamNetworkingSockets_SendMessages
+.p2align 4
+SteamAPI_ISteamNetworkingSockets_SendMessages:
+	jmp *p_SteamAPI_ISteamNetworkingSockets_SendMessages(%rip)
+.globl SteamAPI_ISteamNetworkingSockets_SetCertificate
+.p2align 4
+SteamAPI_ISteamNetworkingSockets_SetCertificate:
+	jmp *p_SteamAPI_ISteamNetworkingSockets_SetCertificate(%rip)
+.globl SteamAPI_ISteamNetworkingSockets_SetConnectionName
+.p2align 4
+SteamAPI_ISteamNetworkingSockets_SetConnectionName:
+	jmp *p_SteamAPI_ISteamNetworkingSockets_SetConnectionName(%rip)
+.globl SteamAPI_ISteamNetworkingSockets_SetConnectionPollGroup
+.p2align 4
+SteamAPI_ISteamNetworkingSockets_SetConnectionPollGroup:
+	jmp *p_SteamAPI_ISteamNetworkingSockets_SetConnectionPollGroup(%rip)
+.globl SteamAPI_ISteamNetworkingSockets_SetConnectionUserData
+.p2align 4
+SteamAPI_ISteamNetworkingSockets_SetConnectionUserData:
+	jmp *p_SteamAPI_ISteamNetworkingSockets_SetConnectionUserData(%rip)
+.globl SteamAPI_ISteamNetworkingUtils_AllocateMessage
+.p2align 4
+SteamAPI_ISteamNetworkingUtils_AllocateMessage:
+	jmp *p_SteamAPI_ISteamNetworkingUtils_AllocateMessage(%rip)
+.globl SteamAPI_ISteamNetworkingUtils_CheckPingDataUpToDate
+.p2align 4
+SteamAPI_ISteamNetworkingUtils_CheckPingDataUpToDate:
+	jmp *p_SteamAPI_ISteamNetworkingUtils_CheckPingDataUpToDate(%rip)
+.globl SteamAPI_ISteamNetworkingUtils_ConvertPingLocationToString
+.p2align 4
+SteamAPI_ISteamNetworkingUtils_ConvertPingLocationToString:
+	jmp *p_SteamAPI_ISteamNetworkingUtils_ConvertPingLocationToString(%rip)
+.globl SteamAPI_ISteamNetworkingUtils_EstimatePingTimeBetweenTwoLocations
+.p2align 4
+SteamAPI_ISteamNetworkingUtils_EstimatePingTimeBetweenTwoLocations:
+	jmp *p_SteamAPI_ISteamNetworkingUtils_EstimatePingTimeBetweenTwoLocations(%rip)
+.globl SteamAPI_ISteamNetworkingUtils_EstimatePingTimeFromLocalHost
+.p2align 4
+SteamAPI_ISteamNetworkingUtils_EstimatePingTimeFromLocalHost:
+	jmp *p_SteamAPI_ISteamNetworkingUtils_EstimatePingTimeFromLocalHost(%rip)
+.globl SteamAPI_ISteamNetworkingUtils_GetConfigValue
+.p2align 4
+SteamAPI_ISteamNetworkingUtils_GetConfigValue:
+	jmp *p_SteamAPI_ISteamNetworkingUtils_GetConfigValue(%rip)
+.globl SteamAPI_ISteamNetworkingUtils_GetConfigValueInfo
+.p2align 4
+SteamAPI_ISteamNetworkingUtils_GetConfigValueInfo:
+	jmp *p_SteamAPI_ISteamNetworkingUtils_GetConfigValueInfo(%rip)
+.globl SteamAPI_ISteamNetworkingUtils_GetDirectPingToPOP
+.p2align 4
+SteamAPI_ISteamNetworkingUtils_GetDirectPingToPOP:
+	jmp *p_SteamAPI_ISteamNetworkingUtils_GetDirectPingToPOP(%rip)
+.globl SteamAPI_ISteamNetworkingUtils_GetFirstConfigValue
+.p2align 4
+SteamAPI_ISteamNetworkingUtils_GetFirstConfigValue:
+	jmp *p_SteamAPI_ISteamNetworkingUtils_GetFirstConfigValue(%rip)
+.globl SteamAPI_ISteamNetworkingUtils_GetIPv4FakeIPType
+.p2align 4
+SteamAPI_ISteamNetworkingUtils_GetIPv4FakeIPType:
+	jmp *p_SteamAPI_ISteamNetworkingUtils_GetIPv4FakeIPType(%rip)
+.globl SteamAPI_ISteamNetworkingUtils_GetLocalPingLocation
+.p2align 4
+SteamAPI_ISteamNetworkingUtils_GetLocalPingLocation:
+	jmp *p_SteamAPI_ISteamNetworkingUtils_GetLocalPingLocation(%rip)
+.globl SteamAPI_ISteamNetworkingUtils_GetLocalTimestamp
+.p2align 4
+SteamAPI_ISteamNetworkingUtils_GetLocalTimestamp:
+	jmp *p_SteamAPI_ISteamNetworkingUtils_GetLocalTimestamp(%rip)
+.globl SteamAPI_ISteamNetworkingUtils_GetPOPCount
+.p2align 4
+SteamAPI_ISteamNetworkingUtils_GetPOPCount:
+	jmp *p_SteamAPI_ISteamNetworkingUtils_GetPOPCount(%rip)
+.globl SteamAPI_ISteamNetworkingUtils_GetPOPList
+.p2align 4
+SteamAPI_ISteamNetworkingUtils_GetPOPList:
+	jmp *p_SteamAPI_ISteamNetworkingUtils_GetPOPList(%rip)
+.globl SteamAPI_ISteamNetworkingUtils_GetPingToDataCenter
+.p2align 4
+SteamAPI_ISteamNetworkingUtils_GetPingToDataCenter:
+	jmp *p_SteamAPI_ISteamNetworkingUtils_GetPingToDataCenter(%rip)
+.globl SteamAPI_ISteamNetworkingUtils_GetRealIdentityForFakeIP
+.p2align 4
+SteamAPI_ISteamNetworkingUtils_GetRealIdentityForFakeIP:
+	jmp *p_SteamAPI_ISteamNetworkingUtils_GetRealIdentityForFakeIP(%rip)
+.globl SteamAPI_ISteamNetworkingUtils_GetRelayNetworkStatus
+.p2align 4
+SteamAPI_ISteamNetworkingUtils_GetRelayNetworkStatus:
+	jmp *p_SteamAPI_ISteamNetworkingUtils_GetRelayNetworkStatus(%rip)
+.globl SteamAPI_ISteamNetworkingUtils_InitRelayNetworkAccess
+.p2align 4
+SteamAPI_ISteamNetworkingUtils_InitRelayNetworkAccess:
+	jmp *p_SteamAPI_ISteamNetworkingUtils_InitRelayNetworkAccess(%rip)
+.globl SteamAPI_ISteamNetworkingUtils_IsFakeIPv4
+.p2align 4
+SteamAPI_ISteamNetworkingUtils_IsFakeIPv4:
+	jmp *p_SteamAPI_ISteamNetworkingUtils_IsFakeIPv4(%rip)
+.globl SteamAPI_ISteamNetworkingUtils_IterateGenericEditableConfigValues
+.p2align 4
+SteamAPI_ISteamNetworkingUtils_IterateGenericEditableConfigValues:
+	jmp *p_SteamAPI_ISteamNetworkingUtils_IterateGenericEditableConfigValues(%rip)
+.globl SteamAPI_ISteamNetworkingUtils_ParsePingLocationString
+.p2align 4
+SteamAPI_ISteamNetworkingUtils_ParsePingLocationString:
+	jmp *p_SteamAPI_ISteamNetworkingUtils_ParsePingLocationString(%rip)
+.globl SteamAPI_ISteamNetworkingUtils_SetConfigValue
+.p2align 4
+SteamAPI_ISteamNetworkingUtils_SetConfigValue:
+	jmp *p_SteamAPI_ISteamNetworkingUtils_SetConfigValue(%rip)
+.globl SteamAPI_ISteamNetworkingUtils_SetConfigValueStruct
+.p2align 4
+SteamAPI_ISteamNetworkingUtils_SetConfigValueStruct:
+	jmp *p_SteamAPI_ISteamNetworkingUtils_SetConfigValueStruct(%rip)
+.globl SteamAPI_ISteamNetworkingUtils_SetConnectionConfigValueFloat
+.p2align 4
+SteamAPI_ISteamNetworkingUtils_SetConnectionConfigValueFloat:
+	jmp *p_SteamAPI_ISteamNetworkingUtils_SetConnectionConfigValueFloat(%rip)
+.globl SteamAPI_ISteamNetworkingUtils_SetConnectionConfigValueInt32
+.p2align 4
+SteamAPI_ISteamNetworkingUtils_SetConnectionConfigValueInt32:
+	jmp *p_SteamAPI_ISteamNetworkingUtils_SetConnectionConfigValueInt32(%rip)
+.globl SteamAPI_ISteamNetworkingUtils_SetConnectionConfigValueString
+.p2align 4
+SteamAPI_ISteamNetworkingUtils_SetConnectionConfigValueString:
+	jmp *p_SteamAPI_ISteamNetworkingUtils_SetConnectionConfigValueString(%rip)
+.globl SteamAPI_ISteamNetworkingUtils_SetDebugOutputFunction
+.p2align 4
+SteamAPI_ISteamNetworkingUtils_SetDebugOutputFunction:
+	jmp *p_SteamAPI_ISteamNetworkingUtils_SetDebugOutputFunction(%rip)
+.globl SteamAPI_ISteamNetworkingUtils_SetGlobalCallback_FakeIPResult
+.p2align 4
+SteamAPI_ISteamNetworkingUtils_SetGlobalCallback_FakeIPResult:
+	jmp *p_SteamAPI_ISteamNetworkingUtils_SetGlobalCallback_FakeIPResult(%rip)
+.globl SteamAPI_ISteamNetworkingUtils_SetGlobalCallback_MessagesSessionFailed
+.p2align 4
+SteamAPI_ISteamNetworkingUtils_SetGlobalCallback_MessagesSessionFailed:
+	jmp *p_SteamAPI_ISteamNetworkingUtils_SetGlobalCallback_MessagesSessionFailed(%rip)
+.globl SteamAPI_ISteamNetworkingUtils_SetGlobalCallback_MessagesSessionRequest
+.p2align 4
+SteamAPI_ISteamNetworkingUtils_SetGlobalCallback_MessagesSessionRequest:
+	jmp *p_SteamAPI_ISteamNetworkingUtils_SetGlobalCallback_MessagesSessionRequest(%rip)
+.globl SteamAPI_ISteamNetworkingUtils_SetGlobalCallback_SteamNetAuthenticationStatusChanged
+.p2align 4
+SteamAPI_ISteamNetworkingUtils_SetGlobalCallback_SteamNetAuthenticationStatusChanged:
+	jmp *p_SteamAPI_ISteamNetworkingUtils_SetGlobalCallback_SteamNetAuthenticationStatusChanged(%rip)
+.globl SteamAPI_ISteamNetworkingUtils_SetGlobalCallback_SteamNetConnectionStatusChanged
+.p2align 4
+SteamAPI_ISteamNetworkingUtils_SetGlobalCallback_SteamNetConnectionStatusChanged:
+	jmp *p_SteamAPI_ISteamNetworkingUtils_SetGlobalCallback_SteamNetConnectionStatusChanged(%rip)
+.globl SteamAPI_ISteamNetworkingUtils_SetGlobalCallback_SteamRelayNetworkStatusChanged
+.p2align 4
+SteamAPI_ISteamNetworkingUtils_SetGlobalCallback_SteamRelayNetworkStatusChanged:
+	jmp *p_SteamAPI_ISteamNetworkingUtils_SetGlobalCallback_SteamRelayNetworkStatusChanged(%rip)
+.globl SteamAPI_ISteamNetworkingUtils_SetGlobalConfigValueFloat
+.p2align 4
+SteamAPI_ISteamNetworkingUtils_SetGlobalConfigValueFloat:
+	jmp *p_SteamAPI_ISteamNetworkingUtils_SetGlobalConfigValueFloat(%rip)
+.globl SteamAPI_ISteamNetworkingUtils_SetGlobalConfigValueInt32
+.p2align 4
+SteamAPI_ISteamNetworkingUtils_SetGlobalConfigValueInt32:
+	jmp *p_SteamAPI_ISteamNetworkingUtils_SetGlobalConfigValueInt32(%rip)
+.globl SteamAPI_ISteamNetworkingUtils_SetGlobalConfigValuePtr
+.p2align 4
+SteamAPI_ISteamNetworkingUtils_SetGlobalConfigValuePtr:
+	jmp *p_SteamAPI_ISteamNetworkingUtils_SetGlobalConfigValuePtr(%rip)
+.globl SteamAPI_ISteamNetworkingUtils_SetGlobalConfigValueString
+.p2align 4
+SteamAPI_ISteamNetworkingUtils_SetGlobalConfigValueString:
+	jmp *p_SteamAPI_ISteamNetworkingUtils_SetGlobalConfigValueString(%rip)
+.globl SteamAPI_ISteamNetworkingUtils_SteamNetworkingIPAddr_GetFakeIPType
+.p2align 4
+SteamAPI_ISteamNetworkingUtils_SteamNetworkingIPAddr_GetFakeIPType:
+	jmp *p_SteamAPI_ISteamNetworkingUtils_SteamNetworkingIPAddr_GetFakeIPType(%rip)
+.globl SteamAPI_ISteamNetworkingUtils_SteamNetworkingIPAddr_ParseString
+.p2align 4
+SteamAPI_ISteamNetworkingUtils_SteamNetworkingIPAddr_ParseString:
+	jmp *p_SteamAPI_ISteamNetworkingUtils_SteamNetworkingIPAddr_ParseString(%rip)
+.globl SteamAPI_ISteamNetworkingUtils_SteamNetworkingIPAddr_ToString
+.p2align 4
+SteamAPI_ISteamNetworkingUtils_SteamNetworkingIPAddr_ToString:
+	jmp *p_SteamAPI_ISteamNetworkingUtils_SteamNetworkingIPAddr_ToString(%rip)
+.globl SteamAPI_ISteamNetworkingUtils_SteamNetworkingIdentity_ParseString
+.p2align 4
+SteamAPI_ISteamNetworkingUtils_SteamNetworkingIdentity_ParseString:
+	jmp *p_SteamAPI_ISteamNetworkingUtils_SteamNetworkingIdentity_ParseString(%rip)
+.globl SteamAPI_ISteamNetworkingUtils_SteamNetworkingIdentity_ToString
+.p2align 4
+SteamAPI_ISteamNetworkingUtils_SteamNetworkingIdentity_ToString:
+	jmp *p_SteamAPI_ISteamNetworkingUtils_SteamNetworkingIdentity_ToString(%rip)
+.globl SteamAPI_ISteamNetworking_AcceptP2PSessionWithUser
+.p2align 4
+SteamAPI_ISteamNetworking_AcceptP2PSessionWithUser:
+	jmp *p_SteamAPI_ISteamNetworking_AcceptP2PSessionWithUser(%rip)
+.globl SteamAPI_ISteamNetworking_AllowP2PPacketRelay
+.p2align 4
+SteamAPI_ISteamNetworking_AllowP2PPacketRelay:
+	jmp *p_SteamAPI_ISteamNetworking_AllowP2PPacketRelay(%rip)
+.globl SteamAPI_ISteamNetworking_CloseP2PChannelWithUser
+.p2align 4
+SteamAPI_ISteamNetworking_CloseP2PChannelWithUser:
+	jmp *p_SteamAPI_ISteamNetworking_CloseP2PChannelWithUser(%rip)
+.globl SteamAPI_ISteamNetworking_CloseP2PSessionWithUser
+.p2align 4
+SteamAPI_ISteamNetworking_CloseP2PSessionWithUser:
+	jmp *p_SteamAPI_ISteamNetworking_CloseP2PSessionWithUser(%rip)
+.globl SteamAPI_ISteamNetworking_CreateConnectionSocket
+.p2align 4
+SteamAPI_ISteamNetworking_CreateConnectionSocket:
+	jmp *p_SteamAPI_ISteamNetworking_CreateConnectionSocket(%rip)
+.globl SteamAPI_ISteamNetworking_CreateListenSocket
+.p2align 4
+SteamAPI_ISteamNetworking_CreateListenSocket:
+	jmp *p_SteamAPI_ISteamNetworking_CreateListenSocket(%rip)
+.globl SteamAPI_ISteamNetworking_CreateP2PConnectionSocket
+.p2align 4
+SteamAPI_ISteamNetworking_CreateP2PConnectionSocket:
+	jmp *p_SteamAPI_ISteamNetworking_CreateP2PConnectionSocket(%rip)
+.globl SteamAPI_ISteamNetworking_DestroyListenSocket
+.p2align 4
+SteamAPI_ISteamNetworking_DestroyListenSocket:
+	jmp *p_SteamAPI_ISteamNetworking_DestroyListenSocket(%rip)
+.globl SteamAPI_ISteamNetworking_DestroySocket
+.p2align 4
+SteamAPI_ISteamNetworking_DestroySocket:
+	jmp *p_SteamAPI_ISteamNetworking_DestroySocket(%rip)
+.globl SteamAPI_ISteamNetworking_GetListenSocketInfo
+.p2align 4
+SteamAPI_ISteamNetworking_GetListenSocketInfo:
+	jmp *p_SteamAPI_ISteamNetworking_GetListenSocketInfo(%rip)
+.globl SteamAPI_ISteamNetworking_GetMaxPacketSize
+.p2align 4
+SteamAPI_ISteamNetworking_GetMaxPacketSize:
+	jmp *p_SteamAPI_ISteamNetworking_GetMaxPacketSize(%rip)
+.globl SteamAPI_ISteamNetworking_GetP2PSessionState
+.p2align 4
+SteamAPI_ISteamNetworking_GetP2PSessionState:
+	jmp *p_SteamAPI_ISteamNetworking_GetP2PSessionState(%rip)
+.globl SteamAPI_ISteamNetworking_GetSocketConnectionType
+.p2align 4
+SteamAPI_ISteamNetworking_GetSocketConnectionType:
+	jmp *p_SteamAPI_ISteamNetworking_GetSocketConnectionType(%rip)
+.globl SteamAPI_ISteamNetworking_GetSocketInfo
+.p2align 4
+SteamAPI_ISteamNetworking_GetSocketInfo:
+	jmp *p_SteamAPI_ISteamNetworking_GetSocketInfo(%rip)
+.globl SteamAPI_ISteamNetworking_IsDataAvailable
+.p2align 4
+SteamAPI_ISteamNetworking_IsDataAvailable:
+	jmp *p_SteamAPI_ISteamNetworking_IsDataAvailable(%rip)
+.globl SteamAPI_ISteamNetworking_IsDataAvailableOnSocket
+.p2align 4
+SteamAPI_ISteamNetworking_IsDataAvailableOnSocket:
+	jmp *p_SteamAPI_ISteamNetworking_IsDataAvailableOnSocket(%rip)
+.globl SteamAPI_ISteamNetworking_IsP2PPacketAvailable
+.p2align 4
+SteamAPI_ISteamNetworking_IsP2PPacketAvailable:
+	jmp *p_SteamAPI_ISteamNetworking_IsP2PPacketAvailable(%rip)
+.globl SteamAPI_ISteamNetworking_ReadP2PPacket
+.p2align 4
+SteamAPI_ISteamNetworking_ReadP2PPacket:
+	jmp *p_SteamAPI_ISteamNetworking_ReadP2PPacket(%rip)
+.globl SteamAPI_ISteamNetworking_RetrieveData
+.p2align 4
+SteamAPI_ISteamNetworking_RetrieveData:
+	jmp *p_SteamAPI_ISteamNetworking_RetrieveData(%rip)
+.globl SteamAPI_ISteamNetworking_RetrieveDataFromSocket
+.p2align 4
+SteamAPI_ISteamNetworking_RetrieveDataFromSocket:
+	jmp *p_SteamAPI_ISteamNetworking_RetrieveDataFromSocket(%rip)
+.globl SteamAPI_ISteamNetworking_SendDataOnSocket
+.p2align 4
+SteamAPI_ISteamNetworking_SendDataOnSocket:
+	jmp *p_SteamAPI_ISteamNetworking_SendDataOnSocket(%rip)
+.globl SteamAPI_ISteamNetworking_SendP2PPacket
+.p2align 4
+SteamAPI_ISteamNetworking_SendP2PPacket:
+	jmp *p_SteamAPI_ISteamNetworking_SendP2PPacket(%rip)
+.globl SteamAPI_ISteamParentalSettings_BIsAppBlocked
+.p2align 4
+SteamAPI_ISteamParentalSettings_BIsAppBlocked:
+	jmp *p_SteamAPI_ISteamParentalSettings_BIsAppBlocked(%rip)
+.globl SteamAPI_ISteamParentalSettings_BIsAppInBlockList
+.p2align 4
+SteamAPI_ISteamParentalSettings_BIsAppInBlockList:
+	jmp *p_SteamAPI_ISteamParentalSettings_BIsAppInBlockList(%rip)
+.globl SteamAPI_ISteamParentalSettings_BIsFeatureBlocked
+.p2align 4
+SteamAPI_ISteamParentalSettings_BIsFeatureBlocked:
+	jmp *p_SteamAPI_ISteamParentalSettings_BIsFeatureBlocked(%rip)
+.globl SteamAPI_ISteamParentalSettings_BIsFeatureInBlockList
+.p2align 4
+SteamAPI_ISteamParentalSettings_BIsFeatureInBlockList:
+	jmp *p_SteamAPI_ISteamParentalSettings_BIsFeatureInBlockList(%rip)
+.globl SteamAPI_ISteamParentalSettings_BIsParentalLockEnabled
+.p2align 4
+SteamAPI_ISteamParentalSettings_BIsParentalLockEnabled:
+	jmp *p_SteamAPI_ISteamParentalSettings_BIsParentalLockEnabled(%rip)
+.globl SteamAPI_ISteamParentalSettings_BIsParentalLockLocked
+.p2align 4
+SteamAPI_ISteamParentalSettings_BIsParentalLockLocked:
+	jmp *p_SteamAPI_ISteamParentalSettings_BIsParentalLockLocked(%rip)
+.globl SteamAPI_ISteamParties_CancelReservation
+.p2align 4
+SteamAPI_ISteamParties_CancelReservation:
+	jmp *p_SteamAPI_ISteamParties_CancelReservation(%rip)
+.globl SteamAPI_ISteamParties_ChangeNumOpenSlots
+.p2align 4
+SteamAPI_ISteamParties_ChangeNumOpenSlots:
+	jmp *p_SteamAPI_ISteamParties_ChangeNumOpenSlots(%rip)
+.globl SteamAPI_ISteamParties_CreateBeacon
+.p2align 4
+SteamAPI_ISteamParties_CreateBeacon:
+	jmp *p_SteamAPI_ISteamParties_CreateBeacon(%rip)
+.globl SteamAPI_ISteamParties_DestroyBeacon
+.p2align 4
+SteamAPI_ISteamParties_DestroyBeacon:
+	jmp *p_SteamAPI_ISteamParties_DestroyBeacon(%rip)
+.globl SteamAPI_ISteamParties_GetAvailableBeaconLocations
+.p2align 4
+SteamAPI_ISteamParties_GetAvailableBeaconLocations:
+	jmp *p_SteamAPI_ISteamParties_GetAvailableBeaconLocations(%rip)
+.globl SteamAPI_ISteamParties_GetBeaconByIndex
+.p2align 4
+SteamAPI_ISteamParties_GetBeaconByIndex:
+	jmp *p_SteamAPI_ISteamParties_GetBeaconByIndex(%rip)
+.globl SteamAPI_ISteamParties_GetBeaconDetails
+.p2align 4
+SteamAPI_ISteamParties_GetBeaconDetails:
+	jmp *p_SteamAPI_ISteamParties_GetBeaconDetails(%rip)
+.globl SteamAPI_ISteamParties_GetBeaconLocationData
+.p2align 4
+SteamAPI_ISteamParties_GetBeaconLocationData:
+	jmp *p_SteamAPI_ISteamParties_GetBeaconLocationData(%rip)
+.globl SteamAPI_ISteamParties_GetNumActiveBeacons
+.p2align 4
+SteamAPI_ISteamParties_GetNumActiveBeacons:
+	jmp *p_SteamAPI_ISteamParties_GetNumActiveBeacons(%rip)
+.globl SteamAPI_ISteamParties_GetNumAvailableBeaconLocations
+.p2align 4
+SteamAPI_ISteamParties_GetNumAvailableBeaconLocations:
+	jmp *p_SteamAPI_ISteamParties_GetNumAvailableBeaconLocations(%rip)
+.globl SteamAPI_ISteamParties_JoinParty
+.p2align 4
+SteamAPI_ISteamParties_JoinParty:
+	jmp *p_SteamAPI_ISteamParties_JoinParty(%rip)
+.globl SteamAPI_ISteamParties_OnReservationCompleted
+.p2align 4
+SteamAPI_ISteamParties_OnReservationCompleted:
+	jmp *p_SteamAPI_ISteamParties_OnReservationCompleted(%rip)
+.globl SteamAPI_ISteamRemotePlay_BEnableRemotePlayTogetherDirectInput
+.p2align 4
+SteamAPI_ISteamRemotePlay_BEnableRemotePlayTogetherDirectInput:
+	jmp *p_SteamAPI_ISteamRemotePlay_BEnableRemotePlayTogetherDirectInput(%rip)
+.globl SteamAPI_ISteamRemotePlay_BGetSessionClientResolution
+.p2align 4
+SteamAPI_ISteamRemotePlay_BGetSessionClientResolution:
+	jmp *p_SteamAPI_ISteamRemotePlay_BGetSessionClientResolution(%rip)
+.globl SteamAPI_ISteamRemotePlay_BSendRemotePlayTogetherInvite
+.p2align 4
+SteamAPI_ISteamRemotePlay_BSendRemotePlayTogetherInvite:
+	jmp *p_SteamAPI_ISteamRemotePlay_BSendRemotePlayTogetherInvite(%rip)
+.globl SteamAPI_ISteamRemotePlay_BSessionRemotePlayTogether
+.p2align 4
+SteamAPI_ISteamRemotePlay_BSessionRemotePlayTogether:
+	jmp *p_SteamAPI_ISteamRemotePlay_BSessionRemotePlayTogether(%rip)
+.globl SteamAPI_ISteamRemotePlay_BStartRemotePlayTogether
+.p2align 4
+SteamAPI_ISteamRemotePlay_BStartRemotePlayTogether:
+	jmp *p_SteamAPI_ISteamRemotePlay_BStartRemotePlayTogether(%rip)
+.globl SteamAPI_ISteamRemotePlay_CreateMouseCursor
+.p2align 4
+SteamAPI_ISteamRemotePlay_CreateMouseCursor:
+	jmp *p_SteamAPI_ISteamRemotePlay_CreateMouseCursor(%rip)
+.globl SteamAPI_ISteamRemotePlay_DisableRemotePlayTogetherDirectInput
+.p2align 4
+SteamAPI_ISteamRemotePlay_DisableRemotePlayTogetherDirectInput:
+	jmp *p_SteamAPI_ISteamRemotePlay_DisableRemotePlayTogetherDirectInput(%rip)
+.globl SteamAPI_ISteamRemotePlay_GetInput
+.p2align 4
+SteamAPI_ISteamRemotePlay_GetInput:
+	jmp *p_SteamAPI_ISteamRemotePlay_GetInput(%rip)
+.globl SteamAPI_ISteamRemotePlay_GetLargeSessionAvatar
+.p2align 4
+SteamAPI_ISteamRemotePlay_GetLargeSessionAvatar:
+	jmp *p_SteamAPI_ISteamRemotePlay_GetLargeSessionAvatar(%rip)
+.globl SteamAPI_ISteamRemotePlay_GetMediumSessionAvatar
+.p2align 4
+SteamAPI_ISteamRemotePlay_GetMediumSessionAvatar:
+	jmp *p_SteamAPI_ISteamRemotePlay_GetMediumSessionAvatar(%rip)
+.globl SteamAPI_ISteamRemotePlay_GetSessionClientFormFactor
+.p2align 4
+SteamAPI_ISteamRemotePlay_GetSessionClientFormFactor:
+	jmp *p_SteamAPI_ISteamRemotePlay_GetSessionClientFormFactor(%rip)
+.globl SteamAPI_ISteamRemotePlay_GetSessionClientName
+.p2align 4
+SteamAPI_ISteamRemotePlay_GetSessionClientName:
+	jmp *p_SteamAPI_ISteamRemotePlay_GetSessionClientName(%rip)
+.globl SteamAPI_ISteamRemotePlay_GetSessionCount
+.p2align 4
+SteamAPI_ISteamRemotePlay_GetSessionCount:
+	jmp *p_SteamAPI_ISteamRemotePlay_GetSessionCount(%rip)
+.globl SteamAPI_ISteamRemotePlay_GetSessionGuestID
+.p2align 4
+SteamAPI_ISteamRemotePlay_GetSessionGuestID:
+	jmp *p_SteamAPI_ISteamRemotePlay_GetSessionGuestID(%rip)
+.globl SteamAPI_ISteamRemotePlay_GetSessionID
+.p2align 4
+SteamAPI_ISteamRemotePlay_GetSessionID:
+	jmp *p_SteamAPI_ISteamRemotePlay_GetSessionID(%rip)
+.globl SteamAPI_ISteamRemotePlay_GetSessionSteamID
+.p2align 4
+SteamAPI_ISteamRemotePlay_GetSessionSteamID:
+	jmp *p_SteamAPI_ISteamRemotePlay_GetSessionSteamID(%rip)
+.globl SteamAPI_ISteamRemotePlay_GetSmallSessionAvatar
+.p2align 4
+SteamAPI_ISteamRemotePlay_GetSmallSessionAvatar:
+	jmp *p_SteamAPI_ISteamRemotePlay_GetSmallSessionAvatar(%rip)
+.globl SteamAPI_ISteamRemotePlay_SetMouseCursor
+.p2align 4
+SteamAPI_ISteamRemotePlay_SetMouseCursor:
+	jmp *p_SteamAPI_ISteamRemotePlay_SetMouseCursor(%rip)
+.globl SteamAPI_ISteamRemotePlay_SetMousePosition
+.p2align 4
+SteamAPI_ISteamRemotePlay_SetMousePosition:
+	jmp *p_SteamAPI_ISteamRemotePlay_SetMousePosition(%rip)
+.globl SteamAPI_ISteamRemotePlay_SetMouseVisibility
+.p2align 4
+SteamAPI_ISteamRemotePlay_SetMouseVisibility:
+	jmp *p_SteamAPI_ISteamRemotePlay_SetMouseVisibility(%rip)
+.globl SteamAPI_ISteamRemotePlay_ShowRemotePlayTogetherUI
+.p2align 4
+SteamAPI_ISteamRemotePlay_ShowRemotePlayTogetherUI:
+	jmp *p_SteamAPI_ISteamRemotePlay_ShowRemotePlayTogetherUI(%rip)
+.globl SteamAPI_ISteamRemoteStorage_BeginFileWriteBatch
+.p2align 4
+SteamAPI_ISteamRemoteStorage_BeginFileWriteBatch:
+	jmp *p_SteamAPI_ISteamRemoteStorage_BeginFileWriteBatch(%rip)
+.globl SteamAPI_ISteamRemoteStorage_CommitPublishedFileUpdate
+.p2align 4
+SteamAPI_ISteamRemoteStorage_CommitPublishedFileUpdate:
+	jmp *p_SteamAPI_ISteamRemoteStorage_CommitPublishedFileUpdate(%rip)
+.globl SteamAPI_ISteamRemoteStorage_CreatePublishedFileUpdateRequest
+.p2align 4
+SteamAPI_ISteamRemoteStorage_CreatePublishedFileUpdateRequest:
+	jmp *p_SteamAPI_ISteamRemoteStorage_CreatePublishedFileUpdateRequest(%rip)
+.globl SteamAPI_ISteamRemoteStorage_DeletePublishedFile
+.p2align 4
+SteamAPI_ISteamRemoteStorage_DeletePublishedFile:
+	jmp *p_SteamAPI_ISteamRemoteStorage_DeletePublishedFile(%rip)
+.globl SteamAPI_ISteamRemoteStorage_EndFileWriteBatch
+.p2align 4
+SteamAPI_ISteamRemoteStorage_EndFileWriteBatch:
+	jmp *p_SteamAPI_ISteamRemoteStorage_EndFileWriteBatch(%rip)
+.globl SteamAPI_ISteamRemoteStorage_EnumeratePublishedFilesByUserAction
+.p2align 4
+SteamAPI_ISteamRemoteStorage_EnumeratePublishedFilesByUserAction:
+	jmp *p_SteamAPI_ISteamRemoteStorage_EnumeratePublishedFilesByUserAction(%rip)
+.globl SteamAPI_ISteamRemoteStorage_EnumeratePublishedWorkshopFiles
+.p2align 4
+SteamAPI_ISteamRemoteStorage_EnumeratePublishedWorkshopFiles:
+	jmp *p_SteamAPI_ISteamRemoteStorage_EnumeratePublishedWorkshopFiles(%rip)
+.globl SteamAPI_ISteamRemoteStorage_EnumerateUserPublishedFiles
+.p2align 4
+SteamAPI_ISteamRemoteStorage_EnumerateUserPublishedFiles:
+	jmp *p_SteamAPI_ISteamRemoteStorage_EnumerateUserPublishedFiles(%rip)
+.globl SteamAPI_ISteamRemoteStorage_EnumerateUserSharedWorkshopFiles
+.p2align 4
+SteamAPI_ISteamRemoteStorage_EnumerateUserSharedWorkshopFiles:
+	jmp *p_SteamAPI_ISteamRemoteStorage_EnumerateUserSharedWorkshopFiles(%rip)
+.globl SteamAPI_ISteamRemoteStorage_EnumerateUserSubscribedFiles
+.p2align 4
+SteamAPI_ISteamRemoteStorage_EnumerateUserSubscribedFiles:
+	jmp *p_SteamAPI_ISteamRemoteStorage_EnumerateUserSubscribedFiles(%rip)
+.globl SteamAPI_ISteamRemoteStorage_FileDelete
+.p2align 4
+SteamAPI_ISteamRemoteStorage_FileDelete:
+	jmp *p_SteamAPI_ISteamRemoteStorage_FileDelete(%rip)
+.globl SteamAPI_ISteamRemoteStorage_FileExists
+.p2align 4
+SteamAPI_ISteamRemoteStorage_FileExists:
+	jmp *p_SteamAPI_ISteamRemoteStorage_FileExists(%rip)
+.globl SteamAPI_ISteamRemoteStorage_FileForget
+.p2align 4
+SteamAPI_ISteamRemoteStorage_FileForget:
+	jmp *p_SteamAPI_ISteamRemoteStorage_FileForget(%rip)
+.globl SteamAPI_ISteamRemoteStorage_FilePersisted
+.p2align 4
+SteamAPI_ISteamRemoteStorage_FilePersisted:
+	jmp *p_SteamAPI_ISteamRemoteStorage_FilePersisted(%rip)
+.globl SteamAPI_ISteamRemoteStorage_FileRead
+.p2align 4
+SteamAPI_ISteamRemoteStorage_FileRead:
+	jmp *p_SteamAPI_ISteamRemoteStorage_FileRead(%rip)
+.globl SteamAPI_ISteamRemoteStorage_FileReadAsync
+.p2align 4
+SteamAPI_ISteamRemoteStorage_FileReadAsync:
+	jmp *p_SteamAPI_ISteamRemoteStorage_FileReadAsync(%rip)
+.globl SteamAPI_ISteamRemoteStorage_FileReadAsyncComplete
+.p2align 4
+SteamAPI_ISteamRemoteStorage_FileReadAsyncComplete:
+	jmp *p_SteamAPI_ISteamRemoteStorage_FileReadAsyncComplete(%rip)
+.globl SteamAPI_ISteamRemoteStorage_FileShare
+.p2align 4
+SteamAPI_ISteamRemoteStorage_FileShare:
+	jmp *p_SteamAPI_ISteamRemoteStorage_FileShare(%rip)
+.globl SteamAPI_ISteamRemoteStorage_FileWrite
+.p2align 4
+SteamAPI_ISteamRemoteStorage_FileWrite:
+	jmp *p_SteamAPI_ISteamRemoteStorage_FileWrite(%rip)
+.globl SteamAPI_ISteamRemoteStorage_FileWriteAsync
+.p2align 4
+SteamAPI_ISteamRemoteStorage_FileWriteAsync:
+	jmp *p_SteamAPI_ISteamRemoteStorage_FileWriteAsync(%rip)
+.globl SteamAPI_ISteamRemoteStorage_FileWriteStreamCancel
+.p2align 4
+SteamAPI_ISteamRemoteStorage_FileWriteStreamCancel:
+	jmp *p_SteamAPI_ISteamRemoteStorage_FileWriteStreamCancel(%rip)
+.globl SteamAPI_ISteamRemoteStorage_FileWriteStreamClose
+.p2align 4
+SteamAPI_ISteamRemoteStorage_FileWriteStreamClose:
+	jmp *p_SteamAPI_ISteamRemoteStorage_FileWriteStreamClose(%rip)
+.globl SteamAPI_ISteamRemoteStorage_FileWriteStreamOpen
+.p2align 4
+SteamAPI_ISteamRemoteStorage_FileWriteStreamOpen:
+	jmp *p_SteamAPI_ISteamRemoteStorage_FileWriteStreamOpen(%rip)
+.globl SteamAPI_ISteamRemoteStorage_FileWriteStreamWriteChunk
+.p2align 4
+SteamAPI_ISteamRemoteStorage_FileWriteStreamWriteChunk:
+	jmp *p_SteamAPI_ISteamRemoteStorage_FileWriteStreamWriteChunk(%rip)
+.globl SteamAPI_ISteamRemoteStorage_GetCachedUGCCount
+.p2align 4
+SteamAPI_ISteamRemoteStorage_GetCachedUGCCount:
+	jmp *p_SteamAPI_ISteamRemoteStorage_GetCachedUGCCount(%rip)
+.globl SteamAPI_ISteamRemoteStorage_GetCachedUGCHandle
+.p2align 4
+SteamAPI_ISteamRemoteStorage_GetCachedUGCHandle:
+	jmp *p_SteamAPI_ISteamRemoteStorage_GetCachedUGCHandle(%rip)
+.globl SteamAPI_ISteamRemoteStorage_GetFileCount
+.p2align 4
+SteamAPI_ISteamRemoteStorage_GetFileCount:
+	jmp *p_SteamAPI_ISteamRemoteStorage_GetFileCount(%rip)
+.globl SteamAPI_ISteamRemoteStorage_GetFileNameAndSize
+.p2align 4
+SteamAPI_ISteamRemoteStorage_GetFileNameAndSize:
+	jmp *p_SteamAPI_ISteamRemoteStorage_GetFileNameAndSize(%rip)
+.globl SteamAPI_ISteamRemoteStorage_GetFileSize
+.p2align 4
+SteamAPI_ISteamRemoteStorage_GetFileSize:
+	jmp *p_SteamAPI_ISteamRemoteStorage_GetFileSize(%rip)
+.globl SteamAPI_ISteamRemoteStorage_GetFileTimestamp
+.p2align 4
+SteamAPI_ISteamRemoteStorage_GetFileTimestamp:
+	jmp *p_SteamAPI_ISteamRemoteStorage_GetFileTimestamp(%rip)
+.globl SteamAPI_ISteamRemoteStorage_GetLocalFileChange
+.p2align 4
+SteamAPI_ISteamRemoteStorage_GetLocalFileChange:
+	jmp *p_SteamAPI_ISteamRemoteStorage_GetLocalFileChange(%rip)
+.globl SteamAPI_ISteamRemoteStorage_GetLocalFileChangeCount
+.p2align 4
+SteamAPI_ISteamRemoteStorage_GetLocalFileChangeCount:
+	jmp *p_SteamAPI_ISteamRemoteStorage_GetLocalFileChangeCount(%rip)
+.globl SteamAPI_ISteamRemoteStorage_GetPublishedFileDetails
+.p2align 4
+SteamAPI_ISteamRemoteStorage_GetPublishedFileDetails:
+	jmp *p_SteamAPI_ISteamRemoteStorage_GetPublishedFileDetails(%rip)
+.globl SteamAPI_ISteamRemoteStorage_GetPublishedItemVoteDetails
+.p2align 4
+SteamAPI_ISteamRemoteStorage_GetPublishedItemVoteDetails:
+	jmp *p_SteamAPI_ISteamRemoteStorage_GetPublishedItemVoteDetails(%rip)
+.globl SteamAPI_ISteamRemoteStorage_GetQuota
+.p2align 4
+SteamAPI_ISteamRemoteStorage_GetQuota:
+	jmp *p_SteamAPI_ISteamRemoteStorage_GetQuota(%rip)
+.globl SteamAPI_ISteamRemoteStorage_GetSyncPlatforms
+.p2align 4
+SteamAPI_ISteamRemoteStorage_GetSyncPlatforms:
+	jmp *p_SteamAPI_ISteamRemoteStorage_GetSyncPlatforms(%rip)
+.globl SteamAPI_ISteamRemoteStorage_GetUGCDetails
+.p2align 4
+SteamAPI_ISteamRemoteStorage_GetUGCDetails:
+	jmp *p_SteamAPI_ISteamRemoteStorage_GetUGCDetails(%rip)
+.globl SteamAPI_ISteamRemoteStorage_GetUGCDownloadProgress
+.p2align 4
+SteamAPI_ISteamRemoteStorage_GetUGCDownloadProgress:
+	jmp *p_SteamAPI_ISteamRemoteStorage_GetUGCDownloadProgress(%rip)
+.globl SteamAPI_ISteamRemoteStorage_GetUserPublishedItemVoteDetails
+.p2align 4
+SteamAPI_ISteamRemoteStorage_GetUserPublishedItemVoteDetails:
+	jmp *p_SteamAPI_ISteamRemoteStorage_GetUserPublishedItemVoteDetails(%rip)
+.globl SteamAPI_ISteamRemoteStorage_IsCloudEnabledForAccount
+.p2align 4
+SteamAPI_ISteamRemoteStorage_IsCloudEnabledForAccount:
+	jmp *p_SteamAPI_ISteamRemoteStorage_IsCloudEnabledForAccount(%rip)
+.globl SteamAPI_ISteamRemoteStorage_IsCloudEnabledForApp
+.p2align 4
+SteamAPI_ISteamRemoteStorage_IsCloudEnabledForApp:
+	jmp *p_SteamAPI_ISteamRemoteStorage_IsCloudEnabledForApp(%rip)
+.globl SteamAPI_ISteamRemoteStorage_PublishVideo
+.p2align 4
+SteamAPI_ISteamRemoteStorage_PublishVideo:
+	jmp *p_SteamAPI_ISteamRemoteStorage_PublishVideo(%rip)
+.globl SteamAPI_ISteamRemoteStorage_PublishWorkshopFile
+.p2align 4
+SteamAPI_ISteamRemoteStorage_PublishWorkshopFile:
+	jmp *p_SteamAPI_ISteamRemoteStorage_PublishWorkshopFile(%rip)
+.globl SteamAPI_ISteamRemoteStorage_SetCloudEnabledForApp
+.p2align 4
+SteamAPI_ISteamRemoteStorage_SetCloudEnabledForApp:
+	jmp *p_SteamAPI_ISteamRemoteStorage_SetCloudEnabledForApp(%rip)
+.globl SteamAPI_ISteamRemoteStorage_SetSyncPlatforms
+.p2align 4
+SteamAPI_ISteamRemoteStorage_SetSyncPlatforms:
+	jmp *p_SteamAPI_ISteamRemoteStorage_SetSyncPlatforms(%rip)
+.globl SteamAPI_ISteamRemoteStorage_SetUserPublishedFileAction
+.p2align 4
+SteamAPI_ISteamRemoteStorage_SetUserPublishedFileAction:
+	jmp *p_SteamAPI_ISteamRemoteStorage_SetUserPublishedFileAction(%rip)
+.globl SteamAPI_ISteamRemoteStorage_SubscribePublishedFile
+.p2align 4
+SteamAPI_ISteamRemoteStorage_SubscribePublishedFile:
+	jmp *p_SteamAPI_ISteamRemoteStorage_SubscribePublishedFile(%rip)
+.globl SteamAPI_ISteamRemoteStorage_UGCDownload
+.p2align 4
+SteamAPI_ISteamRemoteStorage_UGCDownload:
+	jmp *p_SteamAPI_ISteamRemoteStorage_UGCDownload(%rip)
+.globl SteamAPI_ISteamRemoteStorage_UGCDownloadToLocation
+.p2align 4
+SteamAPI_ISteamRemoteStorage_UGCDownloadToLocation:
+	jmp *p_SteamAPI_ISteamRemoteStorage_UGCDownloadToLocation(%rip)
+.globl SteamAPI_ISteamRemoteStorage_UGCRead
+.p2align 4
+SteamAPI_ISteamRemoteStorage_UGCRead:
+	jmp *p_SteamAPI_ISteamRemoteStorage_UGCRead(%rip)
+.globl SteamAPI_ISteamRemoteStorage_UnsubscribePublishedFile
+.p2align 4
+SteamAPI_ISteamRemoteStorage_UnsubscribePublishedFile:
+	jmp *p_SteamAPI_ISteamRemoteStorage_UnsubscribePublishedFile(%rip)
+.globl SteamAPI_ISteamRemoteStorage_UpdatePublishedFileDescription
+.p2align 4
+SteamAPI_ISteamRemoteStorage_UpdatePublishedFileDescription:
+	jmp *p_SteamAPI_ISteamRemoteStorage_UpdatePublishedFileDescription(%rip)
+.globl SteamAPI_ISteamRemoteStorage_UpdatePublishedFileFile
+.p2align 4
+SteamAPI_ISteamRemoteStorage_UpdatePublishedFileFile:
+	jmp *p_SteamAPI_ISteamRemoteStorage_UpdatePublishedFileFile(%rip)
+.globl SteamAPI_ISteamRemoteStorage_UpdatePublishedFilePreviewFile
+.p2align 4
+SteamAPI_ISteamRemoteStorage_UpdatePublishedFilePreviewFile:
+	jmp *p_SteamAPI_ISteamRemoteStorage_UpdatePublishedFilePreviewFile(%rip)
+.globl SteamAPI_ISteamRemoteStorage_UpdatePublishedFileSetChangeDescription
+.p2align 4
+SteamAPI_ISteamRemoteStorage_UpdatePublishedFileSetChangeDescription:
+	jmp *p_SteamAPI_ISteamRemoteStorage_UpdatePublishedFileSetChangeDescription(%rip)
+.globl SteamAPI_ISteamRemoteStorage_UpdatePublishedFileTags
+.p2align 4
+SteamAPI_ISteamRemoteStorage_UpdatePublishedFileTags:
+	jmp *p_SteamAPI_ISteamRemoteStorage_UpdatePublishedFileTags(%rip)
+.globl SteamAPI_ISteamRemoteStorage_UpdatePublishedFileTitle
+.p2align 4
+SteamAPI_ISteamRemoteStorage_UpdatePublishedFileTitle:
+	jmp *p_SteamAPI_ISteamRemoteStorage_UpdatePublishedFileTitle(%rip)
+.globl SteamAPI_ISteamRemoteStorage_UpdatePublishedFileVisibility
+.p2align 4
+SteamAPI_ISteamRemoteStorage_UpdatePublishedFileVisibility:
+	jmp *p_SteamAPI_ISteamRemoteStorage_UpdatePublishedFileVisibility(%rip)
+.globl SteamAPI_ISteamRemoteStorage_UpdateUserPublishedItemVote
+.p2align 4
+SteamAPI_ISteamRemoteStorage_UpdateUserPublishedItemVote:
+	jmp *p_SteamAPI_ISteamRemoteStorage_UpdateUserPublishedItemVote(%rip)
+.globl SteamAPI_ISteamScreenshots_AddScreenshotToLibrary
+.p2align 4
+SteamAPI_ISteamScreenshots_AddScreenshotToLibrary:
+	jmp *p_SteamAPI_ISteamScreenshots_AddScreenshotToLibrary(%rip)
+.globl SteamAPI_ISteamScreenshots_AddVRScreenshotToLibrary
+.p2align 4
+SteamAPI_ISteamScreenshots_AddVRScreenshotToLibrary:
+	jmp *p_SteamAPI_ISteamScreenshots_AddVRScreenshotToLibrary(%rip)
+.globl SteamAPI_ISteamScreenshots_HookScreenshots
+.p2align 4
+SteamAPI_ISteamScreenshots_HookScreenshots:
+	jmp *p_SteamAPI_ISteamScreenshots_HookScreenshots(%rip)
+.globl SteamAPI_ISteamScreenshots_IsScreenshotsHooked
+.p2align 4
+SteamAPI_ISteamScreenshots_IsScreenshotsHooked:
+	jmp *p_SteamAPI_ISteamScreenshots_IsScreenshotsHooked(%rip)
+.globl SteamAPI_ISteamScreenshots_SetLocation
+.p2align 4
+SteamAPI_ISteamScreenshots_SetLocation:
+	jmp *p_SteamAPI_ISteamScreenshots_SetLocation(%rip)
+.globl SteamAPI_ISteamScreenshots_TagPublishedFile
+.p2align 4
+SteamAPI_ISteamScreenshots_TagPublishedFile:
+	jmp *p_SteamAPI_ISteamScreenshots_TagPublishedFile(%rip)
+.globl SteamAPI_ISteamScreenshots_TagUser
+.p2align 4
+SteamAPI_ISteamScreenshots_TagUser:
+	jmp *p_SteamAPI_ISteamScreenshots_TagUser(%rip)
+.globl SteamAPI_ISteamScreenshots_TriggerScreenshot
+.p2align 4
+SteamAPI_ISteamScreenshots_TriggerScreenshot:
+	jmp *p_SteamAPI_ISteamScreenshots_TriggerScreenshot(%rip)
+.globl SteamAPI_ISteamScreenshots_WriteScreenshot
+.p2align 4
+SteamAPI_ISteamScreenshots_WriteScreenshot:
+	jmp *p_SteamAPI_ISteamScreenshots_WriteScreenshot(%rip)
+.globl SteamAPI_ISteamTV_AddBroadcastGameData
+.p2align 4
+SteamAPI_ISteamTV_AddBroadcastGameData:
+	jmp *p_SteamAPI_ISteamTV_AddBroadcastGameData(%rip)
+.globl SteamAPI_ISteamTV_AddRegion
+.p2align 4
+SteamAPI_ISteamTV_AddRegion:
+	jmp *p_SteamAPI_ISteamTV_AddRegion(%rip)
+.globl SteamAPI_ISteamTV_AddTimelineMarker
+.p2align 4
+SteamAPI_ISteamTV_AddTimelineMarker:
+	jmp *p_SteamAPI_ISteamTV_AddTimelineMarker(%rip)
+.globl SteamAPI_ISteamTV_IsBroadcasting
+.p2align 4
+SteamAPI_ISteamTV_IsBroadcasting:
+	jmp *p_SteamAPI_ISteamTV_IsBroadcasting(%rip)
+.globl SteamAPI_ISteamTV_RemoveBroadcastGameData
+.p2align 4
+SteamAPI_ISteamTV_RemoveBroadcastGameData:
+	jmp *p_SteamAPI_ISteamTV_RemoveBroadcastGameData(%rip)
+.globl SteamAPI_ISteamTV_RemoveRegion
+.p2align 4
+SteamAPI_ISteamTV_RemoveRegion:
+	jmp *p_SteamAPI_ISteamTV_RemoveRegion(%rip)
+.globl SteamAPI_ISteamTV_RemoveTimelineMarker
+.p2align 4
+SteamAPI_ISteamTV_RemoveTimelineMarker:
+	jmp *p_SteamAPI_ISteamTV_RemoveTimelineMarker(%rip)
+.globl SteamAPI_ISteamTimeline_AddGamePhaseTag
+.p2align 4
+SteamAPI_ISteamTimeline_AddGamePhaseTag:
+	jmp *p_SteamAPI_ISteamTimeline_AddGamePhaseTag(%rip)
+.globl SteamAPI_ISteamTimeline_AddInstantaneousTimelineEvent
+.p2align 4
+SteamAPI_ISteamTimeline_AddInstantaneousTimelineEvent:
+	jmp *p_SteamAPI_ISteamTimeline_AddInstantaneousTimelineEvent(%rip)
+.globl SteamAPI_ISteamTimeline_AddRangeTimelineEvent
+.p2align 4
+SteamAPI_ISteamTimeline_AddRangeTimelineEvent:
+	jmp *p_SteamAPI_ISteamTimeline_AddRangeTimelineEvent(%rip)
+.globl SteamAPI_ISteamTimeline_AddTimelineEvent
+.p2align 4
+SteamAPI_ISteamTimeline_AddTimelineEvent:
+	jmp *p_SteamAPI_ISteamTimeline_AddTimelineEvent(%rip)
+.globl SteamAPI_ISteamTimeline_ClearTimelineStateDescription
+.p2align 4
+SteamAPI_ISteamTimeline_ClearTimelineStateDescription:
+	jmp *p_SteamAPI_ISteamTimeline_ClearTimelineStateDescription(%rip)
+.globl SteamAPI_ISteamTimeline_ClearTimelineTooltip
+.p2align 4
+SteamAPI_ISteamTimeline_ClearTimelineTooltip:
+	jmp *p_SteamAPI_ISteamTimeline_ClearTimelineTooltip(%rip)
+.globl SteamAPI_ISteamTimeline_DoesEventRecordingExist
+.p2align 4
+SteamAPI_ISteamTimeline_DoesEventRecordingExist:
+	jmp *p_SteamAPI_ISteamTimeline_DoesEventRecordingExist(%rip)
+.globl SteamAPI_ISteamTimeline_DoesGamePhaseRecordingExist
+.p2align 4
+SteamAPI_ISteamTimeline_DoesGamePhaseRecordingExist:
+	jmp *p_SteamAPI_ISteamTimeline_DoesGamePhaseRecordingExist(%rip)
+.globl SteamAPI_ISteamTimeline_EndGamePhase
+.p2align 4
+SteamAPI_ISteamTimeline_EndGamePhase:
+	jmp *p_SteamAPI_ISteamTimeline_EndGamePhase(%rip)
+.globl SteamAPI_ISteamTimeline_EndRangeTimelineEvent
+.p2align 4
+SteamAPI_ISteamTimeline_EndRangeTimelineEvent:
+	jmp *p_SteamAPI_ISteamTimeline_EndRangeTimelineEvent(%rip)
+.globl SteamAPI_ISteamTimeline_OpenOverlayToGamePhase
+.p2align 4
+SteamAPI_ISteamTimeline_OpenOverlayToGamePhase:
+	jmp *p_SteamAPI_ISteamTimeline_OpenOverlayToGamePhase(%rip)
+.globl SteamAPI_ISteamTimeline_OpenOverlayToTimelineEvent
+.p2align 4
+SteamAPI_ISteamTimeline_OpenOverlayToTimelineEvent:
+	jmp *p_SteamAPI_ISteamTimeline_OpenOverlayToTimelineEvent(%rip)
+.globl SteamAPI_ISteamTimeline_RemoveTimelineEvent
+.p2align 4
+SteamAPI_ISteamTimeline_RemoveTimelineEvent:
+	jmp *p_SteamAPI_ISteamTimeline_RemoveTimelineEvent(%rip)
+.globl SteamAPI_ISteamTimeline_SetGamePhaseAttribute
+.p2align 4
+SteamAPI_ISteamTimeline_SetGamePhaseAttribute:
+	jmp *p_SteamAPI_ISteamTimeline_SetGamePhaseAttribute(%rip)
+.globl SteamAPI_ISteamTimeline_SetGamePhaseID
+.p2align 4
+SteamAPI_ISteamTimeline_SetGamePhaseID:
+	jmp *p_SteamAPI_ISteamTimeline_SetGamePhaseID(%rip)
+.globl SteamAPI_ISteamTimeline_SetTimelineGameMode
+.p2align 4
+SteamAPI_ISteamTimeline_SetTimelineGameMode:
+	jmp *p_SteamAPI_ISteamTimeline_SetTimelineGameMode(%rip)
+.globl SteamAPI_ISteamTimeline_SetTimelineStateDescription
+.p2align 4
+SteamAPI_ISteamTimeline_SetTimelineStateDescription:
+	jmp *p_SteamAPI_ISteamTimeline_SetTimelineStateDescription(%rip)
+.globl SteamAPI_ISteamTimeline_SetTimelineTooltip
+.p2align 4
+SteamAPI_ISteamTimeline_SetTimelineTooltip:
+	jmp *p_SteamAPI_ISteamTimeline_SetTimelineTooltip(%rip)
+.globl SteamAPI_ISteamTimeline_StartGamePhase
+.p2align 4
+SteamAPI_ISteamTimeline_StartGamePhase:
+	jmp *p_SteamAPI_ISteamTimeline_StartGamePhase(%rip)
+.globl SteamAPI_ISteamTimeline_StartRangeTimelineEvent
+.p2align 4
+SteamAPI_ISteamTimeline_StartRangeTimelineEvent:
+	jmp *p_SteamAPI_ISteamTimeline_StartRangeTimelineEvent(%rip)
+.globl SteamAPI_ISteamTimeline_UpdateRangeTimelineEvent
+.p2align 4
+SteamAPI_ISteamTimeline_UpdateRangeTimelineEvent:
+	jmp *p_SteamAPI_ISteamTimeline_UpdateRangeTimelineEvent(%rip)
+.globl SteamAPI_ISteamUGC_AddAppDependency
+.p2align 4
+SteamAPI_ISteamUGC_AddAppDependency:
+	jmp *p_SteamAPI_ISteamUGC_AddAppDependency(%rip)
+.globl SteamAPI_ISteamUGC_AddContentDescriptor
+.p2align 4
+SteamAPI_ISteamUGC_AddContentDescriptor:
+	jmp *p_SteamAPI_ISteamUGC_AddContentDescriptor(%rip)
+.globl SteamAPI_ISteamUGC_AddDependency
+.p2align 4
+SteamAPI_ISteamUGC_AddDependency:
+	jmp *p_SteamAPI_ISteamUGC_AddDependency(%rip)
+.globl SteamAPI_ISteamUGC_AddExcludedTag
+.p2align 4
+SteamAPI_ISteamUGC_AddExcludedTag:
+	jmp *p_SteamAPI_ISteamUGC_AddExcludedTag(%rip)
+.globl SteamAPI_ISteamUGC_AddItemKeyValueTag
+.p2align 4
+SteamAPI_ISteamUGC_AddItemKeyValueTag:
+	jmp *p_SteamAPI_ISteamUGC_AddItemKeyValueTag(%rip)
+.globl SteamAPI_ISteamUGC_AddItemPreviewFile
+.p2align 4
+SteamAPI_ISteamUGC_AddItemPreviewFile:
+	jmp *p_SteamAPI_ISteamUGC_AddItemPreviewFile(%rip)
+.globl SteamAPI_ISteamUGC_AddItemPreviewVideo
+.p2align 4
+SteamAPI_ISteamUGC_AddItemPreviewVideo:
+	jmp *p_SteamAPI_ISteamUGC_AddItemPreviewVideo(%rip)
+.globl SteamAPI_ISteamUGC_AddItemToFavorites
+.p2align 4
+SteamAPI_ISteamUGC_AddItemToFavorites:
+	jmp *p_SteamAPI_ISteamUGC_AddItemToFavorites(%rip)
+.globl SteamAPI_ISteamUGC_AddRequiredKeyValueTag
+.p2align 4
+SteamAPI_ISteamUGC_AddRequiredKeyValueTag:
+	jmp *p_SteamAPI_ISteamUGC_AddRequiredKeyValueTag(%rip)
+.globl SteamAPI_ISteamUGC_AddRequiredTag
+.p2align 4
+SteamAPI_ISteamUGC_AddRequiredTag:
+	jmp *p_SteamAPI_ISteamUGC_AddRequiredTag(%rip)
+.globl SteamAPI_ISteamUGC_AddRequiredTagGroup
+.p2align 4
+SteamAPI_ISteamUGC_AddRequiredTagGroup:
+	jmp *p_SteamAPI_ISteamUGC_AddRequiredTagGroup(%rip)
+.globl SteamAPI_ISteamUGC_BInitWorkshopForGameServer
+.p2align 4
+SteamAPI_ISteamUGC_BInitWorkshopForGameServer:
+	jmp *p_SteamAPI_ISteamUGC_BInitWorkshopForGameServer(%rip)
+.globl SteamAPI_ISteamUGC_CreateItem
+.p2align 4
+SteamAPI_ISteamUGC_CreateItem:
+	jmp *p_SteamAPI_ISteamUGC_CreateItem(%rip)
+.globl SteamAPI_ISteamUGC_CreateQueryAllUGCRequest
+.p2align 4
+SteamAPI_ISteamUGC_CreateQueryAllUGCRequest:
+	jmp *p_SteamAPI_ISteamUGC_CreateQueryAllUGCRequest(%rip)
+.globl SteamAPI_ISteamUGC_CreateQueryAllUGCRequest0
+.p2align 4
+SteamAPI_ISteamUGC_CreateQueryAllUGCRequest0:
+	jmp *p_SteamAPI_ISteamUGC_CreateQueryAllUGCRequest0(%rip)
+.globl SteamAPI_ISteamUGC_CreateQueryAllUGCRequestCursor
+.p2align 4
+SteamAPI_ISteamUGC_CreateQueryAllUGCRequestCursor:
+	jmp *p_SteamAPI_ISteamUGC_CreateQueryAllUGCRequestCursor(%rip)
+.globl SteamAPI_ISteamUGC_CreateQueryAllUGCRequestPage
+.p2align 4
+SteamAPI_ISteamUGC_CreateQueryAllUGCRequestPage:
+	jmp *p_SteamAPI_ISteamUGC_CreateQueryAllUGCRequestPage(%rip)
+.globl SteamAPI_ISteamUGC_CreateQueryUGCDetailsRequest
+.p2align 4
+SteamAPI_ISteamUGC_CreateQueryUGCDetailsRequest:
+	jmp *p_SteamAPI_ISteamUGC_CreateQueryUGCDetailsRequest(%rip)
+.globl SteamAPI_ISteamUGC_CreateQueryUserUGCRequest
+.p2align 4
+SteamAPI_ISteamUGC_CreateQueryUserUGCRequest:
+	jmp *p_SteamAPI_ISteamUGC_CreateQueryUserUGCRequest(%rip)
+.globl SteamAPI_ISteamUGC_DeleteItem
+.p2align 4
+SteamAPI_ISteamUGC_DeleteItem:
+	jmp *p_SteamAPI_ISteamUGC_DeleteItem(%rip)
+.globl SteamAPI_ISteamUGC_DownloadItem
+.p2align 4
+SteamAPI_ISteamUGC_DownloadItem:
+	jmp *p_SteamAPI_ISteamUGC_DownloadItem(%rip)
+.globl SteamAPI_ISteamUGC_GetAppDependencies
+.p2align 4
+SteamAPI_ISteamUGC_GetAppDependencies:
+	jmp *p_SteamAPI_ISteamUGC_GetAppDependencies(%rip)
+.globl SteamAPI_ISteamUGC_GetDownloadedItems
+.p2align 4
+SteamAPI_ISteamUGC_GetDownloadedItems:
+	jmp *p_SteamAPI_ISteamUGC_GetDownloadedItems(%rip)
+.globl SteamAPI_ISteamUGC_GetItemDownloadInfo
+.p2align 4
+SteamAPI_ISteamUGC_GetItemDownloadInfo:
+	jmp *p_SteamAPI_ISteamUGC_GetItemDownloadInfo(%rip)
+.globl SteamAPI_ISteamUGC_GetItemInstallInfo
+.p2align 4
+SteamAPI_ISteamUGC_GetItemInstallInfo:
+	jmp *p_SteamAPI_ISteamUGC_GetItemInstallInfo(%rip)
+.globl SteamAPI_ISteamUGC_GetItemState
+.p2align 4
+SteamAPI_ISteamUGC_GetItemState:
+	jmp *p_SteamAPI_ISteamUGC_GetItemState(%rip)
+.globl SteamAPI_ISteamUGC_GetItemUpdateProgress
+.p2align 4
+SteamAPI_ISteamUGC_GetItemUpdateProgress:
+	jmp *p_SteamAPI_ISteamUGC_GetItemUpdateProgress(%rip)
+.globl SteamAPI_ISteamUGC_GetNumDownloadedItems
+.p2align 4
+SteamAPI_ISteamUGC_GetNumDownloadedItems:
+	jmp *p_SteamAPI_ISteamUGC_GetNumDownloadedItems(%rip)
+.globl SteamAPI_ISteamUGC_GetNumSubscribedItems
+.p2align 4
+SteamAPI_ISteamUGC_GetNumSubscribedItems:
+	jmp *p_SteamAPI_ISteamUGC_GetNumSubscribedItems(%rip)
+.globl SteamAPI_ISteamUGC_GetNumSupportedGameVersions
+.p2align 4
+SteamAPI_ISteamUGC_GetNumSupportedGameVersions:
+	jmp *p_SteamAPI_ISteamUGC_GetNumSupportedGameVersions(%rip)
+.globl SteamAPI_ISteamUGC_GetQueryFirstUGCKeyValueTag
+.p2align 4
+SteamAPI_ISteamUGC_GetQueryFirstUGCKeyValueTag:
+	jmp *p_SteamAPI_ISteamUGC_GetQueryFirstUGCKeyValueTag(%rip)
+.globl SteamAPI_ISteamUGC_GetQueryUGCAdditionalPreview
+.p2align 4
+SteamAPI_ISteamUGC_GetQueryUGCAdditionalPreview:
+	jmp *p_SteamAPI_ISteamUGC_GetQueryUGCAdditionalPreview(%rip)
+.globl SteamAPI_ISteamUGC_GetQueryUGCChildren
+.p2align 4
+SteamAPI_ISteamUGC_GetQueryUGCChildren:
+	jmp *p_SteamAPI_ISteamUGC_GetQueryUGCChildren(%rip)
+.globl SteamAPI_ISteamUGC_GetQueryUGCContentDescriptors
+.p2align 4
+SteamAPI_ISteamUGC_GetQueryUGCContentDescriptors:
+	jmp *p_SteamAPI_ISteamUGC_GetQueryUGCContentDescriptors(%rip)
+.globl SteamAPI_ISteamUGC_GetQueryUGCKeyValueTag
+.p2align 4
+SteamAPI_ISteamUGC_GetQueryUGCKeyValueTag:
+	jmp *p_SteamAPI_ISteamUGC_GetQueryUGCKeyValueTag(%rip)
+.globl SteamAPI_ISteamUGC_GetQueryUGCKeyValueTag0
+.p2align 4
+SteamAPI_ISteamUGC_GetQueryUGCKeyValueTag0:
+	jmp *p_SteamAPI_ISteamUGC_GetQueryUGCKeyValueTag0(%rip)
+.globl SteamAPI_ISteamUGC_GetQueryUGCMetadata
+.p2align 4
+SteamAPI_ISteamUGC_GetQueryUGCMetadata:
+	jmp *p_SteamAPI_ISteamUGC_GetQueryUGCMetadata(%rip)
+.globl SteamAPI_ISteamUGC_GetQueryUGCNumAdditionalPreviews
+.p2align 4
+SteamAPI_ISteamUGC_GetQueryUGCNumAdditionalPreviews:
+	jmp *p_SteamAPI_ISteamUGC_GetQueryUGCNumAdditionalPreviews(%rip)
+.globl SteamAPI_ISteamUGC_GetQueryUGCNumKeyValueTags
+.p2align 4
+SteamAPI_ISteamUGC_GetQueryUGCNumKeyValueTags:
+	jmp *p_SteamAPI_ISteamUGC_GetQueryUGCNumKeyValueTags(%rip)
+.globl SteamAPI_ISteamUGC_GetQueryUGCNumTags
+.p2align 4
+SteamAPI_ISteamUGC_GetQueryUGCNumTags:
+	jmp *p_SteamAPI_ISteamUGC_GetQueryUGCNumTags(%rip)
+.globl SteamAPI_ISteamUGC_GetQueryUGCPreviewURL
+.p2align 4
+SteamAPI_ISteamUGC_GetQueryUGCPreviewURL:
+	jmp *p_SteamAPI_ISteamUGC_GetQueryUGCPreviewURL(%rip)
+.globl SteamAPI_ISteamUGC_GetQueryUGCResult
+.p2align 4
+SteamAPI_ISteamUGC_GetQueryUGCResult:
+	jmp *p_SteamAPI_ISteamUGC_GetQueryUGCResult(%rip)
+.globl SteamAPI_ISteamUGC_GetQueryUGCStatistic
+.p2align 4
+SteamAPI_ISteamUGC_GetQueryUGCStatistic:
+	jmp *p_SteamAPI_ISteamUGC_GetQueryUGCStatistic(%rip)
+.globl SteamAPI_ISteamUGC_GetQueryUGCTag
+.p2align 4
+SteamAPI_ISteamUGC_GetQueryUGCTag:
+	jmp *p_SteamAPI_ISteamUGC_GetQueryUGCTag(%rip)
+.globl SteamAPI_ISteamUGC_GetQueryUGCTagDisplayName
+.p2align 4
+SteamAPI_ISteamUGC_GetQueryUGCTagDisplayName:
+	jmp *p_SteamAPI_ISteamUGC_GetQueryUGCTagDisplayName(%rip)
+.globl SteamAPI_ISteamUGC_GetSubscribedItems
+.p2align 4
+SteamAPI_ISteamUGC_GetSubscribedItems:
+	jmp *p_SteamAPI_ISteamUGC_GetSubscribedItems(%rip)
+.globl SteamAPI_ISteamUGC_GetSupportedGameVersionData
+.p2align 4
+SteamAPI_ISteamUGC_GetSupportedGameVersionData:
+	jmp *p_SteamAPI_ISteamUGC_GetSupportedGameVersionData(%rip)
+.globl SteamAPI_ISteamUGC_GetUserContentDescriptorPreferences
+.p2align 4
+SteamAPI_ISteamUGC_GetUserContentDescriptorPreferences:
+	jmp *p_SteamAPI_ISteamUGC_GetUserContentDescriptorPreferences(%rip)
+.globl SteamAPI_ISteamUGC_GetUserItemVote
+.p2align 4
+SteamAPI_ISteamUGC_GetUserItemVote:
+	jmp *p_SteamAPI_ISteamUGC_GetUserItemVote(%rip)
+.globl SteamAPI_ISteamUGC_GetWorkshopEULAStatus
+.p2align 4
+SteamAPI_ISteamUGC_GetWorkshopEULAStatus:
+	jmp *p_SteamAPI_ISteamUGC_GetWorkshopEULAStatus(%rip)
+.globl SteamAPI_ISteamUGC_MarkDownloadedItemAsUnused
+.p2align 4
+SteamAPI_ISteamUGC_MarkDownloadedItemAsUnused:
+	jmp *p_SteamAPI_ISteamUGC_MarkDownloadedItemAsUnused(%rip)
+.globl SteamAPI_ISteamUGC_ReleaseQueryUGCRequest
+.p2align 4
+SteamAPI_ISteamUGC_ReleaseQueryUGCRequest:
+	jmp *p_SteamAPI_ISteamUGC_ReleaseQueryUGCRequest(%rip)
+.globl SteamAPI_ISteamUGC_RemoveAllItemKeyValueTags
+.p2align 4
+SteamAPI_ISteamUGC_RemoveAllItemKeyValueTags:
+	jmp *p_SteamAPI_ISteamUGC_RemoveAllItemKeyValueTags(%rip)
+.globl SteamAPI_ISteamUGC_RemoveAppDependency
+.p2align 4
+SteamAPI_ISteamUGC_RemoveAppDependency:
+	jmp *p_SteamAPI_ISteamUGC_RemoveAppDependency(%rip)
+.globl SteamAPI_ISteamUGC_RemoveContentDescriptor
+.p2align 4
+SteamAPI_ISteamUGC_RemoveContentDescriptor:
+	jmp *p_SteamAPI_ISteamUGC_RemoveContentDescriptor(%rip)
+.globl SteamAPI_ISteamUGC_RemoveDependency
+.p2align 4
+SteamAPI_ISteamUGC_RemoveDependency:
+	jmp *p_SteamAPI_ISteamUGC_RemoveDependency(%rip)
+.globl SteamAPI_ISteamUGC_RemoveItemFromFavorites
+.p2align 4
+SteamAPI_ISteamUGC_RemoveItemFromFavorites:
+	jmp *p_SteamAPI_ISteamUGC_RemoveItemFromFavorites(%rip)
+.globl SteamAPI_ISteamUGC_RemoveItemKeyValueTags
+.p2align 4
+SteamAPI_ISteamUGC_RemoveItemKeyValueTags:
+	jmp *p_SteamAPI_ISteamUGC_RemoveItemKeyValueTags(%rip)
+.globl SteamAPI_ISteamUGC_RemoveItemPreview
+.p2align 4
+SteamAPI_ISteamUGC_RemoveItemPreview:
+	jmp *p_SteamAPI_ISteamUGC_RemoveItemPreview(%rip)
+.globl SteamAPI_ISteamUGC_RequestUGCDetails
+.p2align 4
+SteamAPI_ISteamUGC_RequestUGCDetails:
+	jmp *p_SteamAPI_ISteamUGC_RequestUGCDetails(%rip)
+.globl SteamAPI_ISteamUGC_SendQueryUGCRequest
+.p2align 4
+SteamAPI_ISteamUGC_SendQueryUGCRequest:
+	jmp *p_SteamAPI_ISteamUGC_SendQueryUGCRequest(%rip)
+.globl SteamAPI_ISteamUGC_SetAdminQuery
+.p2align 4
+SteamAPI_ISteamUGC_SetAdminQuery:
+	jmp *p_SteamAPI_ISteamUGC_SetAdminQuery(%rip)
+.globl SteamAPI_ISteamUGC_SetAllowCachedResponse
+.p2align 4
+SteamAPI_ISteamUGC_SetAllowCachedResponse:
+	jmp *p_SteamAPI_ISteamUGC_SetAllowCachedResponse(%rip)
+.globl SteamAPI_ISteamUGC_SetAllowLegacyUpload
+.p2align 4
+SteamAPI_ISteamUGC_SetAllowLegacyUpload:
+	jmp *p_SteamAPI_ISteamUGC_SetAllowLegacyUpload(%rip)
+.globl SteamAPI_ISteamUGC_SetCloudFileNameFilter
+.p2align 4
+SteamAPI_ISteamUGC_SetCloudFileNameFilter:
+	jmp *p_SteamAPI_ISteamUGC_SetCloudFileNameFilter(%rip)
+.globl SteamAPI_ISteamUGC_SetItemContent
+.p2align 4
+SteamAPI_ISteamUGC_SetItemContent:
+	jmp *p_SteamAPI_ISteamUGC_SetItemContent(%rip)
+.globl SteamAPI_ISteamUGC_SetItemDescription
+.p2align 4
+SteamAPI_ISteamUGC_SetItemDescription:
+	jmp *p_SteamAPI_ISteamUGC_SetItemDescription(%rip)
+.globl SteamAPI_ISteamUGC_SetItemMetadata
+.p2align 4
+SteamAPI_ISteamUGC_SetItemMetadata:
+	jmp *p_SteamAPI_ISteamUGC_SetItemMetadata(%rip)
+.globl SteamAPI_ISteamUGC_SetItemPreview
+.p2align 4
+SteamAPI_ISteamUGC_SetItemPreview:
+	jmp *p_SteamAPI_ISteamUGC_SetItemPreview(%rip)
+.globl SteamAPI_ISteamUGC_SetItemTags
+.p2align 4
+SteamAPI_ISteamUGC_SetItemTags:
+	jmp *p_SteamAPI_ISteamUGC_SetItemTags(%rip)
+.globl SteamAPI_ISteamUGC_SetItemTitle
+.p2align 4
+SteamAPI_ISteamUGC_SetItemTitle:
+	jmp *p_SteamAPI_ISteamUGC_SetItemTitle(%rip)
+.globl SteamAPI_ISteamUGC_SetItemUpdateLanguage
+.p2align 4
+SteamAPI_ISteamUGC_SetItemUpdateLanguage:
+	jmp *p_SteamAPI_ISteamUGC_SetItemUpdateLanguage(%rip)
+.globl SteamAPI_ISteamUGC_SetItemVisibility
+.p2align 4
+SteamAPI_ISteamUGC_SetItemVisibility:
+	jmp *p_SteamAPI_ISteamUGC_SetItemVisibility(%rip)
+.globl SteamAPI_ISteamUGC_SetItemsDisabledLocally
+.p2align 4
+SteamAPI_ISteamUGC_SetItemsDisabledLocally:
+	jmp *p_SteamAPI_ISteamUGC_SetItemsDisabledLocally(%rip)
+.globl SteamAPI_ISteamUGC_SetLanguage
+.p2align 4
+SteamAPI_ISteamUGC_SetLanguage:
+	jmp *p_SteamAPI_ISteamUGC_SetLanguage(%rip)
+.globl SteamAPI_ISteamUGC_SetMatchAnyTag
+.p2align 4
+SteamAPI_ISteamUGC_SetMatchAnyTag:
+	jmp *p_SteamAPI_ISteamUGC_SetMatchAnyTag(%rip)
+.globl SteamAPI_ISteamUGC_SetRankedByTrendDays
+.p2align 4
+SteamAPI_ISteamUGC_SetRankedByTrendDays:
+	jmp *p_SteamAPI_ISteamUGC_SetRankedByTrendDays(%rip)
+.globl SteamAPI_ISteamUGC_SetRequiredGameVersions
+.p2align 4
+SteamAPI_ISteamUGC_SetRequiredGameVersions:
+	jmp *p_SteamAPI_ISteamUGC_SetRequiredGameVersions(%rip)
+.globl SteamAPI_ISteamUGC_SetReturnAdditionalPreviews
+.p2align 4
+SteamAPI_ISteamUGC_SetReturnAdditionalPreviews:
+	jmp *p_SteamAPI_ISteamUGC_SetReturnAdditionalPreviews(%rip)
+.globl SteamAPI_ISteamUGC_SetReturnChildren
+.p2align 4
+SteamAPI_ISteamUGC_SetReturnChildren:
+	jmp *p_SteamAPI_ISteamUGC_SetReturnChildren(%rip)
+.globl SteamAPI_ISteamUGC_SetReturnKeyValueTags
+.p2align 4
+SteamAPI_ISteamUGC_SetReturnKeyValueTags:
+	jmp *p_SteamAPI_ISteamUGC_SetReturnKeyValueTags(%rip)
+.globl SteamAPI_ISteamUGC_SetReturnLongDescription
+.p2align 4
+SteamAPI_ISteamUGC_SetReturnLongDescription:
+	jmp *p_SteamAPI_ISteamUGC_SetReturnLongDescription(%rip)
+.globl SteamAPI_ISteamUGC_SetReturnMetadata
+.p2align 4
+SteamAPI_ISteamUGC_SetReturnMetadata:
+	jmp *p_SteamAPI_ISteamUGC_SetReturnMetadata(%rip)
+.globl SteamAPI_ISteamUGC_SetReturnOnlyIDs
+.p2align 4
+SteamAPI_ISteamUGC_SetReturnOnlyIDs:
+	jmp *p_SteamAPI_ISteamUGC_SetReturnOnlyIDs(%rip)
+.globl SteamAPI_ISteamUGC_SetReturnPlaytimeStats
+.p2align 4
+SteamAPI_ISteamUGC_SetReturnPlaytimeStats:
+	jmp *p_SteamAPI_ISteamUGC_SetReturnPlaytimeStats(%rip)
+.globl SteamAPI_ISteamUGC_SetReturnTotalOnly
+.p2align 4
+SteamAPI_ISteamUGC_SetReturnTotalOnly:
+	jmp *p_SteamAPI_ISteamUGC_SetReturnTotalOnly(%rip)
+.globl SteamAPI_ISteamUGC_SetSearchText
+.p2align 4
+SteamAPI_ISteamUGC_SetSearchText:
+	jmp *p_SteamAPI_ISteamUGC_SetSearchText(%rip)
+.globl SteamAPI_ISteamUGC_SetSubscriptionsLoadOrder
+.p2align 4
+SteamAPI_ISteamUGC_SetSubscriptionsLoadOrder:
+	jmp *p_SteamAPI_ISteamUGC_SetSubscriptionsLoadOrder(%rip)
+.globl SteamAPI_ISteamUGC_SetTimeCreatedDateRange
+.p2align 4
+SteamAPI_ISteamUGC_SetTimeCreatedDateRange:
+	jmp *p_SteamAPI_ISteamUGC_SetTimeCreatedDateRange(%rip)
+.globl SteamAPI_ISteamUGC_SetTimeUpdatedDateRange
+.p2align 4
+SteamAPI_ISteamUGC_SetTimeUpdatedDateRange:
+	jmp *p_SteamAPI_ISteamUGC_SetTimeUpdatedDateRange(%rip)
+.globl SteamAPI_ISteamUGC_SetUserItemVote
+.p2align 4
+SteamAPI_ISteamUGC_SetUserItemVote:
+	jmp *p_SteamAPI_ISteamUGC_SetUserItemVote(%rip)
+.globl SteamAPI_ISteamUGC_ShowWorkshopEULA
+.p2align 4
+SteamAPI_ISteamUGC_ShowWorkshopEULA:
+	jmp *p_SteamAPI_ISteamUGC_ShowWorkshopEULA(%rip)
+.globl SteamAPI_ISteamUGC_StartItemUpdate
+.p2align 4
+SteamAPI_ISteamUGC_StartItemUpdate:
+	jmp *p_SteamAPI_ISteamUGC_StartItemUpdate(%rip)
+.globl SteamAPI_ISteamUGC_StartPlaytimeTracking
+.p2align 4
+SteamAPI_ISteamUGC_StartPlaytimeTracking:
+	jmp *p_SteamAPI_ISteamUGC_StartPlaytimeTracking(%rip)
+.globl SteamAPI_ISteamUGC_StopPlaytimeTracking
+.p2align 4
+SteamAPI_ISteamUGC_StopPlaytimeTracking:
+	jmp *p_SteamAPI_ISteamUGC_StopPlaytimeTracking(%rip)
+.globl SteamAPI_ISteamUGC_StopPlaytimeTrackingForAllItems
+.p2align 4
+SteamAPI_ISteamUGC_StopPlaytimeTrackingForAllItems:
+	jmp *p_SteamAPI_ISteamUGC_StopPlaytimeTrackingForAllItems(%rip)
+.globl SteamAPI_ISteamUGC_SubmitItemUpdate
+.p2align 4
+SteamAPI_ISteamUGC_SubmitItemUpdate:
+	jmp *p_SteamAPI_ISteamUGC_SubmitItemUpdate(%rip)
+.globl SteamAPI_ISteamUGC_SubscribeItem
+.p2align 4
+SteamAPI_ISteamUGC_SubscribeItem:
+	jmp *p_SteamAPI_ISteamUGC_SubscribeItem(%rip)
+.globl SteamAPI_ISteamUGC_SuspendDownloads
+.p2align 4
+SteamAPI_ISteamUGC_SuspendDownloads:
+	jmp *p_SteamAPI_ISteamUGC_SuspendDownloads(%rip)
+.globl SteamAPI_ISteamUGC_UnsubscribeItem
+.p2align 4
+SteamAPI_ISteamUGC_UnsubscribeItem:
+	jmp *p_SteamAPI_ISteamUGC_UnsubscribeItem(%rip)
+.globl SteamAPI_ISteamUGC_UpdateItemPreviewFile
+.p2align 4
+SteamAPI_ISteamUGC_UpdateItemPreviewFile:
+	jmp *p_SteamAPI_ISteamUGC_UpdateItemPreviewFile(%rip)
+.globl SteamAPI_ISteamUGC_UpdateItemPreviewVideo
+.p2align 4
+SteamAPI_ISteamUGC_UpdateItemPreviewVideo:
+	jmp *p_SteamAPI_ISteamUGC_UpdateItemPreviewVideo(%rip)
+.globl SteamAPI_ISteamUserStats_AttachLeaderboardUGC
+.p2align 4
+SteamAPI_ISteamUserStats_AttachLeaderboardUGC:
+	jmp *p_SteamAPI_ISteamUserStats_AttachLeaderboardUGC(%rip)
+.globl SteamAPI_ISteamUserStats_ClearAchievement
+.p2align 4
+SteamAPI_ISteamUserStats_ClearAchievement:
+	jmp *p_SteamAPI_ISteamUserStats_ClearAchievement(%rip)
+.globl SteamAPI_ISteamUserStats_DownloadLeaderboardEntries
+.p2align 4
+SteamAPI_ISteamUserStats_DownloadLeaderboardEntries:
+	jmp *p_SteamAPI_ISteamUserStats_DownloadLeaderboardEntries(%rip)
+.globl SteamAPI_ISteamUserStats_DownloadLeaderboardEntriesForUsers
+.p2align 4
+SteamAPI_ISteamUserStats_DownloadLeaderboardEntriesForUsers:
+	jmp *p_SteamAPI_ISteamUserStats_DownloadLeaderboardEntriesForUsers(%rip)
+.globl SteamAPI_ISteamUserStats_FindLeaderboard
+.p2align 4
+SteamAPI_ISteamUserStats_FindLeaderboard:
+	jmp *p_SteamAPI_ISteamUserStats_FindLeaderboard(%rip)
+.globl SteamAPI_ISteamUserStats_FindOrCreateLeaderboard
+.p2align 4
+SteamAPI_ISteamUserStats_FindOrCreateLeaderboard:
+	jmp *p_SteamAPI_ISteamUserStats_FindOrCreateLeaderboard(%rip)
+.globl SteamAPI_ISteamUserStats_GetAchievement
+.p2align 4
+SteamAPI_ISteamUserStats_GetAchievement:
+	jmp *p_SteamAPI_ISteamUserStats_GetAchievement(%rip)
+.globl SteamAPI_ISteamUserStats_GetAchievementAchievedPercent
+.p2align 4
+SteamAPI_ISteamUserStats_GetAchievementAchievedPercent:
+	jmp *p_SteamAPI_ISteamUserStats_GetAchievementAchievedPercent(%rip)
+.globl SteamAPI_ISteamUserStats_GetAchievementAndUnlockTime
+.p2align 4
+SteamAPI_ISteamUserStats_GetAchievementAndUnlockTime:
+	jmp *p_SteamAPI_ISteamUserStats_GetAchievementAndUnlockTime(%rip)
+.globl SteamAPI_ISteamUserStats_GetAchievementDisplayAttribute
+.p2align 4
+SteamAPI_ISteamUserStats_GetAchievementDisplayAttribute:
+	jmp *p_SteamAPI_ISteamUserStats_GetAchievementDisplayAttribute(%rip)
+.globl SteamAPI_ISteamUserStats_GetAchievementIcon
+.p2align 4
+SteamAPI_ISteamUserStats_GetAchievementIcon:
+	jmp *p_SteamAPI_ISteamUserStats_GetAchievementIcon(%rip)
+.globl SteamAPI_ISteamUserStats_GetAchievementName
+.p2align 4
+SteamAPI_ISteamUserStats_GetAchievementName:
+	jmp *p_SteamAPI_ISteamUserStats_GetAchievementName(%rip)
+.globl SteamAPI_ISteamUserStats_GetAchievementProgressLimitsFloat
+.p2align 4
+SteamAPI_ISteamUserStats_GetAchievementProgressLimitsFloat:
+	jmp *p_SteamAPI_ISteamUserStats_GetAchievementProgressLimitsFloat(%rip)
+.globl SteamAPI_ISteamUserStats_GetAchievementProgressLimitsInt32
+.p2align 4
+SteamAPI_ISteamUserStats_GetAchievementProgressLimitsInt32:
+	jmp *p_SteamAPI_ISteamUserStats_GetAchievementProgressLimitsInt32(%rip)
+.globl SteamAPI_ISteamUserStats_GetDownloadedLeaderboardEntry
+.p2align 4
+SteamAPI_ISteamUserStats_GetDownloadedLeaderboardEntry:
+	jmp *p_SteamAPI_ISteamUserStats_GetDownloadedLeaderboardEntry(%rip)
+.globl SteamAPI_ISteamUserStats_GetGlobalStat
+.p2align 4
+SteamAPI_ISteamUserStats_GetGlobalStat:
+	jmp *p_SteamAPI_ISteamUserStats_GetGlobalStat(%rip)
+.globl SteamAPI_ISteamUserStats_GetGlobalStat0
+.p2align 4
+SteamAPI_ISteamUserStats_GetGlobalStat0:
+	jmp *p_SteamAPI_ISteamUserStats_GetGlobalStat0(%rip)
+.globl SteamAPI_ISteamUserStats_GetGlobalStatDouble
+.p2align 4
+SteamAPI_ISteamUserStats_GetGlobalStatDouble:
+	jmp *p_SteamAPI_ISteamUserStats_GetGlobalStatDouble(%rip)
+.globl SteamAPI_ISteamUserStats_GetGlobalStatHistory
+.p2align 4
+SteamAPI_ISteamUserStats_GetGlobalStatHistory:
+	jmp *p_SteamAPI_ISteamUserStats_GetGlobalStatHistory(%rip)
+.globl SteamAPI_ISteamUserStats_GetGlobalStatHistory0
+.p2align 4
+SteamAPI_ISteamUserStats_GetGlobalStatHistory0:
+	jmp *p_SteamAPI_ISteamUserStats_GetGlobalStatHistory0(%rip)
+.globl SteamAPI_ISteamUserStats_GetGlobalStatHistoryDouble
+.p2align 4
+SteamAPI_ISteamUserStats_GetGlobalStatHistoryDouble:
+	jmp *p_SteamAPI_ISteamUserStats_GetGlobalStatHistoryDouble(%rip)
+.globl SteamAPI_ISteamUserStats_GetGlobalStatHistoryInt64
+.p2align 4
+SteamAPI_ISteamUserStats_GetGlobalStatHistoryInt64:
+	jmp *p_SteamAPI_ISteamUserStats_GetGlobalStatHistoryInt64(%rip)
+.globl SteamAPI_ISteamUserStats_GetGlobalStatInt64
+.p2align 4
+SteamAPI_ISteamUserStats_GetGlobalStatInt64:
+	jmp *p_SteamAPI_ISteamUserStats_GetGlobalStatInt64(%rip)
+.globl SteamAPI_ISteamUserStats_GetLeaderboardDisplayType
+.p2align 4
+SteamAPI_ISteamUserStats_GetLeaderboardDisplayType:
+	jmp *p_SteamAPI_ISteamUserStats_GetLeaderboardDisplayType(%rip)
+.globl SteamAPI_ISteamUserStats_GetLeaderboardEntryCount
+.p2align 4
+SteamAPI_ISteamUserStats_GetLeaderboardEntryCount:
+	jmp *p_SteamAPI_ISteamUserStats_GetLeaderboardEntryCount(%rip)
+.globl SteamAPI_ISteamUserStats_GetLeaderboardName
+.p2align 4
+SteamAPI_ISteamUserStats_GetLeaderboardName:
+	jmp *p_SteamAPI_ISteamUserStats_GetLeaderboardName(%rip)
+.globl SteamAPI_ISteamUserStats_GetLeaderboardSortMethod
+.p2align 4
+SteamAPI_ISteamUserStats_GetLeaderboardSortMethod:
+	jmp *p_SteamAPI_ISteamUserStats_GetLeaderboardSortMethod(%rip)
+.globl SteamAPI_ISteamUserStats_GetMostAchievedAchievementInfo
+.p2align 4
+SteamAPI_ISteamUserStats_GetMostAchievedAchievementInfo:
+	jmp *p_SteamAPI_ISteamUserStats_GetMostAchievedAchievementInfo(%rip)
+.globl SteamAPI_ISteamUserStats_GetNextMostAchievedAchievementInfo
+.p2align 4
+SteamAPI_ISteamUserStats_GetNextMostAchievedAchievementInfo:
+	jmp *p_SteamAPI_ISteamUserStats_GetNextMostAchievedAchievementInfo(%rip)
+.globl SteamAPI_ISteamUserStats_GetNumAchievements
+.p2align 4
+SteamAPI_ISteamUserStats_GetNumAchievements:
+	jmp *p_SteamAPI_ISteamUserStats_GetNumAchievements(%rip)
+.globl SteamAPI_ISteamUserStats_GetNumberOfCurrentPlayers
+.p2align 4
+SteamAPI_ISteamUserStats_GetNumberOfCurrentPlayers:
+	jmp *p_SteamAPI_ISteamUserStats_GetNumberOfCurrentPlayers(%rip)
+.globl SteamAPI_ISteamUserStats_GetStat
+.p2align 4
+SteamAPI_ISteamUserStats_GetStat:
+	jmp *p_SteamAPI_ISteamUserStats_GetStat(%rip)
+.globl SteamAPI_ISteamUserStats_GetStat0
+.p2align 4
+SteamAPI_ISteamUserStats_GetStat0:
+	jmp *p_SteamAPI_ISteamUserStats_GetStat0(%rip)
+.globl SteamAPI_ISteamUserStats_GetStatFloat
+.p2align 4
+SteamAPI_ISteamUserStats_GetStatFloat:
+	jmp *p_SteamAPI_ISteamUserStats_GetStatFloat(%rip)
+.globl SteamAPI_ISteamUserStats_GetStatInt32
+.p2align 4
+SteamAPI_ISteamUserStats_GetStatInt32:
+	jmp *p_SteamAPI_ISteamUserStats_GetStatInt32(%rip)
+.globl SteamAPI_ISteamUserStats_GetUserAchievement
+.p2align 4
+SteamAPI_ISteamUserStats_GetUserAchievement:
+	jmp *p_SteamAPI_ISteamUserStats_GetUserAchievement(%rip)
+.globl SteamAPI_ISteamUserStats_GetUserAchievementAndUnlockTime
+.p2align 4
+SteamAPI_ISteamUserStats_GetUserAchievementAndUnlockTime:
+	jmp *p_SteamAPI_ISteamUserStats_GetUserAchievementAndUnlockTime(%rip)
+.globl SteamAPI_ISteamUserStats_GetUserStat
+.p2align 4
+SteamAPI_ISteamUserStats_GetUserStat:
+	jmp *p_SteamAPI_ISteamUserStats_GetUserStat(%rip)
+.globl SteamAPI_ISteamUserStats_GetUserStat0
+.p2align 4
+SteamAPI_ISteamUserStats_GetUserStat0:
+	jmp *p_SteamAPI_ISteamUserStats_GetUserStat0(%rip)
+.globl SteamAPI_ISteamUserStats_GetUserStatFloat
+.p2align 4
+SteamAPI_ISteamUserStats_GetUserStatFloat:
+	jmp *p_SteamAPI_ISteamUserStats_GetUserStatFloat(%rip)
+.globl SteamAPI_ISteamUserStats_GetUserStatInt32
+.p2align 4
+SteamAPI_ISteamUserStats_GetUserStatInt32:
+	jmp *p_SteamAPI_ISteamUserStats_GetUserStatInt32(%rip)
+.globl SteamAPI_ISteamUserStats_IndicateAchievementProgress
+.p2align 4
+SteamAPI_ISteamUserStats_IndicateAchievementProgress:
+	jmp *p_SteamAPI_ISteamUserStats_IndicateAchievementProgress(%rip)
+.globl SteamAPI_ISteamUserStats_RequestCurrentStats
+.p2align 4
+SteamAPI_ISteamUserStats_RequestCurrentStats:
+	jmp *p_SteamAPI_ISteamUserStats_RequestCurrentStats(%rip)
+.globl SteamAPI_ISteamUserStats_RequestGlobalAchievementPercentages
+.p2align 4
+SteamAPI_ISteamUserStats_RequestGlobalAchievementPercentages:
+	jmp *p_SteamAPI_ISteamUserStats_RequestGlobalAchievementPercentages(%rip)
+.globl SteamAPI_ISteamUserStats_RequestGlobalStats
+.p2align 4
+SteamAPI_ISteamUserStats_RequestGlobalStats:
+	jmp *p_SteamAPI_ISteamUserStats_RequestGlobalStats(%rip)
+.globl SteamAPI_ISteamUserStats_RequestUserStats
+.p2align 4
+SteamAPI_ISteamUserStats_RequestUserStats:
+	jmp *p_SteamAPI_ISteamUserStats_RequestUserStats(%rip)
+.globl SteamAPI_ISteamUserStats_ResetAllStats
+.p2align 4
+SteamAPI_ISteamUserStats_ResetAllStats:
+	jmp *p_SteamAPI_ISteamUserStats_ResetAllStats(%rip)
+.globl SteamAPI_ISteamUserStats_SetAchievement
+.p2align 4
+SteamAPI_ISteamUserStats_SetAchievement:
+	jmp *p_SteamAPI_ISteamUserStats_SetAchievement(%rip)
+.globl SteamAPI_ISteamUserStats_SetStat
+.p2align 4
+SteamAPI_ISteamUserStats_SetStat:
+	jmp *p_SteamAPI_ISteamUserStats_SetStat(%rip)
+.globl SteamAPI_ISteamUserStats_SetStat0
+.p2align 4
+SteamAPI_ISteamUserStats_SetStat0:
+	jmp *p_SteamAPI_ISteamUserStats_SetStat0(%rip)
+.globl SteamAPI_ISteamUserStats_SetStatFloat
+.p2align 4
+SteamAPI_ISteamUserStats_SetStatFloat:
+	jmp *p_SteamAPI_ISteamUserStats_SetStatFloat(%rip)
+.globl SteamAPI_ISteamUserStats_SetStatInt32
+.p2align 4
+SteamAPI_ISteamUserStats_SetStatInt32:
+	jmp *p_SteamAPI_ISteamUserStats_SetStatInt32(%rip)
+.globl SteamAPI_ISteamUserStats_StoreStats
+.p2align 4
+SteamAPI_ISteamUserStats_StoreStats:
+	jmp *p_SteamAPI_ISteamUserStats_StoreStats(%rip)
+.globl SteamAPI_ISteamUserStats_UpdateAvgRateStat
+.p2align 4
+SteamAPI_ISteamUserStats_UpdateAvgRateStat:
+	jmp *p_SteamAPI_ISteamUserStats_UpdateAvgRateStat(%rip)
+.globl SteamAPI_ISteamUserStats_UploadLeaderboardScore
+.p2align 4
+SteamAPI_ISteamUserStats_UploadLeaderboardScore:
+	jmp *p_SteamAPI_ISteamUserStats_UploadLeaderboardScore(%rip)
+.globl SteamAPI_ISteamUser_AdvertiseGame
+.p2align 4
+SteamAPI_ISteamUser_AdvertiseGame:
+	jmp *p_SteamAPI_ISteamUser_AdvertiseGame(%rip)
+.globl SteamAPI_ISteamUser_BIsBehindNAT
+.p2align 4
+SteamAPI_ISteamUser_BIsBehindNAT:
+	jmp *p_SteamAPI_ISteamUser_BIsBehindNAT(%rip)
+.globl SteamAPI_ISteamUser_BIsPhoneIdentifying
+.p2align 4
+SteamAPI_ISteamUser_BIsPhoneIdentifying:
+	jmp *p_SteamAPI_ISteamUser_BIsPhoneIdentifying(%rip)
+.globl SteamAPI_ISteamUser_BIsPhoneRequiringVerification
+.p2align 4
+SteamAPI_ISteamUser_BIsPhoneRequiringVerification:
+	jmp *p_SteamAPI_ISteamUser_BIsPhoneRequiringVerification(%rip)
+.globl SteamAPI_ISteamUser_BIsPhoneVerified
+.p2align 4
+SteamAPI_ISteamUser_BIsPhoneVerified:
+	jmp *p_SteamAPI_ISteamUser_BIsPhoneVerified(%rip)
+.globl SteamAPI_ISteamUser_BIsTwoFactorEnabled
+.p2align 4
+SteamAPI_ISteamUser_BIsTwoFactorEnabled:
+	jmp *p_SteamAPI_ISteamUser_BIsTwoFactorEnabled(%rip)
+.globl SteamAPI_ISteamUser_BLoggedOn
+.p2align 4
+SteamAPI_ISteamUser_BLoggedOn:
+	jmp *p_SteamAPI_ISteamUser_BLoggedOn(%rip)
+.globl SteamAPI_ISteamUser_BSetDurationControlOnlineState
+.p2align 4
+SteamAPI_ISteamUser_BSetDurationControlOnlineState:
+	jmp *p_SteamAPI_ISteamUser_BSetDurationControlOnlineState(%rip)
+.globl SteamAPI_ISteamUser_BeginAuthSession
+.p2align 4
+SteamAPI_ISteamUser_BeginAuthSession:
+	jmp *p_SteamAPI_ISteamUser_BeginAuthSession(%rip)
+.globl SteamAPI_ISteamUser_CancelAuthTicket
+.p2align 4
+SteamAPI_ISteamUser_CancelAuthTicket:
+	jmp *p_SteamAPI_ISteamUser_CancelAuthTicket(%rip)
+.globl SteamAPI_ISteamUser_DecompressVoice
+.p2align 4
+SteamAPI_ISteamUser_DecompressVoice:
+	jmp *p_SteamAPI_ISteamUser_DecompressVoice(%rip)
+.globl SteamAPI_ISteamUser_EndAuthSession
+.p2align 4
+SteamAPI_ISteamUser_EndAuthSession:
+	jmp *p_SteamAPI_ISteamUser_EndAuthSession(%rip)
+.globl SteamAPI_ISteamUser_GetAuthSessionTicket
+.p2align 4
+SteamAPI_ISteamUser_GetAuthSessionTicket:
+	jmp *p_SteamAPI_ISteamUser_GetAuthSessionTicket(%rip)
+.globl SteamAPI_ISteamUser_GetAuthTicketForWebApi
+.p2align 4
+SteamAPI_ISteamUser_GetAuthTicketForWebApi:
+	jmp *p_SteamAPI_ISteamUser_GetAuthTicketForWebApi(%rip)
+.globl SteamAPI_ISteamUser_GetAvailableVoice
+.p2align 4
+SteamAPI_ISteamUser_GetAvailableVoice:
+	jmp *p_SteamAPI_ISteamUser_GetAvailableVoice(%rip)
+.globl SteamAPI_ISteamUser_GetDurationControl
+.p2align 4
+SteamAPI_ISteamUser_GetDurationControl:
+	jmp *p_SteamAPI_ISteamUser_GetDurationControl(%rip)
+.globl SteamAPI_ISteamUser_GetEncryptedAppTicket
+.p2align 4
+SteamAPI_ISteamUser_GetEncryptedAppTicket:
+	jmp *p_SteamAPI_ISteamUser_GetEncryptedAppTicket(%rip)
+.globl SteamAPI_ISteamUser_GetGameBadgeLevel
+.p2align 4
+SteamAPI_ISteamUser_GetGameBadgeLevel:
+	jmp *p_SteamAPI_ISteamUser_GetGameBadgeLevel(%rip)
+.globl SteamAPI_ISteamUser_GetHSteamUser
+.p2align 4
+SteamAPI_ISteamUser_GetHSteamUser:
+	jmp *p_SteamAPI_ISteamUser_GetHSteamUser(%rip)
+.globl SteamAPI_ISteamUser_GetMarketEligibility
+.p2align 4
+SteamAPI_ISteamUser_GetMarketEligibility:
+	jmp *p_SteamAPI_ISteamUser_GetMarketEligibility(%rip)
+.globl SteamAPI_ISteamUser_GetPlayerSteamLevel
+.p2align 4
+SteamAPI_ISteamUser_GetPlayerSteamLevel:
+	jmp *p_SteamAPI_ISteamUser_GetPlayerSteamLevel(%rip)
+.globl SteamAPI_ISteamUser_GetSteamID
+.p2align 4
+SteamAPI_ISteamUser_GetSteamID:
+	jmp *p_SteamAPI_ISteamUser_GetSteamID(%rip)
+.globl SteamAPI_ISteamUser_GetUserDataFolder
+.p2align 4
+SteamAPI_ISteamUser_GetUserDataFolder:
+	jmp *p_SteamAPI_ISteamUser_GetUserDataFolder(%rip)
+.globl SteamAPI_ISteamUser_GetVoice
+.p2align 4
+SteamAPI_ISteamUser_GetVoice:
+	jmp *p_SteamAPI_ISteamUser_GetVoice(%rip)
+.globl SteamAPI_ISteamUser_GetVoiceOptimalSampleRate
+.p2align 4
+SteamAPI_ISteamUser_GetVoiceOptimalSampleRate:
+	jmp *p_SteamAPI_ISteamUser_GetVoiceOptimalSampleRate(%rip)
+.globl SteamAPI_ISteamUser_InitiateGameConnection
+.p2align 4
+SteamAPI_ISteamUser_InitiateGameConnection:
+	jmp *p_SteamAPI_ISteamUser_InitiateGameConnection(%rip)
+.globl SteamAPI_ISteamUser_InitiateGameConnection_DEPRECATED
+.p2align 4
+SteamAPI_ISteamUser_InitiateGameConnection_DEPRECATED:
+	jmp *p_SteamAPI_ISteamUser_InitiateGameConnection_DEPRECATED(%rip)
+.globl SteamAPI_ISteamUser_RequestEncryptedAppTicket
+.p2align 4
+SteamAPI_ISteamUser_RequestEncryptedAppTicket:
+	jmp *p_SteamAPI_ISteamUser_RequestEncryptedAppTicket(%rip)
+.globl SteamAPI_ISteamUser_RequestStoreAuthURL
+.p2align 4
+SteamAPI_ISteamUser_RequestStoreAuthURL:
+	jmp *p_SteamAPI_ISteamUser_RequestStoreAuthURL(%rip)
+.globl SteamAPI_ISteamUser_StartVoiceRecording
+.p2align 4
+SteamAPI_ISteamUser_StartVoiceRecording:
+	jmp *p_SteamAPI_ISteamUser_StartVoiceRecording(%rip)
+.globl SteamAPI_ISteamUser_StopVoiceRecording
+.p2align 4
+SteamAPI_ISteamUser_StopVoiceRecording:
+	jmp *p_SteamAPI_ISteamUser_StopVoiceRecording(%rip)
+.globl SteamAPI_ISteamUser_TerminateGameConnection
+.p2align 4
+SteamAPI_ISteamUser_TerminateGameConnection:
+	jmp *p_SteamAPI_ISteamUser_TerminateGameConnection(%rip)
+.globl SteamAPI_ISteamUser_TerminateGameConnection_DEPRECATED
+.p2align 4
+SteamAPI_ISteamUser_TerminateGameConnection_DEPRECATED:
+	jmp *p_SteamAPI_ISteamUser_TerminateGameConnection_DEPRECATED(%rip)
+.globl SteamAPI_ISteamUser_TrackAppUsageEvent
+.p2align 4
+SteamAPI_ISteamUser_TrackAppUsageEvent:
+	jmp *p_SteamAPI_ISteamUser_TrackAppUsageEvent(%rip)
+.globl SteamAPI_ISteamUser_UserHasLicenseForApp
+.p2align 4
+SteamAPI_ISteamUser_UserHasLicenseForApp:
+	jmp *p_SteamAPI_ISteamUser_UserHasLicenseForApp(%rip)
+.globl SteamAPI_ISteamUtils_BOverlayNeedsPresent
+.p2align 4
+SteamAPI_ISteamUtils_BOverlayNeedsPresent:
+	jmp *p_SteamAPI_ISteamUtils_BOverlayNeedsPresent(%rip)
+.globl SteamAPI_ISteamUtils_CheckFileSignature
+.p2align 4
+SteamAPI_ISteamUtils_CheckFileSignature:
+	jmp *p_SteamAPI_ISteamUtils_CheckFileSignature(%rip)
+.globl SteamAPI_ISteamUtils_DismissFloatingGamepadTextInput
+.p2align 4
+SteamAPI_ISteamUtils_DismissFloatingGamepadTextInput:
+	jmp *p_SteamAPI_ISteamUtils_DismissFloatingGamepadTextInput(%rip)
+.globl SteamAPI_ISteamUtils_DismissGamepadTextInput
+.p2align 4
+SteamAPI_ISteamUtils_DismissGamepadTextInput:
+	jmp *p_SteamAPI_ISteamUtils_DismissGamepadTextInput(%rip)
+.globl SteamAPI_ISteamUtils_FilterText
+.p2align 4
+SteamAPI_ISteamUtils_FilterText:
+	jmp *p_SteamAPI_ISteamUtils_FilterText(%rip)
+.globl SteamAPI_ISteamUtils_GetAPICallFailureReason
+.p2align 4
+SteamAPI_ISteamUtils_GetAPICallFailureReason:
+	jmp *p_SteamAPI_ISteamUtils_GetAPICallFailureReason(%rip)
+.globl SteamAPI_ISteamUtils_GetAPICallResult
+.p2align 4
+SteamAPI_ISteamUtils_GetAPICallResult:
+	jmp *p_SteamAPI_ISteamUtils_GetAPICallResult(%rip)
+.globl SteamAPI_ISteamUtils_GetAppID
+.p2align 4
+SteamAPI_ISteamUtils_GetAppID:
+	jmp *p_SteamAPI_ISteamUtils_GetAppID(%rip)
+.globl SteamAPI_ISteamUtils_GetCSERIPPort
+.p2align 4
+SteamAPI_ISteamUtils_GetCSERIPPort:
+	jmp *p_SteamAPI_ISteamUtils_GetCSERIPPort(%rip)
+.globl SteamAPI_ISteamUtils_GetConnectedUniverse
+.p2align 4
+SteamAPI_ISteamUtils_GetConnectedUniverse:
+	jmp *p_SteamAPI_ISteamUtils_GetConnectedUniverse(%rip)
+.globl SteamAPI_ISteamUtils_GetCurrentBatteryPower
+.p2align 4
+SteamAPI_ISteamUtils_GetCurrentBatteryPower:
+	jmp *p_SteamAPI_ISteamUtils_GetCurrentBatteryPower(%rip)
+.globl SteamAPI_ISteamUtils_GetEnteredGamepadTextInput
+.p2align 4
+SteamAPI_ISteamUtils_GetEnteredGamepadTextInput:
+	jmp *p_SteamAPI_ISteamUtils_GetEnteredGamepadTextInput(%rip)
+.globl SteamAPI_ISteamUtils_GetEnteredGamepadTextLength
+.p2align 4
+SteamAPI_ISteamUtils_GetEnteredGamepadTextLength:
+	jmp *p_SteamAPI_ISteamUtils_GetEnteredGamepadTextLength(%rip)
+.globl SteamAPI_ISteamUtils_GetIPCCallCount
+.p2align 4
+SteamAPI_ISteamUtils_GetIPCCallCount:
+	jmp *p_SteamAPI_ISteamUtils_GetIPCCallCount(%rip)
+.globl SteamAPI_ISteamUtils_GetIPCountry
+.p2align 4
+SteamAPI_ISteamUtils_GetIPCountry:
+	jmp *p_SteamAPI_ISteamUtils_GetIPCountry(%rip)
+.globl SteamAPI_ISteamUtils_GetIPv6ConnectivityState
+.p2align 4
+SteamAPI_ISteamUtils_GetIPv6ConnectivityState:
+	jmp *p_SteamAPI_ISteamUtils_GetIPv6ConnectivityState(%rip)
+.globl SteamAPI_ISteamUtils_GetImageRGBA
+.p2align 4
+SteamAPI_ISteamUtils_GetImageRGBA:
+	jmp *p_SteamAPI_ISteamUtils_GetImageRGBA(%rip)
+.globl SteamAPI_ISteamUtils_GetImageSize
+.p2align 4
+SteamAPI_ISteamUtils_GetImageSize:
+	jmp *p_SteamAPI_ISteamUtils_GetImageSize(%rip)
+.globl SteamAPI_ISteamUtils_GetSecondsSinceAppActive
+.p2align 4
+SteamAPI_ISteamUtils_GetSecondsSinceAppActive:
+	jmp *p_SteamAPI_ISteamUtils_GetSecondsSinceAppActive(%rip)
+.globl SteamAPI_ISteamUtils_GetSecondsSinceComputerActive
+.p2align 4
+SteamAPI_ISteamUtils_GetSecondsSinceComputerActive:
+	jmp *p_SteamAPI_ISteamUtils_GetSecondsSinceComputerActive(%rip)
+.globl SteamAPI_ISteamUtils_GetServerRealTime
+.p2align 4
+SteamAPI_ISteamUtils_GetServerRealTime:
+	jmp *p_SteamAPI_ISteamUtils_GetServerRealTime(%rip)
+.globl SteamAPI_ISteamUtils_GetSteamHardwareDefaultConfig
+.p2align 4
+SteamAPI_ISteamUtils_GetSteamHardwareDefaultConfig:
+	jmp *p_SteamAPI_ISteamUtils_GetSteamHardwareDefaultConfig(%rip)
+.globl SteamAPI_ISteamUtils_GetSteamUILanguage
+.p2align 4
+SteamAPI_ISteamUtils_GetSteamUILanguage:
+	jmp *p_SteamAPI_ISteamUtils_GetSteamUILanguage(%rip)
+.globl SteamAPI_ISteamUtils_InitFilterText
+.p2align 4
+SteamAPI_ISteamUtils_InitFilterText:
+	jmp *p_SteamAPI_ISteamUtils_InitFilterText(%rip)
+.globl SteamAPI_ISteamUtils_IsAPICallCompleted
+.p2align 4
+SteamAPI_ISteamUtils_IsAPICallCompleted:
+	jmp *p_SteamAPI_ISteamUtils_IsAPICallCompleted(%rip)
+.globl SteamAPI_ISteamUtils_IsOverlayEnabled
+.p2align 4
+SteamAPI_ISteamUtils_IsOverlayEnabled:
+	jmp *p_SteamAPI_ISteamUtils_IsOverlayEnabled(%rip)
+.globl SteamAPI_ISteamUtils_IsRunningOnSteamHardware
+.p2align 4
+SteamAPI_ISteamUtils_IsRunningOnSteamHardware:
+	jmp *p_SteamAPI_ISteamUtils_IsRunningOnSteamHardware(%rip)
+.globl SteamAPI_ISteamUtils_IsRunningUnderProton
+.p2align 4
+SteamAPI_ISteamUtils_IsRunningUnderProton:
+	jmp *p_SteamAPI_ISteamUtils_IsRunningUnderProton(%rip)
+.globl SteamAPI_ISteamUtils_IsSteamChinaLauncher
+.p2align 4
+SteamAPI_ISteamUtils_IsSteamChinaLauncher:
+	jmp *p_SteamAPI_ISteamUtils_IsSteamChinaLauncher(%rip)
+.globl SteamAPI_ISteamUtils_IsSteamInBigPictureMode
+.p2align 4
+SteamAPI_ISteamUtils_IsSteamInBigPictureMode:
+	jmp *p_SteamAPI_ISteamUtils_IsSteamInBigPictureMode(%rip)
+.globl SteamAPI_ISteamUtils_IsSteamRunningInVR
+.p2align 4
+SteamAPI_ISteamUtils_IsSteamRunningInVR:
+	jmp *p_SteamAPI_ISteamUtils_IsSteamRunningInVR(%rip)
+.globl SteamAPI_ISteamUtils_IsSteamRunningOnSteamDeck
+.p2align 4
+SteamAPI_ISteamUtils_IsSteamRunningOnSteamDeck:
+	jmp *p_SteamAPI_ISteamUtils_IsSteamRunningOnSteamDeck(%rip)
+.globl SteamAPI_ISteamUtils_IsVRHeadsetStreamingEnabled
+.p2align 4
+SteamAPI_ISteamUtils_IsVRHeadsetStreamingEnabled:
+	jmp *p_SteamAPI_ISteamUtils_IsVRHeadsetStreamingEnabled(%rip)
+.globl SteamAPI_ISteamUtils_SetGameLauncherMode
+.p2align 4
+SteamAPI_ISteamUtils_SetGameLauncherMode:
+	jmp *p_SteamAPI_ISteamUtils_SetGameLauncherMode(%rip)
+.globl SteamAPI_ISteamUtils_SetOverlayNotificationInset
+.p2align 4
+SteamAPI_ISteamUtils_SetOverlayNotificationInset:
+	jmp *p_SteamAPI_ISteamUtils_SetOverlayNotificationInset(%rip)
+.globl SteamAPI_ISteamUtils_SetOverlayNotificationPosition
+.p2align 4
+SteamAPI_ISteamUtils_SetOverlayNotificationPosition:
+	jmp *p_SteamAPI_ISteamUtils_SetOverlayNotificationPosition(%rip)
+.globl SteamAPI_ISteamUtils_SetVRHeadsetStreamingEnabled
+.p2align 4
+SteamAPI_ISteamUtils_SetVRHeadsetStreamingEnabled:
+	jmp *p_SteamAPI_ISteamUtils_SetVRHeadsetStreamingEnabled(%rip)
+.globl SteamAPI_ISteamUtils_SetWarningMessageHook
+.p2align 4
+SteamAPI_ISteamUtils_SetWarningMessageHook:
+	jmp *p_SteamAPI_ISteamUtils_SetWarningMessageHook(%rip)
+.globl SteamAPI_ISteamUtils_ShowFloatingGamepadTextInput
+.p2align 4
+SteamAPI_ISteamUtils_ShowFloatingGamepadTextInput:
+	jmp *p_SteamAPI_ISteamUtils_ShowFloatingGamepadTextInput(%rip)
+.globl SteamAPI_ISteamUtils_ShowGamepadTextInput
+.p2align 4
+SteamAPI_ISteamUtils_ShowGamepadTextInput:
+	jmp *p_SteamAPI_ISteamUtils_ShowGamepadTextInput(%rip)
+.globl SteamAPI_ISteamUtils_ShowModalGamepadTextInput
+.p2align 4
+SteamAPI_ISteamUtils_ShowModalGamepadTextInput:
+	jmp *p_SteamAPI_ISteamUtils_ShowModalGamepadTextInput(%rip)
+.globl SteamAPI_ISteamUtils_StartVRDashboard
+.p2align 4
+SteamAPI_ISteamUtils_StartVRDashboard:
+	jmp *p_SteamAPI_ISteamUtils_StartVRDashboard(%rip)
+.globl SteamAPI_ISteamVideo_GetOPFSettings
+.p2align 4
+SteamAPI_ISteamVideo_GetOPFSettings:
+	jmp *p_SteamAPI_ISteamVideo_GetOPFSettings(%rip)
+.globl SteamAPI_ISteamVideo_GetOPFStringForApp
+.p2align 4
+SteamAPI_ISteamVideo_GetOPFStringForApp:
+	jmp *p_SteamAPI_ISteamVideo_GetOPFStringForApp(%rip)
+.globl SteamAPI_ISteamVideo_GetVideoURL
+.p2align 4
+SteamAPI_ISteamVideo_GetVideoURL:
+	jmp *p_SteamAPI_ISteamVideo_GetVideoURL(%rip)
+.globl SteamAPI_ISteamVideo_IsBroadcasting
+.p2align 4
+SteamAPI_ISteamVideo_IsBroadcasting:
+	jmp *p_SteamAPI_ISteamVideo_IsBroadcasting(%rip)
+.globl SteamAPI_Init
+.p2align 4
+SteamAPI_Init:
+	jmp *p_SteamAPI_Init(%rip)
+.globl SteamAPI_InitAnonymousUser
+.p2align 4
+SteamAPI_InitAnonymousUser:
+	jmp *p_SteamAPI_InitAnonymousUser(%rip)
+.globl SteamAPI_InitFlat
+.p2align 4
+SteamAPI_InitFlat:
+	jmp *p_SteamAPI_InitFlat(%rip)
+.globl SteamAPI_InitSafe
+.p2align 4
+SteamAPI_InitSafe:
+	jmp *p_SteamAPI_InitSafe(%rip)
+.globl SteamAPI_IsSteamRunning
+.p2align 4
+SteamAPI_IsSteamRunning:
+	jmp *p_SteamAPI_IsSteamRunning(%rip)
+.globl SteamAPI_ManualDispatch_FreeLastCallback
+.p2align 4
+SteamAPI_ManualDispatch_FreeLastCallback:
+	jmp *p_SteamAPI_ManualDispatch_FreeLastCallback(%rip)
+.globl SteamAPI_ManualDispatch_GetAPICallResult
+.p2align 4
+SteamAPI_ManualDispatch_GetAPICallResult:
+	jmp *p_SteamAPI_ManualDispatch_GetAPICallResult(%rip)
+.globl SteamAPI_ManualDispatch_GetNextCallback
+.p2align 4
+SteamAPI_ManualDispatch_GetNextCallback:
+	jmp *p_SteamAPI_ManualDispatch_GetNextCallback(%rip)
+.globl SteamAPI_ManualDispatch_Init
+.p2align 4
+SteamAPI_ManualDispatch_Init:
+	jmp *p_SteamAPI_ManualDispatch_Init(%rip)
+.globl SteamAPI_ManualDispatch_RunFrame
+.p2align 4
+SteamAPI_ManualDispatch_RunFrame:
+	jmp *p_SteamAPI_ManualDispatch_RunFrame(%rip)
+.globl SteamAPI_MatchMakingKeyValuePair_t_Construct
+.p2align 4
+SteamAPI_MatchMakingKeyValuePair_t_Construct:
+	jmp *p_SteamAPI_MatchMakingKeyValuePair_t_Construct(%rip)
+.globl SteamAPI_RegisterCallResult
+.p2align 4
+SteamAPI_RegisterCallResult:
+	jmp *p_SteamAPI_RegisterCallResult(%rip)
+.globl SteamAPI_RegisterCallback
+.p2align 4
+SteamAPI_RegisterCallback:
+	jmp *p_SteamAPI_RegisterCallback(%rip)
+.globl SteamAPI_ReleaseCurrentThreadMemory
+.p2align 4
+SteamAPI_ReleaseCurrentThreadMemory:
+	jmp *p_SteamAPI_ReleaseCurrentThreadMemory(%rip)
+.globl SteamAPI_RestartApp
+.p2align 4
+SteamAPI_RestartApp:
+	jmp *p_SteamAPI_RestartApp(%rip)
+.globl SteamAPI_RestartAppIfNecessary
+.p2align 4
+SteamAPI_RestartAppIfNecessary:
+	jmp *p_SteamAPI_RestartAppIfNecessary(%rip)
+.globl SteamAPI_RunCallbacks
+.p2align 4
+SteamAPI_RunCallbacks:
+	jmp *p_SteamAPI_RunCallbacks(%rip)
+.globl SteamAPI_SetBreakpadAppID
+.p2align 4
+SteamAPI_SetBreakpadAppID:
+	jmp *p_SteamAPI_SetBreakpadAppID(%rip)
+.globl SteamAPI_SetMiniDumpComment
+.p2align 4
+SteamAPI_SetMiniDumpComment:
+	jmp *p_SteamAPI_SetMiniDumpComment(%rip)
+.globl SteamAPI_SetTryCatchCallbacks
+.p2align 4
+SteamAPI_SetTryCatchCallbacks:
+	jmp *p_SteamAPI_SetTryCatchCallbacks(%rip)
+.globl SteamAPI_Shutdown
+.p2align 4
+SteamAPI_Shutdown:
+	jmp *p_SteamAPI_Shutdown(%rip)
+.globl SteamAPI_SteamAppList_v001
+.p2align 4
+SteamAPI_SteamAppList_v001:
+	jmp *p_SteamAPI_SteamAppList_v001(%rip)
+.globl SteamAPI_SteamApps_v008
+.p2align 4
+SteamAPI_SteamApps_v008:
+	jmp *p_SteamAPI_SteamApps_v008(%rip)
+.globl SteamAPI_SteamApps_v009
+.p2align 4
+SteamAPI_SteamApps_v009:
+	jmp *p_SteamAPI_SteamApps_v009(%rip)
+.globl SteamAPI_SteamController_v007
+.p2align 4
+SteamAPI_SteamController_v007:
+	jmp *p_SteamAPI_SteamController_v007(%rip)
+.globl SteamAPI_SteamController_v008
+.p2align 4
+SteamAPI_SteamController_v008:
+	jmp *p_SteamAPI_SteamController_v008(%rip)
+.globl SteamAPI_SteamDatagramHostedAddress_Clear
+.p2align 4
+SteamAPI_SteamDatagramHostedAddress_Clear:
+	jmp *p_SteamAPI_SteamDatagramHostedAddress_Clear(%rip)
+.globl SteamAPI_SteamDatagramHostedAddress_GetPopID
+.p2align 4
+SteamAPI_SteamDatagramHostedAddress_GetPopID:
+	jmp *p_SteamAPI_SteamDatagramHostedAddress_GetPopID(%rip)
+.globl SteamAPI_SteamDatagramHostedAddress_SetDevAddress
+.p2align 4
+SteamAPI_SteamDatagramHostedAddress_SetDevAddress:
+	jmp *p_SteamAPI_SteamDatagramHostedAddress_SetDevAddress(%rip)
+.globl SteamAPI_SteamFriends_v017
+.p2align 4
+SteamAPI_SteamFriends_v017:
+	jmp *p_SteamAPI_SteamFriends_v017(%rip)
+.globl SteamAPI_SteamFriends_v018
+.p2align 4
+SteamAPI_SteamFriends_v018:
+	jmp *p_SteamAPI_SteamFriends_v018(%rip)
+.globl SteamAPI_SteamGameSearch_v001
+.p2align 4
+SteamAPI_SteamGameSearch_v001:
+	jmp *p_SteamAPI_SteamGameSearch_v001(%rip)
+.globl SteamAPI_SteamGameServerApps_v008
+.p2align 4
+SteamAPI_SteamGameServerApps_v008:
+	jmp *p_SteamAPI_SteamGameServerApps_v008(%rip)
+.globl SteamAPI_SteamGameServerApps_v009
+.p2align 4
+SteamAPI_SteamGameServerApps_v009:
+	jmp *p_SteamAPI_SteamGameServerApps_v009(%rip)
+.globl SteamAPI_SteamGameServerHTTP_v003
+.p2align 4
+SteamAPI_SteamGameServerHTTP_v003:
+	jmp *p_SteamAPI_SteamGameServerHTTP_v003(%rip)
+.globl SteamAPI_SteamGameServerInventory_v003
+.p2align 4
+SteamAPI_SteamGameServerInventory_v003:
+	jmp *p_SteamAPI_SteamGameServerInventory_v003(%rip)
+.globl SteamAPI_SteamGameServerNetworkingMessages_SteamAPI_v002
+.p2align 4
+SteamAPI_SteamGameServerNetworkingMessages_SteamAPI_v002:
+	jmp *p_SteamAPI_SteamGameServerNetworkingMessages_SteamAPI_v002(%rip)
+.globl SteamAPI_SteamGameServerNetworkingMessages_v002
+.p2align 4
+SteamAPI_SteamGameServerNetworkingMessages_v002:
+	jmp *p_SteamAPI_SteamGameServerNetworkingMessages_v002(%rip)
+.globl SteamAPI_SteamGameServerNetworkingSockets_SteamAPI_v009
+.p2align 4
+SteamAPI_SteamGameServerNetworkingSockets_SteamAPI_v009:
+	jmp *p_SteamAPI_SteamGameServerNetworkingSockets_SteamAPI_v009(%rip)
+.globl SteamAPI_SteamGameServerNetworkingSockets_SteamAPI_v011
+.p2align 4
+SteamAPI_SteamGameServerNetworkingSockets_SteamAPI_v011:
+	jmp *p_SteamAPI_SteamGameServerNetworkingSockets_SteamAPI_v011(%rip)
+.globl SteamAPI_SteamGameServerNetworkingSockets_SteamAPI_v012
+.p2align 4
+SteamAPI_SteamGameServerNetworkingSockets_SteamAPI_v012:
+	jmp *p_SteamAPI_SteamGameServerNetworkingSockets_SteamAPI_v012(%rip)
+.globl SteamAPI_SteamGameServerNetworkingSockets_SteamAPI_v013
+.p2align 4
+SteamAPI_SteamGameServerNetworkingSockets_SteamAPI_v013:
+	jmp *p_SteamAPI_SteamGameServerNetworkingSockets_SteamAPI_v013(%rip)
+.globl SteamAPI_SteamGameServerNetworkingSockets_v008
+.p2align 4
+SteamAPI_SteamGameServerNetworkingSockets_v008:
+	jmp *p_SteamAPI_SteamGameServerNetworkingSockets_v008(%rip)
+.globl SteamAPI_SteamGameServerNetworkingSockets_v009
+.p2align 4
+SteamAPI_SteamGameServerNetworkingSockets_v009:
+	jmp *p_SteamAPI_SteamGameServerNetworkingSockets_v009(%rip)
+.globl SteamAPI_SteamGameServerNetworking_v006
+.p2align 4
+SteamAPI_SteamGameServerNetworking_v006:
+	jmp *p_SteamAPI_SteamGameServerNetworking_v006(%rip)
+.globl SteamAPI_SteamGameServerStats_v001
+.p2align 4
+SteamAPI_SteamGameServerStats_v001:
+	jmp *p_SteamAPI_SteamGameServerStats_v001(%rip)
+.globl SteamAPI_SteamGameServerUGC_v014
+.p2align 4
+SteamAPI_SteamGameServerUGC_v014:
+	jmp *p_SteamAPI_SteamGameServerUGC_v014(%rip)
+.globl SteamAPI_SteamGameServerUGC_v015
+.p2align 4
+SteamAPI_SteamGameServerUGC_v015:
+	jmp *p_SteamAPI_SteamGameServerUGC_v015(%rip)
+.globl SteamAPI_SteamGameServerUGC_v016
+.p2align 4
+SteamAPI_SteamGameServerUGC_v016:
+	jmp *p_SteamAPI_SteamGameServerUGC_v016(%rip)
+.globl SteamAPI_SteamGameServerUGC_v017
+.p2align 4
+SteamAPI_SteamGameServerUGC_v017:
+	jmp *p_SteamAPI_SteamGameServerUGC_v017(%rip)
+.globl SteamAPI_SteamGameServerUGC_v018
+.p2align 4
+SteamAPI_SteamGameServerUGC_v018:
+	jmp *p_SteamAPI_SteamGameServerUGC_v018(%rip)
+.globl SteamAPI_SteamGameServerUGC_v020
+.p2align 4
+SteamAPI_SteamGameServerUGC_v020:
+	jmp *p_SteamAPI_SteamGameServerUGC_v020(%rip)
+.globl SteamAPI_SteamGameServerUGC_v021
+.p2align 4
+SteamAPI_SteamGameServerUGC_v021:
+	jmp *p_SteamAPI_SteamGameServerUGC_v021(%rip)
+.globl SteamAPI_SteamGameServerUtils_v009
+.p2align 4
+SteamAPI_SteamGameServerUtils_v009:
+	jmp *p_SteamAPI_SteamGameServerUtils_v009(%rip)
+.globl SteamAPI_SteamGameServerUtils_v010
+.p2align 4
+SteamAPI_SteamGameServerUtils_v010:
+	jmp *p_SteamAPI_SteamGameServerUtils_v010(%rip)
+.globl SteamAPI_SteamGameServerUtils_v011
+.p2align 4
+SteamAPI_SteamGameServerUtils_v011:
+	jmp *p_SteamAPI_SteamGameServerUtils_v011(%rip)
+.globl SteamAPI_SteamGameServer_v013
+.p2align 4
+SteamAPI_SteamGameServer_v013:
+	jmp *p_SteamAPI_SteamGameServer_v013(%rip)
+.globl SteamAPI_SteamGameServer_v014
+.p2align 4
+SteamAPI_SteamGameServer_v014:
+	jmp *p_SteamAPI_SteamGameServer_v014(%rip)
+.globl SteamAPI_SteamGameServer_v015
+.p2align 4
+SteamAPI_SteamGameServer_v015:
+	jmp *p_SteamAPI_SteamGameServer_v015(%rip)
+.globl SteamAPI_SteamHTMLSurface_v005
+.p2align 4
+SteamAPI_SteamHTMLSurface_v005:
+	jmp *p_SteamAPI_SteamHTMLSurface_v005(%rip)
+.globl SteamAPI_SteamHTTP_v003
+.p2align 4
+SteamAPI_SteamHTTP_v003:
+	jmp *p_SteamAPI_SteamHTTP_v003(%rip)
+.globl SteamAPI_SteamIPAddress_t_IsSet
+.p2align 4
+SteamAPI_SteamIPAddress_t_IsSet:
+	jmp *p_SteamAPI_SteamIPAddress_t_IsSet(%rip)
+.globl SteamAPI_SteamInput_v001
+.p2align 4
+SteamAPI_SteamInput_v001:
+	jmp *p_SteamAPI_SteamInput_v001(%rip)
+.globl SteamAPI_SteamInput_v002
+.p2align 4
+SteamAPI_SteamInput_v002:
+	jmp *p_SteamAPI_SteamInput_v002(%rip)
+.globl SteamAPI_SteamInput_v005
+.p2align 4
+SteamAPI_SteamInput_v005:
+	jmp *p_SteamAPI_SteamInput_v005(%rip)
+.globl SteamAPI_SteamInput_v006
+.p2align 4
+SteamAPI_SteamInput_v006:
+	jmp *p_SteamAPI_SteamInput_v006(%rip)
+.globl SteamAPI_SteamInput_v007
+.p2align 4
+SteamAPI_SteamInput_v007:
+	jmp *p_SteamAPI_SteamInput_v007(%rip)
+.globl SteamAPI_SteamInventory_v003
+.p2align 4
+SteamAPI_SteamInventory_v003:
+	jmp *p_SteamAPI_SteamInventory_v003(%rip)
+.globl SteamAPI_SteamMatchmakingServers_v002
+.p2align 4
+SteamAPI_SteamMatchmakingServers_v002:
+	jmp *p_SteamAPI_SteamMatchmakingServers_v002(%rip)
+.globl SteamAPI_SteamMatchmakingServers_v003
+.p2align 4
+SteamAPI_SteamMatchmakingServers_v003:
+	jmp *p_SteamAPI_SteamMatchmakingServers_v003(%rip)
+.globl SteamAPI_SteamMatchmaking_v009
+.p2align 4
+SteamAPI_SteamMatchmaking_v009:
+	jmp *p_SteamAPI_SteamMatchmaking_v009(%rip)
+.globl SteamAPI_SteamMusicRemote_v001
+.p2align 4
+SteamAPI_SteamMusicRemote_v001:
+	jmp *p_SteamAPI_SteamMusicRemote_v001(%rip)
+.globl SteamAPI_SteamMusic_v001
+.p2align 4
+SteamAPI_SteamMusic_v001:
+	jmp *p_SteamAPI_SteamMusic_v001(%rip)
+.globl SteamAPI_SteamNetworkingConfigValue_t_SetFloat
+.p2align 4
+SteamAPI_SteamNetworkingConfigValue_t_SetFloat:
+	jmp *p_SteamAPI_SteamNetworkingConfigValue_t_SetFloat(%rip)
+.globl SteamAPI_SteamNetworkingConfigValue_t_SetInt32
+.p2align 4
+SteamAPI_SteamNetworkingConfigValue_t_SetInt32:
+	jmp *p_SteamAPI_SteamNetworkingConfigValue_t_SetInt32(%rip)
+.globl SteamAPI_SteamNetworkingConfigValue_t_SetInt64
+.p2align 4
+SteamAPI_SteamNetworkingConfigValue_t_SetInt64:
+	jmp *p_SteamAPI_SteamNetworkingConfigValue_t_SetInt64(%rip)
+.globl SteamAPI_SteamNetworkingConfigValue_t_SetPtr
+.p2align 4
+SteamAPI_SteamNetworkingConfigValue_t_SetPtr:
+	jmp *p_SteamAPI_SteamNetworkingConfigValue_t_SetPtr(%rip)
+.globl SteamAPI_SteamNetworkingConfigValue_t_SetString
+.p2align 4
+SteamAPI_SteamNetworkingConfigValue_t_SetString:
+	jmp *p_SteamAPI_SteamNetworkingConfigValue_t_SetString(%rip)
+.globl SteamAPI_SteamNetworkingIPAddrRender_c_str
+.p2align 4
+SteamAPI_SteamNetworkingIPAddrRender_c_str:
+	jmp *p_SteamAPI_SteamNetworkingIPAddrRender_c_str(%rip)
+.globl SteamAPI_SteamNetworkingIPAddr_Clear
+.p2align 4
+SteamAPI_SteamNetworkingIPAddr_Clear:
+	jmp *p_SteamAPI_SteamNetworkingIPAddr_Clear(%rip)
+.globl SteamAPI_SteamNetworkingIPAddr_GetFakeIPType
+.p2align 4
+SteamAPI_SteamNetworkingIPAddr_GetFakeIPType:
+	jmp *p_SteamAPI_SteamNetworkingIPAddr_GetFakeIPType(%rip)
+.globl SteamAPI_SteamNetworkingIPAddr_GetIPv4
+.p2align 4
+SteamAPI_SteamNetworkingIPAddr_GetIPv4:
+	jmp *p_SteamAPI_SteamNetworkingIPAddr_GetIPv4(%rip)
+.globl SteamAPI_SteamNetworkingIPAddr_IsEqualTo
+.p2align 4
+SteamAPI_SteamNetworkingIPAddr_IsEqualTo:
+	jmp *p_SteamAPI_SteamNetworkingIPAddr_IsEqualTo(%rip)
+.globl SteamAPI_SteamNetworkingIPAddr_IsFakeIP
+.p2align 4
+SteamAPI_SteamNetworkingIPAddr_IsFakeIP:
+	jmp *p_SteamAPI_SteamNetworkingIPAddr_IsFakeIP(%rip)
+.globl SteamAPI_SteamNetworkingIPAddr_IsIPv4
+.p2align 4
+SteamAPI_SteamNetworkingIPAddr_IsIPv4:
+	jmp *p_SteamAPI_SteamNetworkingIPAddr_IsIPv4(%rip)
+.globl SteamAPI_SteamNetworkingIPAddr_IsIPv6AllZeros
+.p2align 4
+SteamAPI_SteamNetworkingIPAddr_IsIPv6AllZeros:
+	jmp *p_SteamAPI_SteamNetworkingIPAddr_IsIPv6AllZeros(%rip)
+.globl SteamAPI_SteamNetworkingIPAddr_IsLocalHost
+.p2align 4
+SteamAPI_SteamNetworkingIPAddr_IsLocalHost:
+	jmp *p_SteamAPI_SteamNetworkingIPAddr_IsLocalHost(%rip)
+.globl SteamAPI_SteamNetworkingIPAddr_ParseString
+.p2align 4
+SteamAPI_SteamNetworkingIPAddr_ParseString:
+	jmp *p_SteamAPI_SteamNetworkingIPAddr_ParseString(%rip)
+.globl SteamAPI_SteamNetworkingIPAddr_SetIPv4
+.p2align 4
+SteamAPI_SteamNetworkingIPAddr_SetIPv4:
+	jmp *p_SteamAPI_SteamNetworkingIPAddr_SetIPv4(%rip)
+.globl SteamAPI_SteamNetworkingIPAddr_SetIPv6
+.p2align 4
+SteamAPI_SteamNetworkingIPAddr_SetIPv6:
+	jmp *p_SteamAPI_SteamNetworkingIPAddr_SetIPv6(%rip)
+.globl SteamAPI_SteamNetworkingIPAddr_SetIPv6LocalHost
+.p2align 4
+SteamAPI_SteamNetworkingIPAddr_SetIPv6LocalHost:
+	jmp *p_SteamAPI_SteamNetworkingIPAddr_SetIPv6LocalHost(%rip)
+.globl SteamAPI_SteamNetworkingIPAddr_ToString
+.p2align 4
+SteamAPI_SteamNetworkingIPAddr_ToString:
+	jmp *p_SteamAPI_SteamNetworkingIPAddr_ToString(%rip)
+.globl SteamAPI_SteamNetworkingIdentityRender_c_str
+.p2align 4
+SteamAPI_SteamNetworkingIdentityRender_c_str:
+	jmp *p_SteamAPI_SteamNetworkingIdentityRender_c_str(%rip)
+.globl SteamAPI_SteamNetworkingIdentity_Clear
+.p2align 4
+SteamAPI_SteamNetworkingIdentity_Clear:
+	jmp *p_SteamAPI_SteamNetworkingIdentity_Clear(%rip)
+.globl SteamAPI_SteamNetworkingIdentity_GetFakeIPType
+.p2align 4
+SteamAPI_SteamNetworkingIdentity_GetFakeIPType:
+	jmp *p_SteamAPI_SteamNetworkingIdentity_GetFakeIPType(%rip)
+.globl SteamAPI_SteamNetworkingIdentity_GetGenericBytes
+.p2align 4
+SteamAPI_SteamNetworkingIdentity_GetGenericBytes:
+	jmp *p_SteamAPI_SteamNetworkingIdentity_GetGenericBytes(%rip)
+.globl SteamAPI_SteamNetworkingIdentity_GetGenericString
+.p2align 4
+SteamAPI_SteamNetworkingIdentity_GetGenericString:
+	jmp *p_SteamAPI_SteamNetworkingIdentity_GetGenericString(%rip)
+.globl SteamAPI_SteamNetworkingIdentity_GetIPAddr
+.p2align 4
+SteamAPI_SteamNetworkingIdentity_GetIPAddr:
+	jmp *p_SteamAPI_SteamNetworkingIdentity_GetIPAddr(%rip)
+.globl SteamAPI_SteamNetworkingIdentity_GetIPv4
+.p2align 4
+SteamAPI_SteamNetworkingIdentity_GetIPv4:
+	jmp *p_SteamAPI_SteamNetworkingIdentity_GetIPv4(%rip)
+.globl SteamAPI_SteamNetworkingIdentity_GetPSNID
+.p2align 4
+SteamAPI_SteamNetworkingIdentity_GetPSNID:
+	jmp *p_SteamAPI_SteamNetworkingIdentity_GetPSNID(%rip)
+.globl SteamAPI_SteamNetworkingIdentity_GetStadiaID
+.p2align 4
+SteamAPI_SteamNetworkingIdentity_GetStadiaID:
+	jmp *p_SteamAPI_SteamNetworkingIdentity_GetStadiaID(%rip)
+.globl SteamAPI_SteamNetworkingIdentity_GetSteamID
+.p2align 4
+SteamAPI_SteamNetworkingIdentity_GetSteamID:
+	jmp *p_SteamAPI_SteamNetworkingIdentity_GetSteamID(%rip)
+.globl SteamAPI_SteamNetworkingIdentity_GetSteamID64
+.p2align 4
+SteamAPI_SteamNetworkingIdentity_GetSteamID64:
+	jmp *p_SteamAPI_SteamNetworkingIdentity_GetSteamID64(%rip)
+.globl SteamAPI_SteamNetworkingIdentity_GetXboxPairwiseID
+.p2align 4
+SteamAPI_SteamNetworkingIdentity_GetXboxPairwiseID:
+	jmp *p_SteamAPI_SteamNetworkingIdentity_GetXboxPairwiseID(%rip)
+.globl SteamAPI_SteamNetworkingIdentity_IsEqualTo
+.p2align 4
+SteamAPI_SteamNetworkingIdentity_IsEqualTo:
+	jmp *p_SteamAPI_SteamNetworkingIdentity_IsEqualTo(%rip)
+.globl SteamAPI_SteamNetworkingIdentity_IsFakeIP
+.p2align 4
+SteamAPI_SteamNetworkingIdentity_IsFakeIP:
+	jmp *p_SteamAPI_SteamNetworkingIdentity_IsFakeIP(%rip)
+.globl SteamAPI_SteamNetworkingIdentity_IsInvalid
+.p2align 4
+SteamAPI_SteamNetworkingIdentity_IsInvalid:
+	jmp *p_SteamAPI_SteamNetworkingIdentity_IsInvalid(%rip)
+.globl SteamAPI_SteamNetworkingIdentity_IsLocalHost
+.p2align 4
+SteamAPI_SteamNetworkingIdentity_IsLocalHost:
+	jmp *p_SteamAPI_SteamNetworkingIdentity_IsLocalHost(%rip)
+.globl SteamAPI_SteamNetworkingIdentity_ParseString
+.p2align 4
+SteamAPI_SteamNetworkingIdentity_ParseString:
+	jmp *p_SteamAPI_SteamNetworkingIdentity_ParseString(%rip)
+.globl SteamAPI_SteamNetworkingIdentity_SetGenericBytes
+.p2align 4
+SteamAPI_SteamNetworkingIdentity_SetGenericBytes:
+	jmp *p_SteamAPI_SteamNetworkingIdentity_SetGenericBytes(%rip)
+.globl SteamAPI_SteamNetworkingIdentity_SetGenericString
+.p2align 4
+SteamAPI_SteamNetworkingIdentity_SetGenericString:
+	jmp *p_SteamAPI_SteamNetworkingIdentity_SetGenericString(%rip)
+.globl SteamAPI_SteamNetworkingIdentity_SetIPAddr
+.p2align 4
+SteamAPI_SteamNetworkingIdentity_SetIPAddr:
+	jmp *p_SteamAPI_SteamNetworkingIdentity_SetIPAddr(%rip)
+.globl SteamAPI_SteamNetworkingIdentity_SetIPv4Addr
+.p2align 4
+SteamAPI_SteamNetworkingIdentity_SetIPv4Addr:
+	jmp *p_SteamAPI_SteamNetworkingIdentity_SetIPv4Addr(%rip)
+.globl SteamAPI_SteamNetworkingIdentity_SetLocalHost
+.p2align 4
+SteamAPI_SteamNetworkingIdentity_SetLocalHost:
+	jmp *p_SteamAPI_SteamNetworkingIdentity_SetLocalHost(%rip)
+.globl SteamAPI_SteamNetworkingIdentity_SetPSNID
+.p2align 4
+SteamAPI_SteamNetworkingIdentity_SetPSNID:
+	jmp *p_SteamAPI_SteamNetworkingIdentity_SetPSNID(%rip)
+.globl SteamAPI_SteamNetworkingIdentity_SetStadiaID
+.p2align 4
+SteamAPI_SteamNetworkingIdentity_SetStadiaID:
+	jmp *p_SteamAPI_SteamNetworkingIdentity_SetStadiaID(%rip)
+.globl SteamAPI_SteamNetworkingIdentity_SetSteamID
+.p2align 4
+SteamAPI_SteamNetworkingIdentity_SetSteamID:
+	jmp *p_SteamAPI_SteamNetworkingIdentity_SetSteamID(%rip)
+.globl SteamAPI_SteamNetworkingIdentity_SetSteamID64
+.p2align 4
+SteamAPI_SteamNetworkingIdentity_SetSteamID64:
+	jmp *p_SteamAPI_SteamNetworkingIdentity_SetSteamID64(%rip)
+.globl SteamAPI_SteamNetworkingIdentity_SetXboxPairwiseID
+.p2align 4
+SteamAPI_SteamNetworkingIdentity_SetXboxPairwiseID:
+	jmp *p_SteamAPI_SteamNetworkingIdentity_SetXboxPairwiseID(%rip)
+.globl SteamAPI_SteamNetworkingIdentity_ToString
+.p2align 4
+SteamAPI_SteamNetworkingIdentity_ToString:
+	jmp *p_SteamAPI_SteamNetworkingIdentity_ToString(%rip)
+.globl SteamAPI_SteamNetworkingMessage_t_Release
+.p2align 4
+SteamAPI_SteamNetworkingMessage_t_Release:
+	jmp *p_SteamAPI_SteamNetworkingMessage_t_Release(%rip)
+.globl SteamAPI_SteamNetworkingMessages_SteamAPI_v002
+.p2align 4
+SteamAPI_SteamNetworkingMessages_SteamAPI_v002:
+	jmp *p_SteamAPI_SteamNetworkingMessages_SteamAPI_v002(%rip)
+.globl SteamAPI_SteamNetworkingMessages_v002
+.p2align 4
+SteamAPI_SteamNetworkingMessages_v002:
+	jmp *p_SteamAPI_SteamNetworkingMessages_v002(%rip)
+.globl SteamAPI_SteamNetworkingPOPIDRender_c_str
+.p2align 4
+SteamAPI_SteamNetworkingPOPIDRender_c_str:
+	jmp *p_SteamAPI_SteamNetworkingPOPIDRender_c_str(%rip)
+.globl SteamAPI_SteamNetworkingSockets_SteamAPI_v009
+.p2align 4
+SteamAPI_SteamNetworkingSockets_SteamAPI_v009:
+	jmp *p_SteamAPI_SteamNetworkingSockets_SteamAPI_v009(%rip)
+.globl SteamAPI_SteamNetworkingSockets_SteamAPI_v011
+.p2align 4
+SteamAPI_SteamNetworkingSockets_SteamAPI_v011:
+	jmp *p_SteamAPI_SteamNetworkingSockets_SteamAPI_v011(%rip)
+.globl SteamAPI_SteamNetworkingSockets_SteamAPI_v012
+.p2align 4
+SteamAPI_SteamNetworkingSockets_SteamAPI_v012:
+	jmp *p_SteamAPI_SteamNetworkingSockets_SteamAPI_v012(%rip)
+.globl SteamAPI_SteamNetworkingSockets_SteamAPI_v013
+.p2align 4
+SteamAPI_SteamNetworkingSockets_SteamAPI_v013:
+	jmp *p_SteamAPI_SteamNetworkingSockets_SteamAPI_v013(%rip)
+.globl SteamAPI_SteamNetworkingSockets_v008
+.p2align 4
+SteamAPI_SteamNetworkingSockets_v008:
+	jmp *p_SteamAPI_SteamNetworkingSockets_v008(%rip)
+.globl SteamAPI_SteamNetworkingSockets_v009
+.p2align 4
+SteamAPI_SteamNetworkingSockets_v009:
+	jmp *p_SteamAPI_SteamNetworkingSockets_v009(%rip)
+.globl SteamAPI_SteamNetworkingUtils_SteamAPI_v003
+.p2align 4
+SteamAPI_SteamNetworkingUtils_SteamAPI_v003:
+	jmp *p_SteamAPI_SteamNetworkingUtils_SteamAPI_v003(%rip)
+.globl SteamAPI_SteamNetworkingUtils_SteamAPI_v004
+.p2align 4
+SteamAPI_SteamNetworkingUtils_SteamAPI_v004:
+	jmp *p_SteamAPI_SteamNetworkingUtils_SteamAPI_v004(%rip)
+.globl SteamAPI_SteamNetworkingUtils_v003
+.p2align 4
+SteamAPI_SteamNetworkingUtils_v003:
+	jmp *p_SteamAPI_SteamNetworkingUtils_v003(%rip)
+.globl SteamAPI_SteamNetworking_v006
+.p2align 4
+SteamAPI_SteamNetworking_v006:
+	jmp *p_SteamAPI_SteamNetworking_v006(%rip)
+.globl SteamAPI_SteamParentalSettings_v001
+.p2align 4
+SteamAPI_SteamParentalSettings_v001:
+	jmp *p_SteamAPI_SteamParentalSettings_v001(%rip)
+.globl SteamAPI_SteamParties_v002
+.p2align 4
+SteamAPI_SteamParties_v002:
+	jmp *p_SteamAPI_SteamParties_v002(%rip)
+.globl SteamAPI_SteamRemotePlay_v001
+.p2align 4
+SteamAPI_SteamRemotePlay_v001:
+	jmp *p_SteamAPI_SteamRemotePlay_v001(%rip)
+.globl SteamAPI_SteamRemotePlay_v002
+.p2align 4
+SteamAPI_SteamRemotePlay_v002:
+	jmp *p_SteamAPI_SteamRemotePlay_v002(%rip)
+.globl SteamAPI_SteamRemotePlay_v003
+.p2align 4
+SteamAPI_SteamRemotePlay_v003:
+	jmp *p_SteamAPI_SteamRemotePlay_v003(%rip)
+.globl SteamAPI_SteamRemotePlay_v004
+.p2align 4
+SteamAPI_SteamRemotePlay_v004:
+	jmp *p_SteamAPI_SteamRemotePlay_v004(%rip)
+.globl SteamAPI_SteamRemoteStorage_v014
+.p2align 4
+SteamAPI_SteamRemoteStorage_v014:
+	jmp *p_SteamAPI_SteamRemoteStorage_v014(%rip)
+.globl SteamAPI_SteamRemoteStorage_v016
+.p2align 4
+SteamAPI_SteamRemoteStorage_v016:
+	jmp *p_SteamAPI_SteamRemoteStorage_v016(%rip)
+.globl SteamAPI_SteamScreenshots_v003
+.p2align 4
+SteamAPI_SteamScreenshots_v003:
+	jmp *p_SteamAPI_SteamScreenshots_v003(%rip)
+.globl SteamAPI_SteamTV_v001
+.p2align 4
+SteamAPI_SteamTV_v001:
+	jmp *p_SteamAPI_SteamTV_v001(%rip)
+.globl SteamAPI_SteamTimeline_v001
+.p2align 4
+SteamAPI_SteamTimeline_v001:
+	jmp *p_SteamAPI_SteamTimeline_v001(%rip)
+.globl SteamAPI_SteamTimeline_v004
+.p2align 4
+SteamAPI_SteamTimeline_v004:
+	jmp *p_SteamAPI_SteamTimeline_v004(%rip)
+.globl SteamAPI_SteamUGC_v014
+.p2align 4
+SteamAPI_SteamUGC_v014:
+	jmp *p_SteamAPI_SteamUGC_v014(%rip)
+.globl SteamAPI_SteamUGC_v015
+.p2align 4
+SteamAPI_SteamUGC_v015:
+	jmp *p_SteamAPI_SteamUGC_v015(%rip)
+.globl SteamAPI_SteamUGC_v016
+.p2align 4
+SteamAPI_SteamUGC_v016:
+	jmp *p_SteamAPI_SteamUGC_v016(%rip)
+.globl SteamAPI_SteamUGC_v017
+.p2align 4
+SteamAPI_SteamUGC_v017:
+	jmp *p_SteamAPI_SteamUGC_v017(%rip)
+.globl SteamAPI_SteamUGC_v018
+.p2align 4
+SteamAPI_SteamUGC_v018:
+	jmp *p_SteamAPI_SteamUGC_v018(%rip)
+.globl SteamAPI_SteamUGC_v020
+.p2align 4
+SteamAPI_SteamUGC_v020:
+	jmp *p_SteamAPI_SteamUGC_v020(%rip)
+.globl SteamAPI_SteamUGC_v021
+.p2align 4
+SteamAPI_SteamUGC_v021:
+	jmp *p_SteamAPI_SteamUGC_v021(%rip)
+.globl SteamAPI_SteamUserStats_v011
+.p2align 4
+SteamAPI_SteamUserStats_v011:
+	jmp *p_SteamAPI_SteamUserStats_v011(%rip)
+.globl SteamAPI_SteamUserStats_v012
+.p2align 4
+SteamAPI_SteamUserStats_v012:
+	jmp *p_SteamAPI_SteamUserStats_v012(%rip)
+.globl SteamAPI_SteamUserStats_v013
+.p2align 4
+SteamAPI_SteamUserStats_v013:
+	jmp *p_SteamAPI_SteamUserStats_v013(%rip)
+.globl SteamAPI_SteamUser_v020
+.p2align 4
+SteamAPI_SteamUser_v020:
+	jmp *p_SteamAPI_SteamUser_v020(%rip)
+.globl SteamAPI_SteamUser_v021
+.p2align 4
+SteamAPI_SteamUser_v021:
+	jmp *p_SteamAPI_SteamUser_v021(%rip)
+.globl SteamAPI_SteamUser_v022
+.p2align 4
+SteamAPI_SteamUser_v022:
+	jmp *p_SteamAPI_SteamUser_v022(%rip)
+.globl SteamAPI_SteamUser_v023
+.p2align 4
+SteamAPI_SteamUser_v023:
+	jmp *p_SteamAPI_SteamUser_v023(%rip)
+.globl SteamAPI_SteamUtils_v009
+.p2align 4
+SteamAPI_SteamUtils_v009:
+	jmp *p_SteamAPI_SteamUtils_v009(%rip)
+.globl SteamAPI_SteamUtils_v010
+.p2align 4
+SteamAPI_SteamUtils_v010:
+	jmp *p_SteamAPI_SteamUtils_v010(%rip)
+.globl SteamAPI_SteamUtils_v011
+.p2align 4
+SteamAPI_SteamUtils_v011:
+	jmp *p_SteamAPI_SteamUtils_v011(%rip)
+.globl SteamAPI_SteamVideo_v001
+.p2align 4
+SteamAPI_SteamVideo_v001:
+	jmp *p_SteamAPI_SteamVideo_v001(%rip)
+.globl SteamAPI_SteamVideo_v002
+.p2align 4
+SteamAPI_SteamVideo_v002:
+	jmp *p_SteamAPI_SteamVideo_v002(%rip)
+.globl SteamAPI_SteamVideo_v007
+.p2align 4
+SteamAPI_SteamVideo_v007:
+	jmp *p_SteamAPI_SteamVideo_v007(%rip)
+.globl SteamAPI_UnregisterCallResult
+.p2align 4
+SteamAPI_UnregisterCallResult:
+	jmp *p_SteamAPI_UnregisterCallResult(%rip)
+.globl SteamAPI_UnregisterCallback
+.p2align 4
+SteamAPI_UnregisterCallback:
+	jmp *p_SteamAPI_UnregisterCallback(%rip)
+.globl SteamAPI_UseBreakpadCrashHandler
+.p2align 4
+SteamAPI_UseBreakpadCrashHandler:
+	jmp *p_SteamAPI_UseBreakpadCrashHandler(%rip)
+.globl SteamAPI_WriteMiniDump
+.p2align 4
+SteamAPI_WriteMiniDump:
+	jmp *p_SteamAPI_WriteMiniDump(%rip)
+.globl SteamAPI_gameserveritem_t_Construct
+.p2align 4
+SteamAPI_gameserveritem_t_Construct:
+	jmp *p_SteamAPI_gameserveritem_t_Construct(%rip)
+.globl SteamAPI_gameserveritem_t_GetName
+.p2align 4
+SteamAPI_gameserveritem_t_GetName:
+	jmp *p_SteamAPI_gameserveritem_t_GetName(%rip)
+.globl SteamAPI_gameserveritem_t_IsEqualTo
+.p2align 4
+SteamAPI_gameserveritem_t_IsEqualTo:
+	jmp *p_SteamAPI_gameserveritem_t_IsEqualTo(%rip)
+.globl SteamAPI_gameserveritem_t_SetName
+.p2align 4
+SteamAPI_gameserveritem_t_SetName:
+	jmp *p_SteamAPI_gameserveritem_t_SetName(%rip)
+.globl SteamAPI_servernetadr_t_Assign
+.p2align 4
+SteamAPI_servernetadr_t_Assign:
+	jmp *p_SteamAPI_servernetadr_t_Assign(%rip)
+.globl SteamAPI_servernetadr_t_Construct
+.p2align 4
+SteamAPI_servernetadr_t_Construct:
+	jmp *p_SteamAPI_servernetadr_t_Construct(%rip)
+.globl SteamAPI_servernetadr_t_GetConnectionAddressString
+.p2align 4
+SteamAPI_servernetadr_t_GetConnectionAddressString:
+	jmp *p_SteamAPI_servernetadr_t_GetConnectionAddressString(%rip)
+.globl SteamAPI_servernetadr_t_GetConnectionPort
+.p2align 4
+SteamAPI_servernetadr_t_GetConnectionPort:
+	jmp *p_SteamAPI_servernetadr_t_GetConnectionPort(%rip)
+.globl SteamAPI_servernetadr_t_GetIP
+.p2align 4
+SteamAPI_servernetadr_t_GetIP:
+	jmp *p_SteamAPI_servernetadr_t_GetIP(%rip)
+.globl SteamAPI_servernetadr_t_GetQueryAddressString
+.p2align 4
+SteamAPI_servernetadr_t_GetQueryAddressString:
+	jmp *p_SteamAPI_servernetadr_t_GetQueryAddressString(%rip)
+.globl SteamAPI_servernetadr_t_GetQueryPort
+.p2align 4
+SteamAPI_servernetadr_t_GetQueryPort:
+	jmp *p_SteamAPI_servernetadr_t_GetQueryPort(%rip)
+.globl SteamAPI_servernetadr_t_Init
+.p2align 4
+SteamAPI_servernetadr_t_Init:
+	jmp *p_SteamAPI_servernetadr_t_Init(%rip)
+.globl SteamAPI_servernetadr_t_IsEqualTo
+.p2align 4
+SteamAPI_servernetadr_t_IsEqualTo:
+	jmp *p_SteamAPI_servernetadr_t_IsEqualTo(%rip)
+.globl SteamAPI_servernetadr_t_IsLessThan
+.p2align 4
+SteamAPI_servernetadr_t_IsLessThan:
+	jmp *p_SteamAPI_servernetadr_t_IsLessThan(%rip)
+.globl SteamAPI_servernetadr_t_SetConnectionPort
+.p2align 4
+SteamAPI_servernetadr_t_SetConnectionPort:
+	jmp *p_SteamAPI_servernetadr_t_SetConnectionPort(%rip)
+.globl SteamAPI_servernetadr_t_SetIP
+.p2align 4
+SteamAPI_servernetadr_t_SetIP:
+	jmp *p_SteamAPI_servernetadr_t_SetIP(%rip)
+.globl SteamAPI_servernetadr_t_SetQueryPort
+.p2align 4
+SteamAPI_servernetadr_t_SetQueryPort:
+	jmp *p_SteamAPI_servernetadr_t_SetQueryPort(%rip)
+.globl SteamAppList
+.p2align 4
+SteamAppList:
+	jmp *p_SteamAppList(%rip)
+.globl SteamApps
+.p2align 4
+SteamApps:
+	jmp *p_SteamApps(%rip)
+.globl SteamClient
+.p2align 4
+SteamClient:
+	jmp *p_SteamClient(%rip)
+.globl SteamController
+.p2align 4
+SteamController:
+	jmp *p_SteamController(%rip)
+.globl SteamFriends
+.p2align 4
+SteamFriends:
+	jmp *p_SteamFriends(%rip)
+.globl SteamGameServer
+.p2align 4
+SteamGameServer:
+	jmp *p_SteamGameServer(%rip)
+.globl SteamGameServerApps
+.p2align 4
+SteamGameServerApps:
+	jmp *p_SteamGameServerApps(%rip)
+.globl SteamGameServerClient
+.p2align 4
+SteamGameServerClient:
+	jmp *p_SteamGameServerClient(%rip)
+.globl SteamGameServerHTTP
+.p2align 4
+SteamGameServerHTTP:
+	jmp *p_SteamGameServerHTTP(%rip)
+.globl SteamGameServerInternal_CreateInterface
+.p2align 4
+SteamGameServerInternal_CreateInterface:
+	jmp *p_SteamGameServerInternal_CreateInterface(%rip)
+.globl SteamGameServerInventory
+.p2align 4
+SteamGameServerInventory:
+	jmp *p_SteamGameServerInventory(%rip)
+.globl SteamGameServerNetworking
+.p2align 4
+SteamGameServerNetworking:
+	jmp *p_SteamGameServerNetworking(%rip)
+.globl SteamGameServerStats
+.p2align 4
+SteamGameServerStats:
+	jmp *p_SteamGameServerStats(%rip)
+.globl SteamGameServerUGC
+.p2align 4
+SteamGameServerUGC:
+	jmp *p_SteamGameServerUGC(%rip)
+.globl SteamGameServerUtils
+.p2align 4
+SteamGameServerUtils:
+	jmp *p_SteamGameServerUtils(%rip)
+.globl SteamGameServer_BSecure
+.p2align 4
+SteamGameServer_BSecure:
+	jmp *p_SteamGameServer_BSecure(%rip)
+.globl SteamGameServer_GetHSteamPipe
+.p2align 4
+SteamGameServer_GetHSteamPipe:
+	jmp *p_SteamGameServer_GetHSteamPipe(%rip)
+.globl SteamGameServer_GetHSteamUser
+.p2align 4
+SteamGameServer_GetHSteamUser:
+	jmp *p_SteamGameServer_GetHSteamUser(%rip)
+.globl SteamGameServer_GetIPCCallCount
+.p2align 4
+SteamGameServer_GetIPCCallCount:
+	jmp *p_SteamGameServer_GetIPCCallCount(%rip)
+.globl SteamGameServer_GetSteamID
+.p2align 4
+SteamGameServer_GetSteamID:
+	jmp *p_SteamGameServer_GetSteamID(%rip)
+.globl SteamGameServer_Init
+.p2align 4
+SteamGameServer_Init:
+	jmp *p_SteamGameServer_Init(%rip)
+.globl SteamGameServer_InitSafe
+.p2align 4
+SteamGameServer_InitSafe:
+	jmp *p_SteamGameServer_InitSafe(%rip)
+.globl SteamGameServer_RunCallbacks
+.p2align 4
+SteamGameServer_RunCallbacks:
+	jmp *p_SteamGameServer_RunCallbacks(%rip)
+.globl SteamGameServer_Shutdown
+.p2align 4
+SteamGameServer_Shutdown:
+	jmp *p_SteamGameServer_Shutdown(%rip)
+.globl SteamHTMLSurface
+.p2align 4
+SteamHTMLSurface:
+	jmp *p_SteamHTMLSurface(%rip)
+.globl SteamHTTP
+.p2align 4
+SteamHTTP:
+	jmp *p_SteamHTTP(%rip)
+.globl SteamInternal_ContextInit
+.p2align 4
+SteamInternal_ContextInit:
+	jmp *p_SteamInternal_ContextInit(%rip)
+.globl SteamInternal_CreateInterface
+.p2align 4
+SteamInternal_CreateInterface:
+	jmp *p_SteamInternal_CreateInterface(%rip)
+.globl SteamInternal_FindOrCreateGameServerInterface
+.p2align 4
+SteamInternal_FindOrCreateGameServerInterface:
+	jmp *p_SteamInternal_FindOrCreateGameServerInterface(%rip)
+.globl SteamInternal_FindOrCreateUserInterface
+.p2align 4
+SteamInternal_FindOrCreateUserInterface:
+	jmp *p_SteamInternal_FindOrCreateUserInterface(%rip)
+.globl SteamInternal_GameServer_Init
+.p2align 4
+SteamInternal_GameServer_Init:
+	jmp *p_SteamInternal_GameServer_Init(%rip)
+.globl SteamInternal_GameServer_Init_V2
+.p2align 4
+SteamInternal_GameServer_Init_V2:
+	jmp *p_SteamInternal_GameServer_Init_V2(%rip)
+.globl SteamInternal_SteamAPI_Init
+.p2align 4
+SteamInternal_SteamAPI_Init:
+	jmp *p_SteamInternal_SteamAPI_Init(%rip)
+.globl SteamInventory
+.p2align 4
+SteamInventory:
+	jmp *p_SteamInventory(%rip)
+.globl SteamMasterServerUpdater
+.p2align 4
+SteamMasterServerUpdater:
+	jmp *p_SteamMasterServerUpdater(%rip)
+.globl SteamMatchmaking
+.p2align 4
+SteamMatchmaking:
+	jmp *p_SteamMatchmaking(%rip)
+.globl SteamMatchmakingServers
+.p2align 4
+SteamMatchmakingServers:
+	jmp *p_SteamMatchmakingServers(%rip)
+.globl SteamMusic
+.p2align 4
+SteamMusic:
+	jmp *p_SteamMusic(%rip)
+.globl SteamMusicRemote
+.p2align 4
+SteamMusicRemote:
+	jmp *p_SteamMusicRemote(%rip)
+.globl SteamNetworking
+.p2align 4
+SteamNetworking:
+	jmp *p_SteamNetworking(%rip)
+.globl SteamParentalSettings
+.p2align 4
+SteamParentalSettings:
+	jmp *p_SteamParentalSettings(%rip)
+.globl SteamRemoteStorage
+.p2align 4
+SteamRemoteStorage:
+	jmp *p_SteamRemoteStorage(%rip)
+.globl SteamScreenshots
+.p2align 4
+SteamScreenshots:
+	jmp *p_SteamScreenshots(%rip)
+.globl SteamUGC
+.p2align 4
+SteamUGC:
+	jmp *p_SteamUGC(%rip)
+.globl SteamUnifiedMessages
+.p2align 4
+SteamUnifiedMessages:
+	jmp *p_SteamUnifiedMessages(%rip)
+.globl SteamUser
+.p2align 4
+SteamUser:
+	jmp *p_SteamUser(%rip)
+.globl SteamUserStats
+.p2align 4
+SteamUserStats:
+	jmp *p_SteamUserStats(%rip)
+.globl SteamUtils
+.p2align 4
+SteamUtils:
+	jmp *p_SteamUtils(%rip)
+.globl SteamVideo
+.p2align 4
+SteamVideo:
+	jmp *p_SteamVideo(%rip)
+.globl Steam_GetHSteamUserCurrent
+.p2align 4
+Steam_GetHSteamUserCurrent:
+	jmp *p_Steam_GetHSteamUserCurrent(%rip)
+.globl Steam_RegisterInterfaceFuncs
+.p2align 4
+Steam_RegisterInterfaceFuncs:
+	jmp *p_Steam_RegisterInterfaceFuncs(%rip)
+.globl Steam_RunCallbacks
+.p2align 4
+Steam_RunCallbacks:
+	jmp *p_Steam_RunCallbacks(%rip)
+.globl VR_GetGenericInterface
+.p2align 4
+VR_GetGenericInterface:
+	jmp *p_VR_GetGenericInterface(%rip)
+.globl VR_GetStringForHmdError
+.p2align 4
+VR_GetStringForHmdError:
+	jmp *p_VR_GetStringForHmdError(%rip)
+.globl VR_Init
+.p2align 4
+VR_Init:
+	jmp *p_VR_Init(%rip)
+.globl VR_IsHmdPresent
+.p2align 4
+VR_IsHmdPresent:
+	jmp *p_VR_IsHmdPresent(%rip)
+.globl VR_Shutdown
+.p2align 4
+VR_Shutdown:
+	jmp *p_VR_Shutdown(%rip)
+.globl g_pSteamClientGameServer
+.p2align 4
+g_pSteamClientGameServer:
+	jmp *p_g_pSteamClientGameServer(%rip)
+.data
+.globl p_GetHSteamPipe
+.p2align 3
+p_GetHSteamPipe: .quad 0
+.globl p_GetHSteamUser
+.p2align 3
+p_GetHSteamUser: .quad 0
+.globl p_SteamAPI_GetHSteamPipe
+.p2align 3
+p_SteamAPI_GetHSteamPipe: .quad 0
+.globl p_SteamAPI_GetHSteamUser
+.p2align 3
+p_SteamAPI_GetHSteamUser: .quad 0
+.globl p_SteamAPI_GetSteamInstallPath
+.p2align 3
+p_SteamAPI_GetSteamInstallPath: .quad 0
+.globl p_SteamAPI_ISteamAppList_GetAppBuildId
+.p2align 3
+p_SteamAPI_ISteamAppList_GetAppBuildId: .quad 0
+.globl p_SteamAPI_ISteamAppList_GetAppInstallDir
+.p2align 3
+p_SteamAPI_ISteamAppList_GetAppInstallDir: .quad 0
+.globl p_SteamAPI_ISteamAppList_GetAppName
+.p2align 3
+p_SteamAPI_ISteamAppList_GetAppName: .quad 0
+.globl p_SteamAPI_ISteamAppList_GetInstalledApps
+.p2align 3
+p_SteamAPI_ISteamAppList_GetInstalledApps: .quad 0
+.globl p_SteamAPI_ISteamAppList_GetNumInstalledApps
+.p2align 3
+p_SteamAPI_ISteamAppList_GetNumInstalledApps: .quad 0
+.globl p_SteamAPI_ISteamApps_BGetDLCDataByIndex
+.p2align 3
+p_SteamAPI_ISteamApps_BGetDLCDataByIndex: .quad 0
+.globl p_SteamAPI_ISteamApps_BIsAppInstalled
+.p2align 3
+p_SteamAPI_ISteamApps_BIsAppInstalled: .quad 0
+.globl p_SteamAPI_ISteamApps_BIsCybercafe
+.p2align 3
+p_SteamAPI_ISteamApps_BIsCybercafe: .quad 0
+.globl p_SteamAPI_ISteamApps_BIsDlcInstalled
+.p2align 3
+p_SteamAPI_ISteamApps_BIsDlcInstalled: .quad 0
+.globl p_SteamAPI_ISteamApps_BIsLowViolence
+.p2align 3
+p_SteamAPI_ISteamApps_BIsLowViolence: .quad 0
+.globl p_SteamAPI_ISteamApps_BIsSubscribed
+.p2align 3
+p_SteamAPI_ISteamApps_BIsSubscribed: .quad 0
+.globl p_SteamAPI_ISteamApps_BIsSubscribedApp
+.p2align 3
+p_SteamAPI_ISteamApps_BIsSubscribedApp: .quad 0
+.globl p_SteamAPI_ISteamApps_BIsSubscribedFromFamilySharing
+.p2align 3
+p_SteamAPI_ISteamApps_BIsSubscribedFromFamilySharing: .quad 0
+.globl p_SteamAPI_ISteamApps_BIsSubscribedFromFreeWeekend
+.p2align 3
+p_SteamAPI_ISteamApps_BIsSubscribedFromFreeWeekend: .quad 0
+.globl p_SteamAPI_ISteamApps_BIsTimedTrial
+.p2align 3
+p_SteamAPI_ISteamApps_BIsTimedTrial: .quad 0
+.globl p_SteamAPI_ISteamApps_BIsVACBanned
+.p2align 3
+p_SteamAPI_ISteamApps_BIsVACBanned: .quad 0
+.globl p_SteamAPI_ISteamApps_GetAppBuildId
+.p2align 3
+p_SteamAPI_ISteamApps_GetAppBuildId: .quad 0
+.globl p_SteamAPI_ISteamApps_GetAppInstallDir
+.p2align 3
+p_SteamAPI_ISteamApps_GetAppInstallDir: .quad 0
+.globl p_SteamAPI_ISteamApps_GetAppOwner
+.p2align 3
+p_SteamAPI_ISteamApps_GetAppOwner: .quad 0
+.globl p_SteamAPI_ISteamApps_GetAvailableGameLanguages
+.p2align 3
+p_SteamAPI_ISteamApps_GetAvailableGameLanguages: .quad 0
+.globl p_SteamAPI_ISteamApps_GetBetaInfo
+.p2align 3
+p_SteamAPI_ISteamApps_GetBetaInfo: .quad 0
+.globl p_SteamAPI_ISteamApps_GetCurrentBetaName
+.p2align 3
+p_SteamAPI_ISteamApps_GetCurrentBetaName: .quad 0
+.globl p_SteamAPI_ISteamApps_GetCurrentGameLanguage
+.p2align 3
+p_SteamAPI_ISteamApps_GetCurrentGameLanguage: .quad 0
+.globl p_SteamAPI_ISteamApps_GetDLCCount
+.p2align 3
+p_SteamAPI_ISteamApps_GetDLCCount: .quad 0
+.globl p_SteamAPI_ISteamApps_GetDlcDownloadProgress
+.p2align 3
+p_SteamAPI_ISteamApps_GetDlcDownloadProgress: .quad 0
+.globl p_SteamAPI_ISteamApps_GetEarliestPurchaseUnixTime
+.p2align 3
+p_SteamAPI_ISteamApps_GetEarliestPurchaseUnixTime: .quad 0
+.globl p_SteamAPI_ISteamApps_GetFileDetails
+.p2align 3
+p_SteamAPI_ISteamApps_GetFileDetails: .quad 0
+.globl p_SteamAPI_ISteamApps_GetInstalledDepots
+.p2align 3
+p_SteamAPI_ISteamApps_GetInstalledDepots: .quad 0
+.globl p_SteamAPI_ISteamApps_GetLaunchCommandLine
+.p2align 3
+p_SteamAPI_ISteamApps_GetLaunchCommandLine: .quad 0
+.globl p_SteamAPI_ISteamApps_GetLaunchQueryParam
+.p2align 3
+p_SteamAPI_ISteamApps_GetLaunchQueryParam: .quad 0
+.globl p_SteamAPI_ISteamApps_GetNumBetas
+.p2align 3
+p_SteamAPI_ISteamApps_GetNumBetas: .quad 0
+.globl p_SteamAPI_ISteamApps_InstallDLC
+.p2align 3
+p_SteamAPI_ISteamApps_InstallDLC: .quad 0
+.globl p_SteamAPI_ISteamApps_MarkContentCorrupt
+.p2align 3
+p_SteamAPI_ISteamApps_MarkContentCorrupt: .quad 0
+.globl p_SteamAPI_ISteamApps_RequestAllProofOfPurchaseKeys
+.p2align 3
+p_SteamAPI_ISteamApps_RequestAllProofOfPurchaseKeys: .quad 0
+.globl p_SteamAPI_ISteamApps_RequestAppProofOfPurchaseKey
+.p2align 3
+p_SteamAPI_ISteamApps_RequestAppProofOfPurchaseKey: .quad 0
+.globl p_SteamAPI_ISteamApps_SetActiveBeta
+.p2align 3
+p_SteamAPI_ISteamApps_SetActiveBeta: .quad 0
+.globl p_SteamAPI_ISteamApps_SetDlcContext
+.p2align 3
+p_SteamAPI_ISteamApps_SetDlcContext: .quad 0
+.globl p_SteamAPI_ISteamApps_SetGamePerformanceSetting
+.p2align 3
+p_SteamAPI_ISteamApps_SetGamePerformanceSetting: .quad 0
+.globl p_SteamAPI_ISteamApps_SetGameRenderResolution
+.p2align 3
+p_SteamAPI_ISteamApps_SetGameRenderResolution: .quad 0
+.globl p_SteamAPI_ISteamApps_UninstallDLC
+.p2align 3
+p_SteamAPI_ISteamApps_UninstallDLC: .quad 0
+.globl p_SteamAPI_ISteamClient_BReleaseSteamPipe
+.p2align 3
+p_SteamAPI_ISteamClient_BReleaseSteamPipe: .quad 0
+.globl p_SteamAPI_ISteamClient_BShutdownIfAllPipesClosed
+.p2align 3
+p_SteamAPI_ISteamClient_BShutdownIfAllPipesClosed: .quad 0
+.globl p_SteamAPI_ISteamClient_ConnectToGlobalUser
+.p2align 3
+p_SteamAPI_ISteamClient_ConnectToGlobalUser: .quad 0
+.globl p_SteamAPI_ISteamClient_CreateLocalUser
+.p2align 3
+p_SteamAPI_ISteamClient_CreateLocalUser: .quad 0
+.globl p_SteamAPI_ISteamClient_CreateSteamPipe
+.p2align 3
+p_SteamAPI_ISteamClient_CreateSteamPipe: .quad 0
+.globl p_SteamAPI_ISteamClient_GetIPCCallCount
+.p2align 3
+p_SteamAPI_ISteamClient_GetIPCCallCount: .quad 0
+.globl p_SteamAPI_ISteamClient_GetISteamAppList
+.p2align 3
+p_SteamAPI_ISteamClient_GetISteamAppList: .quad 0
+.globl p_SteamAPI_ISteamClient_GetISteamApps
+.p2align 3
+p_SteamAPI_ISteamClient_GetISteamApps: .quad 0
+.globl p_SteamAPI_ISteamClient_GetISteamController
+.p2align 3
+p_SteamAPI_ISteamClient_GetISteamController: .quad 0
+.globl p_SteamAPI_ISteamClient_GetISteamFriends
+.p2align 3
+p_SteamAPI_ISteamClient_GetISteamFriends: .quad 0
+.globl p_SteamAPI_ISteamClient_GetISteamGameSearch
+.p2align 3
+p_SteamAPI_ISteamClient_GetISteamGameSearch: .quad 0
+.globl p_SteamAPI_ISteamClient_GetISteamGameServer
+.p2align 3
+p_SteamAPI_ISteamClient_GetISteamGameServer: .quad 0
+.globl p_SteamAPI_ISteamClient_GetISteamGameServerStats
+.p2align 3
+p_SteamAPI_ISteamClient_GetISteamGameServerStats: .quad 0
+.globl p_SteamAPI_ISteamClient_GetISteamGenericInterface
+.p2align 3
+p_SteamAPI_ISteamClient_GetISteamGenericInterface: .quad 0
+.globl p_SteamAPI_ISteamClient_GetISteamHTMLSurface
+.p2align 3
+p_SteamAPI_ISteamClient_GetISteamHTMLSurface: .quad 0
+.globl p_SteamAPI_ISteamClient_GetISteamHTTP
+.p2align 3
+p_SteamAPI_ISteamClient_GetISteamHTTP: .quad 0
+.globl p_SteamAPI_ISteamClient_GetISteamInput
+.p2align 3
+p_SteamAPI_ISteamClient_GetISteamInput: .quad 0
+.globl p_SteamAPI_ISteamClient_GetISteamInventory
+.p2align 3
+p_SteamAPI_ISteamClient_GetISteamInventory: .quad 0
+.globl p_SteamAPI_ISteamClient_GetISteamMatchmaking
+.p2align 3
+p_SteamAPI_ISteamClient_GetISteamMatchmaking: .quad 0
+.globl p_SteamAPI_ISteamClient_GetISteamMatchmakingServers
+.p2align 3
+p_SteamAPI_ISteamClient_GetISteamMatchmakingServers: .quad 0
+.globl p_SteamAPI_ISteamClient_GetISteamMusic
+.p2align 3
+p_SteamAPI_ISteamClient_GetISteamMusic: .quad 0
+.globl p_SteamAPI_ISteamClient_GetISteamMusicRemote
+.p2align 3
+p_SteamAPI_ISteamClient_GetISteamMusicRemote: .quad 0
+.globl p_SteamAPI_ISteamClient_GetISteamNetworking
+.p2align 3
+p_SteamAPI_ISteamClient_GetISteamNetworking: .quad 0
+.globl p_SteamAPI_ISteamClient_GetISteamParentalSettings
+.p2align 3
+p_SteamAPI_ISteamClient_GetISteamParentalSettings: .quad 0
+.globl p_SteamAPI_ISteamClient_GetISteamParties
+.p2align 3
+p_SteamAPI_ISteamClient_GetISteamParties: .quad 0
+.globl p_SteamAPI_ISteamClient_GetISteamRemotePlay
+.p2align 3
+p_SteamAPI_ISteamClient_GetISteamRemotePlay: .quad 0
+.globl p_SteamAPI_ISteamClient_GetISteamRemoteStorage
+.p2align 3
+p_SteamAPI_ISteamClient_GetISteamRemoteStorage: .quad 0
+.globl p_SteamAPI_ISteamClient_GetISteamScreenshots
+.p2align 3
+p_SteamAPI_ISteamClient_GetISteamScreenshots: .quad 0
+.globl p_SteamAPI_ISteamClient_GetISteamUGC
+.p2align 3
+p_SteamAPI_ISteamClient_GetISteamUGC: .quad 0
+.globl p_SteamAPI_ISteamClient_GetISteamUnifiedMessages
+.p2align 3
+p_SteamAPI_ISteamClient_GetISteamUnifiedMessages: .quad 0
+.globl p_SteamAPI_ISteamClient_GetISteamUser
+.p2align 3
+p_SteamAPI_ISteamClient_GetISteamUser: .quad 0
+.globl p_SteamAPI_ISteamClient_GetISteamUserStats
+.p2align 3
+p_SteamAPI_ISteamClient_GetISteamUserStats: .quad 0
+.globl p_SteamAPI_ISteamClient_GetISteamUtils
+.p2align 3
+p_SteamAPI_ISteamClient_GetISteamUtils: .quad 0
+.globl p_SteamAPI_ISteamClient_GetISteamVideo
+.p2align 3
+p_SteamAPI_ISteamClient_GetISteamVideo: .quad 0
+.globl p_SteamAPI_ISteamClient_ReleaseUser
+.p2align 3
+p_SteamAPI_ISteamClient_ReleaseUser: .quad 0
+.globl p_SteamAPI_ISteamClient_SetLocalIPBinding
+.p2align 3
+p_SteamAPI_ISteamClient_SetLocalIPBinding: .quad 0
+.globl p_SteamAPI_ISteamClient_SetWarningMessageHook
+.p2align 3
+p_SteamAPI_ISteamClient_SetWarningMessageHook: .quad 0
+.globl p_SteamAPI_ISteamController_ActivateActionSet
+.p2align 3
+p_SteamAPI_ISteamController_ActivateActionSet: .quad 0
+.globl p_SteamAPI_ISteamController_ActivateActionSetLayer
+.p2align 3
+p_SteamAPI_ISteamController_ActivateActionSetLayer: .quad 0
+.globl p_SteamAPI_ISteamController_DeactivateActionSetLayer
+.p2align 3
+p_SteamAPI_ISteamController_DeactivateActionSetLayer: .quad 0
+.globl p_SteamAPI_ISteamController_DeactivateAllActionSetLayers
+.p2align 3
+p_SteamAPI_ISteamController_DeactivateAllActionSetLayers: .quad 0
+.globl p_SteamAPI_ISteamController_GetActionOriginFromXboxOrigin
+.p2align 3
+p_SteamAPI_ISteamController_GetActionOriginFromXboxOrigin: .quad 0
+.globl p_SteamAPI_ISteamController_GetActionSetHandle
+.p2align 3
+p_SteamAPI_ISteamController_GetActionSetHandle: .quad 0
+.globl p_SteamAPI_ISteamController_GetActiveActionSetLayers
+.p2align 3
+p_SteamAPI_ISteamController_GetActiveActionSetLayers: .quad 0
+.globl p_SteamAPI_ISteamController_GetAnalogActionData
+.p2align 3
+p_SteamAPI_ISteamController_GetAnalogActionData: .quad 0
+.globl p_SteamAPI_ISteamController_GetAnalogActionHandle
+.p2align 3
+p_SteamAPI_ISteamController_GetAnalogActionHandle: .quad 0
+.globl p_SteamAPI_ISteamController_GetAnalogActionOrigins
+.p2align 3
+p_SteamAPI_ISteamController_GetAnalogActionOrigins: .quad 0
+.globl p_SteamAPI_ISteamController_GetConnectedControllers
+.p2align 3
+p_SteamAPI_ISteamController_GetConnectedControllers: .quad 0
+.globl p_SteamAPI_ISteamController_GetControllerBindingRevision
+.p2align 3
+p_SteamAPI_ISteamController_GetControllerBindingRevision: .quad 0
+.globl p_SteamAPI_ISteamController_GetControllerForGamepadIndex
+.p2align 3
+p_SteamAPI_ISteamController_GetControllerForGamepadIndex: .quad 0
+.globl p_SteamAPI_ISteamController_GetCurrentActionSet
+.p2align 3
+p_SteamAPI_ISteamController_GetCurrentActionSet: .quad 0
+.globl p_SteamAPI_ISteamController_GetDigitalActionData
+.p2align 3
+p_SteamAPI_ISteamController_GetDigitalActionData: .quad 0
+.globl p_SteamAPI_ISteamController_GetDigitalActionHandle
+.p2align 3
+p_SteamAPI_ISteamController_GetDigitalActionHandle: .quad 0
+.globl p_SteamAPI_ISteamController_GetDigitalActionOrigins
+.p2align 3
+p_SteamAPI_ISteamController_GetDigitalActionOrigins: .quad 0
+.globl p_SteamAPI_ISteamController_GetGamepadIndexForController
+.p2align 3
+p_SteamAPI_ISteamController_GetGamepadIndexForController: .quad 0
+.globl p_SteamAPI_ISteamController_GetGlyphForActionOrigin
+.p2align 3
+p_SteamAPI_ISteamController_GetGlyphForActionOrigin: .quad 0
+.globl p_SteamAPI_ISteamController_GetGlyphForXboxOrigin
+.p2align 3
+p_SteamAPI_ISteamController_GetGlyphForXboxOrigin: .quad 0
+.globl p_SteamAPI_ISteamController_GetInputTypeForHandle
+.p2align 3
+p_SteamAPI_ISteamController_GetInputTypeForHandle: .quad 0
+.globl p_SteamAPI_ISteamController_GetMotionData
+.p2align 3
+p_SteamAPI_ISteamController_GetMotionData: .quad 0
+.globl p_SteamAPI_ISteamController_GetStringForActionOrigin
+.p2align 3
+p_SteamAPI_ISteamController_GetStringForActionOrigin: .quad 0
+.globl p_SteamAPI_ISteamController_GetStringForXboxOrigin
+.p2align 3
+p_SteamAPI_ISteamController_GetStringForXboxOrigin: .quad 0
+.globl p_SteamAPI_ISteamController_Init
+.p2align 3
+p_SteamAPI_ISteamController_Init: .quad 0
+.globl p_SteamAPI_ISteamController_RunFrame
+.p2align 3
+p_SteamAPI_ISteamController_RunFrame: .quad 0
+.globl p_SteamAPI_ISteamController_SetLEDColor
+.p2align 3
+p_SteamAPI_ISteamController_SetLEDColor: .quad 0
+.globl p_SteamAPI_ISteamController_ShowBindingPanel
+.p2align 3
+p_SteamAPI_ISteamController_ShowBindingPanel: .quad 0
+.globl p_SteamAPI_ISteamController_Shutdown
+.p2align 3
+p_SteamAPI_ISteamController_Shutdown: .quad 0
+.globl p_SteamAPI_ISteamController_StopAnalogActionMomentum
+.p2align 3
+p_SteamAPI_ISteamController_StopAnalogActionMomentum: .quad 0
+.globl p_SteamAPI_ISteamController_TranslateActionOrigin
+.p2align 3
+p_SteamAPI_ISteamController_TranslateActionOrigin: .quad 0
+.globl p_SteamAPI_ISteamController_TriggerHapticPulse
+.p2align 3
+p_SteamAPI_ISteamController_TriggerHapticPulse: .quad 0
+.globl p_SteamAPI_ISteamController_TriggerRepeatedHapticPulse
+.p2align 3
+p_SteamAPI_ISteamController_TriggerRepeatedHapticPulse: .quad 0
+.globl p_SteamAPI_ISteamController_TriggerVibration
+.p2align 3
+p_SteamAPI_ISteamController_TriggerVibration: .quad 0
+.globl p_SteamAPI_ISteamFriends_ActivateGameOverlay
+.p2align 3
+p_SteamAPI_ISteamFriends_ActivateGameOverlay: .quad 0
+.globl p_SteamAPI_ISteamFriends_ActivateGameOverlayInviteDialog
+.p2align 3
+p_SteamAPI_ISteamFriends_ActivateGameOverlayInviteDialog: .quad 0
+.globl p_SteamAPI_ISteamFriends_ActivateGameOverlayInviteDialogConnectString
+.p2align 3
+p_SteamAPI_ISteamFriends_ActivateGameOverlayInviteDialogConnectString: .quad 0
+.globl p_SteamAPI_ISteamFriends_ActivateGameOverlayRemotePlayTogetherInviteDialog
+.p2align 3
+p_SteamAPI_ISteamFriends_ActivateGameOverlayRemotePlayTogetherInviteDialog: .quad 0
+.globl p_SteamAPI_ISteamFriends_ActivateGameOverlayToStore
+.p2align 3
+p_SteamAPI_ISteamFriends_ActivateGameOverlayToStore: .quad 0
+.globl p_SteamAPI_ISteamFriends_ActivateGameOverlayToUser
+.p2align 3
+p_SteamAPI_ISteamFriends_ActivateGameOverlayToUser: .quad 0
+.globl p_SteamAPI_ISteamFriends_ActivateGameOverlayToWebPage
+.p2align 3
+p_SteamAPI_ISteamFriends_ActivateGameOverlayToWebPage: .quad 0
+.globl p_SteamAPI_ISteamFriends_BHasEquippedProfileItem
+.p2align 3
+p_SteamAPI_ISteamFriends_BHasEquippedProfileItem: .quad 0
+.globl p_SteamAPI_ISteamFriends_ClearRichPresence
+.p2align 3
+p_SteamAPI_ISteamFriends_ClearRichPresence: .quad 0
+.globl p_SteamAPI_ISteamFriends_CloseClanChatWindowInSteam
+.p2align 3
+p_SteamAPI_ISteamFriends_CloseClanChatWindowInSteam: .quad 0
+.globl p_SteamAPI_ISteamFriends_DownloadClanActivityCounts
+.p2align 3
+p_SteamAPI_ISteamFriends_DownloadClanActivityCounts: .quad 0
+.globl p_SteamAPI_ISteamFriends_EnumerateFollowingList
+.p2align 3
+p_SteamAPI_ISteamFriends_EnumerateFollowingList: .quad 0
+.globl p_SteamAPI_ISteamFriends_GetChatMemberByIndex
+.p2align 3
+p_SteamAPI_ISteamFriends_GetChatMemberByIndex: .quad 0
+.globl p_SteamAPI_ISteamFriends_GetClanActivityCounts
+.p2align 3
+p_SteamAPI_ISteamFriends_GetClanActivityCounts: .quad 0
+.globl p_SteamAPI_ISteamFriends_GetClanByIndex
+.p2align 3
+p_SteamAPI_ISteamFriends_GetClanByIndex: .quad 0
+.globl p_SteamAPI_ISteamFriends_GetClanChatMemberCount
+.p2align 3
+p_SteamAPI_ISteamFriends_GetClanChatMemberCount: .quad 0
+.globl p_SteamAPI_ISteamFriends_GetClanChatMessage
+.p2align 3
+p_SteamAPI_ISteamFriends_GetClanChatMessage: .quad 0
+.globl p_SteamAPI_ISteamFriends_GetClanCount
+.p2align 3
+p_SteamAPI_ISteamFriends_GetClanCount: .quad 0
+.globl p_SteamAPI_ISteamFriends_GetClanName
+.p2align 3
+p_SteamAPI_ISteamFriends_GetClanName: .quad 0
+.globl p_SteamAPI_ISteamFriends_GetClanOfficerByIndex
+.p2align 3
+p_SteamAPI_ISteamFriends_GetClanOfficerByIndex: .quad 0
+.globl p_SteamAPI_ISteamFriends_GetClanOfficerCount
+.p2align 3
+p_SteamAPI_ISteamFriends_GetClanOfficerCount: .quad 0
+.globl p_SteamAPI_ISteamFriends_GetClanOwner
+.p2align 3
+p_SteamAPI_ISteamFriends_GetClanOwner: .quad 0
+.globl p_SteamAPI_ISteamFriends_GetClanTag
+.p2align 3
+p_SteamAPI_ISteamFriends_GetClanTag: .quad 0
+.globl p_SteamAPI_ISteamFriends_GetCoplayFriend
+.p2align 3
+p_SteamAPI_ISteamFriends_GetCoplayFriend: .quad 0
+.globl p_SteamAPI_ISteamFriends_GetCoplayFriendCount
+.p2align 3
+p_SteamAPI_ISteamFriends_GetCoplayFriendCount: .quad 0
+.globl p_SteamAPI_ISteamFriends_GetFollowerCount
+.p2align 3
+p_SteamAPI_ISteamFriends_GetFollowerCount: .quad 0
+.globl p_SteamAPI_ISteamFriends_GetFriendByIndex
+.p2align 3
+p_SteamAPI_ISteamFriends_GetFriendByIndex: .quad 0
+.globl p_SteamAPI_ISteamFriends_GetFriendCoplayGame
+.p2align 3
+p_SteamAPI_ISteamFriends_GetFriendCoplayGame: .quad 0
+.globl p_SteamAPI_ISteamFriends_GetFriendCoplayTime
+.p2align 3
+p_SteamAPI_ISteamFriends_GetFriendCoplayTime: .quad 0
+.globl p_SteamAPI_ISteamFriends_GetFriendCount
+.p2align 3
+p_SteamAPI_ISteamFriends_GetFriendCount: .quad 0
+.globl p_SteamAPI_ISteamFriends_GetFriendCountFromSource
+.p2align 3
+p_SteamAPI_ISteamFriends_GetFriendCountFromSource: .quad 0
+.globl p_SteamAPI_ISteamFriends_GetFriendFromSourceByIndex
+.p2align 3
+p_SteamAPI_ISteamFriends_GetFriendFromSourceByIndex: .quad 0
+.globl p_SteamAPI_ISteamFriends_GetFriendGamePlayed
+.p2align 3
+p_SteamAPI_ISteamFriends_GetFriendGamePlayed: .quad 0
+.globl p_SteamAPI_ISteamFriends_GetFriendMessage
+.p2align 3
+p_SteamAPI_ISteamFriends_GetFriendMessage: .quad 0
+.globl p_SteamAPI_ISteamFriends_GetFriendPersonaName
+.p2align 3
+p_SteamAPI_ISteamFriends_GetFriendPersonaName: .quad 0
+.globl p_SteamAPI_ISteamFriends_GetFriendPersonaNameHistory
+.p2align 3
+p_SteamAPI_ISteamFriends_GetFriendPersonaNameHistory: .quad 0
+.globl p_SteamAPI_ISteamFriends_GetFriendPersonaState
+.p2align 3
+p_SteamAPI_ISteamFriends_GetFriendPersonaState: .quad 0
+.globl p_SteamAPI_ISteamFriends_GetFriendRelationship
+.p2align 3
+p_SteamAPI_ISteamFriends_GetFriendRelationship: .quad 0
+.globl p_SteamAPI_ISteamFriends_GetFriendRichPresence
+.p2align 3
+p_SteamAPI_ISteamFriends_GetFriendRichPresence: .quad 0
+.globl p_SteamAPI_ISteamFriends_GetFriendRichPresenceKeyByIndex
+.p2align 3
+p_SteamAPI_ISteamFriends_GetFriendRichPresenceKeyByIndex: .quad 0
+.globl p_SteamAPI_ISteamFriends_GetFriendRichPresenceKeyCount
+.p2align 3
+p_SteamAPI_ISteamFriends_GetFriendRichPresenceKeyCount: .quad 0
+.globl p_SteamAPI_ISteamFriends_GetFriendSteamLevel
+.p2align 3
+p_SteamAPI_ISteamFriends_GetFriendSteamLevel: .quad 0
+.globl p_SteamAPI_ISteamFriends_GetFriendsGroupCount
+.p2align 3
+p_SteamAPI_ISteamFriends_GetFriendsGroupCount: .quad 0
+.globl p_SteamAPI_ISteamFriends_GetFriendsGroupIDByIndex
+.p2align 3
+p_SteamAPI_ISteamFriends_GetFriendsGroupIDByIndex: .quad 0
+.globl p_SteamAPI_ISteamFriends_GetFriendsGroupMembersCount
+.p2align 3
+p_SteamAPI_ISteamFriends_GetFriendsGroupMembersCount: .quad 0
+.globl p_SteamAPI_ISteamFriends_GetFriendsGroupMembersList
+.p2align 3
+p_SteamAPI_ISteamFriends_GetFriendsGroupMembersList: .quad 0
+.globl p_SteamAPI_ISteamFriends_GetFriendsGroupName
+.p2align 3
+p_SteamAPI_ISteamFriends_GetFriendsGroupName: .quad 0
+.globl p_SteamAPI_ISteamFriends_GetLargeFriendAvatar
+.p2align 3
+p_SteamAPI_ISteamFriends_GetLargeFriendAvatar: .quad 0
+.globl p_SteamAPI_ISteamFriends_GetMediumFriendAvatar
+.p2align 3
+p_SteamAPI_ISteamFriends_GetMediumFriendAvatar: .quad 0
+.globl p_SteamAPI_ISteamFriends_GetNumChatsWithUnreadPriorityMessages
+.p2align 3
+p_SteamAPI_ISteamFriends_GetNumChatsWithUnreadPriorityMessages: .quad 0
+.globl p_SteamAPI_ISteamFriends_GetPersonaName
+.p2align 3
+p_SteamAPI_ISteamFriends_GetPersonaName: .quad 0
+.globl p_SteamAPI_ISteamFriends_GetPersonaState
+.p2align 3
+p_SteamAPI_ISteamFriends_GetPersonaState: .quad 0
+.globl p_SteamAPI_ISteamFriends_GetPlayerNickname
+.p2align 3
+p_SteamAPI_ISteamFriends_GetPlayerNickname: .quad 0
+.globl p_SteamAPI_ISteamFriends_GetProfileItemPropertyString
+.p2align 3
+p_SteamAPI_ISteamFriends_GetProfileItemPropertyString: .quad 0
+.globl p_SteamAPI_ISteamFriends_GetProfileItemPropertyUint
+.p2align 3
+p_SteamAPI_ISteamFriends_GetProfileItemPropertyUint: .quad 0
+.globl p_SteamAPI_ISteamFriends_GetSmallFriendAvatar
+.p2align 3
+p_SteamAPI_ISteamFriends_GetSmallFriendAvatar: .quad 0
+.globl p_SteamAPI_ISteamFriends_GetUserRestrictions
+.p2align 3
+p_SteamAPI_ISteamFriends_GetUserRestrictions: .quad 0
+.globl p_SteamAPI_ISteamFriends_HasFriend
+.p2align 3
+p_SteamAPI_ISteamFriends_HasFriend: .quad 0
+.globl p_SteamAPI_ISteamFriends_InviteUserToGame
+.p2align 3
+p_SteamAPI_ISteamFriends_InviteUserToGame: .quad 0
+.globl p_SteamAPI_ISteamFriends_IsClanChatAdmin
+.p2align 3
+p_SteamAPI_ISteamFriends_IsClanChatAdmin: .quad 0
+.globl p_SteamAPI_ISteamFriends_IsClanChatWindowOpenInSteam
+.p2align 3
+p_SteamAPI_ISteamFriends_IsClanChatWindowOpenInSteam: .quad 0
+.globl p_SteamAPI_ISteamFriends_IsClanOfficialGameGroup
+.p2align 3
+p_SteamAPI_ISteamFriends_IsClanOfficialGameGroup: .quad 0
+.globl p_SteamAPI_ISteamFriends_IsClanPublic
+.p2align 3
+p_SteamAPI_ISteamFriends_IsClanPublic: .quad 0
+.globl p_SteamAPI_ISteamFriends_IsFollowing
+.p2align 3
+p_SteamAPI_ISteamFriends_IsFollowing: .quad 0
+.globl p_SteamAPI_ISteamFriends_IsUserInSource
+.p2align 3
+p_SteamAPI_ISteamFriends_IsUserInSource: .quad 0
+.globl p_SteamAPI_ISteamFriends_JoinClanChatRoom
+.p2align 3
+p_SteamAPI_ISteamFriends_JoinClanChatRoom: .quad 0
+.globl p_SteamAPI_ISteamFriends_LeaveClanChatRoom
+.p2align 3
+p_SteamAPI_ISteamFriends_LeaveClanChatRoom: .quad 0
+.globl p_SteamAPI_ISteamFriends_OpenClanChatWindowInSteam
+.p2align 3
+p_SteamAPI_ISteamFriends_OpenClanChatWindowInSteam: .quad 0
+.globl p_SteamAPI_ISteamFriends_RegisterProtocolInOverlayBrowser
+.p2align 3
+p_SteamAPI_ISteamFriends_RegisterProtocolInOverlayBrowser: .quad 0
+.globl p_SteamAPI_ISteamFriends_ReplyToFriendMessage
+.p2align 3
+p_SteamAPI_ISteamFriends_ReplyToFriendMessage: .quad 0
+.globl p_SteamAPI_ISteamFriends_RequestClanOfficerList
+.p2align 3
+p_SteamAPI_ISteamFriends_RequestClanOfficerList: .quad 0
+.globl p_SteamAPI_ISteamFriends_RequestEquippedProfileItems
+.p2align 3
+p_SteamAPI_ISteamFriends_RequestEquippedProfileItems: .quad 0
+.globl p_SteamAPI_ISteamFriends_RequestFriendRichPresence
+.p2align 3
+p_SteamAPI_ISteamFriends_RequestFriendRichPresence: .quad 0
+.globl p_SteamAPI_ISteamFriends_RequestUserInformation
+.p2align 3
+p_SteamAPI_ISteamFriends_RequestUserInformation: .quad 0
+.globl p_SteamAPI_ISteamFriends_SendClanChatMessage
+.p2align 3
+p_SteamAPI_ISteamFriends_SendClanChatMessage: .quad 0
+.globl p_SteamAPI_ISteamFriends_SetInGameVoiceSpeaking
+.p2align 3
+p_SteamAPI_ISteamFriends_SetInGameVoiceSpeaking: .quad 0
+.globl p_SteamAPI_ISteamFriends_SetListenForFriendsMessages
+.p2align 3
+p_SteamAPI_ISteamFriends_SetListenForFriendsMessages: .quad 0
+.globl p_SteamAPI_ISteamFriends_SetPersonaName
+.p2align 3
+p_SteamAPI_ISteamFriends_SetPersonaName: .quad 0
+.globl p_SteamAPI_ISteamFriends_SetPlayedWith
+.p2align 3
+p_SteamAPI_ISteamFriends_SetPlayedWith: .quad 0
+.globl p_SteamAPI_ISteamFriends_SetRichPresence
+.p2align 3
+p_SteamAPI_ISteamFriends_SetRichPresence: .quad 0
+.globl p_SteamAPI_ISteamGameSearch_AcceptGame
+.p2align 3
+p_SteamAPI_ISteamGameSearch_AcceptGame: .quad 0
+.globl p_SteamAPI_ISteamGameSearch_AddGameSearchParams
+.p2align 3
+p_SteamAPI_ISteamGameSearch_AddGameSearchParams: .quad 0
+.globl p_SteamAPI_ISteamGameSearch_CancelRequestPlayersForGame
+.p2align 3
+p_SteamAPI_ISteamGameSearch_CancelRequestPlayersForGame: .quad 0
+.globl p_SteamAPI_ISteamGameSearch_DeclineGame
+.p2align 3
+p_SteamAPI_ISteamGameSearch_DeclineGame: .quad 0
+.globl p_SteamAPI_ISteamGameSearch_EndGame
+.p2align 3
+p_SteamAPI_ISteamGameSearch_EndGame: .quad 0
+.globl p_SteamAPI_ISteamGameSearch_EndGameSearch
+.p2align 3
+p_SteamAPI_ISteamGameSearch_EndGameSearch: .quad 0
+.globl p_SteamAPI_ISteamGameSearch_HostConfirmGameStart
+.p2align 3
+p_SteamAPI_ISteamGameSearch_HostConfirmGameStart: .quad 0
+.globl p_SteamAPI_ISteamGameSearch_RequestPlayersForGame
+.p2align 3
+p_SteamAPI_ISteamGameSearch_RequestPlayersForGame: .quad 0
+.globl p_SteamAPI_ISteamGameSearch_RetrieveConnectionDetails
+.p2align 3
+p_SteamAPI_ISteamGameSearch_RetrieveConnectionDetails: .quad 0
+.globl p_SteamAPI_ISteamGameSearch_SearchForGameSolo
+.p2align 3
+p_SteamAPI_ISteamGameSearch_SearchForGameSolo: .quad 0
+.globl p_SteamAPI_ISteamGameSearch_SearchForGameWithLobby
+.p2align 3
+p_SteamAPI_ISteamGameSearch_SearchForGameWithLobby: .quad 0
+.globl p_SteamAPI_ISteamGameSearch_SetConnectionDetails
+.p2align 3
+p_SteamAPI_ISteamGameSearch_SetConnectionDetails: .quad 0
+.globl p_SteamAPI_ISteamGameSearch_SetGameHostParams
+.p2align 3
+p_SteamAPI_ISteamGameSearch_SetGameHostParams: .quad 0
+.globl p_SteamAPI_ISteamGameSearch_SubmitPlayerResult
+.p2align 3
+p_SteamAPI_ISteamGameSearch_SubmitPlayerResult: .quad 0
+.globl p_SteamAPI_ISteamGameServerStats_ClearUserAchievement
+.p2align 3
+p_SteamAPI_ISteamGameServerStats_ClearUserAchievement: .quad 0
+.globl p_SteamAPI_ISteamGameServerStats_GetUserAchievement
+.p2align 3
+p_SteamAPI_ISteamGameServerStats_GetUserAchievement: .quad 0
+.globl p_SteamAPI_ISteamGameServerStats_GetUserStat
+.p2align 3
+p_SteamAPI_ISteamGameServerStats_GetUserStat: .quad 0
+.globl p_SteamAPI_ISteamGameServerStats_GetUserStat0
+.p2align 3
+p_SteamAPI_ISteamGameServerStats_GetUserStat0: .quad 0
+.globl p_SteamAPI_ISteamGameServerStats_GetUserStatFloat
+.p2align 3
+p_SteamAPI_ISteamGameServerStats_GetUserStatFloat: .quad 0
+.globl p_SteamAPI_ISteamGameServerStats_GetUserStatInt32
+.p2align 3
+p_SteamAPI_ISteamGameServerStats_GetUserStatInt32: .quad 0
+.globl p_SteamAPI_ISteamGameServerStats_RequestUserStats
+.p2align 3
+p_SteamAPI_ISteamGameServerStats_RequestUserStats: .quad 0
+.globl p_SteamAPI_ISteamGameServerStats_SetUserAchievement
+.p2align 3
+p_SteamAPI_ISteamGameServerStats_SetUserAchievement: .quad 0
+.globl p_SteamAPI_ISteamGameServerStats_SetUserStat
+.p2align 3
+p_SteamAPI_ISteamGameServerStats_SetUserStat: .quad 0
+.globl p_SteamAPI_ISteamGameServerStats_SetUserStat0
+.p2align 3
+p_SteamAPI_ISteamGameServerStats_SetUserStat0: .quad 0
+.globl p_SteamAPI_ISteamGameServerStats_SetUserStatFloat
+.p2align 3
+p_SteamAPI_ISteamGameServerStats_SetUserStatFloat: .quad 0
+.globl p_SteamAPI_ISteamGameServerStats_SetUserStatInt32
+.p2align 3
+p_SteamAPI_ISteamGameServerStats_SetUserStatInt32: .quad 0
+.globl p_SteamAPI_ISteamGameServerStats_StoreUserStats
+.p2align 3
+p_SteamAPI_ISteamGameServerStats_StoreUserStats: .quad 0
+.globl p_SteamAPI_ISteamGameServerStats_UpdateUserAvgRateStat
+.p2align 3
+p_SteamAPI_ISteamGameServerStats_UpdateUserAvgRateStat: .quad 0
+.globl p_SteamAPI_ISteamGameServer_AssociateWithClan
+.p2align 3
+p_SteamAPI_ISteamGameServer_AssociateWithClan: .quad 0
+.globl p_SteamAPI_ISteamGameServer_BLoggedOn
+.p2align 3
+p_SteamAPI_ISteamGameServer_BLoggedOn: .quad 0
+.globl p_SteamAPI_ISteamGameServer_BSecure
+.p2align 3
+p_SteamAPI_ISteamGameServer_BSecure: .quad 0
+.globl p_SteamAPI_ISteamGameServer_BUpdateUserData
+.p2align 3
+p_SteamAPI_ISteamGameServer_BUpdateUserData: .quad 0
+.globl p_SteamAPI_ISteamGameServer_BeginAuthSession
+.p2align 3
+p_SteamAPI_ISteamGameServer_BeginAuthSession: .quad 0
+.globl p_SteamAPI_ISteamGameServer_CancelAuthTicket
+.p2align 3
+p_SteamAPI_ISteamGameServer_CancelAuthTicket: .quad 0
+.globl p_SteamAPI_ISteamGameServer_ClearAllKeyValues
+.p2align 3
+p_SteamAPI_ISteamGameServer_ClearAllKeyValues: .quad 0
+.globl p_SteamAPI_ISteamGameServer_ComputeNewPlayerCompatibility
+.p2align 3
+p_SteamAPI_ISteamGameServer_ComputeNewPlayerCompatibility: .quad 0
+.globl p_SteamAPI_ISteamGameServer_CreateUnauthenticatedUserConnection
+.p2align 3
+p_SteamAPI_ISteamGameServer_CreateUnauthenticatedUserConnection: .quad 0
+.globl p_SteamAPI_ISteamGameServer_EnableHeartbeats
+.p2align 3
+p_SteamAPI_ISteamGameServer_EnableHeartbeats: .quad 0
+.globl p_SteamAPI_ISteamGameServer_EndAuthSession
+.p2align 3
+p_SteamAPI_ISteamGameServer_EndAuthSession: .quad 0
+.globl p_SteamAPI_ISteamGameServer_ForceHeartbeat
+.p2align 3
+p_SteamAPI_ISteamGameServer_ForceHeartbeat: .quad 0
+.globl p_SteamAPI_ISteamGameServer_GetAuthSessionTicket
+.p2align 3
+p_SteamAPI_ISteamGameServer_GetAuthSessionTicket: .quad 0
+.globl p_SteamAPI_ISteamGameServer_GetGameplayStats
+.p2align 3
+p_SteamAPI_ISteamGameServer_GetGameplayStats: .quad 0
+.globl p_SteamAPI_ISteamGameServer_GetNextOutgoingPacket
+.p2align 3
+p_SteamAPI_ISteamGameServer_GetNextOutgoingPacket: .quad 0
+.globl p_SteamAPI_ISteamGameServer_GetPublicIP
+.p2align 3
+p_SteamAPI_ISteamGameServer_GetPublicIP: .quad 0
+.globl p_SteamAPI_ISteamGameServer_GetServerReputation
+.p2align 3
+p_SteamAPI_ISteamGameServer_GetServerReputation: .quad 0
+.globl p_SteamAPI_ISteamGameServer_GetSteamID
+.p2align 3
+p_SteamAPI_ISteamGameServer_GetSteamID: .quad 0
+.globl p_SteamAPI_ISteamGameServer_HandleIncomingPacket
+.p2align 3
+p_SteamAPI_ISteamGameServer_HandleIncomingPacket: .quad 0
+.globl p_SteamAPI_ISteamGameServer_InitGameServer
+.p2align 3
+p_SteamAPI_ISteamGameServer_InitGameServer: .quad 0
+.globl p_SteamAPI_ISteamGameServer_LogOff
+.p2align 3
+p_SteamAPI_ISteamGameServer_LogOff: .quad 0
+.globl p_SteamAPI_ISteamGameServer_LogOn
+.p2align 3
+p_SteamAPI_ISteamGameServer_LogOn: .quad 0
+.globl p_SteamAPI_ISteamGameServer_LogOnAnonymous
+.p2align 3
+p_SteamAPI_ISteamGameServer_LogOnAnonymous: .quad 0
+.globl p_SteamAPI_ISteamGameServer_RequestUserGroupStatus
+.p2align 3
+p_SteamAPI_ISteamGameServer_RequestUserGroupStatus: .quad 0
+.globl p_SteamAPI_ISteamGameServer_SendUserConnectAndAuthenticate
+.p2align 3
+p_SteamAPI_ISteamGameServer_SendUserConnectAndAuthenticate: .quad 0
+.globl p_SteamAPI_ISteamGameServer_SendUserConnectAndAuthenticate_DEPRECATED
+.p2align 3
+p_SteamAPI_ISteamGameServer_SendUserConnectAndAuthenticate_DEPRECATED: .quad 0
+.globl p_SteamAPI_ISteamGameServer_SendUserDisconnect
+.p2align 3
+p_SteamAPI_ISteamGameServer_SendUserDisconnect: .quad 0
+.globl p_SteamAPI_ISteamGameServer_SendUserDisconnect_DEPRECATED
+.p2align 3
+p_SteamAPI_ISteamGameServer_SendUserDisconnect_DEPRECATED: .quad 0
+.globl p_SteamAPI_ISteamGameServer_SetAdvertiseServerActive
+.p2align 3
+p_SteamAPI_ISteamGameServer_SetAdvertiseServerActive: .quad 0
+.globl p_SteamAPI_ISteamGameServer_SetBotPlayerCount
+.p2align 3
+p_SteamAPI_ISteamGameServer_SetBotPlayerCount: .quad 0
+.globl p_SteamAPI_ISteamGameServer_SetDedicatedServer
+.p2align 3
+p_SteamAPI_ISteamGameServer_SetDedicatedServer: .quad 0
+.globl p_SteamAPI_ISteamGameServer_SetGameData
+.p2align 3
+p_SteamAPI_ISteamGameServer_SetGameData: .quad 0
+.globl p_SteamAPI_ISteamGameServer_SetGameDescription
+.p2align 3
+p_SteamAPI_ISteamGameServer_SetGameDescription: .quad 0
+.globl p_SteamAPI_ISteamGameServer_SetGameTags
+.p2align 3
+p_SteamAPI_ISteamGameServer_SetGameTags: .quad 0
+.globl p_SteamAPI_ISteamGameServer_SetHeartbeatInterval
+.p2align 3
+p_SteamAPI_ISteamGameServer_SetHeartbeatInterval: .quad 0
+.globl p_SteamAPI_ISteamGameServer_SetKeyValue
+.p2align 3
+p_SteamAPI_ISteamGameServer_SetKeyValue: .quad 0
+.globl p_SteamAPI_ISteamGameServer_SetMapName
+.p2align 3
+p_SteamAPI_ISteamGameServer_SetMapName: .quad 0
+.globl p_SteamAPI_ISteamGameServer_SetMaxPlayerCount
+.p2align 3
+p_SteamAPI_ISteamGameServer_SetMaxPlayerCount: .quad 0
+.globl p_SteamAPI_ISteamGameServer_SetModDir
+.p2align 3
+p_SteamAPI_ISteamGameServer_SetModDir: .quad 0
+.globl p_SteamAPI_ISteamGameServer_SetPasswordProtected
+.p2align 3
+p_SteamAPI_ISteamGameServer_SetPasswordProtected: .quad 0
+.globl p_SteamAPI_ISteamGameServer_SetProduct
+.p2align 3
+p_SteamAPI_ISteamGameServer_SetProduct: .quad 0
+.globl p_SteamAPI_ISteamGameServer_SetRegion
+.p2align 3
+p_SteamAPI_ISteamGameServer_SetRegion: .quad 0
+.globl p_SteamAPI_ISteamGameServer_SetServerName
+.p2align 3
+p_SteamAPI_ISteamGameServer_SetServerName: .quad 0
+.globl p_SteamAPI_ISteamGameServer_SetSpectatorPort
+.p2align 3
+p_SteamAPI_ISteamGameServer_SetSpectatorPort: .quad 0
+.globl p_SteamAPI_ISteamGameServer_SetSpectatorServerName
+.p2align 3
+p_SteamAPI_ISteamGameServer_SetSpectatorServerName: .quad 0
+.globl p_SteamAPI_ISteamGameServer_UserHasLicenseForApp
+.p2align 3
+p_SteamAPI_ISteamGameServer_UserHasLicenseForApp: .quad 0
+.globl p_SteamAPI_ISteamGameServer_WasRestartRequested
+.p2align 3
+p_SteamAPI_ISteamGameServer_WasRestartRequested: .quad 0
+.globl p_SteamAPI_ISteamHTMLSurface_AddHeader
+.p2align 3
+p_SteamAPI_ISteamHTMLSurface_AddHeader: .quad 0
+.globl p_SteamAPI_ISteamHTMLSurface_AllowStartRequest
+.p2align 3
+p_SteamAPI_ISteamHTMLSurface_AllowStartRequest: .quad 0
+.globl p_SteamAPI_ISteamHTMLSurface_CopyToClipboard
+.p2align 3
+p_SteamAPI_ISteamHTMLSurface_CopyToClipboard: .quad 0
+.globl p_SteamAPI_ISteamHTMLSurface_CreateBrowser
+.p2align 3
+p_SteamAPI_ISteamHTMLSurface_CreateBrowser: .quad 0
+.globl p_SteamAPI_ISteamHTMLSurface_DestructISteamHTMLSurface
+.p2align 3
+p_SteamAPI_ISteamHTMLSurface_DestructISteamHTMLSurface: .quad 0
+.globl p_SteamAPI_ISteamHTMLSurface_ExecuteJavascript
+.p2align 3
+p_SteamAPI_ISteamHTMLSurface_ExecuteJavascript: .quad 0
+.globl p_SteamAPI_ISteamHTMLSurface_FileLoadDialogResponse
+.p2align 3
+p_SteamAPI_ISteamHTMLSurface_FileLoadDialogResponse: .quad 0
+.globl p_SteamAPI_ISteamHTMLSurface_Find
+.p2align 3
+p_SteamAPI_ISteamHTMLSurface_Find: .quad 0
+.globl p_SteamAPI_ISteamHTMLSurface_GetLinkAtPosition
+.p2align 3
+p_SteamAPI_ISteamHTMLSurface_GetLinkAtPosition: .quad 0
+.globl p_SteamAPI_ISteamHTMLSurface_GoBack
+.p2align 3
+p_SteamAPI_ISteamHTMLSurface_GoBack: .quad 0
+.globl p_SteamAPI_ISteamHTMLSurface_GoForward
+.p2align 3
+p_SteamAPI_ISteamHTMLSurface_GoForward: .quad 0
+.globl p_SteamAPI_ISteamHTMLSurface_Init
+.p2align 3
+p_SteamAPI_ISteamHTMLSurface_Init: .quad 0
+.globl p_SteamAPI_ISteamHTMLSurface_JSDialogResponse
+.p2align 3
+p_SteamAPI_ISteamHTMLSurface_JSDialogResponse: .quad 0
+.globl p_SteamAPI_ISteamHTMLSurface_KeyChar
+.p2align 3
+p_SteamAPI_ISteamHTMLSurface_KeyChar: .quad 0
+.globl p_SteamAPI_ISteamHTMLSurface_KeyDown
+.p2align 3
+p_SteamAPI_ISteamHTMLSurface_KeyDown: .quad 0
+.globl p_SteamAPI_ISteamHTMLSurface_KeyUp
+.p2align 3
+p_SteamAPI_ISteamHTMLSurface_KeyUp: .quad 0
+.globl p_SteamAPI_ISteamHTMLSurface_LoadURL
+.p2align 3
+p_SteamAPI_ISteamHTMLSurface_LoadURL: .quad 0
+.globl p_SteamAPI_ISteamHTMLSurface_MouseDoubleClick
+.p2align 3
+p_SteamAPI_ISteamHTMLSurface_MouseDoubleClick: .quad 0
+.globl p_SteamAPI_ISteamHTMLSurface_MouseDown
+.p2align 3
+p_SteamAPI_ISteamHTMLSurface_MouseDown: .quad 0
+.globl p_SteamAPI_ISteamHTMLSurface_MouseMove
+.p2align 3
+p_SteamAPI_ISteamHTMLSurface_MouseMove: .quad 0
+.globl p_SteamAPI_ISteamHTMLSurface_MouseUp
+.p2align 3
+p_SteamAPI_ISteamHTMLSurface_MouseUp: .quad 0
+.globl p_SteamAPI_ISteamHTMLSurface_MouseWheel
+.p2align 3
+p_SteamAPI_ISteamHTMLSurface_MouseWheel: .quad 0
+.globl p_SteamAPI_ISteamHTMLSurface_OpenDeveloperTools
+.p2align 3
+p_SteamAPI_ISteamHTMLSurface_OpenDeveloperTools: .quad 0
+.globl p_SteamAPI_ISteamHTMLSurface_PasteFromClipboard
+.p2align 3
+p_SteamAPI_ISteamHTMLSurface_PasteFromClipboard: .quad 0
+.globl p_SteamAPI_ISteamHTMLSurface_Reload
+.p2align 3
+p_SteamAPI_ISteamHTMLSurface_Reload: .quad 0
+.globl p_SteamAPI_ISteamHTMLSurface_RemoveBrowser
+.p2align 3
+p_SteamAPI_ISteamHTMLSurface_RemoveBrowser: .quad 0
+.globl p_SteamAPI_ISteamHTMLSurface_SetBackgroundMode
+.p2align 3
+p_SteamAPI_ISteamHTMLSurface_SetBackgroundMode: .quad 0
+.globl p_SteamAPI_ISteamHTMLSurface_SetCookie
+.p2align 3
+p_SteamAPI_ISteamHTMLSurface_SetCookie: .quad 0
+.globl p_SteamAPI_ISteamHTMLSurface_SetDPIScalingFactor
+.p2align 3
+p_SteamAPI_ISteamHTMLSurface_SetDPIScalingFactor: .quad 0
+.globl p_SteamAPI_ISteamHTMLSurface_SetHorizontalScroll
+.p2align 3
+p_SteamAPI_ISteamHTMLSurface_SetHorizontalScroll: .quad 0
+.globl p_SteamAPI_ISteamHTMLSurface_SetKeyFocus
+.p2align 3
+p_SteamAPI_ISteamHTMLSurface_SetKeyFocus: .quad 0
+.globl p_SteamAPI_ISteamHTMLSurface_SetPageScaleFactor
+.p2align 3
+p_SteamAPI_ISteamHTMLSurface_SetPageScaleFactor: .quad 0
+.globl p_SteamAPI_ISteamHTMLSurface_SetSize
+.p2align 3
+p_SteamAPI_ISteamHTMLSurface_SetSize: .quad 0
+.globl p_SteamAPI_ISteamHTMLSurface_SetVerticalScroll
+.p2align 3
+p_SteamAPI_ISteamHTMLSurface_SetVerticalScroll: .quad 0
+.globl p_SteamAPI_ISteamHTMLSurface_Shutdown
+.p2align 3
+p_SteamAPI_ISteamHTMLSurface_Shutdown: .quad 0
+.globl p_SteamAPI_ISteamHTMLSurface_StopFind
+.p2align 3
+p_SteamAPI_ISteamHTMLSurface_StopFind: .quad 0
+.globl p_SteamAPI_ISteamHTMLSurface_StopLoad
+.p2align 3
+p_SteamAPI_ISteamHTMLSurface_StopLoad: .quad 0
+.globl p_SteamAPI_ISteamHTMLSurface_ViewSource
+.p2align 3
+p_SteamAPI_ISteamHTMLSurface_ViewSource: .quad 0
+.globl p_SteamAPI_ISteamHTTP_CreateCookieContainer
+.p2align 3
+p_SteamAPI_ISteamHTTP_CreateCookieContainer: .quad 0
+.globl p_SteamAPI_ISteamHTTP_CreateHTTPRequest
+.p2align 3
+p_SteamAPI_ISteamHTTP_CreateHTTPRequest: .quad 0
+.globl p_SteamAPI_ISteamHTTP_DeferHTTPRequest
+.p2align 3
+p_SteamAPI_ISteamHTTP_DeferHTTPRequest: .quad 0
+.globl p_SteamAPI_ISteamHTTP_GetHTTPDownloadProgressPct
+.p2align 3
+p_SteamAPI_ISteamHTTP_GetHTTPDownloadProgressPct: .quad 0
+.globl p_SteamAPI_ISteamHTTP_GetHTTPRequestWasTimedOut
+.p2align 3
+p_SteamAPI_ISteamHTTP_GetHTTPRequestWasTimedOut: .quad 0
+.globl p_SteamAPI_ISteamHTTP_GetHTTPResponseBodyData
+.p2align 3
+p_SteamAPI_ISteamHTTP_GetHTTPResponseBodyData: .quad 0
+.globl p_SteamAPI_ISteamHTTP_GetHTTPResponseBodySize
+.p2align 3
+p_SteamAPI_ISteamHTTP_GetHTTPResponseBodySize: .quad 0
+.globl p_SteamAPI_ISteamHTTP_GetHTTPResponseHeaderSize
+.p2align 3
+p_SteamAPI_ISteamHTTP_GetHTTPResponseHeaderSize: .quad 0
+.globl p_SteamAPI_ISteamHTTP_GetHTTPResponseHeaderValue
+.p2align 3
+p_SteamAPI_ISteamHTTP_GetHTTPResponseHeaderValue: .quad 0
+.globl p_SteamAPI_ISteamHTTP_GetHTTPStreamingResponseBodyData
+.p2align 3
+p_SteamAPI_ISteamHTTP_GetHTTPStreamingResponseBodyData: .quad 0
+.globl p_SteamAPI_ISteamHTTP_PrioritizeHTTPRequest
+.p2align 3
+p_SteamAPI_ISteamHTTP_PrioritizeHTTPRequest: .quad 0
+.globl p_SteamAPI_ISteamHTTP_ReleaseCookieContainer
+.p2align 3
+p_SteamAPI_ISteamHTTP_ReleaseCookieContainer: .quad 0
+.globl p_SteamAPI_ISteamHTTP_ReleaseHTTPRequest
+.p2align 3
+p_SteamAPI_ISteamHTTP_ReleaseHTTPRequest: .quad 0
+.globl p_SteamAPI_ISteamHTTP_SendHTTPRequest
+.p2align 3
+p_SteamAPI_ISteamHTTP_SendHTTPRequest: .quad 0
+.globl p_SteamAPI_ISteamHTTP_SendHTTPRequestAndStreamResponse
+.p2align 3
+p_SteamAPI_ISteamHTTP_SendHTTPRequestAndStreamResponse: .quad 0
+.globl p_SteamAPI_ISteamHTTP_SetCookie
+.p2align 3
+p_SteamAPI_ISteamHTTP_SetCookie: .quad 0
+.globl p_SteamAPI_ISteamHTTP_SetHTTPRequestAbsoluteTimeoutMS
+.p2align 3
+p_SteamAPI_ISteamHTTP_SetHTTPRequestAbsoluteTimeoutMS: .quad 0
+.globl p_SteamAPI_ISteamHTTP_SetHTTPRequestContextValue
+.p2align 3
+p_SteamAPI_ISteamHTTP_SetHTTPRequestContextValue: .quad 0
+.globl p_SteamAPI_ISteamHTTP_SetHTTPRequestCookieContainer
+.p2align 3
+p_SteamAPI_ISteamHTTP_SetHTTPRequestCookieContainer: .quad 0
+.globl p_SteamAPI_ISteamHTTP_SetHTTPRequestGetOrPostParameter
+.p2align 3
+p_SteamAPI_ISteamHTTP_SetHTTPRequestGetOrPostParameter: .quad 0
+.globl p_SteamAPI_ISteamHTTP_SetHTTPRequestHeaderValue
+.p2align 3
+p_SteamAPI_ISteamHTTP_SetHTTPRequestHeaderValue: .quad 0
+.globl p_SteamAPI_ISteamHTTP_SetHTTPRequestNetworkActivityTimeout
+.p2align 3
+p_SteamAPI_ISteamHTTP_SetHTTPRequestNetworkActivityTimeout: .quad 0
+.globl p_SteamAPI_ISteamHTTP_SetHTTPRequestRawPostBody
+.p2align 3
+p_SteamAPI_ISteamHTTP_SetHTTPRequestRawPostBody: .quad 0
+.globl p_SteamAPI_ISteamHTTP_SetHTTPRequestRequiresVerifiedCertificate
+.p2align 3
+p_SteamAPI_ISteamHTTP_SetHTTPRequestRequiresVerifiedCertificate: .quad 0
+.globl p_SteamAPI_ISteamHTTP_SetHTTPRequestUserAgentInfo
+.p2align 3
+p_SteamAPI_ISteamHTTP_SetHTTPRequestUserAgentInfo: .quad 0
+.globl p_SteamAPI_ISteamInput_ActivateActionSet
+.p2align 3
+p_SteamAPI_ISteamInput_ActivateActionSet: .quad 0
+.globl p_SteamAPI_ISteamInput_ActivateActionSetLayer
+.p2align 3
+p_SteamAPI_ISteamInput_ActivateActionSetLayer: .quad 0
+.globl p_SteamAPI_ISteamInput_BNewDataAvailable
+.p2align 3
+p_SteamAPI_ISteamInput_BNewDataAvailable: .quad 0
+.globl p_SteamAPI_ISteamInput_BWaitForData
+.p2align 3
+p_SteamAPI_ISteamInput_BWaitForData: .quad 0
+.globl p_SteamAPI_ISteamInput_DeactivateActionSetLayer
+.p2align 3
+p_SteamAPI_ISteamInput_DeactivateActionSetLayer: .quad 0
+.globl p_SteamAPI_ISteamInput_DeactivateAllActionSetLayers
+.p2align 3
+p_SteamAPI_ISteamInput_DeactivateAllActionSetLayers: .quad 0
+.globl p_SteamAPI_ISteamInput_EnableActionEventCallbacks
+.p2align 3
+p_SteamAPI_ISteamInput_EnableActionEventCallbacks: .quad 0
+.globl p_SteamAPI_ISteamInput_EnableDeviceCallbacks
+.p2align 3
+p_SteamAPI_ISteamInput_EnableDeviceCallbacks: .quad 0
+.globl p_SteamAPI_ISteamInput_GetActionOriginFromXboxOrigin
+.p2align 3
+p_SteamAPI_ISteamInput_GetActionOriginFromXboxOrigin: .quad 0
+.globl p_SteamAPI_ISteamInput_GetActionSetHandle
+.p2align 3
+p_SteamAPI_ISteamInput_GetActionSetHandle: .quad 0
+.globl p_SteamAPI_ISteamInput_GetActiveActionSetLayers
+.p2align 3
+p_SteamAPI_ISteamInput_GetActiveActionSetLayers: .quad 0
+.globl p_SteamAPI_ISteamInput_GetAnalogActionData
+.p2align 3
+p_SteamAPI_ISteamInput_GetAnalogActionData: .quad 0
+.globl p_SteamAPI_ISteamInput_GetAnalogActionHandle
+.p2align 3
+p_SteamAPI_ISteamInput_GetAnalogActionHandle: .quad 0
+.globl p_SteamAPI_ISteamInput_GetAnalogActionOrigins
+.p2align 3
+p_SteamAPI_ISteamInput_GetAnalogActionOrigins: .quad 0
+.globl p_SteamAPI_ISteamInput_GetConnectedControllers
+.p2align 3
+p_SteamAPI_ISteamInput_GetConnectedControllers: .quad 0
+.globl p_SteamAPI_ISteamInput_GetControllerForGamepadIndex
+.p2align 3
+p_SteamAPI_ISteamInput_GetControllerForGamepadIndex: .quad 0
+.globl p_SteamAPI_ISteamInput_GetCurrentActionSet
+.p2align 3
+p_SteamAPI_ISteamInput_GetCurrentActionSet: .quad 0
+.globl p_SteamAPI_ISteamInput_GetDeviceBindingRevision
+.p2align 3
+p_SteamAPI_ISteamInput_GetDeviceBindingRevision: .quad 0
+.globl p_SteamAPI_ISteamInput_GetDigitalActionData
+.p2align 3
+p_SteamAPI_ISteamInput_GetDigitalActionData: .quad 0
+.globl p_SteamAPI_ISteamInput_GetDigitalActionHandle
+.p2align 3
+p_SteamAPI_ISteamInput_GetDigitalActionHandle: .quad 0
+.globl p_SteamAPI_ISteamInput_GetDigitalActionOrigins
+.p2align 3
+p_SteamAPI_ISteamInput_GetDigitalActionOrigins: .quad 0
+.globl p_SteamAPI_ISteamInput_GetGamepadIndexForController
+.p2align 3
+p_SteamAPI_ISteamInput_GetGamepadIndexForController: .quad 0
+.globl p_SteamAPI_ISteamInput_GetGlyphForActionOrigin
+.p2align 3
+p_SteamAPI_ISteamInput_GetGlyphForActionOrigin: .quad 0
+.globl p_SteamAPI_ISteamInput_GetGlyphForActionOrigin_Legacy
+.p2align 3
+p_SteamAPI_ISteamInput_GetGlyphForActionOrigin_Legacy: .quad 0
+.globl p_SteamAPI_ISteamInput_GetGlyphForXboxOrigin
+.p2align 3
+p_SteamAPI_ISteamInput_GetGlyphForXboxOrigin: .quad 0
+.globl p_SteamAPI_ISteamInput_GetGlyphPNGForActionOrigin
+.p2align 3
+p_SteamAPI_ISteamInput_GetGlyphPNGForActionOrigin: .quad 0
+.globl p_SteamAPI_ISteamInput_GetGlyphSVGForActionOrigin
+.p2align 3
+p_SteamAPI_ISteamInput_GetGlyphSVGForActionOrigin: .quad 0
+.globl p_SteamAPI_ISteamInput_GetInputTypeForHandle
+.p2align 3
+p_SteamAPI_ISteamInput_GetInputTypeForHandle: .quad 0
+.globl p_SteamAPI_ISteamInput_GetMotionData
+.p2align 3
+p_SteamAPI_ISteamInput_GetMotionData: .quad 0
+.globl p_SteamAPI_ISteamInput_GetRemotePlaySessionID
+.p2align 3
+p_SteamAPI_ISteamInput_GetRemotePlaySessionID: .quad 0
+.globl p_SteamAPI_ISteamInput_GetSessionInputConfigurationSettings
+.p2align 3
+p_SteamAPI_ISteamInput_GetSessionInputConfigurationSettings: .quad 0
+.globl p_SteamAPI_ISteamInput_GetStringForActionOrigin
+.p2align 3
+p_SteamAPI_ISteamInput_GetStringForActionOrigin: .quad 0
+.globl p_SteamAPI_ISteamInput_GetStringForAnalogActionName
+.p2align 3
+p_SteamAPI_ISteamInput_GetStringForAnalogActionName: .quad 0
+.globl p_SteamAPI_ISteamInput_GetStringForDigitalActionName
+.p2align 3
+p_SteamAPI_ISteamInput_GetStringForDigitalActionName: .quad 0
+.globl p_SteamAPI_ISteamInput_GetStringForXboxOrigin
+.p2align 3
+p_SteamAPI_ISteamInput_GetStringForXboxOrigin: .quad 0
+.globl p_SteamAPI_ISteamInput_Init
+.p2align 3
+p_SteamAPI_ISteamInput_Init: .quad 0
+.globl p_SteamAPI_ISteamInput_Legacy_TriggerHapticPulse
+.p2align 3
+p_SteamAPI_ISteamInput_Legacy_TriggerHapticPulse: .quad 0
+.globl p_SteamAPI_ISteamInput_Legacy_TriggerRepeatedHapticPulse
+.p2align 3
+p_SteamAPI_ISteamInput_Legacy_TriggerRepeatedHapticPulse: .quad 0
+.globl p_SteamAPI_ISteamInput_RunFrame
+.p2align 3
+p_SteamAPI_ISteamInput_RunFrame: .quad 0
+.globl p_SteamAPI_ISteamInput_SetDualSenseTriggerEffect
+.p2align 3
+p_SteamAPI_ISteamInput_SetDualSenseTriggerEffect: .quad 0
+.globl p_SteamAPI_ISteamInput_SetInputActionManifestFilePath
+.p2align 3
+p_SteamAPI_ISteamInput_SetInputActionManifestFilePath: .quad 0
+.globl p_SteamAPI_ISteamInput_SetLEDColor
+.p2align 3
+p_SteamAPI_ISteamInput_SetLEDColor: .quad 0
+.globl p_SteamAPI_ISteamInput_ShowBindingPanel
+.p2align 3
+p_SteamAPI_ISteamInput_ShowBindingPanel: .quad 0
+.globl p_SteamAPI_ISteamInput_Shutdown
+.p2align 3
+p_SteamAPI_ISteamInput_Shutdown: .quad 0
+.globl p_SteamAPI_ISteamInput_StopAnalogActionMomentum
+.p2align 3
+p_SteamAPI_ISteamInput_StopAnalogActionMomentum: .quad 0
+.globl p_SteamAPI_ISteamInput_TranslateActionOrigin
+.p2align 3
+p_SteamAPI_ISteamInput_TranslateActionOrigin: .quad 0
+.globl p_SteamAPI_ISteamInput_TriggerHapticPulse
+.p2align 3
+p_SteamAPI_ISteamInput_TriggerHapticPulse: .quad 0
+.globl p_SteamAPI_ISteamInput_TriggerRepeatedHapticPulse
+.p2align 3
+p_SteamAPI_ISteamInput_TriggerRepeatedHapticPulse: .quad 0
+.globl p_SteamAPI_ISteamInput_TriggerSimpleHapticEvent
+.p2align 3
+p_SteamAPI_ISteamInput_TriggerSimpleHapticEvent: .quad 0
+.globl p_SteamAPI_ISteamInput_TriggerVibration
+.p2align 3
+p_SteamAPI_ISteamInput_TriggerVibration: .quad 0
+.globl p_SteamAPI_ISteamInput_TriggerVibrationExtended
+.p2align 3
+p_SteamAPI_ISteamInput_TriggerVibrationExtended: .quad 0
+.globl p_SteamAPI_ISteamInventory_AddPromoItem
+.p2align 3
+p_SteamAPI_ISteamInventory_AddPromoItem: .quad 0
+.globl p_SteamAPI_ISteamInventory_AddPromoItems
+.p2align 3
+p_SteamAPI_ISteamInventory_AddPromoItems: .quad 0
+.globl p_SteamAPI_ISteamInventory_CheckResultSteamID
+.p2align 3
+p_SteamAPI_ISteamInventory_CheckResultSteamID: .quad 0
+.globl p_SteamAPI_ISteamInventory_ConsumeItem
+.p2align 3
+p_SteamAPI_ISteamInventory_ConsumeItem: .quad 0
+.globl p_SteamAPI_ISteamInventory_DeserializeResult
+.p2align 3
+p_SteamAPI_ISteamInventory_DeserializeResult: .quad 0
+.globl p_SteamAPI_ISteamInventory_DestroyResult
+.p2align 3
+p_SteamAPI_ISteamInventory_DestroyResult: .quad 0
+.globl p_SteamAPI_ISteamInventory_ExchangeItems
+.p2align 3
+p_SteamAPI_ISteamInventory_ExchangeItems: .quad 0
+.globl p_SteamAPI_ISteamInventory_GenerateItems
+.p2align 3
+p_SteamAPI_ISteamInventory_GenerateItems: .quad 0
+.globl p_SteamAPI_ISteamInventory_GetAllItems
+.p2align 3
+p_SteamAPI_ISteamInventory_GetAllItems: .quad 0
+.globl p_SteamAPI_ISteamInventory_GetEligiblePromoItemDefinitionIDs
+.p2align 3
+p_SteamAPI_ISteamInventory_GetEligiblePromoItemDefinitionIDs: .quad 0
+.globl p_SteamAPI_ISteamInventory_GetItemDefinitionIDs
+.p2align 3
+p_SteamAPI_ISteamInventory_GetItemDefinitionIDs: .quad 0
+.globl p_SteamAPI_ISteamInventory_GetItemDefinitionProperty
+.p2align 3
+p_SteamAPI_ISteamInventory_GetItemDefinitionProperty: .quad 0
+.globl p_SteamAPI_ISteamInventory_GetItemPrice
+.p2align 3
+p_SteamAPI_ISteamInventory_GetItemPrice: .quad 0
+.globl p_SteamAPI_ISteamInventory_GetItemsByID
+.p2align 3
+p_SteamAPI_ISteamInventory_GetItemsByID: .quad 0
+.globl p_SteamAPI_ISteamInventory_GetItemsWithPrices
+.p2align 3
+p_SteamAPI_ISteamInventory_GetItemsWithPrices: .quad 0
+.globl p_SteamAPI_ISteamInventory_GetNumItemsWithPrices
+.p2align 3
+p_SteamAPI_ISteamInventory_GetNumItemsWithPrices: .quad 0
+.globl p_SteamAPI_ISteamInventory_GetResultItemProperty
+.p2align 3
+p_SteamAPI_ISteamInventory_GetResultItemProperty: .quad 0
+.globl p_SteamAPI_ISteamInventory_GetResultItems
+.p2align 3
+p_SteamAPI_ISteamInventory_GetResultItems: .quad 0
+.globl p_SteamAPI_ISteamInventory_GetResultStatus
+.p2align 3
+p_SteamAPI_ISteamInventory_GetResultStatus: .quad 0
+.globl p_SteamAPI_ISteamInventory_GetResultTimestamp
+.p2align 3
+p_SteamAPI_ISteamInventory_GetResultTimestamp: .quad 0
+.globl p_SteamAPI_ISteamInventory_GrantPromoItems
+.p2align 3
+p_SteamAPI_ISteamInventory_GrantPromoItems: .quad 0
+.globl p_SteamAPI_ISteamInventory_InspectItem
+.p2align 3
+p_SteamAPI_ISteamInventory_InspectItem: .quad 0
+.globl p_SteamAPI_ISteamInventory_LoadItemDefinitions
+.p2align 3
+p_SteamAPI_ISteamInventory_LoadItemDefinitions: .quad 0
+.globl p_SteamAPI_ISteamInventory_RemoveProperty
+.p2align 3
+p_SteamAPI_ISteamInventory_RemoveProperty: .quad 0
+.globl p_SteamAPI_ISteamInventory_RequestEligiblePromoItemDefinitionsIDs
+.p2align 3
+p_SteamAPI_ISteamInventory_RequestEligiblePromoItemDefinitionsIDs: .quad 0
+.globl p_SteamAPI_ISteamInventory_RequestPrices
+.p2align 3
+p_SteamAPI_ISteamInventory_RequestPrices: .quad 0
+.globl p_SteamAPI_ISteamInventory_SendItemDropHeartbeat
+.p2align 3
+p_SteamAPI_ISteamInventory_SendItemDropHeartbeat: .quad 0
+.globl p_SteamAPI_ISteamInventory_SerializeResult
+.p2align 3
+p_SteamAPI_ISteamInventory_SerializeResult: .quad 0
+.globl p_SteamAPI_ISteamInventory_SetProperty
+.p2align 3
+p_SteamAPI_ISteamInventory_SetProperty: .quad 0
+.globl p_SteamAPI_ISteamInventory_SetProperty0
+.p2align 3
+p_SteamAPI_ISteamInventory_SetProperty0: .quad 0
+.globl p_SteamAPI_ISteamInventory_SetProperty1
+.p2align 3
+p_SteamAPI_ISteamInventory_SetProperty1: .quad 0
+.globl p_SteamAPI_ISteamInventory_SetProperty2
+.p2align 3
+p_SteamAPI_ISteamInventory_SetProperty2: .quad 0
+.globl p_SteamAPI_ISteamInventory_SetPropertyBool
+.p2align 3
+p_SteamAPI_ISteamInventory_SetPropertyBool: .quad 0
+.globl p_SteamAPI_ISteamInventory_SetPropertyFloat
+.p2align 3
+p_SteamAPI_ISteamInventory_SetPropertyFloat: .quad 0
+.globl p_SteamAPI_ISteamInventory_SetPropertyInt64
+.p2align 3
+p_SteamAPI_ISteamInventory_SetPropertyInt64: .quad 0
+.globl p_SteamAPI_ISteamInventory_SetPropertyString
+.p2align 3
+p_SteamAPI_ISteamInventory_SetPropertyString: .quad 0
+.globl p_SteamAPI_ISteamInventory_StartPurchase
+.p2align 3
+p_SteamAPI_ISteamInventory_StartPurchase: .quad 0
+.globl p_SteamAPI_ISteamInventory_StartUpdateProperties
+.p2align 3
+p_SteamAPI_ISteamInventory_StartUpdateProperties: .quad 0
+.globl p_SteamAPI_ISteamInventory_SubmitUpdateProperties
+.p2align 3
+p_SteamAPI_ISteamInventory_SubmitUpdateProperties: .quad 0
+.globl p_SteamAPI_ISteamInventory_TradeItems
+.p2align 3
+p_SteamAPI_ISteamInventory_TradeItems: .quad 0
+.globl p_SteamAPI_ISteamInventory_TransferItemQuantity
+.p2align 3
+p_SteamAPI_ISteamInventory_TransferItemQuantity: .quad 0
+.globl p_SteamAPI_ISteamInventory_TriggerItemDrop
+.p2align 3
+p_SteamAPI_ISteamInventory_TriggerItemDrop: .quad 0
+.globl p_SteamAPI_ISteamMatchmakingPingResponse_ServerFailedToRespond
+.p2align 3
+p_SteamAPI_ISteamMatchmakingPingResponse_ServerFailedToRespond: .quad 0
+.globl p_SteamAPI_ISteamMatchmakingPingResponse_ServerResponded
+.p2align 3
+p_SteamAPI_ISteamMatchmakingPingResponse_ServerResponded: .quad 0
+.globl p_SteamAPI_ISteamMatchmakingPlayersResponse_AddPlayerToList
+.p2align 3
+p_SteamAPI_ISteamMatchmakingPlayersResponse_AddPlayerToList: .quad 0
+.globl p_SteamAPI_ISteamMatchmakingPlayersResponse_PlayersFailedToRespond
+.p2align 3
+p_SteamAPI_ISteamMatchmakingPlayersResponse_PlayersFailedToRespond: .quad 0
+.globl p_SteamAPI_ISteamMatchmakingPlayersResponse_PlayersRefreshComplete
+.p2align 3
+p_SteamAPI_ISteamMatchmakingPlayersResponse_PlayersRefreshComplete: .quad 0
+.globl p_SteamAPI_ISteamMatchmakingRulesResponse_RulesFailedToRespond
+.p2align 3
+p_SteamAPI_ISteamMatchmakingRulesResponse_RulesFailedToRespond: .quad 0
+.globl p_SteamAPI_ISteamMatchmakingRulesResponse_RulesRefreshComplete
+.p2align 3
+p_SteamAPI_ISteamMatchmakingRulesResponse_RulesRefreshComplete: .quad 0
+.globl p_SteamAPI_ISteamMatchmakingRulesResponse_RulesResponded
+.p2align 3
+p_SteamAPI_ISteamMatchmakingRulesResponse_RulesResponded: .quad 0
+.globl p_SteamAPI_ISteamMatchmakingServerFriendsResponse_AddFriendToList
+.p2align 3
+p_SteamAPI_ISteamMatchmakingServerFriendsResponse_AddFriendToList: .quad 0
+.globl p_SteamAPI_ISteamMatchmakingServerFriendsResponse_FriendsFailedToRespond
+.p2align 3
+p_SteamAPI_ISteamMatchmakingServerFriendsResponse_FriendsFailedToRespond: .quad 0
+.globl p_SteamAPI_ISteamMatchmakingServerFriendsResponse_FriendsRefreshComplete
+.p2align 3
+p_SteamAPI_ISteamMatchmakingServerFriendsResponse_FriendsRefreshComplete: .quad 0
+.globl p_SteamAPI_ISteamMatchmakingServerListResponse_RefreshComplete
+.p2align 3
+p_SteamAPI_ISteamMatchmakingServerListResponse_RefreshComplete: .quad 0
+.globl p_SteamAPI_ISteamMatchmakingServerListResponse_ServerFailedToRespond
+.p2align 3
+p_SteamAPI_ISteamMatchmakingServerListResponse_ServerFailedToRespond: .quad 0
+.globl p_SteamAPI_ISteamMatchmakingServerListResponse_ServerResponded
+.p2align 3
+p_SteamAPI_ISteamMatchmakingServerListResponse_ServerResponded: .quad 0
+.globl p_SteamAPI_ISteamMatchmakingServers_CancelQuery
+.p2align 3
+p_SteamAPI_ISteamMatchmakingServers_CancelQuery: .quad 0
+.globl p_SteamAPI_ISteamMatchmakingServers_CancelServerQuery
+.p2align 3
+p_SteamAPI_ISteamMatchmakingServers_CancelServerQuery: .quad 0
+.globl p_SteamAPI_ISteamMatchmakingServers_GetServerCount
+.p2align 3
+p_SteamAPI_ISteamMatchmakingServers_GetServerCount: .quad 0
+.globl p_SteamAPI_ISteamMatchmakingServers_GetServerDetails
+.p2align 3
+p_SteamAPI_ISteamMatchmakingServers_GetServerDetails: .quad 0
+.globl p_SteamAPI_ISteamMatchmakingServers_IsRefreshing
+.p2align 3
+p_SteamAPI_ISteamMatchmakingServers_IsRefreshing: .quad 0
+.globl p_SteamAPI_ISteamMatchmakingServers_PingServer
+.p2align 3
+p_SteamAPI_ISteamMatchmakingServers_PingServer: .quad 0
+.globl p_SteamAPI_ISteamMatchmakingServers_PlayerDetails
+.p2align 3
+p_SteamAPI_ISteamMatchmakingServers_PlayerDetails: .quad 0
+.globl p_SteamAPI_ISteamMatchmakingServers_RefreshQuery
+.p2align 3
+p_SteamAPI_ISteamMatchmakingServers_RefreshQuery: .quad 0
+.globl p_SteamAPI_ISteamMatchmakingServers_RefreshServer
+.p2align 3
+p_SteamAPI_ISteamMatchmakingServers_RefreshServer: .quad 0
+.globl p_SteamAPI_ISteamMatchmakingServers_ReleaseRequest
+.p2align 3
+p_SteamAPI_ISteamMatchmakingServers_ReleaseRequest: .quad 0
+.globl p_SteamAPI_ISteamMatchmakingServers_RequestFavoritesServerList
+.p2align 3
+p_SteamAPI_ISteamMatchmakingServers_RequestFavoritesServerList: .quad 0
+.globl p_SteamAPI_ISteamMatchmakingServers_RequestFriendsServerList
+.p2align 3
+p_SteamAPI_ISteamMatchmakingServers_RequestFriendsServerList: .quad 0
+.globl p_SteamAPI_ISteamMatchmakingServers_RequestHistoryServerList
+.p2align 3
+p_SteamAPI_ISteamMatchmakingServers_RequestHistoryServerList: .quad 0
+.globl p_SteamAPI_ISteamMatchmakingServers_RequestInternetServerList
+.p2align 3
+p_SteamAPI_ISteamMatchmakingServers_RequestInternetServerList: .quad 0
+.globl p_SteamAPI_ISteamMatchmakingServers_RequestLANServerList
+.p2align 3
+p_SteamAPI_ISteamMatchmakingServers_RequestLANServerList: .quad 0
+.globl p_SteamAPI_ISteamMatchmakingServers_RequestSpectatorServerList
+.p2align 3
+p_SteamAPI_ISteamMatchmakingServers_RequestSpectatorServerList: .quad 0
+.globl p_SteamAPI_ISteamMatchmakingServers_ServerFriends
+.p2align 3
+p_SteamAPI_ISteamMatchmakingServers_ServerFriends: .quad 0
+.globl p_SteamAPI_ISteamMatchmakingServers_ServerRules
+.p2align 3
+p_SteamAPI_ISteamMatchmakingServers_ServerRules: .quad 0
+.globl p_SteamAPI_ISteamMatchmaking_AddFavoriteGame
+.p2align 3
+p_SteamAPI_ISteamMatchmaking_AddFavoriteGame: .quad 0
+.globl p_SteamAPI_ISteamMatchmaking_AddRequestLobbyListCompatibleMembersFilter
+.p2align 3
+p_SteamAPI_ISteamMatchmaking_AddRequestLobbyListCompatibleMembersFilter: .quad 0
+.globl p_SteamAPI_ISteamMatchmaking_AddRequestLobbyListDistanceFilter
+.p2align 3
+p_SteamAPI_ISteamMatchmaking_AddRequestLobbyListDistanceFilter: .quad 0
+.globl p_SteamAPI_ISteamMatchmaking_AddRequestLobbyListFilterSlotsAvailable
+.p2align 3
+p_SteamAPI_ISteamMatchmaking_AddRequestLobbyListFilterSlotsAvailable: .quad 0
+.globl p_SteamAPI_ISteamMatchmaking_AddRequestLobbyListNearValueFilter
+.p2align 3
+p_SteamAPI_ISteamMatchmaking_AddRequestLobbyListNearValueFilter: .quad 0
+.globl p_SteamAPI_ISteamMatchmaking_AddRequestLobbyListNumericalFilter
+.p2align 3
+p_SteamAPI_ISteamMatchmaking_AddRequestLobbyListNumericalFilter: .quad 0
+.globl p_SteamAPI_ISteamMatchmaking_AddRequestLobbyListResultCountFilter
+.p2align 3
+p_SteamAPI_ISteamMatchmaking_AddRequestLobbyListResultCountFilter: .quad 0
+.globl p_SteamAPI_ISteamMatchmaking_AddRequestLobbyListStringFilter
+.p2align 3
+p_SteamAPI_ISteamMatchmaking_AddRequestLobbyListStringFilter: .quad 0
+.globl p_SteamAPI_ISteamMatchmaking_CreateLobby
+.p2align 3
+p_SteamAPI_ISteamMatchmaking_CreateLobby: .quad 0
+.globl p_SteamAPI_ISteamMatchmaking_DeleteLobbyData
+.p2align 3
+p_SteamAPI_ISteamMatchmaking_DeleteLobbyData: .quad 0
+.globl p_SteamAPI_ISteamMatchmaking_GetFavoriteGame
+.p2align 3
+p_SteamAPI_ISteamMatchmaking_GetFavoriteGame: .quad 0
+.globl p_SteamAPI_ISteamMatchmaking_GetFavoriteGameCount
+.p2align 3
+p_SteamAPI_ISteamMatchmaking_GetFavoriteGameCount: .quad 0
+.globl p_SteamAPI_ISteamMatchmaking_GetLobbyByIndex
+.p2align 3
+p_SteamAPI_ISteamMatchmaking_GetLobbyByIndex: .quad 0
+.globl p_SteamAPI_ISteamMatchmaking_GetLobbyChatEntry
+.p2align 3
+p_SteamAPI_ISteamMatchmaking_GetLobbyChatEntry: .quad 0
+.globl p_SteamAPI_ISteamMatchmaking_GetLobbyData
+.p2align 3
+p_SteamAPI_ISteamMatchmaking_GetLobbyData: .quad 0
+.globl p_SteamAPI_ISteamMatchmaking_GetLobbyDataByIndex
+.p2align 3
+p_SteamAPI_ISteamMatchmaking_GetLobbyDataByIndex: .quad 0
+.globl p_SteamAPI_ISteamMatchmaking_GetLobbyDataCount
+.p2align 3
+p_SteamAPI_ISteamMatchmaking_GetLobbyDataCount: .quad 0
+.globl p_SteamAPI_ISteamMatchmaking_GetLobbyGameServer
+.p2align 3
+p_SteamAPI_ISteamMatchmaking_GetLobbyGameServer: .quad 0
+.globl p_SteamAPI_ISteamMatchmaking_GetLobbyMemberByIndex
+.p2align 3
+p_SteamAPI_ISteamMatchmaking_GetLobbyMemberByIndex: .quad 0
+.globl p_SteamAPI_ISteamMatchmaking_GetLobbyMemberData
+.p2align 3
+p_SteamAPI_ISteamMatchmaking_GetLobbyMemberData: .quad 0
+.globl p_SteamAPI_ISteamMatchmaking_GetLobbyMemberLimit
+.p2align 3
+p_SteamAPI_ISteamMatchmaking_GetLobbyMemberLimit: .quad 0
+.globl p_SteamAPI_ISteamMatchmaking_GetLobbyOwner
+.p2align 3
+p_SteamAPI_ISteamMatchmaking_GetLobbyOwner: .quad 0
+.globl p_SteamAPI_ISteamMatchmaking_GetNumLobbyMembers
+.p2align 3
+p_SteamAPI_ISteamMatchmaking_GetNumLobbyMembers: .quad 0
+.globl p_SteamAPI_ISteamMatchmaking_InviteUserToLobby
+.p2align 3
+p_SteamAPI_ISteamMatchmaking_InviteUserToLobby: .quad 0
+.globl p_SteamAPI_ISteamMatchmaking_JoinLobby
+.p2align 3
+p_SteamAPI_ISteamMatchmaking_JoinLobby: .quad 0
+.globl p_SteamAPI_ISteamMatchmaking_LeaveLobby
+.p2align 3
+p_SteamAPI_ISteamMatchmaking_LeaveLobby: .quad 0
+.globl p_SteamAPI_ISteamMatchmaking_RemoveFavoriteGame
+.p2align 3
+p_SteamAPI_ISteamMatchmaking_RemoveFavoriteGame: .quad 0
+.globl p_SteamAPI_ISteamMatchmaking_RequestLobbyData
+.p2align 3
+p_SteamAPI_ISteamMatchmaking_RequestLobbyData: .quad 0
+.globl p_SteamAPI_ISteamMatchmaking_RequestLobbyList
+.p2align 3
+p_SteamAPI_ISteamMatchmaking_RequestLobbyList: .quad 0
+.globl p_SteamAPI_ISteamMatchmaking_SendLobbyChatMsg
+.p2align 3
+p_SteamAPI_ISteamMatchmaking_SendLobbyChatMsg: .quad 0
+.globl p_SteamAPI_ISteamMatchmaking_SetLinkedLobby
+.p2align 3
+p_SteamAPI_ISteamMatchmaking_SetLinkedLobby: .quad 0
+.globl p_SteamAPI_ISteamMatchmaking_SetLobbyData
+.p2align 3
+p_SteamAPI_ISteamMatchmaking_SetLobbyData: .quad 0
+.globl p_SteamAPI_ISteamMatchmaking_SetLobbyGameServer
+.p2align 3
+p_SteamAPI_ISteamMatchmaking_SetLobbyGameServer: .quad 0
+.globl p_SteamAPI_ISteamMatchmaking_SetLobbyJoinable
+.p2align 3
+p_SteamAPI_ISteamMatchmaking_SetLobbyJoinable: .quad 0
+.globl p_SteamAPI_ISteamMatchmaking_SetLobbyMemberData
+.p2align 3
+p_SteamAPI_ISteamMatchmaking_SetLobbyMemberData: .quad 0
+.globl p_SteamAPI_ISteamMatchmaking_SetLobbyMemberLimit
+.p2align 3
+p_SteamAPI_ISteamMatchmaking_SetLobbyMemberLimit: .quad 0
+.globl p_SteamAPI_ISteamMatchmaking_SetLobbyOwner
+.p2align 3
+p_SteamAPI_ISteamMatchmaking_SetLobbyOwner: .quad 0
+.globl p_SteamAPI_ISteamMatchmaking_SetLobbyType
+.p2align 3
+p_SteamAPI_ISteamMatchmaking_SetLobbyType: .quad 0
+.globl p_SteamAPI_ISteamMusicRemote_BActivationSuccess
+.p2align 3
+p_SteamAPI_ISteamMusicRemote_BActivationSuccess: .quad 0
+.globl p_SteamAPI_ISteamMusicRemote_BIsCurrentMusicRemote
+.p2align 3
+p_SteamAPI_ISteamMusicRemote_BIsCurrentMusicRemote: .quad 0
+.globl p_SteamAPI_ISteamMusicRemote_CurrentEntryDidChange
+.p2align 3
+p_SteamAPI_ISteamMusicRemote_CurrentEntryDidChange: .quad 0
+.globl p_SteamAPI_ISteamMusicRemote_CurrentEntryIsAvailable
+.p2align 3
+p_SteamAPI_ISteamMusicRemote_CurrentEntryIsAvailable: .quad 0
+.globl p_SteamAPI_ISteamMusicRemote_CurrentEntryWillChange
+.p2align 3
+p_SteamAPI_ISteamMusicRemote_CurrentEntryWillChange: .quad 0
+.globl p_SteamAPI_ISteamMusicRemote_DeregisterSteamMusicRemote
+.p2align 3
+p_SteamAPI_ISteamMusicRemote_DeregisterSteamMusicRemote: .quad 0
+.globl p_SteamAPI_ISteamMusicRemote_EnableLooped
+.p2align 3
+p_SteamAPI_ISteamMusicRemote_EnableLooped: .quad 0
+.globl p_SteamAPI_ISteamMusicRemote_EnablePlayNext
+.p2align 3
+p_SteamAPI_ISteamMusicRemote_EnablePlayNext: .quad 0
+.globl p_SteamAPI_ISteamMusicRemote_EnablePlayPrevious
+.p2align 3
+p_SteamAPI_ISteamMusicRemote_EnablePlayPrevious: .quad 0
+.globl p_SteamAPI_ISteamMusicRemote_EnablePlaylists
+.p2align 3
+p_SteamAPI_ISteamMusicRemote_EnablePlaylists: .quad 0
+.globl p_SteamAPI_ISteamMusicRemote_EnableQueue
+.p2align 3
+p_SteamAPI_ISteamMusicRemote_EnableQueue: .quad 0
+.globl p_SteamAPI_ISteamMusicRemote_EnableShuffled
+.p2align 3
+p_SteamAPI_ISteamMusicRemote_EnableShuffled: .quad 0
+.globl p_SteamAPI_ISteamMusicRemote_PlaylistDidChange
+.p2align 3
+p_SteamAPI_ISteamMusicRemote_PlaylistDidChange: .quad 0
+.globl p_SteamAPI_ISteamMusicRemote_PlaylistWillChange
+.p2align 3
+p_SteamAPI_ISteamMusicRemote_PlaylistWillChange: .quad 0
+.globl p_SteamAPI_ISteamMusicRemote_QueueDidChange
+.p2align 3
+p_SteamAPI_ISteamMusicRemote_QueueDidChange: .quad 0
+.globl p_SteamAPI_ISteamMusicRemote_QueueWillChange
+.p2align 3
+p_SteamAPI_ISteamMusicRemote_QueueWillChange: .quad 0
+.globl p_SteamAPI_ISteamMusicRemote_RegisterSteamMusicRemote
+.p2align 3
+p_SteamAPI_ISteamMusicRemote_RegisterSteamMusicRemote: .quad 0
+.globl p_SteamAPI_ISteamMusicRemote_ResetPlaylistEntries
+.p2align 3
+p_SteamAPI_ISteamMusicRemote_ResetPlaylistEntries: .quad 0
+.globl p_SteamAPI_ISteamMusicRemote_ResetQueueEntries
+.p2align 3
+p_SteamAPI_ISteamMusicRemote_ResetQueueEntries: .quad 0
+.globl p_SteamAPI_ISteamMusicRemote_SetCurrentPlaylistEntry
+.p2align 3
+p_SteamAPI_ISteamMusicRemote_SetCurrentPlaylistEntry: .quad 0
+.globl p_SteamAPI_ISteamMusicRemote_SetCurrentQueueEntry
+.p2align 3
+p_SteamAPI_ISteamMusicRemote_SetCurrentQueueEntry: .quad 0
+.globl p_SteamAPI_ISteamMusicRemote_SetDisplayName
+.p2align 3
+p_SteamAPI_ISteamMusicRemote_SetDisplayName: .quad 0
+.globl p_SteamAPI_ISteamMusicRemote_SetPNGIcon_64x64
+.p2align 3
+p_SteamAPI_ISteamMusicRemote_SetPNGIcon_64x64: .quad 0
+.globl p_SteamAPI_ISteamMusicRemote_SetPlaylistEntry
+.p2align 3
+p_SteamAPI_ISteamMusicRemote_SetPlaylistEntry: .quad 0
+.globl p_SteamAPI_ISteamMusicRemote_SetQueueEntry
+.p2align 3
+p_SteamAPI_ISteamMusicRemote_SetQueueEntry: .quad 0
+.globl p_SteamAPI_ISteamMusicRemote_UpdateCurrentEntryCoverArt
+.p2align 3
+p_SteamAPI_ISteamMusicRemote_UpdateCurrentEntryCoverArt: .quad 0
+.globl p_SteamAPI_ISteamMusicRemote_UpdateCurrentEntryElapsedSeconds
+.p2align 3
+p_SteamAPI_ISteamMusicRemote_UpdateCurrentEntryElapsedSeconds: .quad 0
+.globl p_SteamAPI_ISteamMusicRemote_UpdateCurrentEntryText
+.p2align 3
+p_SteamAPI_ISteamMusicRemote_UpdateCurrentEntryText: .quad 0
+.globl p_SteamAPI_ISteamMusicRemote_UpdateLooped
+.p2align 3
+p_SteamAPI_ISteamMusicRemote_UpdateLooped: .quad 0
+.globl p_SteamAPI_ISteamMusicRemote_UpdatePlaybackStatus
+.p2align 3
+p_SteamAPI_ISteamMusicRemote_UpdatePlaybackStatus: .quad 0
+.globl p_SteamAPI_ISteamMusicRemote_UpdateShuffled
+.p2align 3
+p_SteamAPI_ISteamMusicRemote_UpdateShuffled: .quad 0
+.globl p_SteamAPI_ISteamMusicRemote_UpdateVolume
+.p2align 3
+p_SteamAPI_ISteamMusicRemote_UpdateVolume: .quad 0
+.globl p_SteamAPI_ISteamMusic_BIsEnabled
+.p2align 3
+p_SteamAPI_ISteamMusic_BIsEnabled: .quad 0
+.globl p_SteamAPI_ISteamMusic_BIsPlaying
+.p2align 3
+p_SteamAPI_ISteamMusic_BIsPlaying: .quad 0
+.globl p_SteamAPI_ISteamMusic_GetPlaybackStatus
+.p2align 3
+p_SteamAPI_ISteamMusic_GetPlaybackStatus: .quad 0
+.globl p_SteamAPI_ISteamMusic_GetVolume
+.p2align 3
+p_SteamAPI_ISteamMusic_GetVolume: .quad 0
+.globl p_SteamAPI_ISteamMusic_Pause
+.p2align 3
+p_SteamAPI_ISteamMusic_Pause: .quad 0
+.globl p_SteamAPI_ISteamMusic_Play
+.p2align 3
+p_SteamAPI_ISteamMusic_Play: .quad 0
+.globl p_SteamAPI_ISteamMusic_PlayNext
+.p2align 3
+p_SteamAPI_ISteamMusic_PlayNext: .quad 0
+.globl p_SteamAPI_ISteamMusic_PlayPrevious
+.p2align 3
+p_SteamAPI_ISteamMusic_PlayPrevious: .quad 0
+.globl p_SteamAPI_ISteamMusic_SetVolume
+.p2align 3
+p_SteamAPI_ISteamMusic_SetVolume: .quad 0
+.globl p_SteamAPI_ISteamNetworkingConnectionCustomSignaling_Release
+.p2align 3
+p_SteamAPI_ISteamNetworkingConnectionCustomSignaling_Release: .quad 0
+.globl p_SteamAPI_ISteamNetworkingConnectionCustomSignaling_SendSignal
+.p2align 3
+p_SteamAPI_ISteamNetworkingConnectionCustomSignaling_SendSignal: .quad 0
+.globl p_SteamAPI_ISteamNetworkingCustomSignalingRecvContext_OnConnectRequest
+.p2align 3
+p_SteamAPI_ISteamNetworkingCustomSignalingRecvContext_OnConnectRequest: .quad 0
+.globl p_SteamAPI_ISteamNetworkingCustomSignalingRecvContext_SendRejectionSignal
+.p2align 3
+p_SteamAPI_ISteamNetworkingCustomSignalingRecvContext_SendRejectionSignal: .quad 0
+.globl p_SteamAPI_ISteamNetworkingFakeUDPPort_DestroyFakeUDPPort
+.p2align 3
+p_SteamAPI_ISteamNetworkingFakeUDPPort_DestroyFakeUDPPort: .quad 0
+.globl p_SteamAPI_ISteamNetworkingFakeUDPPort_ReceiveMessages
+.p2align 3
+p_SteamAPI_ISteamNetworkingFakeUDPPort_ReceiveMessages: .quad 0
+.globl p_SteamAPI_ISteamNetworkingFakeUDPPort_ScheduleCleanup
+.p2align 3
+p_SteamAPI_ISteamNetworkingFakeUDPPort_ScheduleCleanup: .quad 0
+.globl p_SteamAPI_ISteamNetworkingFakeUDPPort_SendMessageToFakeIP
+.p2align 3
+p_SteamAPI_ISteamNetworkingFakeUDPPort_SendMessageToFakeIP: .quad 0
+.globl p_SteamAPI_ISteamNetworkingMessages_AcceptSessionWithUser
+.p2align 3
+p_SteamAPI_ISteamNetworkingMessages_AcceptSessionWithUser: .quad 0
+.globl p_SteamAPI_ISteamNetworkingMessages_CloseChannelWithUser
+.p2align 3
+p_SteamAPI_ISteamNetworkingMessages_CloseChannelWithUser: .quad 0
+.globl p_SteamAPI_ISteamNetworkingMessages_CloseSessionWithUser
+.p2align 3
+p_SteamAPI_ISteamNetworkingMessages_CloseSessionWithUser: .quad 0
+.globl p_SteamAPI_ISteamNetworkingMessages_GetSessionConnectionInfo
+.p2align 3
+p_SteamAPI_ISteamNetworkingMessages_GetSessionConnectionInfo: .quad 0
+.globl p_SteamAPI_ISteamNetworkingMessages_ReceiveMessagesOnChannel
+.p2align 3
+p_SteamAPI_ISteamNetworkingMessages_ReceiveMessagesOnChannel: .quad 0
+.globl p_SteamAPI_ISteamNetworkingMessages_SendMessageToUser
+.p2align 3
+p_SteamAPI_ISteamNetworkingMessages_SendMessageToUser: .quad 0
+.globl p_SteamAPI_ISteamNetworkingSockets_AcceptConnection
+.p2align 3
+p_SteamAPI_ISteamNetworkingSockets_AcceptConnection: .quad 0
+.globl p_SteamAPI_ISteamNetworkingSockets_BeginAsyncRequestFakeIP
+.p2align 3
+p_SteamAPI_ISteamNetworkingSockets_BeginAsyncRequestFakeIP: .quad 0
+.globl p_SteamAPI_ISteamNetworkingSockets_CloseConnection
+.p2align 3
+p_SteamAPI_ISteamNetworkingSockets_CloseConnection: .quad 0
+.globl p_SteamAPI_ISteamNetworkingSockets_CloseListenSocket
+.p2align 3
+p_SteamAPI_ISteamNetworkingSockets_CloseListenSocket: .quad 0
+.globl p_SteamAPI_ISteamNetworkingSockets_ConfigureConnectionLanes
+.p2align 3
+p_SteamAPI_ISteamNetworkingSockets_ConfigureConnectionLanes: .quad 0
+.globl p_SteamAPI_ISteamNetworkingSockets_ConnectByIPAddress
+.p2align 3
+p_SteamAPI_ISteamNetworkingSockets_ConnectByIPAddress: .quad 0
+.globl p_SteamAPI_ISteamNetworkingSockets_ConnectP2P
+.p2align 3
+p_SteamAPI_ISteamNetworkingSockets_ConnectP2P: .quad 0
+.globl p_SteamAPI_ISteamNetworkingSockets_ConnectP2PCustomSignaling
+.p2align 3
+p_SteamAPI_ISteamNetworkingSockets_ConnectP2PCustomSignaling: .quad 0
+.globl p_SteamAPI_ISteamNetworkingSockets_ConnectToHostedDedicatedServer
+.p2align 3
+p_SteamAPI_ISteamNetworkingSockets_ConnectToHostedDedicatedServer: .quad 0
+.globl p_SteamAPI_ISteamNetworkingSockets_CreateFakeUDPPort
+.p2align 3
+p_SteamAPI_ISteamNetworkingSockets_CreateFakeUDPPort: .quad 0
+.globl p_SteamAPI_ISteamNetworkingSockets_CreateHostedDedicatedServerListenSocket
+.p2align 3
+p_SteamAPI_ISteamNetworkingSockets_CreateHostedDedicatedServerListenSocket: .quad 0
+.globl p_SteamAPI_ISteamNetworkingSockets_CreateListenSocketIP
+.p2align 3
+p_SteamAPI_ISteamNetworkingSockets_CreateListenSocketIP: .quad 0
+.globl p_SteamAPI_ISteamNetworkingSockets_CreateListenSocketP2P
+.p2align 3
+p_SteamAPI_ISteamNetworkingSockets_CreateListenSocketP2P: .quad 0
+.globl p_SteamAPI_ISteamNetworkingSockets_CreateListenSocketP2PFakeIP
+.p2align 3
+p_SteamAPI_ISteamNetworkingSockets_CreateListenSocketP2PFakeIP: .quad 0
+.globl p_SteamAPI_ISteamNetworkingSockets_CreatePollGroup
+.p2align 3
+p_SteamAPI_ISteamNetworkingSockets_CreatePollGroup: .quad 0
+.globl p_SteamAPI_ISteamNetworkingSockets_CreateSocketPair
+.p2align 3
+p_SteamAPI_ISteamNetworkingSockets_CreateSocketPair: .quad 0
+.globl p_SteamAPI_ISteamNetworkingSockets_DestroyPollGroup
+.p2align 3
+p_SteamAPI_ISteamNetworkingSockets_DestroyPollGroup: .quad 0
+.globl p_SteamAPI_ISteamNetworkingSockets_FindRelayAuthTicketForServer
+.p2align 3
+p_SteamAPI_ISteamNetworkingSockets_FindRelayAuthTicketForServer: .quad 0
+.globl p_SteamAPI_ISteamNetworkingSockets_FlushMessagesOnConnection
+.p2align 3
+p_SteamAPI_ISteamNetworkingSockets_FlushMessagesOnConnection: .quad 0
+.globl p_SteamAPI_ISteamNetworkingSockets_GetAuthenticationStatus
+.p2align 3
+p_SteamAPI_ISteamNetworkingSockets_GetAuthenticationStatus: .quad 0
+.globl p_SteamAPI_ISteamNetworkingSockets_GetCertificateRequest
+.p2align 3
+p_SteamAPI_ISteamNetworkingSockets_GetCertificateRequest: .quad 0
+.globl p_SteamAPI_ISteamNetworkingSockets_GetConnectionInfo
+.p2align 3
+p_SteamAPI_ISteamNetworkingSockets_GetConnectionInfo: .quad 0
+.globl p_SteamAPI_ISteamNetworkingSockets_GetConnectionName
+.p2align 3
+p_SteamAPI_ISteamNetworkingSockets_GetConnectionName: .quad 0
+.globl p_SteamAPI_ISteamNetworkingSockets_GetConnectionRealTimeStatus
+.p2align 3
+p_SteamAPI_ISteamNetworkingSockets_GetConnectionRealTimeStatus: .quad 0
+.globl p_SteamAPI_ISteamNetworkingSockets_GetConnectionUserData
+.p2align 3
+p_SteamAPI_ISteamNetworkingSockets_GetConnectionUserData: .quad 0
+.globl p_SteamAPI_ISteamNetworkingSockets_GetDetailedConnectionStatus
+.p2align 3
+p_SteamAPI_ISteamNetworkingSockets_GetDetailedConnectionStatus: .quad 0
+.globl p_SteamAPI_ISteamNetworkingSockets_GetFakeIP
+.p2align 3
+p_SteamAPI_ISteamNetworkingSockets_GetFakeIP: .quad 0
+.globl p_SteamAPI_ISteamNetworkingSockets_GetGameCoordinatorServerLogin
+.p2align 3
+p_SteamAPI_ISteamNetworkingSockets_GetGameCoordinatorServerLogin: .quad 0
+.globl p_SteamAPI_ISteamNetworkingSockets_GetHostedDedicatedServerAddress
+.p2align 3
+p_SteamAPI_ISteamNetworkingSockets_GetHostedDedicatedServerAddress: .quad 0
+.globl p_SteamAPI_ISteamNetworkingSockets_GetHostedDedicatedServerPOPID
+.p2align 3
+p_SteamAPI_ISteamNetworkingSockets_GetHostedDedicatedServerPOPID: .quad 0
+.globl p_SteamAPI_ISteamNetworkingSockets_GetHostedDedicatedServerPort
+.p2align 3
+p_SteamAPI_ISteamNetworkingSockets_GetHostedDedicatedServerPort: .quad 0
+.globl p_SteamAPI_ISteamNetworkingSockets_GetIdentity
+.p2align 3
+p_SteamAPI_ISteamNetworkingSockets_GetIdentity: .quad 0
+.globl p_SteamAPI_ISteamNetworkingSockets_GetListenSocketAddress
+.p2align 3
+p_SteamAPI_ISteamNetworkingSockets_GetListenSocketAddress: .quad 0
+.globl p_SteamAPI_ISteamNetworkingSockets_GetQuickConnectionStatus
+.p2align 3
+p_SteamAPI_ISteamNetworkingSockets_GetQuickConnectionStatus: .quad 0
+.globl p_SteamAPI_ISteamNetworkingSockets_GetRemoteFakeIPForConnection
+.p2align 3
+p_SteamAPI_ISteamNetworkingSockets_GetRemoteFakeIPForConnection: .quad 0
+.globl p_SteamAPI_ISteamNetworkingSockets_InitAuthentication
+.p2align 3
+p_SteamAPI_ISteamNetworkingSockets_InitAuthentication: .quad 0
+.globl p_SteamAPI_ISteamNetworkingSockets_ReceiveMessagesOnConnection
+.p2align 3
+p_SteamAPI_ISteamNetworkingSockets_ReceiveMessagesOnConnection: .quad 0
+.globl p_SteamAPI_ISteamNetworkingSockets_ReceiveMessagesOnPollGroup
+.p2align 3
+p_SteamAPI_ISteamNetworkingSockets_ReceiveMessagesOnPollGroup: .quad 0
+.globl p_SteamAPI_ISteamNetworkingSockets_ReceivedP2PCustomSignal
+.p2align 3
+p_SteamAPI_ISteamNetworkingSockets_ReceivedP2PCustomSignal: .quad 0
+.globl p_SteamAPI_ISteamNetworkingSockets_ReceivedRelayAuthTicket
+.p2align 3
+p_SteamAPI_ISteamNetworkingSockets_ReceivedRelayAuthTicket: .quad 0
+.globl p_SteamAPI_ISteamNetworkingSockets_ResetIdentity
+.p2align 3
+p_SteamAPI_ISteamNetworkingSockets_ResetIdentity: .quad 0
+.globl p_SteamAPI_ISteamNetworkingSockets_RunCallbacks
+.p2align 3
+p_SteamAPI_ISteamNetworkingSockets_RunCallbacks: .quad 0
+.globl p_SteamAPI_ISteamNetworkingSockets_SendMessageToConnection
+.p2align 3
+p_SteamAPI_ISteamNetworkingSockets_SendMessageToConnection: .quad 0
+.globl p_SteamAPI_ISteamNetworkingSockets_SendMessages
+.p2align 3
+p_SteamAPI_ISteamNetworkingSockets_SendMessages: .quad 0
+.globl p_SteamAPI_ISteamNetworkingSockets_SetCertificate
+.p2align 3
+p_SteamAPI_ISteamNetworkingSockets_SetCertificate: .quad 0
+.globl p_SteamAPI_ISteamNetworkingSockets_SetConnectionName
+.p2align 3
+p_SteamAPI_ISteamNetworkingSockets_SetConnectionName: .quad 0
+.globl p_SteamAPI_ISteamNetworkingSockets_SetConnectionPollGroup
+.p2align 3
+p_SteamAPI_ISteamNetworkingSockets_SetConnectionPollGroup: .quad 0
+.globl p_SteamAPI_ISteamNetworkingSockets_SetConnectionUserData
+.p2align 3
+p_SteamAPI_ISteamNetworkingSockets_SetConnectionUserData: .quad 0
+.globl p_SteamAPI_ISteamNetworkingUtils_AllocateMessage
+.p2align 3
+p_SteamAPI_ISteamNetworkingUtils_AllocateMessage: .quad 0
+.globl p_SteamAPI_ISteamNetworkingUtils_CheckPingDataUpToDate
+.p2align 3
+p_SteamAPI_ISteamNetworkingUtils_CheckPingDataUpToDate: .quad 0
+.globl p_SteamAPI_ISteamNetworkingUtils_ConvertPingLocationToString
+.p2align 3
+p_SteamAPI_ISteamNetworkingUtils_ConvertPingLocationToString: .quad 0
+.globl p_SteamAPI_ISteamNetworkingUtils_EstimatePingTimeBetweenTwoLocations
+.p2align 3
+p_SteamAPI_ISteamNetworkingUtils_EstimatePingTimeBetweenTwoLocations: .quad 0
+.globl p_SteamAPI_ISteamNetworkingUtils_EstimatePingTimeFromLocalHost
+.p2align 3
+p_SteamAPI_ISteamNetworkingUtils_EstimatePingTimeFromLocalHost: .quad 0
+.globl p_SteamAPI_ISteamNetworkingUtils_GetConfigValue
+.p2align 3
+p_SteamAPI_ISteamNetworkingUtils_GetConfigValue: .quad 0
+.globl p_SteamAPI_ISteamNetworkingUtils_GetConfigValueInfo
+.p2align 3
+p_SteamAPI_ISteamNetworkingUtils_GetConfigValueInfo: .quad 0
+.globl p_SteamAPI_ISteamNetworkingUtils_GetDirectPingToPOP
+.p2align 3
+p_SteamAPI_ISteamNetworkingUtils_GetDirectPingToPOP: .quad 0
+.globl p_SteamAPI_ISteamNetworkingUtils_GetFirstConfigValue
+.p2align 3
+p_SteamAPI_ISteamNetworkingUtils_GetFirstConfigValue: .quad 0
+.globl p_SteamAPI_ISteamNetworkingUtils_GetIPv4FakeIPType
+.p2align 3
+p_SteamAPI_ISteamNetworkingUtils_GetIPv4FakeIPType: .quad 0
+.globl p_SteamAPI_ISteamNetworkingUtils_GetLocalPingLocation
+.p2align 3
+p_SteamAPI_ISteamNetworkingUtils_GetLocalPingLocation: .quad 0
+.globl p_SteamAPI_ISteamNetworkingUtils_GetLocalTimestamp
+.p2align 3
+p_SteamAPI_ISteamNetworkingUtils_GetLocalTimestamp: .quad 0
+.globl p_SteamAPI_ISteamNetworkingUtils_GetPOPCount
+.p2align 3
+p_SteamAPI_ISteamNetworkingUtils_GetPOPCount: .quad 0
+.globl p_SteamAPI_ISteamNetworkingUtils_GetPOPList
+.p2align 3
+p_SteamAPI_ISteamNetworkingUtils_GetPOPList: .quad 0
+.globl p_SteamAPI_ISteamNetworkingUtils_GetPingToDataCenter
+.p2align 3
+p_SteamAPI_ISteamNetworkingUtils_GetPingToDataCenter: .quad 0
+.globl p_SteamAPI_ISteamNetworkingUtils_GetRealIdentityForFakeIP
+.p2align 3
+p_SteamAPI_ISteamNetworkingUtils_GetRealIdentityForFakeIP: .quad 0
+.globl p_SteamAPI_ISteamNetworkingUtils_GetRelayNetworkStatus
+.p2align 3
+p_SteamAPI_ISteamNetworkingUtils_GetRelayNetworkStatus: .quad 0
+.globl p_SteamAPI_ISteamNetworkingUtils_InitRelayNetworkAccess
+.p2align 3
+p_SteamAPI_ISteamNetworkingUtils_InitRelayNetworkAccess: .quad 0
+.globl p_SteamAPI_ISteamNetworkingUtils_IsFakeIPv4
+.p2align 3
+p_SteamAPI_ISteamNetworkingUtils_IsFakeIPv4: .quad 0
+.globl p_SteamAPI_ISteamNetworkingUtils_IterateGenericEditableConfigValues
+.p2align 3
+p_SteamAPI_ISteamNetworkingUtils_IterateGenericEditableConfigValues: .quad 0
+.globl p_SteamAPI_ISteamNetworkingUtils_ParsePingLocationString
+.p2align 3
+p_SteamAPI_ISteamNetworkingUtils_ParsePingLocationString: .quad 0
+.globl p_SteamAPI_ISteamNetworkingUtils_SetConfigValue
+.p2align 3
+p_SteamAPI_ISteamNetworkingUtils_SetConfigValue: .quad 0
+.globl p_SteamAPI_ISteamNetworkingUtils_SetConfigValueStruct
+.p2align 3
+p_SteamAPI_ISteamNetworkingUtils_SetConfigValueStruct: .quad 0
+.globl p_SteamAPI_ISteamNetworkingUtils_SetConnectionConfigValueFloat
+.p2align 3
+p_SteamAPI_ISteamNetworkingUtils_SetConnectionConfigValueFloat: .quad 0
+.globl p_SteamAPI_ISteamNetworkingUtils_SetConnectionConfigValueInt32
+.p2align 3
+p_SteamAPI_ISteamNetworkingUtils_SetConnectionConfigValueInt32: .quad 0
+.globl p_SteamAPI_ISteamNetworkingUtils_SetConnectionConfigValueString
+.p2align 3
+p_SteamAPI_ISteamNetworkingUtils_SetConnectionConfigValueString: .quad 0
+.globl p_SteamAPI_ISteamNetworkingUtils_SetDebugOutputFunction
+.p2align 3
+p_SteamAPI_ISteamNetworkingUtils_SetDebugOutputFunction: .quad 0
+.globl p_SteamAPI_ISteamNetworkingUtils_SetGlobalCallback_FakeIPResult
+.p2align 3
+p_SteamAPI_ISteamNetworkingUtils_SetGlobalCallback_FakeIPResult: .quad 0
+.globl p_SteamAPI_ISteamNetworkingUtils_SetGlobalCallback_MessagesSessionFailed
+.p2align 3
+p_SteamAPI_ISteamNetworkingUtils_SetGlobalCallback_MessagesSessionFailed: .quad 0
+.globl p_SteamAPI_ISteamNetworkingUtils_SetGlobalCallback_MessagesSessionRequest
+.p2align 3
+p_SteamAPI_ISteamNetworkingUtils_SetGlobalCallback_MessagesSessionRequest: .quad 0
+.globl p_SteamAPI_ISteamNetworkingUtils_SetGlobalCallback_SteamNetAuthenticationStatusChanged
+.p2align 3
+p_SteamAPI_ISteamNetworkingUtils_SetGlobalCallback_SteamNetAuthenticationStatusChanged: .quad 0
+.globl p_SteamAPI_ISteamNetworkingUtils_SetGlobalCallback_SteamNetConnectionStatusChanged
+.p2align 3
+p_SteamAPI_ISteamNetworkingUtils_SetGlobalCallback_SteamNetConnectionStatusChanged: .quad 0
+.globl p_SteamAPI_ISteamNetworkingUtils_SetGlobalCallback_SteamRelayNetworkStatusChanged
+.p2align 3
+p_SteamAPI_ISteamNetworkingUtils_SetGlobalCallback_SteamRelayNetworkStatusChanged: .quad 0
+.globl p_SteamAPI_ISteamNetworkingUtils_SetGlobalConfigValueFloat
+.p2align 3
+p_SteamAPI_ISteamNetworkingUtils_SetGlobalConfigValueFloat: .quad 0
+.globl p_SteamAPI_ISteamNetworkingUtils_SetGlobalConfigValueInt32
+.p2align 3
+p_SteamAPI_ISteamNetworkingUtils_SetGlobalConfigValueInt32: .quad 0
+.globl p_SteamAPI_ISteamNetworkingUtils_SetGlobalConfigValuePtr
+.p2align 3
+p_SteamAPI_ISteamNetworkingUtils_SetGlobalConfigValuePtr: .quad 0
+.globl p_SteamAPI_ISteamNetworkingUtils_SetGlobalConfigValueString
+.p2align 3
+p_SteamAPI_ISteamNetworkingUtils_SetGlobalConfigValueString: .quad 0
+.globl p_SteamAPI_ISteamNetworkingUtils_SteamNetworkingIPAddr_GetFakeIPType
+.p2align 3
+p_SteamAPI_ISteamNetworkingUtils_SteamNetworkingIPAddr_GetFakeIPType: .quad 0
+.globl p_SteamAPI_ISteamNetworkingUtils_SteamNetworkingIPAddr_ParseString
+.p2align 3
+p_SteamAPI_ISteamNetworkingUtils_SteamNetworkingIPAddr_ParseString: .quad 0
+.globl p_SteamAPI_ISteamNetworkingUtils_SteamNetworkingIPAddr_ToString
+.p2align 3
+p_SteamAPI_ISteamNetworkingUtils_SteamNetworkingIPAddr_ToString: .quad 0
+.globl p_SteamAPI_ISteamNetworkingUtils_SteamNetworkingIdentity_ParseString
+.p2align 3
+p_SteamAPI_ISteamNetworkingUtils_SteamNetworkingIdentity_ParseString: .quad 0
+.globl p_SteamAPI_ISteamNetworkingUtils_SteamNetworkingIdentity_ToString
+.p2align 3
+p_SteamAPI_ISteamNetworkingUtils_SteamNetworkingIdentity_ToString: .quad 0
+.globl p_SteamAPI_ISteamNetworking_AcceptP2PSessionWithUser
+.p2align 3
+p_SteamAPI_ISteamNetworking_AcceptP2PSessionWithUser: .quad 0
+.globl p_SteamAPI_ISteamNetworking_AllowP2PPacketRelay
+.p2align 3
+p_SteamAPI_ISteamNetworking_AllowP2PPacketRelay: .quad 0
+.globl p_SteamAPI_ISteamNetworking_CloseP2PChannelWithUser
+.p2align 3
+p_SteamAPI_ISteamNetworking_CloseP2PChannelWithUser: .quad 0
+.globl p_SteamAPI_ISteamNetworking_CloseP2PSessionWithUser
+.p2align 3
+p_SteamAPI_ISteamNetworking_CloseP2PSessionWithUser: .quad 0
+.globl p_SteamAPI_ISteamNetworking_CreateConnectionSocket
+.p2align 3
+p_SteamAPI_ISteamNetworking_CreateConnectionSocket: .quad 0
+.globl p_SteamAPI_ISteamNetworking_CreateListenSocket
+.p2align 3
+p_SteamAPI_ISteamNetworking_CreateListenSocket: .quad 0
+.globl p_SteamAPI_ISteamNetworking_CreateP2PConnectionSocket
+.p2align 3
+p_SteamAPI_ISteamNetworking_CreateP2PConnectionSocket: .quad 0
+.globl p_SteamAPI_ISteamNetworking_DestroyListenSocket
+.p2align 3
+p_SteamAPI_ISteamNetworking_DestroyListenSocket: .quad 0
+.globl p_SteamAPI_ISteamNetworking_DestroySocket
+.p2align 3
+p_SteamAPI_ISteamNetworking_DestroySocket: .quad 0
+.globl p_SteamAPI_ISteamNetworking_GetListenSocketInfo
+.p2align 3
+p_SteamAPI_ISteamNetworking_GetListenSocketInfo: .quad 0
+.globl p_SteamAPI_ISteamNetworking_GetMaxPacketSize
+.p2align 3
+p_SteamAPI_ISteamNetworking_GetMaxPacketSize: .quad 0
+.globl p_SteamAPI_ISteamNetworking_GetP2PSessionState
+.p2align 3
+p_SteamAPI_ISteamNetworking_GetP2PSessionState: .quad 0
+.globl p_SteamAPI_ISteamNetworking_GetSocketConnectionType
+.p2align 3
+p_SteamAPI_ISteamNetworking_GetSocketConnectionType: .quad 0
+.globl p_SteamAPI_ISteamNetworking_GetSocketInfo
+.p2align 3
+p_SteamAPI_ISteamNetworking_GetSocketInfo: .quad 0
+.globl p_SteamAPI_ISteamNetworking_IsDataAvailable
+.p2align 3
+p_SteamAPI_ISteamNetworking_IsDataAvailable: .quad 0
+.globl p_SteamAPI_ISteamNetworking_IsDataAvailableOnSocket
+.p2align 3
+p_SteamAPI_ISteamNetworking_IsDataAvailableOnSocket: .quad 0
+.globl p_SteamAPI_ISteamNetworking_IsP2PPacketAvailable
+.p2align 3
+p_SteamAPI_ISteamNetworking_IsP2PPacketAvailable: .quad 0
+.globl p_SteamAPI_ISteamNetworking_ReadP2PPacket
+.p2align 3
+p_SteamAPI_ISteamNetworking_ReadP2PPacket: .quad 0
+.globl p_SteamAPI_ISteamNetworking_RetrieveData
+.p2align 3
+p_SteamAPI_ISteamNetworking_RetrieveData: .quad 0
+.globl p_SteamAPI_ISteamNetworking_RetrieveDataFromSocket
+.p2align 3
+p_SteamAPI_ISteamNetworking_RetrieveDataFromSocket: .quad 0
+.globl p_SteamAPI_ISteamNetworking_SendDataOnSocket
+.p2align 3
+p_SteamAPI_ISteamNetworking_SendDataOnSocket: .quad 0
+.globl p_SteamAPI_ISteamNetworking_SendP2PPacket
+.p2align 3
+p_SteamAPI_ISteamNetworking_SendP2PPacket: .quad 0
+.globl p_SteamAPI_ISteamParentalSettings_BIsAppBlocked
+.p2align 3
+p_SteamAPI_ISteamParentalSettings_BIsAppBlocked: .quad 0
+.globl p_SteamAPI_ISteamParentalSettings_BIsAppInBlockList
+.p2align 3
+p_SteamAPI_ISteamParentalSettings_BIsAppInBlockList: .quad 0
+.globl p_SteamAPI_ISteamParentalSettings_BIsFeatureBlocked
+.p2align 3
+p_SteamAPI_ISteamParentalSettings_BIsFeatureBlocked: .quad 0
+.globl p_SteamAPI_ISteamParentalSettings_BIsFeatureInBlockList
+.p2align 3
+p_SteamAPI_ISteamParentalSettings_BIsFeatureInBlockList: .quad 0
+.globl p_SteamAPI_ISteamParentalSettings_BIsParentalLockEnabled
+.p2align 3
+p_SteamAPI_ISteamParentalSettings_BIsParentalLockEnabled: .quad 0
+.globl p_SteamAPI_ISteamParentalSettings_BIsParentalLockLocked
+.p2align 3
+p_SteamAPI_ISteamParentalSettings_BIsParentalLockLocked: .quad 0
+.globl p_SteamAPI_ISteamParties_CancelReservation
+.p2align 3
+p_SteamAPI_ISteamParties_CancelReservation: .quad 0
+.globl p_SteamAPI_ISteamParties_ChangeNumOpenSlots
+.p2align 3
+p_SteamAPI_ISteamParties_ChangeNumOpenSlots: .quad 0
+.globl p_SteamAPI_ISteamParties_CreateBeacon
+.p2align 3
+p_SteamAPI_ISteamParties_CreateBeacon: .quad 0
+.globl p_SteamAPI_ISteamParties_DestroyBeacon
+.p2align 3
+p_SteamAPI_ISteamParties_DestroyBeacon: .quad 0
+.globl p_SteamAPI_ISteamParties_GetAvailableBeaconLocations
+.p2align 3
+p_SteamAPI_ISteamParties_GetAvailableBeaconLocations: .quad 0
+.globl p_SteamAPI_ISteamParties_GetBeaconByIndex
+.p2align 3
+p_SteamAPI_ISteamParties_GetBeaconByIndex: .quad 0
+.globl p_SteamAPI_ISteamParties_GetBeaconDetails
+.p2align 3
+p_SteamAPI_ISteamParties_GetBeaconDetails: .quad 0
+.globl p_SteamAPI_ISteamParties_GetBeaconLocationData
+.p2align 3
+p_SteamAPI_ISteamParties_GetBeaconLocationData: .quad 0
+.globl p_SteamAPI_ISteamParties_GetNumActiveBeacons
+.p2align 3
+p_SteamAPI_ISteamParties_GetNumActiveBeacons: .quad 0
+.globl p_SteamAPI_ISteamParties_GetNumAvailableBeaconLocations
+.p2align 3
+p_SteamAPI_ISteamParties_GetNumAvailableBeaconLocations: .quad 0
+.globl p_SteamAPI_ISteamParties_JoinParty
+.p2align 3
+p_SteamAPI_ISteamParties_JoinParty: .quad 0
+.globl p_SteamAPI_ISteamParties_OnReservationCompleted
+.p2align 3
+p_SteamAPI_ISteamParties_OnReservationCompleted: .quad 0
+.globl p_SteamAPI_ISteamRemotePlay_BEnableRemotePlayTogetherDirectInput
+.p2align 3
+p_SteamAPI_ISteamRemotePlay_BEnableRemotePlayTogetherDirectInput: .quad 0
+.globl p_SteamAPI_ISteamRemotePlay_BGetSessionClientResolution
+.p2align 3
+p_SteamAPI_ISteamRemotePlay_BGetSessionClientResolution: .quad 0
+.globl p_SteamAPI_ISteamRemotePlay_BSendRemotePlayTogetherInvite
+.p2align 3
+p_SteamAPI_ISteamRemotePlay_BSendRemotePlayTogetherInvite: .quad 0
+.globl p_SteamAPI_ISteamRemotePlay_BSessionRemotePlayTogether
+.p2align 3
+p_SteamAPI_ISteamRemotePlay_BSessionRemotePlayTogether: .quad 0
+.globl p_SteamAPI_ISteamRemotePlay_BStartRemotePlayTogether
+.p2align 3
+p_SteamAPI_ISteamRemotePlay_BStartRemotePlayTogether: .quad 0
+.globl p_SteamAPI_ISteamRemotePlay_CreateMouseCursor
+.p2align 3
+p_SteamAPI_ISteamRemotePlay_CreateMouseCursor: .quad 0
+.globl p_SteamAPI_ISteamRemotePlay_DisableRemotePlayTogetherDirectInput
+.p2align 3
+p_SteamAPI_ISteamRemotePlay_DisableRemotePlayTogetherDirectInput: .quad 0
+.globl p_SteamAPI_ISteamRemotePlay_GetInput
+.p2align 3
+p_SteamAPI_ISteamRemotePlay_GetInput: .quad 0
+.globl p_SteamAPI_ISteamRemotePlay_GetLargeSessionAvatar
+.p2align 3
+p_SteamAPI_ISteamRemotePlay_GetLargeSessionAvatar: .quad 0
+.globl p_SteamAPI_ISteamRemotePlay_GetMediumSessionAvatar
+.p2align 3
+p_SteamAPI_ISteamRemotePlay_GetMediumSessionAvatar: .quad 0
+.globl p_SteamAPI_ISteamRemotePlay_GetSessionClientFormFactor
+.p2align 3
+p_SteamAPI_ISteamRemotePlay_GetSessionClientFormFactor: .quad 0
+.globl p_SteamAPI_ISteamRemotePlay_GetSessionClientName
+.p2align 3
+p_SteamAPI_ISteamRemotePlay_GetSessionClientName: .quad 0
+.globl p_SteamAPI_ISteamRemotePlay_GetSessionCount
+.p2align 3
+p_SteamAPI_ISteamRemotePlay_GetSessionCount: .quad 0
+.globl p_SteamAPI_ISteamRemotePlay_GetSessionGuestID
+.p2align 3
+p_SteamAPI_ISteamRemotePlay_GetSessionGuestID: .quad 0
+.globl p_SteamAPI_ISteamRemotePlay_GetSessionID
+.p2align 3
+p_SteamAPI_ISteamRemotePlay_GetSessionID: .quad 0
+.globl p_SteamAPI_ISteamRemotePlay_GetSessionSteamID
+.p2align 3
+p_SteamAPI_ISteamRemotePlay_GetSessionSteamID: .quad 0
+.globl p_SteamAPI_ISteamRemotePlay_GetSmallSessionAvatar
+.p2align 3
+p_SteamAPI_ISteamRemotePlay_GetSmallSessionAvatar: .quad 0
+.globl p_SteamAPI_ISteamRemotePlay_SetMouseCursor
+.p2align 3
+p_SteamAPI_ISteamRemotePlay_SetMouseCursor: .quad 0
+.globl p_SteamAPI_ISteamRemotePlay_SetMousePosition
+.p2align 3
+p_SteamAPI_ISteamRemotePlay_SetMousePosition: .quad 0
+.globl p_SteamAPI_ISteamRemotePlay_SetMouseVisibility
+.p2align 3
+p_SteamAPI_ISteamRemotePlay_SetMouseVisibility: .quad 0
+.globl p_SteamAPI_ISteamRemotePlay_ShowRemotePlayTogetherUI
+.p2align 3
+p_SteamAPI_ISteamRemotePlay_ShowRemotePlayTogetherUI: .quad 0
+.globl p_SteamAPI_ISteamRemoteStorage_BeginFileWriteBatch
+.p2align 3
+p_SteamAPI_ISteamRemoteStorage_BeginFileWriteBatch: .quad 0
+.globl p_SteamAPI_ISteamRemoteStorage_CommitPublishedFileUpdate
+.p2align 3
+p_SteamAPI_ISteamRemoteStorage_CommitPublishedFileUpdate: .quad 0
+.globl p_SteamAPI_ISteamRemoteStorage_CreatePublishedFileUpdateRequest
+.p2align 3
+p_SteamAPI_ISteamRemoteStorage_CreatePublishedFileUpdateRequest: .quad 0
+.globl p_SteamAPI_ISteamRemoteStorage_DeletePublishedFile
+.p2align 3
+p_SteamAPI_ISteamRemoteStorage_DeletePublishedFile: .quad 0
+.globl p_SteamAPI_ISteamRemoteStorage_EndFileWriteBatch
+.p2align 3
+p_SteamAPI_ISteamRemoteStorage_EndFileWriteBatch: .quad 0
+.globl p_SteamAPI_ISteamRemoteStorage_EnumeratePublishedFilesByUserAction
+.p2align 3
+p_SteamAPI_ISteamRemoteStorage_EnumeratePublishedFilesByUserAction: .quad 0
+.globl p_SteamAPI_ISteamRemoteStorage_EnumeratePublishedWorkshopFiles
+.p2align 3
+p_SteamAPI_ISteamRemoteStorage_EnumeratePublishedWorkshopFiles: .quad 0
+.globl p_SteamAPI_ISteamRemoteStorage_EnumerateUserPublishedFiles
+.p2align 3
+p_SteamAPI_ISteamRemoteStorage_EnumerateUserPublishedFiles: .quad 0
+.globl p_SteamAPI_ISteamRemoteStorage_EnumerateUserSharedWorkshopFiles
+.p2align 3
+p_SteamAPI_ISteamRemoteStorage_EnumerateUserSharedWorkshopFiles: .quad 0
+.globl p_SteamAPI_ISteamRemoteStorage_EnumerateUserSubscribedFiles
+.p2align 3
+p_SteamAPI_ISteamRemoteStorage_EnumerateUserSubscribedFiles: .quad 0
+.globl p_SteamAPI_ISteamRemoteStorage_FileDelete
+.p2align 3
+p_SteamAPI_ISteamRemoteStorage_FileDelete: .quad 0
+.globl p_SteamAPI_ISteamRemoteStorage_FileExists
+.p2align 3
+p_SteamAPI_ISteamRemoteStorage_FileExists: .quad 0
+.globl p_SteamAPI_ISteamRemoteStorage_FileForget
+.p2align 3
+p_SteamAPI_ISteamRemoteStorage_FileForget: .quad 0
+.globl p_SteamAPI_ISteamRemoteStorage_FilePersisted
+.p2align 3
+p_SteamAPI_ISteamRemoteStorage_FilePersisted: .quad 0
+.globl p_SteamAPI_ISteamRemoteStorage_FileRead
+.p2align 3
+p_SteamAPI_ISteamRemoteStorage_FileRead: .quad 0
+.globl p_SteamAPI_ISteamRemoteStorage_FileReadAsync
+.p2align 3
+p_SteamAPI_ISteamRemoteStorage_FileReadAsync: .quad 0
+.globl p_SteamAPI_ISteamRemoteStorage_FileReadAsyncComplete
+.p2align 3
+p_SteamAPI_ISteamRemoteStorage_FileReadAsyncComplete: .quad 0
+.globl p_SteamAPI_ISteamRemoteStorage_FileShare
+.p2align 3
+p_SteamAPI_ISteamRemoteStorage_FileShare: .quad 0
+.globl p_SteamAPI_ISteamRemoteStorage_FileWrite
+.p2align 3
+p_SteamAPI_ISteamRemoteStorage_FileWrite: .quad 0
+.globl p_SteamAPI_ISteamRemoteStorage_FileWriteAsync
+.p2align 3
+p_SteamAPI_ISteamRemoteStorage_FileWriteAsync: .quad 0
+.globl p_SteamAPI_ISteamRemoteStorage_FileWriteStreamCancel
+.p2align 3
+p_SteamAPI_ISteamRemoteStorage_FileWriteStreamCancel: .quad 0
+.globl p_SteamAPI_ISteamRemoteStorage_FileWriteStreamClose
+.p2align 3
+p_SteamAPI_ISteamRemoteStorage_FileWriteStreamClose: .quad 0
+.globl p_SteamAPI_ISteamRemoteStorage_FileWriteStreamOpen
+.p2align 3
+p_SteamAPI_ISteamRemoteStorage_FileWriteStreamOpen: .quad 0
+.globl p_SteamAPI_ISteamRemoteStorage_FileWriteStreamWriteChunk
+.p2align 3
+p_SteamAPI_ISteamRemoteStorage_FileWriteStreamWriteChunk: .quad 0
+.globl p_SteamAPI_ISteamRemoteStorage_GetCachedUGCCount
+.p2align 3
+p_SteamAPI_ISteamRemoteStorage_GetCachedUGCCount: .quad 0
+.globl p_SteamAPI_ISteamRemoteStorage_GetCachedUGCHandle
+.p2align 3
+p_SteamAPI_ISteamRemoteStorage_GetCachedUGCHandle: .quad 0
+.globl p_SteamAPI_ISteamRemoteStorage_GetFileCount
+.p2align 3
+p_SteamAPI_ISteamRemoteStorage_GetFileCount: .quad 0
+.globl p_SteamAPI_ISteamRemoteStorage_GetFileNameAndSize
+.p2align 3
+p_SteamAPI_ISteamRemoteStorage_GetFileNameAndSize: .quad 0
+.globl p_SteamAPI_ISteamRemoteStorage_GetFileSize
+.p2align 3
+p_SteamAPI_ISteamRemoteStorage_GetFileSize: .quad 0
+.globl p_SteamAPI_ISteamRemoteStorage_GetFileTimestamp
+.p2align 3
+p_SteamAPI_ISteamRemoteStorage_GetFileTimestamp: .quad 0
+.globl p_SteamAPI_ISteamRemoteStorage_GetLocalFileChange
+.p2align 3
+p_SteamAPI_ISteamRemoteStorage_GetLocalFileChange: .quad 0
+.globl p_SteamAPI_ISteamRemoteStorage_GetLocalFileChangeCount
+.p2align 3
+p_SteamAPI_ISteamRemoteStorage_GetLocalFileChangeCount: .quad 0
+.globl p_SteamAPI_ISteamRemoteStorage_GetPublishedFileDetails
+.p2align 3
+p_SteamAPI_ISteamRemoteStorage_GetPublishedFileDetails: .quad 0
+.globl p_SteamAPI_ISteamRemoteStorage_GetPublishedItemVoteDetails
+.p2align 3
+p_SteamAPI_ISteamRemoteStorage_GetPublishedItemVoteDetails: .quad 0
+.globl p_SteamAPI_ISteamRemoteStorage_GetQuota
+.p2align 3
+p_SteamAPI_ISteamRemoteStorage_GetQuota: .quad 0
+.globl p_SteamAPI_ISteamRemoteStorage_GetSyncPlatforms
+.p2align 3
+p_SteamAPI_ISteamRemoteStorage_GetSyncPlatforms: .quad 0
+.globl p_SteamAPI_ISteamRemoteStorage_GetUGCDetails
+.p2align 3
+p_SteamAPI_ISteamRemoteStorage_GetUGCDetails: .quad 0
+.globl p_SteamAPI_ISteamRemoteStorage_GetUGCDownloadProgress
+.p2align 3
+p_SteamAPI_ISteamRemoteStorage_GetUGCDownloadProgress: .quad 0
+.globl p_SteamAPI_ISteamRemoteStorage_GetUserPublishedItemVoteDetails
+.p2align 3
+p_SteamAPI_ISteamRemoteStorage_GetUserPublishedItemVoteDetails: .quad 0
+.globl p_SteamAPI_ISteamRemoteStorage_IsCloudEnabledForAccount
+.p2align 3
+p_SteamAPI_ISteamRemoteStorage_IsCloudEnabledForAccount: .quad 0
+.globl p_SteamAPI_ISteamRemoteStorage_IsCloudEnabledForApp
+.p2align 3
+p_SteamAPI_ISteamRemoteStorage_IsCloudEnabledForApp: .quad 0
+.globl p_SteamAPI_ISteamRemoteStorage_PublishVideo
+.p2align 3
+p_SteamAPI_ISteamRemoteStorage_PublishVideo: .quad 0
+.globl p_SteamAPI_ISteamRemoteStorage_PublishWorkshopFile
+.p2align 3
+p_SteamAPI_ISteamRemoteStorage_PublishWorkshopFile: .quad 0
+.globl p_SteamAPI_ISteamRemoteStorage_SetCloudEnabledForApp
+.p2align 3
+p_SteamAPI_ISteamRemoteStorage_SetCloudEnabledForApp: .quad 0
+.globl p_SteamAPI_ISteamRemoteStorage_SetSyncPlatforms
+.p2align 3
+p_SteamAPI_ISteamRemoteStorage_SetSyncPlatforms: .quad 0
+.globl p_SteamAPI_ISteamRemoteStorage_SetUserPublishedFileAction
+.p2align 3
+p_SteamAPI_ISteamRemoteStorage_SetUserPublishedFileAction: .quad 0
+.globl p_SteamAPI_ISteamRemoteStorage_SubscribePublishedFile
+.p2align 3
+p_SteamAPI_ISteamRemoteStorage_SubscribePublishedFile: .quad 0
+.globl p_SteamAPI_ISteamRemoteStorage_UGCDownload
+.p2align 3
+p_SteamAPI_ISteamRemoteStorage_UGCDownload: .quad 0
+.globl p_SteamAPI_ISteamRemoteStorage_UGCDownloadToLocation
+.p2align 3
+p_SteamAPI_ISteamRemoteStorage_UGCDownloadToLocation: .quad 0
+.globl p_SteamAPI_ISteamRemoteStorage_UGCRead
+.p2align 3
+p_SteamAPI_ISteamRemoteStorage_UGCRead: .quad 0
+.globl p_SteamAPI_ISteamRemoteStorage_UnsubscribePublishedFile
+.p2align 3
+p_SteamAPI_ISteamRemoteStorage_UnsubscribePublishedFile: .quad 0
+.globl p_SteamAPI_ISteamRemoteStorage_UpdatePublishedFileDescription
+.p2align 3
+p_SteamAPI_ISteamRemoteStorage_UpdatePublishedFileDescription: .quad 0
+.globl p_SteamAPI_ISteamRemoteStorage_UpdatePublishedFileFile
+.p2align 3
+p_SteamAPI_ISteamRemoteStorage_UpdatePublishedFileFile: .quad 0
+.globl p_SteamAPI_ISteamRemoteStorage_UpdatePublishedFilePreviewFile
+.p2align 3
+p_SteamAPI_ISteamRemoteStorage_UpdatePublishedFilePreviewFile: .quad 0
+.globl p_SteamAPI_ISteamRemoteStorage_UpdatePublishedFileSetChangeDescription
+.p2align 3
+p_SteamAPI_ISteamRemoteStorage_UpdatePublishedFileSetChangeDescription: .quad 0
+.globl p_SteamAPI_ISteamRemoteStorage_UpdatePublishedFileTags
+.p2align 3
+p_SteamAPI_ISteamRemoteStorage_UpdatePublishedFileTags: .quad 0
+.globl p_SteamAPI_ISteamRemoteStorage_UpdatePublishedFileTitle
+.p2align 3
+p_SteamAPI_ISteamRemoteStorage_UpdatePublishedFileTitle: .quad 0
+.globl p_SteamAPI_ISteamRemoteStorage_UpdatePublishedFileVisibility
+.p2align 3
+p_SteamAPI_ISteamRemoteStorage_UpdatePublishedFileVisibility: .quad 0
+.globl p_SteamAPI_ISteamRemoteStorage_UpdateUserPublishedItemVote
+.p2align 3
+p_SteamAPI_ISteamRemoteStorage_UpdateUserPublishedItemVote: .quad 0
+.globl p_SteamAPI_ISteamScreenshots_AddScreenshotToLibrary
+.p2align 3
+p_SteamAPI_ISteamScreenshots_AddScreenshotToLibrary: .quad 0
+.globl p_SteamAPI_ISteamScreenshots_AddVRScreenshotToLibrary
+.p2align 3
+p_SteamAPI_ISteamScreenshots_AddVRScreenshotToLibrary: .quad 0
+.globl p_SteamAPI_ISteamScreenshots_HookScreenshots
+.p2align 3
+p_SteamAPI_ISteamScreenshots_HookScreenshots: .quad 0
+.globl p_SteamAPI_ISteamScreenshots_IsScreenshotsHooked
+.p2align 3
+p_SteamAPI_ISteamScreenshots_IsScreenshotsHooked: .quad 0
+.globl p_SteamAPI_ISteamScreenshots_SetLocation
+.p2align 3
+p_SteamAPI_ISteamScreenshots_SetLocation: .quad 0
+.globl p_SteamAPI_ISteamScreenshots_TagPublishedFile
+.p2align 3
+p_SteamAPI_ISteamScreenshots_TagPublishedFile: .quad 0
+.globl p_SteamAPI_ISteamScreenshots_TagUser
+.p2align 3
+p_SteamAPI_ISteamScreenshots_TagUser: .quad 0
+.globl p_SteamAPI_ISteamScreenshots_TriggerScreenshot
+.p2align 3
+p_SteamAPI_ISteamScreenshots_TriggerScreenshot: .quad 0
+.globl p_SteamAPI_ISteamScreenshots_WriteScreenshot
+.p2align 3
+p_SteamAPI_ISteamScreenshots_WriteScreenshot: .quad 0
+.globl p_SteamAPI_ISteamTV_AddBroadcastGameData
+.p2align 3
+p_SteamAPI_ISteamTV_AddBroadcastGameData: .quad 0
+.globl p_SteamAPI_ISteamTV_AddRegion
+.p2align 3
+p_SteamAPI_ISteamTV_AddRegion: .quad 0
+.globl p_SteamAPI_ISteamTV_AddTimelineMarker
+.p2align 3
+p_SteamAPI_ISteamTV_AddTimelineMarker: .quad 0
+.globl p_SteamAPI_ISteamTV_IsBroadcasting
+.p2align 3
+p_SteamAPI_ISteamTV_IsBroadcasting: .quad 0
+.globl p_SteamAPI_ISteamTV_RemoveBroadcastGameData
+.p2align 3
+p_SteamAPI_ISteamTV_RemoveBroadcastGameData: .quad 0
+.globl p_SteamAPI_ISteamTV_RemoveRegion
+.p2align 3
+p_SteamAPI_ISteamTV_RemoveRegion: .quad 0
+.globl p_SteamAPI_ISteamTV_RemoveTimelineMarker
+.p2align 3
+p_SteamAPI_ISteamTV_RemoveTimelineMarker: .quad 0
+.globl p_SteamAPI_ISteamTimeline_AddGamePhaseTag
+.p2align 3
+p_SteamAPI_ISteamTimeline_AddGamePhaseTag: .quad 0
+.globl p_SteamAPI_ISteamTimeline_AddInstantaneousTimelineEvent
+.p2align 3
+p_SteamAPI_ISteamTimeline_AddInstantaneousTimelineEvent: .quad 0
+.globl p_SteamAPI_ISteamTimeline_AddRangeTimelineEvent
+.p2align 3
+p_SteamAPI_ISteamTimeline_AddRangeTimelineEvent: .quad 0
+.globl p_SteamAPI_ISteamTimeline_AddTimelineEvent
+.p2align 3
+p_SteamAPI_ISteamTimeline_AddTimelineEvent: .quad 0
+.globl p_SteamAPI_ISteamTimeline_ClearTimelineStateDescription
+.p2align 3
+p_SteamAPI_ISteamTimeline_ClearTimelineStateDescription: .quad 0
+.globl p_SteamAPI_ISteamTimeline_ClearTimelineTooltip
+.p2align 3
+p_SteamAPI_ISteamTimeline_ClearTimelineTooltip: .quad 0
+.globl p_SteamAPI_ISteamTimeline_DoesEventRecordingExist
+.p2align 3
+p_SteamAPI_ISteamTimeline_DoesEventRecordingExist: .quad 0
+.globl p_SteamAPI_ISteamTimeline_DoesGamePhaseRecordingExist
+.p2align 3
+p_SteamAPI_ISteamTimeline_DoesGamePhaseRecordingExist: .quad 0
+.globl p_SteamAPI_ISteamTimeline_EndGamePhase
+.p2align 3
+p_SteamAPI_ISteamTimeline_EndGamePhase: .quad 0
+.globl p_SteamAPI_ISteamTimeline_EndRangeTimelineEvent
+.p2align 3
+p_SteamAPI_ISteamTimeline_EndRangeTimelineEvent: .quad 0
+.globl p_SteamAPI_ISteamTimeline_OpenOverlayToGamePhase
+.p2align 3
+p_SteamAPI_ISteamTimeline_OpenOverlayToGamePhase: .quad 0
+.globl p_SteamAPI_ISteamTimeline_OpenOverlayToTimelineEvent
+.p2align 3
+p_SteamAPI_ISteamTimeline_OpenOverlayToTimelineEvent: .quad 0
+.globl p_SteamAPI_ISteamTimeline_RemoveTimelineEvent
+.p2align 3
+p_SteamAPI_ISteamTimeline_RemoveTimelineEvent: .quad 0
+.globl p_SteamAPI_ISteamTimeline_SetGamePhaseAttribute
+.p2align 3
+p_SteamAPI_ISteamTimeline_SetGamePhaseAttribute: .quad 0
+.globl p_SteamAPI_ISteamTimeline_SetGamePhaseID
+.p2align 3
+p_SteamAPI_ISteamTimeline_SetGamePhaseID: .quad 0
+.globl p_SteamAPI_ISteamTimeline_SetTimelineGameMode
+.p2align 3
+p_SteamAPI_ISteamTimeline_SetTimelineGameMode: .quad 0
+.globl p_SteamAPI_ISteamTimeline_SetTimelineStateDescription
+.p2align 3
+p_SteamAPI_ISteamTimeline_SetTimelineStateDescription: .quad 0
+.globl p_SteamAPI_ISteamTimeline_SetTimelineTooltip
+.p2align 3
+p_SteamAPI_ISteamTimeline_SetTimelineTooltip: .quad 0
+.globl p_SteamAPI_ISteamTimeline_StartGamePhase
+.p2align 3
+p_SteamAPI_ISteamTimeline_StartGamePhase: .quad 0
+.globl p_SteamAPI_ISteamTimeline_StartRangeTimelineEvent
+.p2align 3
+p_SteamAPI_ISteamTimeline_StartRangeTimelineEvent: .quad 0
+.globl p_SteamAPI_ISteamTimeline_UpdateRangeTimelineEvent
+.p2align 3
+p_SteamAPI_ISteamTimeline_UpdateRangeTimelineEvent: .quad 0
+.globl p_SteamAPI_ISteamUGC_AddAppDependency
+.p2align 3
+p_SteamAPI_ISteamUGC_AddAppDependency: .quad 0
+.globl p_SteamAPI_ISteamUGC_AddContentDescriptor
+.p2align 3
+p_SteamAPI_ISteamUGC_AddContentDescriptor: .quad 0
+.globl p_SteamAPI_ISteamUGC_AddDependency
+.p2align 3
+p_SteamAPI_ISteamUGC_AddDependency: .quad 0
+.globl p_SteamAPI_ISteamUGC_AddExcludedTag
+.p2align 3
+p_SteamAPI_ISteamUGC_AddExcludedTag: .quad 0
+.globl p_SteamAPI_ISteamUGC_AddItemKeyValueTag
+.p2align 3
+p_SteamAPI_ISteamUGC_AddItemKeyValueTag: .quad 0
+.globl p_SteamAPI_ISteamUGC_AddItemPreviewFile
+.p2align 3
+p_SteamAPI_ISteamUGC_AddItemPreviewFile: .quad 0
+.globl p_SteamAPI_ISteamUGC_AddItemPreviewVideo
+.p2align 3
+p_SteamAPI_ISteamUGC_AddItemPreviewVideo: .quad 0
+.globl p_SteamAPI_ISteamUGC_AddItemToFavorites
+.p2align 3
+p_SteamAPI_ISteamUGC_AddItemToFavorites: .quad 0
+.globl p_SteamAPI_ISteamUGC_AddRequiredKeyValueTag
+.p2align 3
+p_SteamAPI_ISteamUGC_AddRequiredKeyValueTag: .quad 0
+.globl p_SteamAPI_ISteamUGC_AddRequiredTag
+.p2align 3
+p_SteamAPI_ISteamUGC_AddRequiredTag: .quad 0
+.globl p_SteamAPI_ISteamUGC_AddRequiredTagGroup
+.p2align 3
+p_SteamAPI_ISteamUGC_AddRequiredTagGroup: .quad 0
+.globl p_SteamAPI_ISteamUGC_BInitWorkshopForGameServer
+.p2align 3
+p_SteamAPI_ISteamUGC_BInitWorkshopForGameServer: .quad 0
+.globl p_SteamAPI_ISteamUGC_CreateItem
+.p2align 3
+p_SteamAPI_ISteamUGC_CreateItem: .quad 0
+.globl p_SteamAPI_ISteamUGC_CreateQueryAllUGCRequest
+.p2align 3
+p_SteamAPI_ISteamUGC_CreateQueryAllUGCRequest: .quad 0
+.globl p_SteamAPI_ISteamUGC_CreateQueryAllUGCRequest0
+.p2align 3
+p_SteamAPI_ISteamUGC_CreateQueryAllUGCRequest0: .quad 0
+.globl p_SteamAPI_ISteamUGC_CreateQueryAllUGCRequestCursor
+.p2align 3
+p_SteamAPI_ISteamUGC_CreateQueryAllUGCRequestCursor: .quad 0
+.globl p_SteamAPI_ISteamUGC_CreateQueryAllUGCRequestPage
+.p2align 3
+p_SteamAPI_ISteamUGC_CreateQueryAllUGCRequestPage: .quad 0
+.globl p_SteamAPI_ISteamUGC_CreateQueryUGCDetailsRequest
+.p2align 3
+p_SteamAPI_ISteamUGC_CreateQueryUGCDetailsRequest: .quad 0
+.globl p_SteamAPI_ISteamUGC_CreateQueryUserUGCRequest
+.p2align 3
+p_SteamAPI_ISteamUGC_CreateQueryUserUGCRequest: .quad 0
+.globl p_SteamAPI_ISteamUGC_DeleteItem
+.p2align 3
+p_SteamAPI_ISteamUGC_DeleteItem: .quad 0
+.globl p_SteamAPI_ISteamUGC_DownloadItem
+.p2align 3
+p_SteamAPI_ISteamUGC_DownloadItem: .quad 0
+.globl p_SteamAPI_ISteamUGC_GetAppDependencies
+.p2align 3
+p_SteamAPI_ISteamUGC_GetAppDependencies: .quad 0
+.globl p_SteamAPI_ISteamUGC_GetDownloadedItems
+.p2align 3
+p_SteamAPI_ISteamUGC_GetDownloadedItems: .quad 0
+.globl p_SteamAPI_ISteamUGC_GetItemDownloadInfo
+.p2align 3
+p_SteamAPI_ISteamUGC_GetItemDownloadInfo: .quad 0
+.globl p_SteamAPI_ISteamUGC_GetItemInstallInfo
+.p2align 3
+p_SteamAPI_ISteamUGC_GetItemInstallInfo: .quad 0
+.globl p_SteamAPI_ISteamUGC_GetItemState
+.p2align 3
+p_SteamAPI_ISteamUGC_GetItemState: .quad 0
+.globl p_SteamAPI_ISteamUGC_GetItemUpdateProgress
+.p2align 3
+p_SteamAPI_ISteamUGC_GetItemUpdateProgress: .quad 0
+.globl p_SteamAPI_ISteamUGC_GetNumDownloadedItems
+.p2align 3
+p_SteamAPI_ISteamUGC_GetNumDownloadedItems: .quad 0
+.globl p_SteamAPI_ISteamUGC_GetNumSubscribedItems
+.p2align 3
+p_SteamAPI_ISteamUGC_GetNumSubscribedItems: .quad 0
+.globl p_SteamAPI_ISteamUGC_GetNumSupportedGameVersions
+.p2align 3
+p_SteamAPI_ISteamUGC_GetNumSupportedGameVersions: .quad 0
+.globl p_SteamAPI_ISteamUGC_GetQueryFirstUGCKeyValueTag
+.p2align 3
+p_SteamAPI_ISteamUGC_GetQueryFirstUGCKeyValueTag: .quad 0
+.globl p_SteamAPI_ISteamUGC_GetQueryUGCAdditionalPreview
+.p2align 3
+p_SteamAPI_ISteamUGC_GetQueryUGCAdditionalPreview: .quad 0
+.globl p_SteamAPI_ISteamUGC_GetQueryUGCChildren
+.p2align 3
+p_SteamAPI_ISteamUGC_GetQueryUGCChildren: .quad 0
+.globl p_SteamAPI_ISteamUGC_GetQueryUGCContentDescriptors
+.p2align 3
+p_SteamAPI_ISteamUGC_GetQueryUGCContentDescriptors: .quad 0
+.globl p_SteamAPI_ISteamUGC_GetQueryUGCKeyValueTag
+.p2align 3
+p_SteamAPI_ISteamUGC_GetQueryUGCKeyValueTag: .quad 0
+.globl p_SteamAPI_ISteamUGC_GetQueryUGCKeyValueTag0
+.p2align 3
+p_SteamAPI_ISteamUGC_GetQueryUGCKeyValueTag0: .quad 0
+.globl p_SteamAPI_ISteamUGC_GetQueryUGCMetadata
+.p2align 3
+p_SteamAPI_ISteamUGC_GetQueryUGCMetadata: .quad 0
+.globl p_SteamAPI_ISteamUGC_GetQueryUGCNumAdditionalPreviews
+.p2align 3
+p_SteamAPI_ISteamUGC_GetQueryUGCNumAdditionalPreviews: .quad 0
+.globl p_SteamAPI_ISteamUGC_GetQueryUGCNumKeyValueTags
+.p2align 3
+p_SteamAPI_ISteamUGC_GetQueryUGCNumKeyValueTags: .quad 0
+.globl p_SteamAPI_ISteamUGC_GetQueryUGCNumTags
+.p2align 3
+p_SteamAPI_ISteamUGC_GetQueryUGCNumTags: .quad 0
+.globl p_SteamAPI_ISteamUGC_GetQueryUGCPreviewURL
+.p2align 3
+p_SteamAPI_ISteamUGC_GetQueryUGCPreviewURL: .quad 0
+.globl p_SteamAPI_ISteamUGC_GetQueryUGCResult
+.p2align 3
+p_SteamAPI_ISteamUGC_GetQueryUGCResult: .quad 0
+.globl p_SteamAPI_ISteamUGC_GetQueryUGCStatistic
+.p2align 3
+p_SteamAPI_ISteamUGC_GetQueryUGCStatistic: .quad 0
+.globl p_SteamAPI_ISteamUGC_GetQueryUGCTag
+.p2align 3
+p_SteamAPI_ISteamUGC_GetQueryUGCTag: .quad 0
+.globl p_SteamAPI_ISteamUGC_GetQueryUGCTagDisplayName
+.p2align 3
+p_SteamAPI_ISteamUGC_GetQueryUGCTagDisplayName: .quad 0
+.globl p_SteamAPI_ISteamUGC_GetSubscribedItems
+.p2align 3
+p_SteamAPI_ISteamUGC_GetSubscribedItems: .quad 0
+.globl p_SteamAPI_ISteamUGC_GetSupportedGameVersionData
+.p2align 3
+p_SteamAPI_ISteamUGC_GetSupportedGameVersionData: .quad 0
+.globl p_SteamAPI_ISteamUGC_GetUserContentDescriptorPreferences
+.p2align 3
+p_SteamAPI_ISteamUGC_GetUserContentDescriptorPreferences: .quad 0
+.globl p_SteamAPI_ISteamUGC_GetUserItemVote
+.p2align 3
+p_SteamAPI_ISteamUGC_GetUserItemVote: .quad 0
+.globl p_SteamAPI_ISteamUGC_GetWorkshopEULAStatus
+.p2align 3
+p_SteamAPI_ISteamUGC_GetWorkshopEULAStatus: .quad 0
+.globl p_SteamAPI_ISteamUGC_MarkDownloadedItemAsUnused
+.p2align 3
+p_SteamAPI_ISteamUGC_MarkDownloadedItemAsUnused: .quad 0
+.globl p_SteamAPI_ISteamUGC_ReleaseQueryUGCRequest
+.p2align 3
+p_SteamAPI_ISteamUGC_ReleaseQueryUGCRequest: .quad 0
+.globl p_SteamAPI_ISteamUGC_RemoveAllItemKeyValueTags
+.p2align 3
+p_SteamAPI_ISteamUGC_RemoveAllItemKeyValueTags: .quad 0
+.globl p_SteamAPI_ISteamUGC_RemoveAppDependency
+.p2align 3
+p_SteamAPI_ISteamUGC_RemoveAppDependency: .quad 0
+.globl p_SteamAPI_ISteamUGC_RemoveContentDescriptor
+.p2align 3
+p_SteamAPI_ISteamUGC_RemoveContentDescriptor: .quad 0
+.globl p_SteamAPI_ISteamUGC_RemoveDependency
+.p2align 3
+p_SteamAPI_ISteamUGC_RemoveDependency: .quad 0
+.globl p_SteamAPI_ISteamUGC_RemoveItemFromFavorites
+.p2align 3
+p_SteamAPI_ISteamUGC_RemoveItemFromFavorites: .quad 0
+.globl p_SteamAPI_ISteamUGC_RemoveItemKeyValueTags
+.p2align 3
+p_SteamAPI_ISteamUGC_RemoveItemKeyValueTags: .quad 0
+.globl p_SteamAPI_ISteamUGC_RemoveItemPreview
+.p2align 3
+p_SteamAPI_ISteamUGC_RemoveItemPreview: .quad 0
+.globl p_SteamAPI_ISteamUGC_RequestUGCDetails
+.p2align 3
+p_SteamAPI_ISteamUGC_RequestUGCDetails: .quad 0
+.globl p_SteamAPI_ISteamUGC_SendQueryUGCRequest
+.p2align 3
+p_SteamAPI_ISteamUGC_SendQueryUGCRequest: .quad 0
+.globl p_SteamAPI_ISteamUGC_SetAdminQuery
+.p2align 3
+p_SteamAPI_ISteamUGC_SetAdminQuery: .quad 0
+.globl p_SteamAPI_ISteamUGC_SetAllowCachedResponse
+.p2align 3
+p_SteamAPI_ISteamUGC_SetAllowCachedResponse: .quad 0
+.globl p_SteamAPI_ISteamUGC_SetAllowLegacyUpload
+.p2align 3
+p_SteamAPI_ISteamUGC_SetAllowLegacyUpload: .quad 0
+.globl p_SteamAPI_ISteamUGC_SetCloudFileNameFilter
+.p2align 3
+p_SteamAPI_ISteamUGC_SetCloudFileNameFilter: .quad 0
+.globl p_SteamAPI_ISteamUGC_SetItemContent
+.p2align 3
+p_SteamAPI_ISteamUGC_SetItemContent: .quad 0
+.globl p_SteamAPI_ISteamUGC_SetItemDescription
+.p2align 3
+p_SteamAPI_ISteamUGC_SetItemDescription: .quad 0
+.globl p_SteamAPI_ISteamUGC_SetItemMetadata
+.p2align 3
+p_SteamAPI_ISteamUGC_SetItemMetadata: .quad 0
+.globl p_SteamAPI_ISteamUGC_SetItemPreview
+.p2align 3
+p_SteamAPI_ISteamUGC_SetItemPreview: .quad 0
+.globl p_SteamAPI_ISteamUGC_SetItemTags
+.p2align 3
+p_SteamAPI_ISteamUGC_SetItemTags: .quad 0
+.globl p_SteamAPI_ISteamUGC_SetItemTitle
+.p2align 3
+p_SteamAPI_ISteamUGC_SetItemTitle: .quad 0
+.globl p_SteamAPI_ISteamUGC_SetItemUpdateLanguage
+.p2align 3
+p_SteamAPI_ISteamUGC_SetItemUpdateLanguage: .quad 0
+.globl p_SteamAPI_ISteamUGC_SetItemVisibility
+.p2align 3
+p_SteamAPI_ISteamUGC_SetItemVisibility: .quad 0
+.globl p_SteamAPI_ISteamUGC_SetItemsDisabledLocally
+.p2align 3
+p_SteamAPI_ISteamUGC_SetItemsDisabledLocally: .quad 0
+.globl p_SteamAPI_ISteamUGC_SetLanguage
+.p2align 3
+p_SteamAPI_ISteamUGC_SetLanguage: .quad 0
+.globl p_SteamAPI_ISteamUGC_SetMatchAnyTag
+.p2align 3
+p_SteamAPI_ISteamUGC_SetMatchAnyTag: .quad 0
+.globl p_SteamAPI_ISteamUGC_SetRankedByTrendDays
+.p2align 3
+p_SteamAPI_ISteamUGC_SetRankedByTrendDays: .quad 0
+.globl p_SteamAPI_ISteamUGC_SetRequiredGameVersions
+.p2align 3
+p_SteamAPI_ISteamUGC_SetRequiredGameVersions: .quad 0
+.globl p_SteamAPI_ISteamUGC_SetReturnAdditionalPreviews
+.p2align 3
+p_SteamAPI_ISteamUGC_SetReturnAdditionalPreviews: .quad 0
+.globl p_SteamAPI_ISteamUGC_SetReturnChildren
+.p2align 3
+p_SteamAPI_ISteamUGC_SetReturnChildren: .quad 0
+.globl p_SteamAPI_ISteamUGC_SetReturnKeyValueTags
+.p2align 3
+p_SteamAPI_ISteamUGC_SetReturnKeyValueTags: .quad 0
+.globl p_SteamAPI_ISteamUGC_SetReturnLongDescription
+.p2align 3
+p_SteamAPI_ISteamUGC_SetReturnLongDescription: .quad 0
+.globl p_SteamAPI_ISteamUGC_SetReturnMetadata
+.p2align 3
+p_SteamAPI_ISteamUGC_SetReturnMetadata: .quad 0
+.globl p_SteamAPI_ISteamUGC_SetReturnOnlyIDs
+.p2align 3
+p_SteamAPI_ISteamUGC_SetReturnOnlyIDs: .quad 0
+.globl p_SteamAPI_ISteamUGC_SetReturnPlaytimeStats
+.p2align 3
+p_SteamAPI_ISteamUGC_SetReturnPlaytimeStats: .quad 0
+.globl p_SteamAPI_ISteamUGC_SetReturnTotalOnly
+.p2align 3
+p_SteamAPI_ISteamUGC_SetReturnTotalOnly: .quad 0
+.globl p_SteamAPI_ISteamUGC_SetSearchText
+.p2align 3
+p_SteamAPI_ISteamUGC_SetSearchText: .quad 0
+.globl p_SteamAPI_ISteamUGC_SetSubscriptionsLoadOrder
+.p2align 3
+p_SteamAPI_ISteamUGC_SetSubscriptionsLoadOrder: .quad 0
+.globl p_SteamAPI_ISteamUGC_SetTimeCreatedDateRange
+.p2align 3
+p_SteamAPI_ISteamUGC_SetTimeCreatedDateRange: .quad 0
+.globl p_SteamAPI_ISteamUGC_SetTimeUpdatedDateRange
+.p2align 3
+p_SteamAPI_ISteamUGC_SetTimeUpdatedDateRange: .quad 0
+.globl p_SteamAPI_ISteamUGC_SetUserItemVote
+.p2align 3
+p_SteamAPI_ISteamUGC_SetUserItemVote: .quad 0
+.globl p_SteamAPI_ISteamUGC_ShowWorkshopEULA
+.p2align 3
+p_SteamAPI_ISteamUGC_ShowWorkshopEULA: .quad 0
+.globl p_SteamAPI_ISteamUGC_StartItemUpdate
+.p2align 3
+p_SteamAPI_ISteamUGC_StartItemUpdate: .quad 0
+.globl p_SteamAPI_ISteamUGC_StartPlaytimeTracking
+.p2align 3
+p_SteamAPI_ISteamUGC_StartPlaytimeTracking: .quad 0
+.globl p_SteamAPI_ISteamUGC_StopPlaytimeTracking
+.p2align 3
+p_SteamAPI_ISteamUGC_StopPlaytimeTracking: .quad 0
+.globl p_SteamAPI_ISteamUGC_StopPlaytimeTrackingForAllItems
+.p2align 3
+p_SteamAPI_ISteamUGC_StopPlaytimeTrackingForAllItems: .quad 0
+.globl p_SteamAPI_ISteamUGC_SubmitItemUpdate
+.p2align 3
+p_SteamAPI_ISteamUGC_SubmitItemUpdate: .quad 0
+.globl p_SteamAPI_ISteamUGC_SubscribeItem
+.p2align 3
+p_SteamAPI_ISteamUGC_SubscribeItem: .quad 0
+.globl p_SteamAPI_ISteamUGC_SuspendDownloads
+.p2align 3
+p_SteamAPI_ISteamUGC_SuspendDownloads: .quad 0
+.globl p_SteamAPI_ISteamUGC_UnsubscribeItem
+.p2align 3
+p_SteamAPI_ISteamUGC_UnsubscribeItem: .quad 0
+.globl p_SteamAPI_ISteamUGC_UpdateItemPreviewFile
+.p2align 3
+p_SteamAPI_ISteamUGC_UpdateItemPreviewFile: .quad 0
+.globl p_SteamAPI_ISteamUGC_UpdateItemPreviewVideo
+.p2align 3
+p_SteamAPI_ISteamUGC_UpdateItemPreviewVideo: .quad 0
+.globl p_SteamAPI_ISteamUserStats_AttachLeaderboardUGC
+.p2align 3
+p_SteamAPI_ISteamUserStats_AttachLeaderboardUGC: .quad 0
+.globl p_SteamAPI_ISteamUserStats_ClearAchievement
+.p2align 3
+p_SteamAPI_ISteamUserStats_ClearAchievement: .quad 0
+.globl p_SteamAPI_ISteamUserStats_DownloadLeaderboardEntries
+.p2align 3
+p_SteamAPI_ISteamUserStats_DownloadLeaderboardEntries: .quad 0
+.globl p_SteamAPI_ISteamUserStats_DownloadLeaderboardEntriesForUsers
+.p2align 3
+p_SteamAPI_ISteamUserStats_DownloadLeaderboardEntriesForUsers: .quad 0
+.globl p_SteamAPI_ISteamUserStats_FindLeaderboard
+.p2align 3
+p_SteamAPI_ISteamUserStats_FindLeaderboard: .quad 0
+.globl p_SteamAPI_ISteamUserStats_FindOrCreateLeaderboard
+.p2align 3
+p_SteamAPI_ISteamUserStats_FindOrCreateLeaderboard: .quad 0
+.globl p_SteamAPI_ISteamUserStats_GetAchievement
+.p2align 3
+p_SteamAPI_ISteamUserStats_GetAchievement: .quad 0
+.globl p_SteamAPI_ISteamUserStats_GetAchievementAchievedPercent
+.p2align 3
+p_SteamAPI_ISteamUserStats_GetAchievementAchievedPercent: .quad 0
+.globl p_SteamAPI_ISteamUserStats_GetAchievementAndUnlockTime
+.p2align 3
+p_SteamAPI_ISteamUserStats_GetAchievementAndUnlockTime: .quad 0
+.globl p_SteamAPI_ISteamUserStats_GetAchievementDisplayAttribute
+.p2align 3
+p_SteamAPI_ISteamUserStats_GetAchievementDisplayAttribute: .quad 0
+.globl p_SteamAPI_ISteamUserStats_GetAchievementIcon
+.p2align 3
+p_SteamAPI_ISteamUserStats_GetAchievementIcon: .quad 0
+.globl p_SteamAPI_ISteamUserStats_GetAchievementName
+.p2align 3
+p_SteamAPI_ISteamUserStats_GetAchievementName: .quad 0
+.globl p_SteamAPI_ISteamUserStats_GetAchievementProgressLimitsFloat
+.p2align 3
+p_SteamAPI_ISteamUserStats_GetAchievementProgressLimitsFloat: .quad 0
+.globl p_SteamAPI_ISteamUserStats_GetAchievementProgressLimitsInt32
+.p2align 3
+p_SteamAPI_ISteamUserStats_GetAchievementProgressLimitsInt32: .quad 0
+.globl p_SteamAPI_ISteamUserStats_GetDownloadedLeaderboardEntry
+.p2align 3
+p_SteamAPI_ISteamUserStats_GetDownloadedLeaderboardEntry: .quad 0
+.globl p_SteamAPI_ISteamUserStats_GetGlobalStat
+.p2align 3
+p_SteamAPI_ISteamUserStats_GetGlobalStat: .quad 0
+.globl p_SteamAPI_ISteamUserStats_GetGlobalStat0
+.p2align 3
+p_SteamAPI_ISteamUserStats_GetGlobalStat0: .quad 0
+.globl p_SteamAPI_ISteamUserStats_GetGlobalStatDouble
+.p2align 3
+p_SteamAPI_ISteamUserStats_GetGlobalStatDouble: .quad 0
+.globl p_SteamAPI_ISteamUserStats_GetGlobalStatHistory
+.p2align 3
+p_SteamAPI_ISteamUserStats_GetGlobalStatHistory: .quad 0
+.globl p_SteamAPI_ISteamUserStats_GetGlobalStatHistory0
+.p2align 3
+p_SteamAPI_ISteamUserStats_GetGlobalStatHistory0: .quad 0
+.globl p_SteamAPI_ISteamUserStats_GetGlobalStatHistoryDouble
+.p2align 3
+p_SteamAPI_ISteamUserStats_GetGlobalStatHistoryDouble: .quad 0
+.globl p_SteamAPI_ISteamUserStats_GetGlobalStatHistoryInt64
+.p2align 3
+p_SteamAPI_ISteamUserStats_GetGlobalStatHistoryInt64: .quad 0
+.globl p_SteamAPI_ISteamUserStats_GetGlobalStatInt64
+.p2align 3
+p_SteamAPI_ISteamUserStats_GetGlobalStatInt64: .quad 0
+.globl p_SteamAPI_ISteamUserStats_GetLeaderboardDisplayType
+.p2align 3
+p_SteamAPI_ISteamUserStats_GetLeaderboardDisplayType: .quad 0
+.globl p_SteamAPI_ISteamUserStats_GetLeaderboardEntryCount
+.p2align 3
+p_SteamAPI_ISteamUserStats_GetLeaderboardEntryCount: .quad 0
+.globl p_SteamAPI_ISteamUserStats_GetLeaderboardName
+.p2align 3
+p_SteamAPI_ISteamUserStats_GetLeaderboardName: .quad 0
+.globl p_SteamAPI_ISteamUserStats_GetLeaderboardSortMethod
+.p2align 3
+p_SteamAPI_ISteamUserStats_GetLeaderboardSortMethod: .quad 0
+.globl p_SteamAPI_ISteamUserStats_GetMostAchievedAchievementInfo
+.p2align 3
+p_SteamAPI_ISteamUserStats_GetMostAchievedAchievementInfo: .quad 0
+.globl p_SteamAPI_ISteamUserStats_GetNextMostAchievedAchievementInfo
+.p2align 3
+p_SteamAPI_ISteamUserStats_GetNextMostAchievedAchievementInfo: .quad 0
+.globl p_SteamAPI_ISteamUserStats_GetNumAchievements
+.p2align 3
+p_SteamAPI_ISteamUserStats_GetNumAchievements: .quad 0
+.globl p_SteamAPI_ISteamUserStats_GetNumberOfCurrentPlayers
+.p2align 3
+p_SteamAPI_ISteamUserStats_GetNumberOfCurrentPlayers: .quad 0
+.globl p_SteamAPI_ISteamUserStats_GetStat
+.p2align 3
+p_SteamAPI_ISteamUserStats_GetStat: .quad 0
+.globl p_SteamAPI_ISteamUserStats_GetStat0
+.p2align 3
+p_SteamAPI_ISteamUserStats_GetStat0: .quad 0
+.globl p_SteamAPI_ISteamUserStats_GetStatFloat
+.p2align 3
+p_SteamAPI_ISteamUserStats_GetStatFloat: .quad 0
+.globl p_SteamAPI_ISteamUserStats_GetStatInt32
+.p2align 3
+p_SteamAPI_ISteamUserStats_GetStatInt32: .quad 0
+.globl p_SteamAPI_ISteamUserStats_GetUserAchievement
+.p2align 3
+p_SteamAPI_ISteamUserStats_GetUserAchievement: .quad 0
+.globl p_SteamAPI_ISteamUserStats_GetUserAchievementAndUnlockTime
+.p2align 3
+p_SteamAPI_ISteamUserStats_GetUserAchievementAndUnlockTime: .quad 0
+.globl p_SteamAPI_ISteamUserStats_GetUserStat
+.p2align 3
+p_SteamAPI_ISteamUserStats_GetUserStat: .quad 0
+.globl p_SteamAPI_ISteamUserStats_GetUserStat0
+.p2align 3
+p_SteamAPI_ISteamUserStats_GetUserStat0: .quad 0
+.globl p_SteamAPI_ISteamUserStats_GetUserStatFloat
+.p2align 3
+p_SteamAPI_ISteamUserStats_GetUserStatFloat: .quad 0
+.globl p_SteamAPI_ISteamUserStats_GetUserStatInt32
+.p2align 3
+p_SteamAPI_ISteamUserStats_GetUserStatInt32: .quad 0
+.globl p_SteamAPI_ISteamUserStats_IndicateAchievementProgress
+.p2align 3
+p_SteamAPI_ISteamUserStats_IndicateAchievementProgress: .quad 0
+.globl p_SteamAPI_ISteamUserStats_RequestCurrentStats
+.p2align 3
+p_SteamAPI_ISteamUserStats_RequestCurrentStats: .quad 0
+.globl p_SteamAPI_ISteamUserStats_RequestGlobalAchievementPercentages
+.p2align 3
+p_SteamAPI_ISteamUserStats_RequestGlobalAchievementPercentages: .quad 0
+.globl p_SteamAPI_ISteamUserStats_RequestGlobalStats
+.p2align 3
+p_SteamAPI_ISteamUserStats_RequestGlobalStats: .quad 0
+.globl p_SteamAPI_ISteamUserStats_RequestUserStats
+.p2align 3
+p_SteamAPI_ISteamUserStats_RequestUserStats: .quad 0
+.globl p_SteamAPI_ISteamUserStats_ResetAllStats
+.p2align 3
+p_SteamAPI_ISteamUserStats_ResetAllStats: .quad 0
+.globl p_SteamAPI_ISteamUserStats_SetAchievement
+.p2align 3
+p_SteamAPI_ISteamUserStats_SetAchievement: .quad 0
+.globl p_SteamAPI_ISteamUserStats_SetStat
+.p2align 3
+p_SteamAPI_ISteamUserStats_SetStat: .quad 0
+.globl p_SteamAPI_ISteamUserStats_SetStat0
+.p2align 3
+p_SteamAPI_ISteamUserStats_SetStat0: .quad 0
+.globl p_SteamAPI_ISteamUserStats_SetStatFloat
+.p2align 3
+p_SteamAPI_ISteamUserStats_SetStatFloat: .quad 0
+.globl p_SteamAPI_ISteamUserStats_SetStatInt32
+.p2align 3
+p_SteamAPI_ISteamUserStats_SetStatInt32: .quad 0
+.globl p_SteamAPI_ISteamUserStats_StoreStats
+.p2align 3
+p_SteamAPI_ISteamUserStats_StoreStats: .quad 0
+.globl p_SteamAPI_ISteamUserStats_UpdateAvgRateStat
+.p2align 3
+p_SteamAPI_ISteamUserStats_UpdateAvgRateStat: .quad 0
+.globl p_SteamAPI_ISteamUserStats_UploadLeaderboardScore
+.p2align 3
+p_SteamAPI_ISteamUserStats_UploadLeaderboardScore: .quad 0
+.globl p_SteamAPI_ISteamUser_AdvertiseGame
+.p2align 3
+p_SteamAPI_ISteamUser_AdvertiseGame: .quad 0
+.globl p_SteamAPI_ISteamUser_BIsBehindNAT
+.p2align 3
+p_SteamAPI_ISteamUser_BIsBehindNAT: .quad 0
+.globl p_SteamAPI_ISteamUser_BIsPhoneIdentifying
+.p2align 3
+p_SteamAPI_ISteamUser_BIsPhoneIdentifying: .quad 0
+.globl p_SteamAPI_ISteamUser_BIsPhoneRequiringVerification
+.p2align 3
+p_SteamAPI_ISteamUser_BIsPhoneRequiringVerification: .quad 0
+.globl p_SteamAPI_ISteamUser_BIsPhoneVerified
+.p2align 3
+p_SteamAPI_ISteamUser_BIsPhoneVerified: .quad 0
+.globl p_SteamAPI_ISteamUser_BIsTwoFactorEnabled
+.p2align 3
+p_SteamAPI_ISteamUser_BIsTwoFactorEnabled: .quad 0
+.globl p_SteamAPI_ISteamUser_BLoggedOn
+.p2align 3
+p_SteamAPI_ISteamUser_BLoggedOn: .quad 0
+.globl p_SteamAPI_ISteamUser_BSetDurationControlOnlineState
+.p2align 3
+p_SteamAPI_ISteamUser_BSetDurationControlOnlineState: .quad 0
+.globl p_SteamAPI_ISteamUser_BeginAuthSession
+.p2align 3
+p_SteamAPI_ISteamUser_BeginAuthSession: .quad 0
+.globl p_SteamAPI_ISteamUser_CancelAuthTicket
+.p2align 3
+p_SteamAPI_ISteamUser_CancelAuthTicket: .quad 0
+.globl p_SteamAPI_ISteamUser_DecompressVoice
+.p2align 3
+p_SteamAPI_ISteamUser_DecompressVoice: .quad 0
+.globl p_SteamAPI_ISteamUser_EndAuthSession
+.p2align 3
+p_SteamAPI_ISteamUser_EndAuthSession: .quad 0
+.globl p_SteamAPI_ISteamUser_GetAuthSessionTicket
+.p2align 3
+p_SteamAPI_ISteamUser_GetAuthSessionTicket: .quad 0
+.globl p_SteamAPI_ISteamUser_GetAuthTicketForWebApi
+.p2align 3
+p_SteamAPI_ISteamUser_GetAuthTicketForWebApi: .quad 0
+.globl p_SteamAPI_ISteamUser_GetAvailableVoice
+.p2align 3
+p_SteamAPI_ISteamUser_GetAvailableVoice: .quad 0
+.globl p_SteamAPI_ISteamUser_GetDurationControl
+.p2align 3
+p_SteamAPI_ISteamUser_GetDurationControl: .quad 0
+.globl p_SteamAPI_ISteamUser_GetEncryptedAppTicket
+.p2align 3
+p_SteamAPI_ISteamUser_GetEncryptedAppTicket: .quad 0
+.globl p_SteamAPI_ISteamUser_GetGameBadgeLevel
+.p2align 3
+p_SteamAPI_ISteamUser_GetGameBadgeLevel: .quad 0
+.globl p_SteamAPI_ISteamUser_GetHSteamUser
+.p2align 3
+p_SteamAPI_ISteamUser_GetHSteamUser: .quad 0
+.globl p_SteamAPI_ISteamUser_GetMarketEligibility
+.p2align 3
+p_SteamAPI_ISteamUser_GetMarketEligibility: .quad 0
+.globl p_SteamAPI_ISteamUser_GetPlayerSteamLevel
+.p2align 3
+p_SteamAPI_ISteamUser_GetPlayerSteamLevel: .quad 0
+.globl p_SteamAPI_ISteamUser_GetSteamID
+.p2align 3
+p_SteamAPI_ISteamUser_GetSteamID: .quad 0
+.globl p_SteamAPI_ISteamUser_GetUserDataFolder
+.p2align 3
+p_SteamAPI_ISteamUser_GetUserDataFolder: .quad 0
+.globl p_SteamAPI_ISteamUser_GetVoice
+.p2align 3
+p_SteamAPI_ISteamUser_GetVoice: .quad 0
+.globl p_SteamAPI_ISteamUser_GetVoiceOptimalSampleRate
+.p2align 3
+p_SteamAPI_ISteamUser_GetVoiceOptimalSampleRate: .quad 0
+.globl p_SteamAPI_ISteamUser_InitiateGameConnection
+.p2align 3
+p_SteamAPI_ISteamUser_InitiateGameConnection: .quad 0
+.globl p_SteamAPI_ISteamUser_InitiateGameConnection_DEPRECATED
+.p2align 3
+p_SteamAPI_ISteamUser_InitiateGameConnection_DEPRECATED: .quad 0
+.globl p_SteamAPI_ISteamUser_RequestEncryptedAppTicket
+.p2align 3
+p_SteamAPI_ISteamUser_RequestEncryptedAppTicket: .quad 0
+.globl p_SteamAPI_ISteamUser_RequestStoreAuthURL
+.p2align 3
+p_SteamAPI_ISteamUser_RequestStoreAuthURL: .quad 0
+.globl p_SteamAPI_ISteamUser_StartVoiceRecording
+.p2align 3
+p_SteamAPI_ISteamUser_StartVoiceRecording: .quad 0
+.globl p_SteamAPI_ISteamUser_StopVoiceRecording
+.p2align 3
+p_SteamAPI_ISteamUser_StopVoiceRecording: .quad 0
+.globl p_SteamAPI_ISteamUser_TerminateGameConnection
+.p2align 3
+p_SteamAPI_ISteamUser_TerminateGameConnection: .quad 0
+.globl p_SteamAPI_ISteamUser_TerminateGameConnection_DEPRECATED
+.p2align 3
+p_SteamAPI_ISteamUser_TerminateGameConnection_DEPRECATED: .quad 0
+.globl p_SteamAPI_ISteamUser_TrackAppUsageEvent
+.p2align 3
+p_SteamAPI_ISteamUser_TrackAppUsageEvent: .quad 0
+.globl p_SteamAPI_ISteamUser_UserHasLicenseForApp
+.p2align 3
+p_SteamAPI_ISteamUser_UserHasLicenseForApp: .quad 0
+.globl p_SteamAPI_ISteamUtils_BOverlayNeedsPresent
+.p2align 3
+p_SteamAPI_ISteamUtils_BOverlayNeedsPresent: .quad 0
+.globl p_SteamAPI_ISteamUtils_CheckFileSignature
+.p2align 3
+p_SteamAPI_ISteamUtils_CheckFileSignature: .quad 0
+.globl p_SteamAPI_ISteamUtils_DismissFloatingGamepadTextInput
+.p2align 3
+p_SteamAPI_ISteamUtils_DismissFloatingGamepadTextInput: .quad 0
+.globl p_SteamAPI_ISteamUtils_DismissGamepadTextInput
+.p2align 3
+p_SteamAPI_ISteamUtils_DismissGamepadTextInput: .quad 0
+.globl p_SteamAPI_ISteamUtils_FilterText
+.p2align 3
+p_SteamAPI_ISteamUtils_FilterText: .quad 0
+.globl p_SteamAPI_ISteamUtils_GetAPICallFailureReason
+.p2align 3
+p_SteamAPI_ISteamUtils_GetAPICallFailureReason: .quad 0
+.globl p_SteamAPI_ISteamUtils_GetAPICallResult
+.p2align 3
+p_SteamAPI_ISteamUtils_GetAPICallResult: .quad 0
+.globl p_SteamAPI_ISteamUtils_GetAppID
+.p2align 3
+p_SteamAPI_ISteamUtils_GetAppID: .quad 0
+.globl p_SteamAPI_ISteamUtils_GetCSERIPPort
+.p2align 3
+p_SteamAPI_ISteamUtils_GetCSERIPPort: .quad 0
+.globl p_SteamAPI_ISteamUtils_GetConnectedUniverse
+.p2align 3
+p_SteamAPI_ISteamUtils_GetConnectedUniverse: .quad 0
+.globl p_SteamAPI_ISteamUtils_GetCurrentBatteryPower
+.p2align 3
+p_SteamAPI_ISteamUtils_GetCurrentBatteryPower: .quad 0
+.globl p_SteamAPI_ISteamUtils_GetEnteredGamepadTextInput
+.p2align 3
+p_SteamAPI_ISteamUtils_GetEnteredGamepadTextInput: .quad 0
+.globl p_SteamAPI_ISteamUtils_GetEnteredGamepadTextLength
+.p2align 3
+p_SteamAPI_ISteamUtils_GetEnteredGamepadTextLength: .quad 0
+.globl p_SteamAPI_ISteamUtils_GetIPCCallCount
+.p2align 3
+p_SteamAPI_ISteamUtils_GetIPCCallCount: .quad 0
+.globl p_SteamAPI_ISteamUtils_GetIPCountry
+.p2align 3
+p_SteamAPI_ISteamUtils_GetIPCountry: .quad 0
+.globl p_SteamAPI_ISteamUtils_GetIPv6ConnectivityState
+.p2align 3
+p_SteamAPI_ISteamUtils_GetIPv6ConnectivityState: .quad 0
+.globl p_SteamAPI_ISteamUtils_GetImageRGBA
+.p2align 3
+p_SteamAPI_ISteamUtils_GetImageRGBA: .quad 0
+.globl p_SteamAPI_ISteamUtils_GetImageSize
+.p2align 3
+p_SteamAPI_ISteamUtils_GetImageSize: .quad 0
+.globl p_SteamAPI_ISteamUtils_GetSecondsSinceAppActive
+.p2align 3
+p_SteamAPI_ISteamUtils_GetSecondsSinceAppActive: .quad 0
+.globl p_SteamAPI_ISteamUtils_GetSecondsSinceComputerActive
+.p2align 3
+p_SteamAPI_ISteamUtils_GetSecondsSinceComputerActive: .quad 0
+.globl p_SteamAPI_ISteamUtils_GetServerRealTime
+.p2align 3
+p_SteamAPI_ISteamUtils_GetServerRealTime: .quad 0
+.globl p_SteamAPI_ISteamUtils_GetSteamHardwareDefaultConfig
+.p2align 3
+p_SteamAPI_ISteamUtils_GetSteamHardwareDefaultConfig: .quad 0
+.globl p_SteamAPI_ISteamUtils_GetSteamUILanguage
+.p2align 3
+p_SteamAPI_ISteamUtils_GetSteamUILanguage: .quad 0
+.globl p_SteamAPI_ISteamUtils_InitFilterText
+.p2align 3
+p_SteamAPI_ISteamUtils_InitFilterText: .quad 0
+.globl p_SteamAPI_ISteamUtils_IsAPICallCompleted
+.p2align 3
+p_SteamAPI_ISteamUtils_IsAPICallCompleted: .quad 0
+.globl p_SteamAPI_ISteamUtils_IsOverlayEnabled
+.p2align 3
+p_SteamAPI_ISteamUtils_IsOverlayEnabled: .quad 0
+.globl p_SteamAPI_ISteamUtils_IsRunningOnSteamHardware
+.p2align 3
+p_SteamAPI_ISteamUtils_IsRunningOnSteamHardware: .quad 0
+.globl p_SteamAPI_ISteamUtils_IsRunningUnderProton
+.p2align 3
+p_SteamAPI_ISteamUtils_IsRunningUnderProton: .quad 0
+.globl p_SteamAPI_ISteamUtils_IsSteamChinaLauncher
+.p2align 3
+p_SteamAPI_ISteamUtils_IsSteamChinaLauncher: .quad 0
+.globl p_SteamAPI_ISteamUtils_IsSteamInBigPictureMode
+.p2align 3
+p_SteamAPI_ISteamUtils_IsSteamInBigPictureMode: .quad 0
+.globl p_SteamAPI_ISteamUtils_IsSteamRunningInVR
+.p2align 3
+p_SteamAPI_ISteamUtils_IsSteamRunningInVR: .quad 0
+.globl p_SteamAPI_ISteamUtils_IsSteamRunningOnSteamDeck
+.p2align 3
+p_SteamAPI_ISteamUtils_IsSteamRunningOnSteamDeck: .quad 0
+.globl p_SteamAPI_ISteamUtils_IsVRHeadsetStreamingEnabled
+.p2align 3
+p_SteamAPI_ISteamUtils_IsVRHeadsetStreamingEnabled: .quad 0
+.globl p_SteamAPI_ISteamUtils_SetGameLauncherMode
+.p2align 3
+p_SteamAPI_ISteamUtils_SetGameLauncherMode: .quad 0
+.globl p_SteamAPI_ISteamUtils_SetOverlayNotificationInset
+.p2align 3
+p_SteamAPI_ISteamUtils_SetOverlayNotificationInset: .quad 0
+.globl p_SteamAPI_ISteamUtils_SetOverlayNotificationPosition
+.p2align 3
+p_SteamAPI_ISteamUtils_SetOverlayNotificationPosition: .quad 0
+.globl p_SteamAPI_ISteamUtils_SetVRHeadsetStreamingEnabled
+.p2align 3
+p_SteamAPI_ISteamUtils_SetVRHeadsetStreamingEnabled: .quad 0
+.globl p_SteamAPI_ISteamUtils_SetWarningMessageHook
+.p2align 3
+p_SteamAPI_ISteamUtils_SetWarningMessageHook: .quad 0
+.globl p_SteamAPI_ISteamUtils_ShowFloatingGamepadTextInput
+.p2align 3
+p_SteamAPI_ISteamUtils_ShowFloatingGamepadTextInput: .quad 0
+.globl p_SteamAPI_ISteamUtils_ShowGamepadTextInput
+.p2align 3
+p_SteamAPI_ISteamUtils_ShowGamepadTextInput: .quad 0
+.globl p_SteamAPI_ISteamUtils_ShowModalGamepadTextInput
+.p2align 3
+p_SteamAPI_ISteamUtils_ShowModalGamepadTextInput: .quad 0
+.globl p_SteamAPI_ISteamUtils_StartVRDashboard
+.p2align 3
+p_SteamAPI_ISteamUtils_StartVRDashboard: .quad 0
+.globl p_SteamAPI_ISteamVideo_GetOPFSettings
+.p2align 3
+p_SteamAPI_ISteamVideo_GetOPFSettings: .quad 0
+.globl p_SteamAPI_ISteamVideo_GetOPFStringForApp
+.p2align 3
+p_SteamAPI_ISteamVideo_GetOPFStringForApp: .quad 0
+.globl p_SteamAPI_ISteamVideo_GetVideoURL
+.p2align 3
+p_SteamAPI_ISteamVideo_GetVideoURL: .quad 0
+.globl p_SteamAPI_ISteamVideo_IsBroadcasting
+.p2align 3
+p_SteamAPI_ISteamVideo_IsBroadcasting: .quad 0
+.globl p_SteamAPI_Init
+.p2align 3
+p_SteamAPI_Init: .quad 0
+.globl p_SteamAPI_InitAnonymousUser
+.p2align 3
+p_SteamAPI_InitAnonymousUser: .quad 0
+.globl p_SteamAPI_InitFlat
+.p2align 3
+p_SteamAPI_InitFlat: .quad 0
+.globl p_SteamAPI_InitSafe
+.p2align 3
+p_SteamAPI_InitSafe: .quad 0
+.globl p_SteamAPI_IsSteamRunning
+.p2align 3
+p_SteamAPI_IsSteamRunning: .quad 0
+.globl p_SteamAPI_ManualDispatch_FreeLastCallback
+.p2align 3
+p_SteamAPI_ManualDispatch_FreeLastCallback: .quad 0
+.globl p_SteamAPI_ManualDispatch_GetAPICallResult
+.p2align 3
+p_SteamAPI_ManualDispatch_GetAPICallResult: .quad 0
+.globl p_SteamAPI_ManualDispatch_GetNextCallback
+.p2align 3
+p_SteamAPI_ManualDispatch_GetNextCallback: .quad 0
+.globl p_SteamAPI_ManualDispatch_Init
+.p2align 3
+p_SteamAPI_ManualDispatch_Init: .quad 0
+.globl p_SteamAPI_ManualDispatch_RunFrame
+.p2align 3
+p_SteamAPI_ManualDispatch_RunFrame: .quad 0
+.globl p_SteamAPI_MatchMakingKeyValuePair_t_Construct
+.p2align 3
+p_SteamAPI_MatchMakingKeyValuePair_t_Construct: .quad 0
+.globl p_SteamAPI_RegisterCallResult
+.p2align 3
+p_SteamAPI_RegisterCallResult: .quad 0
+.globl p_SteamAPI_RegisterCallback
+.p2align 3
+p_SteamAPI_RegisterCallback: .quad 0
+.globl p_SteamAPI_ReleaseCurrentThreadMemory
+.p2align 3
+p_SteamAPI_ReleaseCurrentThreadMemory: .quad 0
+.globl p_SteamAPI_RestartApp
+.p2align 3
+p_SteamAPI_RestartApp: .quad 0
+.globl p_SteamAPI_RestartAppIfNecessary
+.p2align 3
+p_SteamAPI_RestartAppIfNecessary: .quad 0
+.globl p_SteamAPI_RunCallbacks
+.p2align 3
+p_SteamAPI_RunCallbacks: .quad 0
+.globl p_SteamAPI_SetBreakpadAppID
+.p2align 3
+p_SteamAPI_SetBreakpadAppID: .quad 0
+.globl p_SteamAPI_SetMiniDumpComment
+.p2align 3
+p_SteamAPI_SetMiniDumpComment: .quad 0
+.globl p_SteamAPI_SetTryCatchCallbacks
+.p2align 3
+p_SteamAPI_SetTryCatchCallbacks: .quad 0
+.globl p_SteamAPI_Shutdown
+.p2align 3
+p_SteamAPI_Shutdown: .quad 0
+.globl p_SteamAPI_SteamAppList_v001
+.p2align 3
+p_SteamAPI_SteamAppList_v001: .quad 0
+.globl p_SteamAPI_SteamApps_v008
+.p2align 3
+p_SteamAPI_SteamApps_v008: .quad 0
+.globl p_SteamAPI_SteamApps_v009
+.p2align 3
+p_SteamAPI_SteamApps_v009: .quad 0
+.globl p_SteamAPI_SteamController_v007
+.p2align 3
+p_SteamAPI_SteamController_v007: .quad 0
+.globl p_SteamAPI_SteamController_v008
+.p2align 3
+p_SteamAPI_SteamController_v008: .quad 0
+.globl p_SteamAPI_SteamDatagramHostedAddress_Clear
+.p2align 3
+p_SteamAPI_SteamDatagramHostedAddress_Clear: .quad 0
+.globl p_SteamAPI_SteamDatagramHostedAddress_GetPopID
+.p2align 3
+p_SteamAPI_SteamDatagramHostedAddress_GetPopID: .quad 0
+.globl p_SteamAPI_SteamDatagramHostedAddress_SetDevAddress
+.p2align 3
+p_SteamAPI_SteamDatagramHostedAddress_SetDevAddress: .quad 0
+.globl p_SteamAPI_SteamFriends_v017
+.p2align 3
+p_SteamAPI_SteamFriends_v017: .quad 0
+.globl p_SteamAPI_SteamFriends_v018
+.p2align 3
+p_SteamAPI_SteamFriends_v018: .quad 0
+.globl p_SteamAPI_SteamGameSearch_v001
+.p2align 3
+p_SteamAPI_SteamGameSearch_v001: .quad 0
+.globl p_SteamAPI_SteamGameServerApps_v008
+.p2align 3
+p_SteamAPI_SteamGameServerApps_v008: .quad 0
+.globl p_SteamAPI_SteamGameServerApps_v009
+.p2align 3
+p_SteamAPI_SteamGameServerApps_v009: .quad 0
+.globl p_SteamAPI_SteamGameServerHTTP_v003
+.p2align 3
+p_SteamAPI_SteamGameServerHTTP_v003: .quad 0
+.globl p_SteamAPI_SteamGameServerInventory_v003
+.p2align 3
+p_SteamAPI_SteamGameServerInventory_v003: .quad 0
+.globl p_SteamAPI_SteamGameServerNetworkingMessages_SteamAPI_v002
+.p2align 3
+p_SteamAPI_SteamGameServerNetworkingMessages_SteamAPI_v002: .quad 0
+.globl p_SteamAPI_SteamGameServerNetworkingMessages_v002
+.p2align 3
+p_SteamAPI_SteamGameServerNetworkingMessages_v002: .quad 0
+.globl p_SteamAPI_SteamGameServerNetworkingSockets_SteamAPI_v009
+.p2align 3
+p_SteamAPI_SteamGameServerNetworkingSockets_SteamAPI_v009: .quad 0
+.globl p_SteamAPI_SteamGameServerNetworkingSockets_SteamAPI_v011
+.p2align 3
+p_SteamAPI_SteamGameServerNetworkingSockets_SteamAPI_v011: .quad 0
+.globl p_SteamAPI_SteamGameServerNetworkingSockets_SteamAPI_v012
+.p2align 3
+p_SteamAPI_SteamGameServerNetworkingSockets_SteamAPI_v012: .quad 0
+.globl p_SteamAPI_SteamGameServerNetworkingSockets_SteamAPI_v013
+.p2align 3
+p_SteamAPI_SteamGameServerNetworkingSockets_SteamAPI_v013: .quad 0
+.globl p_SteamAPI_SteamGameServerNetworkingSockets_v008
+.p2align 3
+p_SteamAPI_SteamGameServerNetworkingSockets_v008: .quad 0
+.globl p_SteamAPI_SteamGameServerNetworkingSockets_v009
+.p2align 3
+p_SteamAPI_SteamGameServerNetworkingSockets_v009: .quad 0
+.globl p_SteamAPI_SteamGameServerNetworking_v006
+.p2align 3
+p_SteamAPI_SteamGameServerNetworking_v006: .quad 0
+.globl p_SteamAPI_SteamGameServerStats_v001
+.p2align 3
+p_SteamAPI_SteamGameServerStats_v001: .quad 0
+.globl p_SteamAPI_SteamGameServerUGC_v014
+.p2align 3
+p_SteamAPI_SteamGameServerUGC_v014: .quad 0
+.globl p_SteamAPI_SteamGameServerUGC_v015
+.p2align 3
+p_SteamAPI_SteamGameServerUGC_v015: .quad 0
+.globl p_SteamAPI_SteamGameServerUGC_v016
+.p2align 3
+p_SteamAPI_SteamGameServerUGC_v016: .quad 0
+.globl p_SteamAPI_SteamGameServerUGC_v017
+.p2align 3
+p_SteamAPI_SteamGameServerUGC_v017: .quad 0
+.globl p_SteamAPI_SteamGameServerUGC_v018
+.p2align 3
+p_SteamAPI_SteamGameServerUGC_v018: .quad 0
+.globl p_SteamAPI_SteamGameServerUGC_v020
+.p2align 3
+p_SteamAPI_SteamGameServerUGC_v020: .quad 0
+.globl p_SteamAPI_SteamGameServerUGC_v021
+.p2align 3
+p_SteamAPI_SteamGameServerUGC_v021: .quad 0
+.globl p_SteamAPI_SteamGameServerUtils_v009
+.p2align 3
+p_SteamAPI_SteamGameServerUtils_v009: .quad 0
+.globl p_SteamAPI_SteamGameServerUtils_v010
+.p2align 3
+p_SteamAPI_SteamGameServerUtils_v010: .quad 0
+.globl p_SteamAPI_SteamGameServerUtils_v011
+.p2align 3
+p_SteamAPI_SteamGameServerUtils_v011: .quad 0
+.globl p_SteamAPI_SteamGameServer_v013
+.p2align 3
+p_SteamAPI_SteamGameServer_v013: .quad 0
+.globl p_SteamAPI_SteamGameServer_v014
+.p2align 3
+p_SteamAPI_SteamGameServer_v014: .quad 0
+.globl p_SteamAPI_SteamGameServer_v015
+.p2align 3
+p_SteamAPI_SteamGameServer_v015: .quad 0
+.globl p_SteamAPI_SteamHTMLSurface_v005
+.p2align 3
+p_SteamAPI_SteamHTMLSurface_v005: .quad 0
+.globl p_SteamAPI_SteamHTTP_v003
+.p2align 3
+p_SteamAPI_SteamHTTP_v003: .quad 0
+.globl p_SteamAPI_SteamIPAddress_t_IsSet
+.p2align 3
+p_SteamAPI_SteamIPAddress_t_IsSet: .quad 0
+.globl p_SteamAPI_SteamInput_v001
+.p2align 3
+p_SteamAPI_SteamInput_v001: .quad 0
+.globl p_SteamAPI_SteamInput_v002
+.p2align 3
+p_SteamAPI_SteamInput_v002: .quad 0
+.globl p_SteamAPI_SteamInput_v005
+.p2align 3
+p_SteamAPI_SteamInput_v005: .quad 0
+.globl p_SteamAPI_SteamInput_v006
+.p2align 3
+p_SteamAPI_SteamInput_v006: .quad 0
+.globl p_SteamAPI_SteamInput_v007
+.p2align 3
+p_SteamAPI_SteamInput_v007: .quad 0
+.globl p_SteamAPI_SteamInventory_v003
+.p2align 3
+p_SteamAPI_SteamInventory_v003: .quad 0
+.globl p_SteamAPI_SteamMatchmakingServers_v002
+.p2align 3
+p_SteamAPI_SteamMatchmakingServers_v002: .quad 0
+.globl p_SteamAPI_SteamMatchmakingServers_v003
+.p2align 3
+p_SteamAPI_SteamMatchmakingServers_v003: .quad 0
+.globl p_SteamAPI_SteamMatchmaking_v009
+.p2align 3
+p_SteamAPI_SteamMatchmaking_v009: .quad 0
+.globl p_SteamAPI_SteamMusicRemote_v001
+.p2align 3
+p_SteamAPI_SteamMusicRemote_v001: .quad 0
+.globl p_SteamAPI_SteamMusic_v001
+.p2align 3
+p_SteamAPI_SteamMusic_v001: .quad 0
+.globl p_SteamAPI_SteamNetworkingConfigValue_t_SetFloat
+.p2align 3
+p_SteamAPI_SteamNetworkingConfigValue_t_SetFloat: .quad 0
+.globl p_SteamAPI_SteamNetworkingConfigValue_t_SetInt32
+.p2align 3
+p_SteamAPI_SteamNetworkingConfigValue_t_SetInt32: .quad 0
+.globl p_SteamAPI_SteamNetworkingConfigValue_t_SetInt64
+.p2align 3
+p_SteamAPI_SteamNetworkingConfigValue_t_SetInt64: .quad 0
+.globl p_SteamAPI_SteamNetworkingConfigValue_t_SetPtr
+.p2align 3
+p_SteamAPI_SteamNetworkingConfigValue_t_SetPtr: .quad 0
+.globl p_SteamAPI_SteamNetworkingConfigValue_t_SetString
+.p2align 3
+p_SteamAPI_SteamNetworkingConfigValue_t_SetString: .quad 0
+.globl p_SteamAPI_SteamNetworkingIPAddrRender_c_str
+.p2align 3
+p_SteamAPI_SteamNetworkingIPAddrRender_c_str: .quad 0
+.globl p_SteamAPI_SteamNetworkingIPAddr_Clear
+.p2align 3
+p_SteamAPI_SteamNetworkingIPAddr_Clear: .quad 0
+.globl p_SteamAPI_SteamNetworkingIPAddr_GetFakeIPType
+.p2align 3
+p_SteamAPI_SteamNetworkingIPAddr_GetFakeIPType: .quad 0
+.globl p_SteamAPI_SteamNetworkingIPAddr_GetIPv4
+.p2align 3
+p_SteamAPI_SteamNetworkingIPAddr_GetIPv4: .quad 0
+.globl p_SteamAPI_SteamNetworkingIPAddr_IsEqualTo
+.p2align 3
+p_SteamAPI_SteamNetworkingIPAddr_IsEqualTo: .quad 0
+.globl p_SteamAPI_SteamNetworkingIPAddr_IsFakeIP
+.p2align 3
+p_SteamAPI_SteamNetworkingIPAddr_IsFakeIP: .quad 0
+.globl p_SteamAPI_SteamNetworkingIPAddr_IsIPv4
+.p2align 3
+p_SteamAPI_SteamNetworkingIPAddr_IsIPv4: .quad 0
+.globl p_SteamAPI_SteamNetworkingIPAddr_IsIPv6AllZeros
+.p2align 3
+p_SteamAPI_SteamNetworkingIPAddr_IsIPv6AllZeros: .quad 0
+.globl p_SteamAPI_SteamNetworkingIPAddr_IsLocalHost
+.p2align 3
+p_SteamAPI_SteamNetworkingIPAddr_IsLocalHost: .quad 0
+.globl p_SteamAPI_SteamNetworkingIPAddr_ParseString
+.p2align 3
+p_SteamAPI_SteamNetworkingIPAddr_ParseString: .quad 0
+.globl p_SteamAPI_SteamNetworkingIPAddr_SetIPv4
+.p2align 3
+p_SteamAPI_SteamNetworkingIPAddr_SetIPv4: .quad 0
+.globl p_SteamAPI_SteamNetworkingIPAddr_SetIPv6
+.p2align 3
+p_SteamAPI_SteamNetworkingIPAddr_SetIPv6: .quad 0
+.globl p_SteamAPI_SteamNetworkingIPAddr_SetIPv6LocalHost
+.p2align 3
+p_SteamAPI_SteamNetworkingIPAddr_SetIPv6LocalHost: .quad 0
+.globl p_SteamAPI_SteamNetworkingIPAddr_ToString
+.p2align 3
+p_SteamAPI_SteamNetworkingIPAddr_ToString: .quad 0
+.globl p_SteamAPI_SteamNetworkingIdentityRender_c_str
+.p2align 3
+p_SteamAPI_SteamNetworkingIdentityRender_c_str: .quad 0
+.globl p_SteamAPI_SteamNetworkingIdentity_Clear
+.p2align 3
+p_SteamAPI_SteamNetworkingIdentity_Clear: .quad 0
+.globl p_SteamAPI_SteamNetworkingIdentity_GetFakeIPType
+.p2align 3
+p_SteamAPI_SteamNetworkingIdentity_GetFakeIPType: .quad 0
+.globl p_SteamAPI_SteamNetworkingIdentity_GetGenericBytes
+.p2align 3
+p_SteamAPI_SteamNetworkingIdentity_GetGenericBytes: .quad 0
+.globl p_SteamAPI_SteamNetworkingIdentity_GetGenericString
+.p2align 3
+p_SteamAPI_SteamNetworkingIdentity_GetGenericString: .quad 0
+.globl p_SteamAPI_SteamNetworkingIdentity_GetIPAddr
+.p2align 3
+p_SteamAPI_SteamNetworkingIdentity_GetIPAddr: .quad 0
+.globl p_SteamAPI_SteamNetworkingIdentity_GetIPv4
+.p2align 3
+p_SteamAPI_SteamNetworkingIdentity_GetIPv4: .quad 0
+.globl p_SteamAPI_SteamNetworkingIdentity_GetPSNID
+.p2align 3
+p_SteamAPI_SteamNetworkingIdentity_GetPSNID: .quad 0
+.globl p_SteamAPI_SteamNetworkingIdentity_GetStadiaID
+.p2align 3
+p_SteamAPI_SteamNetworkingIdentity_GetStadiaID: .quad 0
+.globl p_SteamAPI_SteamNetworkingIdentity_GetSteamID
+.p2align 3
+p_SteamAPI_SteamNetworkingIdentity_GetSteamID: .quad 0
+.globl p_SteamAPI_SteamNetworkingIdentity_GetSteamID64
+.p2align 3
+p_SteamAPI_SteamNetworkingIdentity_GetSteamID64: .quad 0
+.globl p_SteamAPI_SteamNetworkingIdentity_GetXboxPairwiseID
+.p2align 3
+p_SteamAPI_SteamNetworkingIdentity_GetXboxPairwiseID: .quad 0
+.globl p_SteamAPI_SteamNetworkingIdentity_IsEqualTo
+.p2align 3
+p_SteamAPI_SteamNetworkingIdentity_IsEqualTo: .quad 0
+.globl p_SteamAPI_SteamNetworkingIdentity_IsFakeIP
+.p2align 3
+p_SteamAPI_SteamNetworkingIdentity_IsFakeIP: .quad 0
+.globl p_SteamAPI_SteamNetworkingIdentity_IsInvalid
+.p2align 3
+p_SteamAPI_SteamNetworkingIdentity_IsInvalid: .quad 0
+.globl p_SteamAPI_SteamNetworkingIdentity_IsLocalHost
+.p2align 3
+p_SteamAPI_SteamNetworkingIdentity_IsLocalHost: .quad 0
+.globl p_SteamAPI_SteamNetworkingIdentity_ParseString
+.p2align 3
+p_SteamAPI_SteamNetworkingIdentity_ParseString: .quad 0
+.globl p_SteamAPI_SteamNetworkingIdentity_SetGenericBytes
+.p2align 3
+p_SteamAPI_SteamNetworkingIdentity_SetGenericBytes: .quad 0
+.globl p_SteamAPI_SteamNetworkingIdentity_SetGenericString
+.p2align 3
+p_SteamAPI_SteamNetworkingIdentity_SetGenericString: .quad 0
+.globl p_SteamAPI_SteamNetworkingIdentity_SetIPAddr
+.p2align 3
+p_SteamAPI_SteamNetworkingIdentity_SetIPAddr: .quad 0
+.globl p_SteamAPI_SteamNetworkingIdentity_SetIPv4Addr
+.p2align 3
+p_SteamAPI_SteamNetworkingIdentity_SetIPv4Addr: .quad 0
+.globl p_SteamAPI_SteamNetworkingIdentity_SetLocalHost
+.p2align 3
+p_SteamAPI_SteamNetworkingIdentity_SetLocalHost: .quad 0
+.globl p_SteamAPI_SteamNetworkingIdentity_SetPSNID
+.p2align 3
+p_SteamAPI_SteamNetworkingIdentity_SetPSNID: .quad 0
+.globl p_SteamAPI_SteamNetworkingIdentity_SetStadiaID
+.p2align 3
+p_SteamAPI_SteamNetworkingIdentity_SetStadiaID: .quad 0
+.globl p_SteamAPI_SteamNetworkingIdentity_SetSteamID
+.p2align 3
+p_SteamAPI_SteamNetworkingIdentity_SetSteamID: .quad 0
+.globl p_SteamAPI_SteamNetworkingIdentity_SetSteamID64
+.p2align 3
+p_SteamAPI_SteamNetworkingIdentity_SetSteamID64: .quad 0
+.globl p_SteamAPI_SteamNetworkingIdentity_SetXboxPairwiseID
+.p2align 3
+p_SteamAPI_SteamNetworkingIdentity_SetXboxPairwiseID: .quad 0
+.globl p_SteamAPI_SteamNetworkingIdentity_ToString
+.p2align 3
+p_SteamAPI_SteamNetworkingIdentity_ToString: .quad 0
+.globl p_SteamAPI_SteamNetworkingMessage_t_Release
+.p2align 3
+p_SteamAPI_SteamNetworkingMessage_t_Release: .quad 0
+.globl p_SteamAPI_SteamNetworkingMessages_SteamAPI_v002
+.p2align 3
+p_SteamAPI_SteamNetworkingMessages_SteamAPI_v002: .quad 0
+.globl p_SteamAPI_SteamNetworkingMessages_v002
+.p2align 3
+p_SteamAPI_SteamNetworkingMessages_v002: .quad 0
+.globl p_SteamAPI_SteamNetworkingPOPIDRender_c_str
+.p2align 3
+p_SteamAPI_SteamNetworkingPOPIDRender_c_str: .quad 0
+.globl p_SteamAPI_SteamNetworkingSockets_SteamAPI_v009
+.p2align 3
+p_SteamAPI_SteamNetworkingSockets_SteamAPI_v009: .quad 0
+.globl p_SteamAPI_SteamNetworkingSockets_SteamAPI_v011
+.p2align 3
+p_SteamAPI_SteamNetworkingSockets_SteamAPI_v011: .quad 0
+.globl p_SteamAPI_SteamNetworkingSockets_SteamAPI_v012
+.p2align 3
+p_SteamAPI_SteamNetworkingSockets_SteamAPI_v012: .quad 0
+.globl p_SteamAPI_SteamNetworkingSockets_SteamAPI_v013
+.p2align 3
+p_SteamAPI_SteamNetworkingSockets_SteamAPI_v013: .quad 0
+.globl p_SteamAPI_SteamNetworkingSockets_v008
+.p2align 3
+p_SteamAPI_SteamNetworkingSockets_v008: .quad 0
+.globl p_SteamAPI_SteamNetworkingSockets_v009
+.p2align 3
+p_SteamAPI_SteamNetworkingSockets_v009: .quad 0
+.globl p_SteamAPI_SteamNetworkingUtils_SteamAPI_v003
+.p2align 3
+p_SteamAPI_SteamNetworkingUtils_SteamAPI_v003: .quad 0
+.globl p_SteamAPI_SteamNetworkingUtils_SteamAPI_v004
+.p2align 3
+p_SteamAPI_SteamNetworkingUtils_SteamAPI_v004: .quad 0
+.globl p_SteamAPI_SteamNetworkingUtils_v003
+.p2align 3
+p_SteamAPI_SteamNetworkingUtils_v003: .quad 0
+.globl p_SteamAPI_SteamNetworking_v006
+.p2align 3
+p_SteamAPI_SteamNetworking_v006: .quad 0
+.globl p_SteamAPI_SteamParentalSettings_v001
+.p2align 3
+p_SteamAPI_SteamParentalSettings_v001: .quad 0
+.globl p_SteamAPI_SteamParties_v002
+.p2align 3
+p_SteamAPI_SteamParties_v002: .quad 0
+.globl p_SteamAPI_SteamRemotePlay_v001
+.p2align 3
+p_SteamAPI_SteamRemotePlay_v001: .quad 0
+.globl p_SteamAPI_SteamRemotePlay_v002
+.p2align 3
+p_SteamAPI_SteamRemotePlay_v002: .quad 0
+.globl p_SteamAPI_SteamRemotePlay_v003
+.p2align 3
+p_SteamAPI_SteamRemotePlay_v003: .quad 0
+.globl p_SteamAPI_SteamRemotePlay_v004
+.p2align 3
+p_SteamAPI_SteamRemotePlay_v004: .quad 0
+.globl p_SteamAPI_SteamRemoteStorage_v014
+.p2align 3
+p_SteamAPI_SteamRemoteStorage_v014: .quad 0
+.globl p_SteamAPI_SteamRemoteStorage_v016
+.p2align 3
+p_SteamAPI_SteamRemoteStorage_v016: .quad 0
+.globl p_SteamAPI_SteamScreenshots_v003
+.p2align 3
+p_SteamAPI_SteamScreenshots_v003: .quad 0
+.globl p_SteamAPI_SteamTV_v001
+.p2align 3
+p_SteamAPI_SteamTV_v001: .quad 0
+.globl p_SteamAPI_SteamTimeline_v001
+.p2align 3
+p_SteamAPI_SteamTimeline_v001: .quad 0
+.globl p_SteamAPI_SteamTimeline_v004
+.p2align 3
+p_SteamAPI_SteamTimeline_v004: .quad 0
+.globl p_SteamAPI_SteamUGC_v014
+.p2align 3
+p_SteamAPI_SteamUGC_v014: .quad 0
+.globl p_SteamAPI_SteamUGC_v015
+.p2align 3
+p_SteamAPI_SteamUGC_v015: .quad 0
+.globl p_SteamAPI_SteamUGC_v016
+.p2align 3
+p_SteamAPI_SteamUGC_v016: .quad 0
+.globl p_SteamAPI_SteamUGC_v017
+.p2align 3
+p_SteamAPI_SteamUGC_v017: .quad 0
+.globl p_SteamAPI_SteamUGC_v018
+.p2align 3
+p_SteamAPI_SteamUGC_v018: .quad 0
+.globl p_SteamAPI_SteamUGC_v020
+.p2align 3
+p_SteamAPI_SteamUGC_v020: .quad 0
+.globl p_SteamAPI_SteamUGC_v021
+.p2align 3
+p_SteamAPI_SteamUGC_v021: .quad 0
+.globl p_SteamAPI_SteamUserStats_v011
+.p2align 3
+p_SteamAPI_SteamUserStats_v011: .quad 0
+.globl p_SteamAPI_SteamUserStats_v012
+.p2align 3
+p_SteamAPI_SteamUserStats_v012: .quad 0
+.globl p_SteamAPI_SteamUserStats_v013
+.p2align 3
+p_SteamAPI_SteamUserStats_v013: .quad 0
+.globl p_SteamAPI_SteamUser_v020
+.p2align 3
+p_SteamAPI_SteamUser_v020: .quad 0
+.globl p_SteamAPI_SteamUser_v021
+.p2align 3
+p_SteamAPI_SteamUser_v021: .quad 0
+.globl p_SteamAPI_SteamUser_v022
+.p2align 3
+p_SteamAPI_SteamUser_v022: .quad 0
+.globl p_SteamAPI_SteamUser_v023
+.p2align 3
+p_SteamAPI_SteamUser_v023: .quad 0
+.globl p_SteamAPI_SteamUtils_v009
+.p2align 3
+p_SteamAPI_SteamUtils_v009: .quad 0
+.globl p_SteamAPI_SteamUtils_v010
+.p2align 3
+p_SteamAPI_SteamUtils_v010: .quad 0
+.globl p_SteamAPI_SteamUtils_v011
+.p2align 3
+p_SteamAPI_SteamUtils_v011: .quad 0
+.globl p_SteamAPI_SteamVideo_v001
+.p2align 3
+p_SteamAPI_SteamVideo_v001: .quad 0
+.globl p_SteamAPI_SteamVideo_v002
+.p2align 3
+p_SteamAPI_SteamVideo_v002: .quad 0
+.globl p_SteamAPI_SteamVideo_v007
+.p2align 3
+p_SteamAPI_SteamVideo_v007: .quad 0
+.globl p_SteamAPI_UnregisterCallResult
+.p2align 3
+p_SteamAPI_UnregisterCallResult: .quad 0
+.globl p_SteamAPI_UnregisterCallback
+.p2align 3
+p_SteamAPI_UnregisterCallback: .quad 0
+.globl p_SteamAPI_UseBreakpadCrashHandler
+.p2align 3
+p_SteamAPI_UseBreakpadCrashHandler: .quad 0
+.globl p_SteamAPI_WriteMiniDump
+.p2align 3
+p_SteamAPI_WriteMiniDump: .quad 0
+.globl p_SteamAPI_gameserveritem_t_Construct
+.p2align 3
+p_SteamAPI_gameserveritem_t_Construct: .quad 0
+.globl p_SteamAPI_gameserveritem_t_GetName
+.p2align 3
+p_SteamAPI_gameserveritem_t_GetName: .quad 0
+.globl p_SteamAPI_gameserveritem_t_IsEqualTo
+.p2align 3
+p_SteamAPI_gameserveritem_t_IsEqualTo: .quad 0
+.globl p_SteamAPI_gameserveritem_t_SetName
+.p2align 3
+p_SteamAPI_gameserveritem_t_SetName: .quad 0
+.globl p_SteamAPI_servernetadr_t_Assign
+.p2align 3
+p_SteamAPI_servernetadr_t_Assign: .quad 0
+.globl p_SteamAPI_servernetadr_t_Construct
+.p2align 3
+p_SteamAPI_servernetadr_t_Construct: .quad 0
+.globl p_SteamAPI_servernetadr_t_GetConnectionAddressString
+.p2align 3
+p_SteamAPI_servernetadr_t_GetConnectionAddressString: .quad 0
+.globl p_SteamAPI_servernetadr_t_GetConnectionPort
+.p2align 3
+p_SteamAPI_servernetadr_t_GetConnectionPort: .quad 0
+.globl p_SteamAPI_servernetadr_t_GetIP
+.p2align 3
+p_SteamAPI_servernetadr_t_GetIP: .quad 0
+.globl p_SteamAPI_servernetadr_t_GetQueryAddressString
+.p2align 3
+p_SteamAPI_servernetadr_t_GetQueryAddressString: .quad 0
+.globl p_SteamAPI_servernetadr_t_GetQueryPort
+.p2align 3
+p_SteamAPI_servernetadr_t_GetQueryPort: .quad 0
+.globl p_SteamAPI_servernetadr_t_Init
+.p2align 3
+p_SteamAPI_servernetadr_t_Init: .quad 0
+.globl p_SteamAPI_servernetadr_t_IsEqualTo
+.p2align 3
+p_SteamAPI_servernetadr_t_IsEqualTo: .quad 0
+.globl p_SteamAPI_servernetadr_t_IsLessThan
+.p2align 3
+p_SteamAPI_servernetadr_t_IsLessThan: .quad 0
+.globl p_SteamAPI_servernetadr_t_SetConnectionPort
+.p2align 3
+p_SteamAPI_servernetadr_t_SetConnectionPort: .quad 0
+.globl p_SteamAPI_servernetadr_t_SetIP
+.p2align 3
+p_SteamAPI_servernetadr_t_SetIP: .quad 0
+.globl p_SteamAPI_servernetadr_t_SetQueryPort
+.p2align 3
+p_SteamAPI_servernetadr_t_SetQueryPort: .quad 0
+.globl p_SteamAppList
+.p2align 3
+p_SteamAppList: .quad 0
+.globl p_SteamApps
+.p2align 3
+p_SteamApps: .quad 0
+.globl p_SteamClient
+.p2align 3
+p_SteamClient: .quad 0
+.globl p_SteamController
+.p2align 3
+p_SteamController: .quad 0
+.globl p_SteamFriends
+.p2align 3
+p_SteamFriends: .quad 0
+.globl p_SteamGameServer
+.p2align 3
+p_SteamGameServer: .quad 0
+.globl p_SteamGameServerApps
+.p2align 3
+p_SteamGameServerApps: .quad 0
+.globl p_SteamGameServerClient
+.p2align 3
+p_SteamGameServerClient: .quad 0
+.globl p_SteamGameServerHTTP
+.p2align 3
+p_SteamGameServerHTTP: .quad 0
+.globl p_SteamGameServerInternal_CreateInterface
+.p2align 3
+p_SteamGameServerInternal_CreateInterface: .quad 0
+.globl p_SteamGameServerInventory
+.p2align 3
+p_SteamGameServerInventory: .quad 0
+.globl p_SteamGameServerNetworking
+.p2align 3
+p_SteamGameServerNetworking: .quad 0
+.globl p_SteamGameServerStats
+.p2align 3
+p_SteamGameServerStats: .quad 0
+.globl p_SteamGameServerUGC
+.p2align 3
+p_SteamGameServerUGC: .quad 0
+.globl p_SteamGameServerUtils
+.p2align 3
+p_SteamGameServerUtils: .quad 0
+.globl p_SteamGameServer_BSecure
+.p2align 3
+p_SteamGameServer_BSecure: .quad 0
+.globl p_SteamGameServer_GetHSteamPipe
+.p2align 3
+p_SteamGameServer_GetHSteamPipe: .quad 0
+.globl p_SteamGameServer_GetHSteamUser
+.p2align 3
+p_SteamGameServer_GetHSteamUser: .quad 0
+.globl p_SteamGameServer_GetIPCCallCount
+.p2align 3
+p_SteamGameServer_GetIPCCallCount: .quad 0
+.globl p_SteamGameServer_GetSteamID
+.p2align 3
+p_SteamGameServer_GetSteamID: .quad 0
+.globl p_SteamGameServer_Init
+.p2align 3
+p_SteamGameServer_Init: .quad 0
+.globl p_SteamGameServer_InitSafe
+.p2align 3
+p_SteamGameServer_InitSafe: .quad 0
+.globl p_SteamGameServer_RunCallbacks
+.p2align 3
+p_SteamGameServer_RunCallbacks: .quad 0
+.globl p_SteamGameServer_Shutdown
+.p2align 3
+p_SteamGameServer_Shutdown: .quad 0
+.globl p_SteamHTMLSurface
+.p2align 3
+p_SteamHTMLSurface: .quad 0
+.globl p_SteamHTTP
+.p2align 3
+p_SteamHTTP: .quad 0
+.globl p_SteamInternal_ContextInit
+.p2align 3
+p_SteamInternal_ContextInit: .quad 0
+.globl p_SteamInternal_CreateInterface
+.p2align 3
+p_SteamInternal_CreateInterface: .quad 0
+.globl p_SteamInternal_FindOrCreateGameServerInterface
+.p2align 3
+p_SteamInternal_FindOrCreateGameServerInterface: .quad 0
+.globl p_SteamInternal_FindOrCreateUserInterface
+.p2align 3
+p_SteamInternal_FindOrCreateUserInterface: .quad 0
+.globl p_SteamInternal_GameServer_Init
+.p2align 3
+p_SteamInternal_GameServer_Init: .quad 0
+.globl p_SteamInternal_GameServer_Init_V2
+.p2align 3
+p_SteamInternal_GameServer_Init_V2: .quad 0
+.globl p_SteamInternal_SteamAPI_Init
+.p2align 3
+p_SteamInternal_SteamAPI_Init: .quad 0
+.globl p_SteamInventory
+.p2align 3
+p_SteamInventory: .quad 0
+.globl p_SteamMasterServerUpdater
+.p2align 3
+p_SteamMasterServerUpdater: .quad 0
+.globl p_SteamMatchmaking
+.p2align 3
+p_SteamMatchmaking: .quad 0
+.globl p_SteamMatchmakingServers
+.p2align 3
+p_SteamMatchmakingServers: .quad 0
+.globl p_SteamMusic
+.p2align 3
+p_SteamMusic: .quad 0
+.globl p_SteamMusicRemote
+.p2align 3
+p_SteamMusicRemote: .quad 0
+.globl p_SteamNetworking
+.p2align 3
+p_SteamNetworking: .quad 0
+.globl p_SteamParentalSettings
+.p2align 3
+p_SteamParentalSettings: .quad 0
+.globl p_SteamRemoteStorage
+.p2align 3
+p_SteamRemoteStorage: .quad 0
+.globl p_SteamScreenshots
+.p2align 3
+p_SteamScreenshots: .quad 0
+.globl p_SteamUGC
+.p2align 3
+p_SteamUGC: .quad 0
+.globl p_SteamUnifiedMessages
+.p2align 3
+p_SteamUnifiedMessages: .quad 0
+.globl p_SteamUser
+.p2align 3
+p_SteamUser: .quad 0
+.globl p_SteamUserStats
+.p2align 3
+p_SteamUserStats: .quad 0
+.globl p_SteamUtils
+.p2align 3
+p_SteamUtils: .quad 0
+.globl p_SteamVideo
+.p2align 3
+p_SteamVideo: .quad 0
+.globl p_Steam_GetHSteamUserCurrent
+.p2align 3
+p_Steam_GetHSteamUserCurrent: .quad 0
+.globl p_Steam_RegisterInterfaceFuncs
+.p2align 3
+p_Steam_RegisterInterfaceFuncs: .quad 0
+.globl p_Steam_RunCallbacks
+.p2align 3
+p_Steam_RunCallbacks: .quad 0
+.globl p_VR_GetGenericInterface
+.p2align 3
+p_VR_GetGenericInterface: .quad 0
+.globl p_VR_GetStringForHmdError
+.p2align 3
+p_VR_GetStringForHmdError: .quad 0
+.globl p_VR_Init
+.p2align 3
+p_VR_Init: .quad 0
+.globl p_VR_IsHmdPresent
+.p2align 3
+p_VR_IsHmdPresent: .quad 0
+.globl p_VR_Shutdown
+.p2align 3
+p_VR_Shutdown: .quad 0
+.globl p_g_pSteamClientGameServer
+.p2align 3
+p_g_pSteamClientGameServer: .quad 0
+.section .rdata,"dr"
+.globl g_target_name
+g_target_name:
+    .asciz "steam_api64_real.dll"

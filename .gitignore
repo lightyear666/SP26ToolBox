@@ -1,0 +1,24 @@
+# 默认忽略全部研究产物，只放行可公开的源码与配套文件。
+/*
+!/.gitignore
+!/README.md
+!/requirements.txt
+!/SP26Toolbox.spec
+!/SP26工具箱_源码版.bat
+!/launch_panel.vbs
+!/sp26_panel.py
+!/sp26_esp.py
+!/sp26_ent.py
+!/sp26_patch.py
+!/sp26_god6.py
+!/sp26_spawner.py
+!/sp26_team_palette.py
+!/sp26_dll_guard.py
+!/sp26_startup.py
+!/ammo_probe.py
+!/codtool/
+!/assets/
+!/proxy_src/
+
+__pycache__/
+*.pyc
