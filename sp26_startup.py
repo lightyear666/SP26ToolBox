@@ -32,7 +32,19 @@ def _center(win, w, h):
 
 
 def _modal(root, win):
-    win.transient(root)
+    # root 处于 withdraw 状态时，transient 会让 Toplevel 一起隐藏；
+    # 这里不做 transient，直接置顶显示并抓取焦点。
+    win.deiconify()
+    win.lift()
+    try:
+        win.attributes('-topmost', True)
+    except Exception:
+        pass
+    win.update_idletasks()
+    try:
+        win.wait_visibility()
+    except Exception:
+        pass
     win.grab_set()
     win.focus_force()
     root.wait_window(win)

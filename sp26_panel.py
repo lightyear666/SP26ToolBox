@@ -62,7 +62,7 @@ CONFIG_ESP = os.path.join(HERE, 'esp_config.json')
 CONFIG_PANEL = os.path.join(HERE, 'panel_config.json')
 PY = sys.executable
 CREATE_NO_WINDOW = 0x08000000
-APP_VERSION = 'v1.3'
+APP_VERSION = 'v1.3.1'
 
 DEFAULT_KNOWN_TEAMS = (2, 3, 4, 5, 6, 7)
 
